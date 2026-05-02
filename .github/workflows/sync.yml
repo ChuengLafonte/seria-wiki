@@ -7,6 +7,7 @@ on:
     paths:
       - 'wiki/**'
       - 'scripts/**'
+  workflow_dispatch: # Allow manual trigger
 
 jobs:
   sync:
@@ -16,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
@@ -24,6 +25,17 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install mwclient
+
+      - name: Check Secrets
+        run: |
+          if [ -z "${{ secrets.FANDOM_USERNAME }}" ]; then
+            echo "Error: FANDOM_USERNAME is not set in GitHub Secrets."
+            exit 1
+          fi
+          if [ -z "${{ secrets.FANDOM_PASSWORD }}" ]; then
+            echo "Error: FANDOM_PASSWORD is not set in GitHub Secrets."
+            exit 1
+          fi
 
       - name: Run sync script
         env:
