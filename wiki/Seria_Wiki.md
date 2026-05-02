@@ -4,14 +4,15 @@ Welcome to the official '''Project Seria Wiki'''!
 This wiki is synchronized automatically from our GitHub repository. 
 
 == Server Features ==
-* '''SeriaCollection''': A custom collection system for mining, farming, and foraging.
-* '''SeriaFarm''': Custom farming mechanics with regional regeneration.
-* '''SeriaFortune''': RPG-style fortune and luck systems.
-* '''SeriaCore''': The foundation of all Seria plugins.
+Explore our custom-built systems:
+* [[SeriaCollection]]: Custom progression, collections, and rewards.
+* [[SeriaFarm]]: Advanced farming and regional crop regeneration.
+* [[SeriaFortune]]: RPG stats, Luck, and Fortune mechanics.
+* [[SeriaCore]]: The technical foundation of the Project Seria ecosystem.
 
-== Navigation ==
-* [[Features]]
-* [[Commands]]
-* [[Items]]
+== Quick Links ==
+* [[Features|All Server Features]]
+* [[Commands|Player Commands]]
+* [[Items|Custom Items Database]]
 
 [[Category:Main Page]]
