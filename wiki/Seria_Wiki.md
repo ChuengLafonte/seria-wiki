@@ -6,6 +6,7 @@ This wiki is synchronized automatically from our GitHub repository.
 == Server Features ==
 Explore our custom-built systems:
 * [[SeriaCollection]]: Custom progression, collections, and rewards.
+* [[SeriaCrafting]]: Advanced crafting system with collection-tier requirements.
 * [[SeriaFarm]]: Advanced farming and regional crop regeneration.
 * [[SeriaFortune]]: RPG stats, Luck, and Fortune mechanics.
 * [[SeriaCore]]: The technical foundation of the Project Seria ecosystem.

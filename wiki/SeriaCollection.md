@@ -12,6 +12,22 @@ Unlocking tiers provides various benefits:
 * '''Area Access''': Some tiers grant permission to enter exclusive farming or foraging zones.
 * '''Minions''': Unlock the ability to craft and use Minions for that specific resource.
 
+== Features & Integrations ==
+
+=== 🤖 TopMinion Integration ===
+SeriaCollection is now fully integrated with the **TopMinion** plugin. 
+* '''Automatic Tracking''': Items withdrawn from Minion inventories are automatically counted towards your collection progress.
+* '''Anti-Exploit''': A robust "taint" system prevents players from double-counting items by dropping and re-picking them up or moving them between inventories.
+
+=== 📊 PlaceholderAPI Support ===
+You can use the following placeholders in menus, chat, or other plugins:
+* `%seriacollection_level_<id>%`: Current level/tier of the collection.
+* `%seriacollection_amount_<id>%`: Total amount collected.
+* `%seriacollection_progress_bar_<id>%`: A visual progress bar for the current tier.
+* `%seriacollection_percent_<id>%`: Percentage completion towards the next tier.
+* `%seriacollection_requirement_<id>%`: Amount needed for the next tier.
+* `%seriacollection_name_<id>%`: Display name of the collection.
+
 == Collection Categories ==
 
 === 🪓 Foraging ===
@@ -32,11 +48,12 @@ Focuses on ores and minerals.
 * '''Coal''': The entry-level mining collection, providing early-game gear and fortune boosts.
 * (More mining collections coming soon!)
 
-== Magic Bundles ==
-At higher tiers (typically Tier 5, 7, and 9), you unlock **Magic Bundles**. These are special items that can store vast amounts of resources:
-* '''Small Bundle''': Stores up to 2,240 items.
-* '''Medium Bundle''': Stores up to 6,720 items.
-* '''Large Bundle''': Stores up to 20,160 items.
+== Configuration ==
+The plugin now supports **Dynamic Folder Loading**:
+* All `.yml` files located in the `/collections/` folder are automatically loaded.
+* You can organize your collections into separate files (e.g., `farming.yml`, `mining.yml`) for better management.
+* Collection IDs are now '''case-insensitive''', making configuration more flexible.
 
 [[Category:Features]]
 [[Category:Progress]]
+[[Category:Integrations]]
