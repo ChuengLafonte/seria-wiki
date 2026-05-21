@@ -1,0 +1,34 @@
+Benua Galean tidak pernah sepi dari gejolak. Sejak berdirinya Kekaisaran Morakhi Barat, kekuatan misterius selalu menjadi bagian dari perjalanan sejarahnya. Namun, dengan kematian '''Jendral Rokuman''' dan hilangnya '''Mesin Seria''', dunia kini berada di ambang perubahan besar. Di tengah kabut kekacauan, banyak tokoh dari berbagai wilayah di Galean mulai muncul, membawa harapan sekaligus ancaman baru.
+
+Di antara mereka, '''Ksatria Gema''' dan '''Penyihir Senja''' berdiri sebagai figur sentral. Keduanya adalah pelaku kunci dalam memutuskan masa depan Benua Galean. Di luar kehendak manusia, ramalan kuno '''Igorian''' terus mengintai, membayangi siapa saja yang memiliki ambisi menguasai dunia.
+
+== Awal Kegelapan ==
+Pada tahun 456 kalender Lumia, Kekaisaran Morakhi Barat berada di ambang kehancuran. Kaisar '''Avidor''' yang diangkat secara mendadak pada tahun 455 setelah jatuhnya '''Kaisar Pitronark Maximus''' menghadapi perlawanan yang sangat kuat dari dalam dan luar. Kaisar Avidor, meski dikenal sebagai pemimpin yang ambisius, memiliki visi yang bertolak belakang dengan para jenderalnya. Ia berasal dari '''Benua [[Benua Galean|Galean]]''', daerah yang dikenal penuh misteri dan legenda, dan memiliki obsesi terhadap kekuatan gelap yang tersembunyi di dimensi lain.
+
+Visi Avidor untuk membuka portal menuju '''Dunia Iblis''' lahir dari ramalan kuno yang dikenal sebagai '''Ramalan Igorian'''. Ramalan tersebut menubuatkan bahwa dunia suatu hari akan dihancurkan oleh sisi gelap semesta, dengan 4/5 populasi manusia akan binasa. Namun, dari kehancuran tersebut akan muncul seorang penguasa yang mengendalikan dua sisi dunia, baik terang maupun gelap. Ambisi Avidor untuk menjadi manusia yang memenuhi ramalan tersebut mendorongnya untuk memulai '''Project Seria'''.
+
+'''Project Seria''' adalah nama dari mesin yang dirancang untuk membuka portal ke dimensi iblis. Mesin ini dibangun secara rahasia di bawah pengawasan langsung dari Avidor di '''[[West Morakhi Castle|Istana Kaisar Morakhi Barat]]''', namun tidak semua orang di kerajaan setuju dengan rencananya. Jendral '''Rokuman''', yang dikenal sebagai prajurit terhormat dan patriot, menemukan kebenaran di balik proyek gelap ini dan menyadari bahaya besar yang dihadapi dunia jika portal itu dibuka.
+
+== Pemberontakan Rokuman dan Kejatuhan Avidor ==
+Setelah mengetahui rencana gila Avidor, Jendral Rokuman merencanakan pemberontakan. Dia tidak hanya ingin menyelamatkan Kekaisaran Morakhi Barat, tetapi juga melindungi dunia dari kehancuran yang diprediksi oleh Ramalan Igorian. Dengan dukungan dari sejumlah besar jenderal militer, Rokuman menggulingkan Avidor dan memaksa sang kaisar turun takhta pada tahun 456. Tidak lama setelah itu, Avidor meninggal dalam pengasingan, menyisakan warisan kelam yang akan terus menghantui kekaisaran.
+
+Setelah kematian Avidor, Rokuman mengambil kendali Kekaisaran Morakhi Barat sebagai '''penguasa bayangan'''. Meskipun dia tidak pernah secara resmi memahkotai dirinya sebagai kaisar, kekuasaan yang dia miliki mutlak. Dengan kekuatan yang ada di tangannya, dia memutuskan untuk menyegel mesin Seria, yang sudah hampir selesai dibangun. Mesin ini, yang memiliki potensi untuk membuka portal menuju dimensi iblis, disegel dengan sihir kuno dan kekuatan militer yang sangat ketat. Rokuman berharap untuk menjaga rahasia ini selama mungkin.
+
+Namun, meskipun disegel, mesin itu masih menjadi ancaman. Bahkan dalam keadaan tersegel, mesin tersebut terus memancarkan energi gelap yang merusak, menyebabkan '''[[Dimension Crack]]''' yang berdampak langsung pada istana dan wilayah di sekitarnya. Para prajurit, pelayan, dan pejabat kerajaan yang tinggal di Istana Kaisar Morakhi Barat mulai berubah menjadi makhluk-makhluk aneh, kehilangan akal sehat mereka dan menjadi inang bagi jiwa-jiwa gelap dari dimensi lain.
+
+== Tahun 500 Lumia: Kejatuhan Kekaisaran dan Kembalinya Kegelapan ==
+Kematian Jendral Rokuman pada tahun 500 Lumia menandai akhir dari periode stabilitas yang singkat di Kekaisaran Morakhi Barat. Tanpa kehadiran Rokuman yang kuat, kekaisaran terjerumus ke dalam perang saudara yang sengit. Keturunan keluarga kerajaan, para jenderal, dan bangsawan saling membunuh dalam upaya untuk menguasai takhta. Kekacauan ini memberikan kesempatan bagi entitas gelap yang masih bersembunyi di dalam istana untuk tumbuh semakin kuat.
+
+Pada saat yang sama, '''mesin Seria''' yang telah disegel selama puluhan tahun mulai kehilangan kekuatannya. Portal-portal kecil ke dimensi lain mulai terbuka secara acak di seluruh dunia, tetapi fokus utama dari kekacauan ini ada di Benua Galean. Desas-desus mulai tersebar bahwa mesin tersebut, yang dianggap hilang atau tersembunyi, masih berada di Galean dan memiliki potensi untuk dibangkitkan kembali.
+
+Beberapa fraksi di seluruh Benua Galean, termasuk para '''penyihir gelap''', '''ksatria bayangan''', dan '''pemuja iblis''', mulai mencari mesin Seria. Mereka percaya bahwa dengan mengaktifkan kembali mesin tersebut, mereka dapat mewujudkan ramalan Igorian dan menguasai dunia. Namun, para '''hero''' dan '''ksatria suci''' juga bersiap untuk melawan mereka, mencoba menghentikan kembalinya kegelapan sebelum terlambat.
+
+== Istana Kaisar Morakhi Barat: Dungeon Kegelapan ==
+'''Istana Kaisar Morakhi Barat''' telah menjadi tempat yang berbahaya. Atmosfernya kini dipenuhi dengan energi gelap yang berasal dari kebocoran dimensi. Koridor-koridornya dipenuhi dengan entitas yang mengerikan, inang bagi jiwa-jiwa gelap dari dunia lain. Makhluk-makhluk ini, yang dulunya adalah manusia biasa, sekarang menjadi ancaman besar yang siap melepaskan kekuatan iblis ke Benua Galean.
+
+Para '''hero''' yang berani cukup gila untuk memasuki istana ini menghadapi tantangan besar. '''Bangunan seperti labirin''' penuh dengan jebakan, musuh, dan aura kegelapan yang mempengaruhi pikiran mereka. Di dalam istana, tersembunyi '''harta karun yang tak ternilai''', peninggalan dari era kejayaan Kekaisaran Morakhi Barat. Namun, harga yang harus dibayar sangatlah besar. Entitas gelap di dalam istana tidak akan tinggal diam, mereka mencari kesempatan untuk menemukan mesin Seria dan membukakan jalan bagi invasi dimensi lain.
+
+== Masa Depan Benua Galean ==
+Dengan mesin Seria yang masih tersembunyi di suatu tempat di Benua Galean, dunia kini berada di ujung kehancuran. Para penyihir, ksatria, dan hero dari seluruh penjuru dunia berkumpul di Galean, berharap untuk menemukan mesin sebelum jatuh ke tangan yang salah. Namun, ramalan Igorian tetap menjadi bayang-bayang yang menghantui semua orang. Apakah ramalan tersebut tak terhindarkan? Apakah seseorang akan bangkit sebagai penguasa dari dua sisi dunia, terang dan gelap?
+
+Benua Galean kini menjadi pusat dari pertempuran antara kekuatan baik dan jahat. Sementara beberapa percaya bahwa '''reinkarnasi Jendral Rokuman''' akan muncul untuk menyegel mesin sekali lagi, yang lain khawatir bahwa penguasa gelap yang diramalkan akan segera bangkit.

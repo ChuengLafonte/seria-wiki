@@ -1,0 +1,1 @@
+#REDIRECT [[Seria Wiki]]

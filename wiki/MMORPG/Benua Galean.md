@@ -1,0 +1,33 @@
+'''Benua Galean''' adalah salah satu dari tiga benua besar di dunia Lumia, tempat kisah-kisah epik, konflik panjang, dan rahasia kuno yang terpendam selama ribuan tahun. Sebagai pusat peradaban dunia Lumia, Galean adalah tanah yang kaya akan sumber daya alam, sejarah, dan keanekaragaman budaya. Namun, benua ini juga menjadi pusat berbagai intrik politik, perang, serta ancaman supranatural yang terus membayangi kehidupan penduduknya.
+
+== Sejarah Awal Benua Galean ==
+Pada mulanya, '''Benua Galean''' dihuni oleh berbagai suku kuno yang hidup dalam harmoni dengan alam. Mereka menyembah dewa-dewa alam dan menjalankan kehidupan sederhana, dipandu oleh ramalan-ramalan para Druid, yang dikatakan menerima pesan langsung dari semesta. Namun, masa damai ini tidak bertahan lama. Di masa yang dikenal sebagai '''Era Penaklukan''', beberapa kerajaan besar mulai muncul, didorong oleh ambisi untuk menguasai tanah subur dan kekayaan alam Galean.
+
+Kerajaan-kerajaan pertama yang berdiri di Galean, seperti '''Kekaisaran Morakhi Barat''' dan '''Kerajaan Amadun''', berkembang melalui aliansi dan perang. Kekaisaran Morakhi Barat, yang kelak menjadi pusat dari '''Project Seria''' dan berbagai bencana supranatural, adalah salah satu kekuatan dominan yang pernah menguasai sebagian besar Galean. Pada puncak kejayaannya, Morakhi Barat menjadi kekaisaran terbesar di benua ini, sebelum akhirnya runtuh akibat pemberontakan dan intrik internal, yang dipicu oleh penggunaan mesin terkutuk yang membuka portal menuju dunia Iblis.
+
+Seiring waktu, perang dan konflik semakin sering terjadi, dan Galean terpecah menjadi banyak kerajaan dan negara kota yang saling bersaing. Selain manusia, ras-ras lain seperti elf, dwarf, dan orc juga hidup di benua ini, masing-masing memiliki wilayah dan budaya unik.
+
+== Geografi dan Alam Galean ==
+Galean adalah benua yang kaya akan keanekaragaman geografis. Mulai dari hutan lebat, pegunungan yang menjulang tinggi, hingga gurun tandus dan dataran subur yang membentang luas. Berbagai wilayah di Galean memiliki keunikan dan cerita masing-masing.
+
+# '''Dataran Ormandir''' – Wilayah barat Galean yang terkenal dengan bentangan padang rumput subur dan lembah yang luas. Ini adalah pusat pertanian utama benua, namun juga menjadi medan pertempuran antara kerajaan-kerajaan yang ingin menguasai sumber daya alamnya.
+# '''Pegunungan Kruthnar''' – Pegunungan berbatu di sebelah timur yang membentang seperti dinding alami di Galean. Kruthnar adalah rumah bagi bangsa dwarf yang ahli dalam pertambangan dan pandai besi. Mereka menggali logam mulia dari dalam bumi dan membangun benteng bawah tanah yang terkenal.
+# '''Hutan Eldrim''' – Sebuah hutan purba yang dihuni oleh bangsa elf, yang dianggap sebagai penjaga alam. Di tengah hutan terdapat '''Pohon Eldrin''', pohon magis yang dikatakan sebagai pusat energi kehidupan di seluruh Galean. Hutan ini dilindungi dengan ketat oleh para elf dan dipenuhi oleh makhluk magis.
+# '''Gurun Taldir''' – Wilayah gurun di bagian selatan benua, yang terkenal keras dan tak bersahabat. Namun, tersembunyi di balik badai pasirnya adalah reruntuhan peradaban kuno yang hancur ribuan tahun lalu. Para penjelajah sering mencoba mencari harta karun di sana, meskipun banyak yang tidak pernah kembali.
+# '''Reruntuhan Seria''' – Setelah jatuhnya '''Project Seria''', banyak wilayah di sekitar istana Morakhi Barat menjadi tanah terlantar yang dipenuhi energi kegelapan. Para pengembara dan petualang yang mendekati daerah ini melaporkan fenomena aneh, seperti distorsi dimensi dan kemunculan makhluk dari dunia lain.
+
+== Ramalan Igorian dan Project Seria ==
+Salah satu unsur paling berbahaya dan terkenal dari sejarah Galean adalah '''Ramalan Igorian''', yang mengatakan bahwa suatu hari kegelapan akan menelan dunia, membunuh 4/5 populasi manusia. Ramalan ini mendorong Kaisar '''Avidor''' dari Morakhi Barat untuk menciptakan '''Project Seria''', sebuah mesin yang diyakini mampu membuka portal ke dunia iblis dan menundukkan kekuatan kegelapan. Kaisar Avidor percaya bahwa dengan memanfaatkan kekuatan gelap ini, ia bisa menjadi penguasa yang akan memerintah dua sisi dunia, terang dan gelap.
+
+Namun, '''Jenderal Rokuman''' berhasil menghentikan rencana tersebut dan menyegel mesin itu. Sayangnya, mesin Seria meninggalkan bekas di Benua Galean, dan dengan wafatnya Rokuman serta hilangnya mesin, portal dimensi lain mulai terbuka secara acak di berbagai penjuru benua. Fenomena ini menjadi ancaman konstan, mengingat bahwa makhluk-makhluk dari sisi gelap dunia bisa kapan saja muncul dan mengacaukan keseimbangan Galean.
+
+== Budaya dan Masyarakat Galean ==
+Penduduk '''Benua Galean''' sangat beragam, baik dari segi ras, budaya, maupun keyakinan. Banyak bangsa di Galean yang memegang teguh tradisi kuno mereka, sementara yang lain terus berinovasi dan mencari cara baru untuk bertahan di dunia yang selalu berubah.
+
+# '''Manusia''' – Mayoritas penduduk Galean adalah manusia yang tersebar di berbagai kerajaan dan kota-kota. Mereka memiliki berbagai macam budaya dan struktur sosial, tergantung wilayah tempat mereka tinggal. Beberapa kerajaan manusia terlibat dalam perdagangan, sementara yang lain lebih fokus pada militer dan ekspansi wilayah.
+# '''Elf''' – Sebagai penjaga alam, bangsa elf sangat terhubung dengan alam dan sihir. Mereka jarang terlibat dalam konflik manusia, kecuali ketika ancaman dari luar merusak keseimbangan alam Galean.
+# '''Dwarf''' – Bangsa ini dikenal karena keahlian mereka dalam pertambangan dan penempaan senjata. Mereka hidup di pegunungan dan sering kali terlibat dalam perdagangan logam dengan manusia, meskipun mereka lebih suka menjalani kehidupan tertutup.
+# '''Orc''' – Dikenal sebagai ras pejuang yang kuat, orc sering kali terlibat dalam pertempuran antar suku atau dengan kerajaan manusia. Namun, mereka juga memiliki budaya yang kompleks dan menghargai keberanian serta kehormatan dalam pertempuran.
+
+== Masa Depan Galean ==
+Benua Galean kini berada di ambang kehancuran, dengan '''Project Seria''' yang hilang, portal-portal dimensi yang terbuka secara acak, serta para penguasa yang berebut kekuasaan. Konflik antara faksi-faksi berbeda, ancaman dari makhluk supranatural, dan rahasia yang masih terpendam di bawah tanah membuat masa depan Galean penuh ketidakpastian. Di balik semua itu, ramalan gelap masih terus menghantui, dan banyak yang percaya bahwa pertempuran terakhir untuk nasib dunia akan dimulai di sini, di Benua Galean.

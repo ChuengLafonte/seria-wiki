@@ -39,14 +39,18 @@ def sync_wiki():
     for file_path in files_found:
         # Determine page title
         relative_path = file_path.relative_to(wiki_dir)
-        # Use underscores as spaces for the title, but clean up path
-        page_title = str(relative_path.with_suffix('')).replace('_', ' ').replace('\\', '/')
-        
-        # Support MediaWiki Namespaces mapped from directories
+        # Determine namespace from the first folder level
+        parts = relative_path.parts
+        namespace = ""
         valid_namespaces = ['Template', 'Category', 'Help', 'Project']
-        parts = page_title.split('/', 1)
-        if len(parts) == 2 and parts[0] in valid_namespaces:
-            page_title = f"{parts[0]}:{parts[1]}"
+        if parts[0] in valid_namespaces:
+            namespace = f"{parts[0]}:"
+            
+        # Determine title purely from the filename (ignoring other local subfolders)
+        filename = file_path.stem
+        # Restore slashes and spaces
+        page_title = filename.replace('_SLASH_', '/').replace('_', ' ')
+        page_title = namespace + page_title
         
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
