@@ -2,27 +2,27 @@
 |image=Painting.png
 }}
 
-'''Collections''' are a progressive mechanic where the player collects a certain resource in order to unlock milestones which reward the player with recipes, item trades, EXP, and items.
+'''Collections''' (Koleksi) adalah mekanik perkembangan progresif di mana pemain mengumpulkan sumber daya tertentu untuk membuka pencapaian (milestone) yang memberikan pemain berbagai resep, pertukaran item, EXP, dan item.
 
-There are different types of '''Collections''', split into sub-sections: resource collections that are split into [[#Farming|Farming]], [[#Mining|Mining]], [[#Foraging|Foraging]], [[#Slayer|Slayer]], [[#Excavating|Excavating]], and [[#Fishing|Fishing]].
+Terdapat berbagai jenis '''Collections''', yang dibagi ke dalam beberapa sub-bagian: koleksi sumber daya yang meliputi [[#Farming|Farming]], [[#Mining|Mining]], [[#Foraging|Foraging]], [[#Slayer|Slayer]], [[#Excavating|Excavating]], dan [[#Fishing|Fishing]].
 
-The player can view their '''Collections''' through {{CodeTag|[[File:SkyBlock Menu.png|20px|link=SkyBlock Menu]] [[SkyBlock Menu|{{G|SkyBlock Menu}}]] → [[File:Painting.png|20px|link=]] {{G|Collection}}}}. Reaching a certain milestone unlocks a new '''Tier'''.
+Pemain dapat melihat progres '''Collections''' mereka melalui {{CodeTag|[[File:SkyBlock Menu.png|20px|link=SkyBlock Menu]] [[SkyBlock Menu|{{G|SkyBlock Menu}}]] → [[File:Painting.png|20px|link=]] {{G|Collection}}}}. Mencapai pencapaian tertentu akan membuka '''Tier''' (Tingkatan) baru.
 
-== Interface ==
+== Antarmuka (Interface) ==
 {{TabView|-|Collections/UI|forceTabber=true|noTabs=true}}
 
-== Collections ==
-=== 🌾 Farming ===
-Focuses on crops and agriculture.
-* '''Wheat''': Unlocks Farmer Hoes and access to the Chuville farming area at Tier 6.
-* '''Carrot''': Unlocks Constellation Hoes and enchanted food recipes.
-* '''Potato''': Provides the Potato Suit and Mystic Hoes.
+== Daftar Koleksi ==
+=== 🌾 Farming (Pertanian) ===
+Berfokus pada tanaman dan agrikultur.
+* '''Wheat''': Membuka Farmer Hoes dan akses ke area pertanian Chuville pada Tier 6.
+* '''Carrot''': Membuka Constellation Hoes dan resep makanan yang di-enchant.
+* '''Potato''': Memberikan Potato Suit dan Mystic Hoes.
 * '''Beetroot'''
 
-=== ⛏ Mining ===
-Focuses on ores and minerals.
-* '''Cobblestone''': Rewards Mining Fortune and Magic Bundles.
-* '''Coal''': The entry-level mining collection, providing early-game gear and fortune boosts.
+=== ⛏ Mining (Pertambangan) ===
+Berfokus pada bijih dan mineral.
+* '''Cobblestone''': Memberikan hadiah Mining Fortune dan Magic Bundles.
+* '''Coal''': Koleksi awal pertambangan yang memberikan perlengkapan pemula dan peningkatan fortune.
 * '''Copper'''
 * '''Iron'''
 * '''Gold'''
@@ -31,17 +31,17 @@ Focuses on ores and minerals.
 * '''Redstone'''
 * '''Diamond'''
 
-=== 🪓 Foraging ===
-Focuses on gathering different types of wood.
-* '''Oak Wood''': Includes rewards like the Woodcutter Axe and Oak Guardian Set.
-* '''Birch Wood''': Unlocks the Birch Bark Cleaver and Silver Log Slicer.
-* '''Acacia Wood''': Grants access to the Savannah Scout Set.
-* '''Spruce Wood''': Includes the Taiga Frost Blade and Spruce Sentinel Set.
+=== 🪓 Foraging (Penebangan) ===
+Berfokus pada mengumpulkan berbagai jenis kayu.
+* '''Oak Wood''': Mencakup hadiah seperti Woodcutter Axe dan Set Oak Guardian.
+* '''Birch Wood''': Membuka Birch Bark Cleaver dan Silver Log Slicer.
+* '''Acacia Wood''': Memberikan akses ke Set Savannah Scout.
+* '''Spruce Wood''': Mencakup Taiga Frost Blade dan Set Spruce Sentinel.
 * '''Dark Oak Wood'''
 * '''Jungle Wood'''
 
-=== ⚔️ Slayer ===
-Focuses on monster drops.
+=== ⚔️ Slayer (Pemburu Monster) ===
+Berfokus pada drop dari monster.
 * '''Rotten Flesh'''
 * '''Bone'''
 * '''String'''
@@ -49,28 +49,28 @@ Focuses on monster drops.
 * '''Blaze Rod'''
 * '''Ender Pearl'''
 
-=== ⛏ Excavating ===
-Focuses on digging materials.
+=== ⛏ Excavating (Penggalian) ===
+Berfokus pada bahan material galian pasir dan tanah.
 * '''Sand'''
 * '''Red Sand'''
 * '''Gravel'''
 
-=== 🎣 Fishing ===
-Focuses on fish caught in various areas.
+=== 🎣 Fishing (Memancing) ===
+Berfokus pada ikan yang ditangkap di berbagai wilayah.
 * '''Cod'''
 * '''Salmon'''
 * '''Tropical Fish'''
 * '''Pufferfish'''
 
-== History ==
+== Histori ==
 {{History head}}
 {{History header|Seria}}
-{{History|1.0|Added '''Collections'''.}}
+{{History|1.0|Menambahkan fitur '''Collections'''.}}
 {{History foot}}
 
 {{Collections}}
 
-[[Category:Mechanics]]
-[[Category:Collections]]
-[[Category:SkyBlock Menu]]
-[[Category:Items]]
+[[Category:Mekanik]]
+[[Category:Koleksi]]
+[[Category:Menu SkyBlock]]
+[[Category:Item]]

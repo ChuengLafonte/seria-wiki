@@ -1,18 +1,18 @@
-== Project Seria Features ==
+== Fitur Project Seria ==
 
-Explore the unique gameplay mechanics of Project Seria. Each feature is designed to provide a deep and engaging RPG experience in Minecraft.
+Jelajahi mekanik gameplay unik dari Project Seria. Setiap fitur dirancang untuk memberikan pengalaman RPG yang mendalam dan menarik di dalam Minecraft.
 
-=== Core Systems ===
-* [[SeriaCollection]]: The backbone of our progression system. Collect materials to unlock recipes and permanent stat boosts.
-* [[SeriaFarm]]: Advanced farming with custom crop regeneration and regional bonuses.
-* [[SeriaFortune]]: Our custom RPG stat system, including Luck, Fortune, and more.
+=== Sistem Inti ===
+* [[SeriaCollection]]: Tulang punggung sistem perkembangan kami. Kumpulkan material untuk membuka resep dan peningkatan statistik permanen.
+* [[SeriaFarm]]: Sistem pertanian lanjutan dengan regenerasi tanaman kustom dan bonus area khusus.
+* [[SeriaFortune]]: Sistem statistik RPG kustom kami, termasuk Luck, Fortune, dan banyak lagi.
 
-=== World & Exploration ===
-* '''Custom Regions''': Explore unique areas like the Mystic Forest and Chuville.
-* '''Minions''': Automate your resource gathering with custom Minions unlocked through collections.
+=== Dunia & Eksplorasi ===
+* '''Wilayah Kustom''': Jelajahi area unik seperti Mystic Forest dan Chuville.
+* '''Minion''': Otomatiskan pengumpulan sumber daya Anda dengan Minion kustom yang dapat dibuka melalui koleksi.
 
-=== Economy & Crafting ===
-* '''MMOItems Integration''': Custom items with unique stats and abilities.
-* '''Custom Recipes''': Unlock powerful gear by progressing through your collections.
+=== Ekonomi & Crafting ===
+* '''Integrasi MMOItems''': Item kustom dengan statistik dan kemampuan yang unik.
+* '''Resep Kustom''': Buka perlengkapan kuat dengan meningkatkan progres di koleksi Anda.
 
 [[Category:Wiki]]

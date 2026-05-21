@@ -1,19 +1,19 @@
 __NOTOC__
-Welcome to the official '''Project Seria Wiki'''!
+Selamat datang di '''Wiki Resmi Project Seria'''!
 
-This wiki is synchronized automatically from our GitHub repository. 
+Wiki ini disinkronkan secara otomatis dari repositori GitHub kami.
 
-== Server Features ==
-Explore our custom-built systems:
-* [[SeriaCollection]]: Custom progression, collections, and rewards.
-* [[SeriaCrafting]]: Advanced crafting system with collection-tier requirements.
-* [[SeriaFarm]]: Advanced farming and regional crop regeneration.
-* [[SeriaFortune]]: RPG stats, Luck, and Fortune mechanics.
-* [[SeriaCore]]: The technical foundation of the Project Seria ecosystem.
+== Fitur Server ==
+Jelajahi berbagai sistem yang kami bangun secara khusus:
+* [[SeriaCollection]]: Sistem progres, koleksi, dan hadiah kustom.
+* [[SeriaCrafting]]: Sistem *crafting* lanjutan yang terhubung dengan tingkatan tier koleksi.
+* [[SeriaFarm]]: Pertanian lanjutan dan regenerasi tanaman per wilayah.
+* [[SeriaFortune]]: Sistem stat RPG, Luck, dan mekanik Fortune.
+* [[SeriaCore]]: Fondasi teknis dari ekosistem Project Seria.
 
-== Quick Links ==
-* [[Features|All Server Features]]
-* [[Commands|Player Commands]]
-* [[Items|Custom Items Database]]
+== Tautan Cepat ==
+* [[Features|Semua Fitur Server]]
+* [[Commands|Perintah (Command) Pemain]]
+* [[Items|Database Item Kustom]]
 
-[[Category:Main Page]]
+[[Category:Halaman Utama]]

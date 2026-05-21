@@ -1,29 +1,29 @@
 = SeriaCrafting =
 
-'''SeriaCrafting''' is a custom crafting system that integrates seamlessly with MMOItems and SeriaCollection. It allows for advanced recipe requirements and native generation of custom items, including Minions.
+'''SeriaCrafting''' adalah sistem *crafting* (pembuatan item) kustom yang terintegrasi secara mulus dengan MMOItems dan SeriaCollection. Sistem ini memungkinkan pembuatan syarat resep lanjutan dan pembuatan item kustom secara natif, termasuk Minion.
 
-== Key Features ==
+== Fitur Utama ==
 
-=== 🛠️ Custom Recipe Engine ===
-Unlike vanilla crafting, SeriaCrafting supports:
-* '''MMOItems Support''': Recipes can use MMOItems as ingredients and produce MMOItems as results.
-* '''TopMinion Integration''': Native support for crafting Minions using TopMinion's internal spawning logic.
-* '''Command Rewards''': Crafting an item can trigger console commands (e.g., giving permissions or global announcements).
+=== 🛠️ Mesin Resep Kustom ===
+Berbeda dengan *crafting* bawaan Minecraft (vanilla), SeriaCrafting mendukung:
+* '''Dukungan MMOItems''': Resep dapat menggunakan MMOItems sebagai bahan baku dan menghasilkan MMOItems sebagai produk jadi.
+* '''Integrasi TopMinion''': Dukungan natif untuk merakit Minion menggunakan logika *spawn* internal milik TopMinion.
+* '''Hadiah Command''': Merakit suatu item dapat memicu eksekusi *command* di konsol (misalnya: memberikan *permission* atau pengumuman global).
 
-=== 📜 Progression Requirements ===
-Recipes can be locked behind '''Collection Tiers'''.
-* Players must reach a specific tier in a collection (e.g., Wheat Tier VII) to be able to see and craft a specific recipe.
-* This ensures a structured progression where powerful tools require significant resource gathering.
+=== 📜 Syarat Progres (Progression) ===
+Resep dapat dikunci dan mensyaratkan pencapaian '''Tier Koleksi'''.
+* Pemain harus mencapai tier tertentu dalam sebuah koleksi (contoh: Wheat Tier VII) agar bisa melihat dan merakit resep tertentu.
+* Ini memastikan adanya perkembangan yang terstruktur di mana alat-alat yang kuat memerlukan pengumpulan sumber daya yang signifikan.
 
-== Crafting Minions ==
-Minions are a central part of SeriaCrafting. 
-* Most Minions require a specific Tier in their respective collection to be crafted.
-* For example, an '''Oak Minion''' might require '''Oak Wood Tier V'''.
-* Higher level Minions require lower level Minions as ingredients, creating an upgrade path.
+== Merakit Minion ==
+Minion merupakan bagian utama dari SeriaCrafting. 
+* Sebagian besar Minion mengharuskan Anda mencapai Tier tertentu di koleksi yang sesuai agar bisa dirakit.
+* Sebagai contoh, sebuah '''Oak Minion''' mungkin mensyaratkan '''Oak Wood Tier V'''.
+* Minion level tinggi membutuhkan Minion level rendah sebagai salah satu bahannya, menciptakan jalur peningkatan yang jelas.
 
-== Bedrock Compatibility ==
-The plugin includes specialized logic for **Geyser/Floodgate** players, ensuring that custom results are visible and interactable even on Bedrock Edition clients through forced inventory updates.
+== Kompatibilitas Bedrock ==
+Plugin ini menyertakan logika khusus untuk pemain **Geyser/Floodgate**, memastikan bahwa hasil dari *crafting* kustom dapat terlihat dan dapat berinteraksi dengan lancar, bahkan pada client Bedrock Edition, melalui pembaruan inventaris paksa.
 
-[[Category:Features]]
+[[Category:Fitur]]
 [[Category:Crafting]]
-[[Category:Integrations]]
+[[Category:Integrasi]]
