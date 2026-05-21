@@ -1,59 +1,76 @@
-= SeriaCollection =
+{{Infobox/Generic
+|image=Painting.png
+}}
 
-'''SeriaCollection''' is a custom progression system where players earn rewards by gathering specific resources. Each resource belongs to a category (Foraging, Farming, or Mining) and has multiple tiers of progression.
+'''Collections''' are a progressive mechanic where the player collects a certain resource in order to unlock milestones which reward the player with recipes, item trades, EXP, and items.
 
-== How It Works ==
-As you break blocks (logs, crops, ores), you earn points for that specific collection. Reaching a certain milestone unlocks a new '''Tier'''.
+There are different types of '''Collections''', split into sub-sections: resource collections that are split into [[#Farming|Farming]], [[#Mining|Mining]], [[#Foraging|Foraging]], [[#Slayer|Slayer]], [[#Excavating|Excavating]], and [[#Fishing|Fishing]].
 
-=== Tiers & Rewards ===
-Unlocking tiers provides various benefits:
-* '''Stat Boosts''': Permanent increases to stats like Foraging Fortune, Farming Fortune, or Mining Fortune.
-* '''Recipes''': Unlock custom crafting recipes for armor, tools, and magical items.
-* '''Area Access''': Some tiers grant permission to enter exclusive farming or foraging zones.
-* '''Minions''': Unlock the ability to craft and use Minions for that specific resource.
+The player can view their '''Collections''' through {{CodeTag|[[File:SkyBlock Menu.png|20px|link=SkyBlock Menu]] [[SkyBlock Menu|{{G|SkyBlock Menu}}]] → [[File:Painting.png|20px|link=]] {{G|Collection}}}}. Reaching a certain milestone unlocks a new '''Tier'''.
 
-== Features & Integrations ==
+== Interface ==
+{{TabView|-|Collections/UI|forceTabber=true|noTabs=true}}
 
-=== 🤖 TopMinion Integration ===
-SeriaCollection is now fully integrated with the **TopMinion** plugin. 
-* '''Automatic Tracking''': Items withdrawn from Minion inventories are automatically counted towards your collection progress.
-* '''Anti-Exploit''': A robust "taint" system prevents players from double-counting items by dropping and re-picking them up or moving them between inventories.
-
-=== 📊 PlaceholderAPI Support ===
-You can use the following placeholders in menus, chat, or other plugins:
-* `%seriacollection_level_<id>%`: Current level/tier of the collection.
-* `%seriacollection_amount_<id>%`: Total amount collected.
-* `%seriacollection_progress_bar_<id>%`: A visual progress bar for the current tier.
-* `%seriacollection_percent_<id>%`: Percentage completion towards the next tier.
-* `%seriacollection_requirement_<id>%`: Amount needed for the next tier.
-* `%seriacollection_name_<id>%`: Display name of the collection.
-
-== Collection Categories ==
-
-=== 🪓 Foraging ===
-Focuses on gathering different types of wood.
-* '''Oak Wood''': Includes rewards like the ''Woodcutter Axe'' and ''Oak Guardian Set''.
-* '''Birch Wood''': Unlocks the ''Birch Bark Cleaver'' and ''Silver Log Slicer''.
-* '''Acacia Wood''': Grants access to the ''Savannah Scout Set''.
-* '''Spruce Wood''': Includes the ''Taiga Frost Blade'' and ''Spruce Sentinel Set''.
-
+== Collections ==
 === 🌾 Farming ===
 Focuses on crops and agriculture.
-* '''Wheat''': Unlocks ''Farmer Hoes'' and access to the '''Chuville''' farming area at Tier 6.
-* '''Potato''': Provides the ''Potato Suit'' and ''Mystic Hoes''.
-* '''Carrot''': Unlocks ''Constellation Hoes'' and enchanted food recipes.
+* '''Wheat''': Unlocks Farmer Hoes and access to the Chuville farming area at Tier 6.
+* '''Carrot''': Unlocks Constellation Hoes and enchanted food recipes.
+* '''Potato''': Provides the Potato Suit and Mystic Hoes.
+* '''Beetroot'''
 
 === ⛏ Mining ===
 Focuses on ores and minerals.
+* '''Cobblestone''': Rewards Mining Fortune and Magic Bundles.
 * '''Coal''': The entry-level mining collection, providing early-game gear and fortune boosts.
-* (More mining collections coming soon!)
+* '''Copper'''
+* '''Iron'''
+* '''Gold'''
+* '''Lapis Lazuli'''
+* '''Emerald'''
+* '''Redstone'''
+* '''Diamond'''
 
-== Configuration ==
-The plugin now supports **Dynamic Folder Loading**:
-* All `.yml` files located in the `/collections/` folder are automatically loaded.
-* You can organize your collections into separate files (e.g., `farming.yml`, `mining.yml`) for better management.
-* Collection IDs are now '''case-insensitive''', making configuration more flexible.
+=== 🪓 Foraging ===
+Focuses on gathering different types of wood.
+* '''Oak Wood''': Includes rewards like the Woodcutter Axe and Oak Guardian Set.
+* '''Birch Wood''': Unlocks the Birch Bark Cleaver and Silver Log Slicer.
+* '''Acacia Wood''': Grants access to the Savannah Scout Set.
+* '''Spruce Wood''': Includes the Taiga Frost Blade and Spruce Sentinel Set.
+* '''Dark Oak Wood'''
+* '''Jungle Wood'''
 
-[[Category:Features]]
-[[Category:Progress]]
-[[Category:Integrations]]
+=== ⚔️ Slayer ===
+Focuses on monster drops.
+* '''Rotten Flesh'''
+* '''Bone'''
+* '''String'''
+* '''Gunpowder'''
+* '''Blaze Rod'''
+* '''Ender Pearl'''
+
+=== ⛏ Excavating ===
+Focuses on digging materials.
+* '''Sand'''
+* '''Red Sand'''
+* '''Gravel'''
+
+=== 🎣 Fishing ===
+Focuses on fish caught in various areas.
+* '''Cod'''
+* '''Salmon'''
+* '''Tropical Fish'''
+* '''Pufferfish'''
+
+== History ==
+{{History head}}
+{{History header|Seria}}
+{{History|1.0|Added '''Collections'''.}}
+{{History foot}}
+
+{{Collections}}
+
+[[Category:Mechanics]]
+[[Category:Collections]]
+[[Category:SkyBlock Menu]]
+[[Category:Items]]
