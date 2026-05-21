@@ -34,6 +34,8 @@ def sync_wiki():
     files_found = list(wiki_dir.glob('**/*.md'))
     print(f"Found {len(files_found)} files to sync.")
 
+    has_errors = False
+
     for file_path in files_found:
         # Determine page title
         relative_path = file_path.relative_to(wiki_dir)
@@ -63,8 +65,11 @@ def sync_wiki():
             
         except Exception as e:
             print(f"❌ Failed to sync '{page_title}': {e}")
+            has_errors = True
 
     print("--- Sync Finished ---")
+    if has_errors:
+        sys.exit(1)
 
 if __name__ == "__main__":
     sync_wiki()
