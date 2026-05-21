@@ -42,7 +42,11 @@ def sync_wiki():
         # Use underscores as spaces for the title, but clean up path
         page_title = str(relative_path.with_suffix('')).replace('_', ' ').replace('\\', '/')
         
-        # If it's in a subdirectory like 'Features/Mining.md', title becomes 'Features/Mining'
+        # Support MediaWiki Namespaces mapped from directories
+        valid_namespaces = ['Template', 'Category', 'Help', 'Project']
+        parts = page_title.split('/', 1)
+        if len(parts) == 2 and parts[0] in valid_namespaces:
+            page_title = f"{parts[0]}:{parts[1]}"
         
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
