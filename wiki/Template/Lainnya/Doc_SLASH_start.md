@@ -1,19 +1,15 @@
 <includeonly><!--
-
--->{{#vardefine: nodoc | {{{nodoc|{{#var:nodoc|}}}}} }}<!--
--->{{#vardefine: baddoc | {{{baddoc|{{#var:baddoc|}}}}} }}<!--
-
 -->{{#if: {{{1|}}} | {{#ifeq: {{SUBPAGENAME}} | doc | | <div style="height: 1em; clear: both; margin-top: 5px;"></div> }} }}<!--
 
 --><div style="margin: 0em auto 1em; background-color: rgba(0,0,0,0.1); border: 2px solid #BDCAC3;  border-radius: 1em; padding: 1em;">
 <div style="padding-bottom: 3px; border-bottom: 1px solid #BDCAC3; margin-bottom: 1ex;"><!--
--->[[File:Template-{{#if: {{#var:nodoc}} | no | {{#if: {{#var:baddoc}} | bad }} }}info.png|50px|bottom]] <span style="font-weight: bold; font-size: 125%;">Documentation</span><!--
+-->[[File:Template-{{#if: {{{nodoc|}}} | no | {{#if: {{{baddoc|}}} | bad }} }}info.png|50px|bottom]] <span style="font-weight: bold; font-size: 125%;">Documentation</span><!--
 --><div class="plainlinks" style="float: right; margin-left: 5px"><!--
 -->{{#ifeq: {{SUBPAGENAME}} | doc | |&#91;[{{fullurl:{{FULLPAGENAME}}/doc|action=edit}} edit]&#93;}}<!--
 -->&nbsp;&#91;[{{fullurl:{{FULLPAGENAME}}|action=purge}} purge]&#93;</div></div><!--
 
--->{{#if: {{#var:nodoc}} | '''This template has no documentation. If you know how to use this template, please add some.'''<!--
+-->{{#if: {{{nodoc|}}} | '''This template has no documentation. If you know how to use this template, please add some.'''<!--
 -->{{#ifeq: {{SUBPAGENAME}} | doc | | [[Category:Templates with no documentation|{{BASEPAGENAME}}]]}} |<!--
--->{{#if: {{#var:baddoc}} | '''This template's documentation has been marked as bad. Please improve or add to it.'''<!--
+-->{{#if: {{{baddoc|}}} | '''This template's documentation has been marked as bad. Please improve or add to it.'''<!--
 -->{{#ifeq: {{SUBPAGENAME}} | doc | | [[Category:Templates with bad documentation|{{BASEPAGENAME}}]]}}<!--
 -->}} }}</includeonly><noinclude>[[Category:Documentation templates| {{PAGENAME}}]]</noinclude>
