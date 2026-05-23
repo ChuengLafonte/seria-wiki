@@ -1,8 +1,28 @@
 import os
+import time
 import mwclient
 from pathlib import Path
 import sys
 import subprocess
+
+# ── Rate limit config ─────────────────────────────────────────────────────────
+DELAY_BETWEEN = 3   # seconds between each successful save
+RETRY_WAIT    = 60  # seconds to wait after a ratelimited response
+MAX_RETRIES   = 3   # max retries per page before giving up
+
+def save_with_retry(page, content, summary):
+    """Save a wiki page, automatically retrying on rate-limit errors."""
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            page.save(content, summary=summary)
+            return True
+        except mwclient.errors.APIError as e:
+            if getattr(e, 'code', None) == 'ratelimited':
+                print(f"[WAIT] Rate limited (attempt {attempt}/{MAX_RETRIES}). Waiting {RETRY_WAIT}s...", flush=True)
+                time.sleep(RETRY_WAIT)
+            else:
+                raise
+    return False
 
 def get_git_modified_files():
     try:
@@ -123,7 +143,8 @@ def sync_wiki():
         print("⏩ No files to sync. Exiting.")
         sys.exit(0)
 
-    print(f"Syncing {len(files_to_sync)} file(s)...")
+    total = len(files_to_sync)
+    print(f"Syncing {total} file(s)...")
     for f in files_to_sync:
         print(f" - {f}")
 
@@ -140,14 +161,14 @@ def sync_wiki():
 
     has_errors = False
 
-    for file_path in files_to_sync:
+    for i, file_path in enumerate(files_to_sync, 1):
         # Determine page title
         relative_path = file_path.relative_to(wiki_dir)
         # Determine namespace from the first folder level
         parts = relative_path.parts
         namespace = ""
         valid_namespaces = ['Template', 'Category', 'Help', 'Project', 'Module']
-        if parts[0] in valid_namespaces:
+        if len(parts) > 1 and parts[0] in valid_namespaces:
             namespace = f"{parts[0]}:"
             
         # Determine title purely from the filename (ignoring other local subfolders)
@@ -160,7 +181,7 @@ def sync_wiki():
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
 
-            print(f"🔄 Syncing: [{page_title}]...")
+            print(f"[{i}/{total}] 🔄 Syncing: [{page_title}]...")
             page = site.pages[page_title]
             
             # Get remote content
@@ -170,9 +191,15 @@ def sync_wiki():
                 print(f"⏩ No changes for '{page_title}'. Skipping.")
                 continue
                 
-            # Save the page
-            page.save(content, summary='Automated sync from GitHub via Antigravity')
-            print(f"✨ Successfully updated '{page_title}'")
+            # Save with automatic retry on rate limit
+            success = save_with_retry(page, content, 'Automated sync from GitHub via Antigravity')
+            if success:
+                print(f"✨ Successfully updated '{page_title}'")
+                if i < total:
+                    time.sleep(DELAY_BETWEEN)
+            else:
+                print(f"❌ Failed to sync '{page_title}' after {MAX_RETRIES} retries.")
+                has_errors = True
             
         except Exception as e:
             print(f"❌ Failed to sync '{page_title}': {e}")
