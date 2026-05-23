@@ -121,7 +121,7 @@ def sync_wiki():
         # Determine namespace from the first folder level
         parts = relative_path.parts
         namespace = ""
-        valid_namespaces = ['Template', 'Category', 'Help', 'Project']
+        valid_namespaces = ['Template', 'Category', 'Help', 'Project', 'Module']
         if parts[0] in valid_namespaces:
             namespace = f"{parts[0]}:"
             
