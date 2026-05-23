@@ -1,7 +1,7 @@
 <includeonly><!--
 
--->{{#vardefine: nodoc | {{{nodoc|{{#var:nodoc|}}} }}} }}<!--
--->{{#vardefine: baddoc | {{{baddoc|{{#var:baddoc|}}} }}} }}<!--
+-->{{#vardefine: nodoc | {{{nodoc|{{#var:nodoc|}}}}} }}<!--
+-->{{#vardefine: baddoc | {{{baddoc|{{#var:baddoc|}}}}} }}<!--
 
 -->{{#if: {{{1|}}} | {{#ifeq: {{SUBPAGENAME}} | doc | | <div style="height: 1em; clear: both; margin-top: 5px;"></div> }} }}<!--
 
