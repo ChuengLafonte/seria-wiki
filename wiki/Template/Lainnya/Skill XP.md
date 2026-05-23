@@ -1,0 +1,1 @@
+<includeonly>{{#invoke:Skillname|skillXP}}</includeonly><noinclude>{{Documentation}}</noinclude>
