@@ -1,7 +1,5 @@
-{{Documentation subpage}}
-
+{{doc/start}}
 {{T|CodeTag}} is a template used to include a {{CodeTag|<nowiki><code></nowiki>}} tag.
-{{Tc}}
 
 == Syntax ==
 {{T|CodeTag|1}}
@@ -16,3 +14,4 @@
 
 == See Also ==
 {{FeatureNav/TextUtility}}
+{{doc/end}}

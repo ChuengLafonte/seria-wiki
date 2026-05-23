@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history so tj-actions/changed-files can compare
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -40,8 +42,20 @@ jobs:
             exit 1
           fi
 
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v45
+        with:
+          files: |
+            wiki/**/*.md
+
       - name: Run sync script
         env:
           FANDOM_USERNAME: ${{ secrets.FANDOM_USERNAME }}
           FANDOM_PASSWORD: ${{ secrets.FANDOM_PASSWORD }}
-        run: python scripts/sync_to_fandom.py
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python scripts/sync_to_fandom.py --all
+          else
+            python scripts/sync_to_fandom.py ${{ steps.changed-files.outputs.all_changed_files }}
+          fi
