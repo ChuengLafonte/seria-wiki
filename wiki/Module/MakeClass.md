@@ -1,25 +1,5 @@
----------------------------------------------------------------------------------
---						[Deprecated] Module:MakeClass
---
--- This module is used to implement makeClass. Code was written by Thundercraft5.
--- Deprecated: Please use Module:Class instead.
---
-----------------[ CONTENTS ]-----------------
--- The following list is all the functions this module houses.
---
--- * function: isStaticClass(t: table)
--- * function: isClass(t: table)
--- * function: makeClass(constructor?: function, methods: table, parentClass?: table, options?: table)
---
-------[ CURRENT REMAINING DEPENDENCIES ]------
--- As this method of use is deprecated, here lists the remaining dependencies:
---
--- * Module:Loader
--- * Module:String
--- * Module:Constructor
--- * Module:Sword upgrades/Stats
---
----------------------------------------------------------------------------------
+-- <pre>
+-- Modul MakeClass (Usang). Gunakan Module:Class sebagai gantinya.
 
 local table, lu = require('Module:Table'), require('Module:LibU')
 local p = {}

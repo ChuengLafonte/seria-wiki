@@ -1,8 +1,5 @@
---<pre>
--- Function allowing for consistent treatment of boolean-like wikitext input.
---
--- Based on <https://en.wikipedia.org/wiki/Module:Yesno>
--- see page history there for contributors
+-- <pre>
+-- Modul untuk memproses input teks boolean-like secara konsisten.
 
 
 local list_t = {

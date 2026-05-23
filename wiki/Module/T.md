@@ -1,16 +1,6 @@
--- Original at [[w:c:dev:Module:T]]
---------------------------------------------------------------------------------
--- A feature-packed example generator for brace-based wikitext.
---
--- @author [[User:DarthKitty]]
--- @author [[User:Speedit]]
--- @version 0.6.2
---
--- @TODO Extract CSS to stylesheet; transition from data-attributes to classes.
--- @TODO Modify `p.transclusion` to handle non-template namespaces.
--- @TODO Consider adding i18n for error messages, flags, &c.
--- @TODO Consider adding generator(s?) for magic words and parser functions.
---------------------------------------------------------------------------------
+-- <pre>
+-- Modul generator contoh sintaksis wikitext berbasis kurung kurawal.
+
 local p = {}
 local getArgs = require("Dev:Arguments").getArgs
 local userError = require("Dev:User error")

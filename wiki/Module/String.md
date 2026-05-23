@@ -1989,7 +1989,7 @@ p.trim = p.trimWhitespace
 
 ------------------------------------------------
 -- function: .toRoman(s: string)
--- original source: https://gist.github.com/efrederickson/4080372
+--
 --[[
 Symbol	Value
 I		1
@@ -2001,17 +2001,6 @@ D		500
 M		1000
 If a lesser number comes before a greater number (e.g. IX), then
 the lesser number is subtracted from the greater number (IX -> 9, 900 -> CM)
-So, 
-Symbol	Value
-IV		4
-IX		9
-XL		40
-XC		90
-CD		400
-CM		900
-LM		950
-VX is actually valid as 5, along with other irregularities, such as IIIIIV for 8
-Copyright (C) 2012 LoDC
 ]]
 ---------------------------------------------------------------------------------
 local map = { 
@@ -2270,7 +2259,6 @@ end
 -- function: sublength(frame: table)
 -- 
 -- returns a substring of a given string at a specific index and length
--- originally from [[WP:Module:String]]
 ---------------------------------------------------------------------------------
 function p.sublength(frame)
 	local args = getArgs(frame)
