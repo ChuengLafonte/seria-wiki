@@ -1,4 +1,4 @@
-local table, makeClass, libU = require('Module:Table'), require('Module:MakeClass'), require('Module:LibU')
+local table, Class, libU = require('Module:Table'), require('Module:Class'), require('Module:LibU')
 local require, pcall, type, _G, debug, mw = require, pcall, type, _G, debug, mw
 local checkType, checkArgs, assertTrue, assertFalse, makeCheckSelfFunction =
 	libU.checkType, libU.checkArgs, libU.assertTrue, libU.assertFalse, libU.makeCheckSelfFunction
@@ -313,7 +313,7 @@ do
 		self.exports = {}
 	end
 	
-	p.Module = makeClass.makeClass(Module)
+	p.Module = Class.makeClass(Module)
 end
 
 ---------------------------------------------------------------------------------
