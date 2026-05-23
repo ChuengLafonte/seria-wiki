@@ -19,3 +19,4 @@
 ; Produces
 {{UI Tips|back=[[SkyBlock Menu/UI]]}}
 {{doc/end}}
+

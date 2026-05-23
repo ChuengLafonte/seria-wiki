@@ -48,6 +48,7 @@ jobs:
         with:
           files: |
             wiki/**/*.md
+          write_output_files: true
 
       - name: Run sync script
         env:
@@ -57,5 +58,5 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             python scripts/sync_to_fandom.py --all
           else
-            python scripts/sync_to_fandom.py ${{ steps.changed-files.outputs.all_changed_files }}
+            python scripts/sync_to_fandom.py --file .github/outputs/all_changed_files.txt
           fi

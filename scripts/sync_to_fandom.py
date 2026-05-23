@@ -61,6 +61,31 @@ def sync_wiki():
         if '--all' in args:
             print("Mode: Sync all files")
             files_to_sync = list(wiki_dir.glob('**/*.md'))
+        elif '--file' in args:
+            print("Mode: Sync files listed in file")
+            try:
+                idx = args.index('--file')
+                list_file_path = Path(args[idx + 1])
+                if list_file_path.exists():
+                    with open(list_file_path, 'r', encoding='utf-8') as lf:
+                        lines = lf.read().splitlines()
+                    for line in lines:
+                        line = line.strip()
+                        if not line:
+                            continue
+                        p = Path(line)
+                        if p.suffix == '.md' and p.exists():
+                            try:
+                                p.relative_to(wiki_dir)
+                                files_to_sync.append(p)
+                            except ValueError:
+                                pass
+                else:
+                    print(f"❌ Error: List file '{list_file_path}' not found.")
+                    sys.exit(1)
+            except (ValueError, IndexError):
+                print("❌ Error: --file requires a filepath argument.")
+                sys.exit(1)
         else:
             print("Mode: Sync specific files passed as arguments")
             for arg in args:
