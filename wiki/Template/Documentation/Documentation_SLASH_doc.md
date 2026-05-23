@@ -1,4 +1,4 @@
-<noinclude>{{doc/start}}
+{{doc/start}}
 To use, create a sub-page from the template called '''doc''', put {{tl|doc/start}} at the start of your documentation, and {{tl|doc/end}} at the end.
 
 Go back to your main template page and put &lt;noinclude&gt;{{tl|doc}}&lt;/noinclude&gt; on a newline after the end of the template. /doc pages will automatically be added to [[:Category:Documentation templates]].
@@ -17,7 +17,4 @@ Similar to nodoc, this is used to mark templates that '''do''' have documentatio
 The documentation's background will become yellow to make it more noticeable, and the page will be added to [[:Category:Templates with bad documentation]].
 
 If both nodoc and baddoc are specified, baddoc will be ignored.
-</div>
-
-[[Category:Documentation templates| ]]
-</noinclude><includeonly>{{/doc}}</includeonly>
+{{doc/end}}
