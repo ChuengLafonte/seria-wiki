@@ -175,8 +175,8 @@ def sync_wiki():
             
         # Determine title purely from the filename (ignoring other local subfolders)
         filename = file_path.stem
-        # Restore slashes and spaces
-        page_title = filename.replace('_SLASH_', '/').replace('_', ' ')
+        # Restore slashes, colons, and spaces
+        page_title = filename.replace('_SLASH_', '/').replace('_COLON_', ':').replace('_', ' ')
         page_title = namespace + page_title
         
         try:
