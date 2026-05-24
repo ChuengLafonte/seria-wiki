@@ -4,7 +4,7 @@ local loader = require('Module:Loader')
 
 local string, table, yesno, jSON = loader.require('String', 'Table', 'Yesno', 'JSON')
 
-local wikilink = 'https://hypixel-skyblock.fandom.com/wiki/'
+local wikilink = 'https://Project Seria Caveblock-Project Seria Caveblock.fandom.com/wiki/'
 local p = {}
 
 function p.tabview( frame )

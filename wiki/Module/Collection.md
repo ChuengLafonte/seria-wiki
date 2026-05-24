@@ -59,7 +59,7 @@ function p._collectionTable( collection, colRowData, subTable )
 	row:tag('th'):wikitext('LVL'):done()
 	row:tag('th'):wikitext('Required'):addClass('size-small'):done()
 	row:tag('th'):wikitext('Reward'):css(subTable and { width="100%" } or {}):done()
-	row:tag('th'):wikitext('[[SkyBlock Levels|' .. color._colorTemplates('Aqua', 'XP') .. ']]'):done()
+	row:tag('th'):wikitext('[[Project Seria Caveblock Levels|' .. color._colorTemplates('Aqua', 'XP') .. ']]'):done()
 	row:done()
 	
 	for i, data in ipairs(colRowData) do
@@ -87,11 +87,11 @@ function p._collectionTable( collection, colRowData, subTable )
 		end
 		td:wikitext(table.concat(cellData, '<br />')):done()
 		
-		-- Find SkyBlock Xp
+		-- Find Project Seria Caveblock Xp
 		td = row:tag('td')
 		local xp = '{{Bc}}'
 		for i, reward in pairs(data.reward) do
-			if (reward.type or data.type or 'Recipe'):match('SkyBlock Experience') then
+			if (reward.type or data.type or 'Recipe'):match('Project Seria Caveblock Experience') then
 				xp = color._colorTemplates('Aqua', '+' .. reward[1])
 				break
 			end
@@ -138,8 +138,8 @@ function getRewardLine(reward, pType, pComingSoon, pLink, pNoLink, pImage)
 		return item._item(pImage or link or name, true, nolink, false, false, false, false)
 	end
 	
-	local isExp = pType:match('[Ee]xperience') and not pType:match('SkyBlock')
-	local sbExp = pType:match('SkyBlock Experience')
+	local isExp = pType:match('[Ee]xperience') and not pType:match('Project Seria Caveblock')
+	local sbExp = pType:match('Project Seria Caveblock Experience')
 	local isCustom = pType:match('Custom')
 	local unknownType = not not pType:match('[Cc]oming [Ss]oon')
 	pComingSoon = unknownType or yesno(pComingSoon, false)

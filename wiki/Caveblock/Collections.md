@@ -6,7 +6,7 @@
 
 Terdapat berbagai jenis '''Collections''', yang dibagi ke dalam beberapa sub-bagian: koleksi sumber daya yang meliputi [[#Farming|Farming]], [[#Mining|Mining]], [[#Foraging|Foraging]], [[#Slayer|Slayer]], [[#Excavating|Excavating]], dan [[#Fishing|Fishing]].
 
-Pemain dapat melihat progres '''Collections''' mereka melalui {{CodeTag|[[File:SkyBlock Menu.png|20px|link=SkyBlock Menu]] [[SkyBlock Menu|{{G|SkyBlock Menu}}]] → [[File:Painting.png|20px|link=]] {{G|Collection}}}}. Mencapai pencapaian tertentu akan membuka '''Tier''' (Tingkatan) baru.
+Pemain dapat melihat progres '''Collections''' mereka melalui {{CodeTag|[[File:Caveblock Menu.png|20px|link=Caveblock Menu]] [[Caveblock Menu|{{G|Caveblock Menu}}]] → [[File:Painting.png|20px|link=]] {{G|Collection}}}}. Mencapai pencapaian tertentu akan membuka '''Tier''' (Tingkatan) baru.
 
 == Antarmuka (Interface) ==
 {{TabView|-|Collections/UI|forceTabber=true|noTabs=true}}
@@ -72,5 +72,5 @@ Berfokus pada ikan yang ditangkap di berbagai wilayah.
 
 [[Category:Mekanik]]
 [[Category:Koleksi]]
-[[Category:Menu SkyBlock]]
+[[Category:Menu Caveblock]]
 [[Category:Item]]

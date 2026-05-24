@@ -167,7 +167,7 @@ function p._shortcut(list, isTemplate)
 					action = 'edit',
 					redlink = 1,
 					preload = 'Template:Shortcut/preload', 
-					['preloadparams[]'] = isTemplate and fullpagename:gsub('/doc$', '') or fullpagename:gsub('^Hypixel SkyBlock Wiki:', 'Project:'),
+					['preloadparams[]'] = isTemplate and fullpagename:gsub('/doc$', '') or fullpagename:gsub('^Project Seria Caveblock Wiki:', 'Project:'),
 				}, string.wrapHtml{
 					list[i],
 					'font', { 

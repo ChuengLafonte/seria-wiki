@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------
 -- From MediaWiki source file
--- and https://hypixel-skyblock.fandom.com/wiki/Module:LibraryUtil
+-- and https://Project Seria Caveblock-Project Seria Caveblock.fandom.com/wiki/Module:LibraryUtil
 -- 
 -- On import, this script exposes all functions to the global table (_G)
 -- so that the following functions are accessible everywhere solely through the function name:

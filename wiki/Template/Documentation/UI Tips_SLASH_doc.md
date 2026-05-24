@@ -4,7 +4,7 @@
 
 == Syntax ==
 {{T|UI Tips|back}}
-* {{S|back}} - links that goes to UI subpages that the reader might have accessed before going to that page. For example, a reader might have accessed [[SkyBlock Menu/UI]] before going to [[Collections/UI]].
+* {{S|back}} - links that goes to UI subpages that the reader might have accessed before going to that page. For example, a reader might have accessed [[Project Seria Caveblock Menu/UI]] before going to [[Collections/UI]].
 
 == Examples ==
 <pre>
@@ -14,9 +14,9 @@
 {{UI Tips}}
 
 <pre>
-{{UI Tips|back=[[SkyBlock Menu/UI]]}}
+{{UI Tips|back=[[Project Seria Caveblock Menu/UI]]}}
 </pre>
 ; Produces
-{{UI Tips|back=[[SkyBlock Menu/UI]]}}
+{{UI Tips|back=[[Project Seria Caveblock Menu/UI]]}}
 {{doc/end}}
 

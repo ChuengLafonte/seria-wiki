@@ -4,29 +4,29 @@
 
 |1,5 = Jungle Sapling, none;none, &aForaging Collections, &7View your Foraging Collections!//&7Collections Unlocked: &e0&6%/&f-------------------- &e0&6\/&e12
 
-|2,2 = Oak Log, none;Oak Log/Collection UI, &eOak Log, &7View all your Oak Wood Collection/&7progress and rewards!// &7Progress to Oak Log I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Oak Log I Reward:/　&9Oak Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|2,2 = Oak Log, none;Oak Log/Collection UI, &eOak Log, &7View all your Oak Wood Collection/&7progress and rewards!// &7Progress to Oak Log I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Oak Log I Reward:/　&9Oak Minion &7Recipe/　&7&8+&b4 Project Seria Caveblock XP//&eClick to view! 
 
-|2,3 = Birch Log, none;Birch Log/Collection UI, &eBirch Log, &7View all your Birch Log Collection/&7progress and rewards!// &7Progress to Birch Log I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Birch Log I Reward:/　&9Birch Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|2,3 = Birch Log, none;Birch Log/Collection UI, &eBirch Log, &7View all your Birch Log Collection/&7progress and rewards!// &7Progress to Birch Log I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Birch Log I Reward:/　&9Birch Minion &7Recipe/　&7&8+&b4 Project Seria Caveblock XP//&eClick to view! 
 
-|2,4 = Spruce Log, none;Spruce Log/Collection UI, &eSpruce Log, &7View all your Spruce Log Collection/&7progress and rewards!// &7Progress to Spruce Log I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Spruce Log I Reward:/　&9Spruce Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|2,4 = Spruce Log, none;Spruce Log/Collection UI, &eSpruce Log, &7View all your Spruce Log Collection/&7progress and rewards!// &7Progress to Spruce Log I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Spruce Log I Reward:/　&9Spruce Minion &7Recipe/　&7&8+&b4 Project Seria Caveblock XP//&eClick to view! 
 
-|2,5 = Dark Oak Log, none;Dark Oak Log/Collection UI, &eDark Oak Log, &7View all your Dark Oak Log Collection/&7progress and rewards!// &7Progress to Dark Oak Log I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Dark Oak Log I Reward:/　&9Dark Oak Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|2,5 = Dark Oak Log, none;Dark Oak Log/Collection UI, &eDark Oak Log, &7View all your Dark Oak Log Collection/&7progress and rewards!// &7Progress to Dark Oak Log I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Dark Oak Log I Reward:/　&9Dark Oak Minion &7Recipe/　&7&8+&b4 Project Seria Caveblock XP//&eClick to view! 
 
-|2,6 = Acacia Log, none;Acacia Log/Collection UI, &eAcacia Log, &7View all your Acacia Log Collection/&7progress and rewards!// &7Progress to Acacia Log I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Acacia Log I Reward:/　&9Acacia Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|2,6 = Acacia Log, none;Acacia Log/Collection UI, &eAcacia Log, &7View all your Acacia Log Collection/&7progress and rewards!// &7Progress to Acacia Log I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Acacia Log I Reward:/　&9Acacia Minion &7Recipe/　&7&8+&b4 Project Seria Caveblock XP//&eClick to view! 
 
-|2,7 = Jungle Log, none;Jungle Log/Collection UI, &eJungle Log, &7View all your Jungle Log Collection/&7progress and rewards!// &7Progress to Jungle Log I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Jungle Log I Reward:/　&9Jungle Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|2,7 = Jungle Log, none;Jungle Log/Collection UI, &eJungle Log, &7View all your Jungle Log Collection/&7progress and rewards!// &7Progress to Jungle Log I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Jungle Log I Reward:/　&9Jungle Minion &7Recipe/　&7&8+&b4 Project Seria Caveblock XP//&eClick to view! 
 
-|2,8 = Fig Log, none;Fig Log/Collection UI, &eFig Log, &7View all your Fig Log Collection/&7progress and rewards!// &7Progress to Fig Log I: &e0&6%/&f-------------------- &e0&6\/&e500//&7Fig Log I Reward:/　&aTiny Scaffolding &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|2,8 = Fig Log, none;Fig Log/Collection UI, &eFig Log, &7View all your Fig Log Collection/&7progress and rewards!// &7Progress to Fig Log I: &e0&6%/&f-------------------- &e0&6\/&e500//&7Fig Log I Reward:/　&aTiny Scaffolding &7Recipe/　&7&8+&b4 Project Seria Caveblock XP//&eClick to view! 
 
-|3,2 = Tender Wood, none;Tender Wood/Collection UI, &eTender Wood, &7View all your Tender Wood Collection/&7progress and rewards!// &7Progress to Tender Wood I: &e0&6%/&f-------------------- &e0&6\/&e10//&7Tender Wood I Reward:/　&fSmall Huntrap &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|3,2 = Tender Wood, none;Tender Wood/Collection UI, &eTender Wood, &7View all your Tender Wood Collection/&7progress and rewards!// &7Progress to Tender Wood I: &e0&6%/&f-------------------- &e0&6\/&e10//&7Tender Wood I Reward:/　&fSmall Huntrap &7Recipe/　&7&8+&b4 Project Seria Caveblock XP//&eClick to view! 
 
-|3,3 = Mangrove Log, none;Mangrove Log/Collection UI, &eMangrove Log, &7View all your Mangrove Log Collection/&7progress and rewards!// &7Progress to Mangrove Log I: &e0&6%/&f-------------------- &e0&6\/&e500//&7Mangrove Log I Reward:/　&9Travel Scroll to Murkwater Loch &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|3,3 = Mangrove Log, none;Mangrove Log/Collection UI, &eMangrove Log, &7View all your Mangrove Log Collection/&7progress and rewards!// &7Progress to Mangrove Log I: &e0&6%/&f-------------------- &e0&6\/&e500//&7Mangrove Log I Reward:/　&9Travel Scroll to Murkwater Loch &7Recipe/　&7&8+&b4 Project Seria Caveblock XP//&eClick to view! 
 
-|3,4 = Vinesap, none;Vinesap/Collection UI, &eVinesap, &7View all your Vinesap Collection/&7progress and rewards!// &7Progress to Vinesap I: &e0&6%/&f-------------------- &e0&6\/&e10//&7Vinesap I Reward:/　&fWorn Huntaxe - Genesis &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|3,4 = Vinesap, none;Vinesap/Collection UI, &eVinesap, &7View all your Vinesap Collection/&7progress and rewards!// &7Progress to Vinesap I: &e0&6%/&f-------------------- &e0&6\/&e10//&7Vinesap I Reward:/　&fWorn Huntaxe - Genesis &7Recipe/　&7&8+&b4 Project Seria Caveblock XP//&eClick to view! 
 
-|3,5 = Lushlilac, none;Lushlilac/Collection UI, &eLushlilac, &7View all your Lushlilac Collection/&7progress and rewards!// &7Progress to Lushlilac I: &e0&6%/&f-------------------- &e0&6\/&e25//&7Lushlilac I Reward:/　&aLushlilac Bonbon &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|3,5 = Lushlilac, none;Lushlilac/Collection UI, &eLushlilac, &7View all your Lushlilac Collection/&7progress and rewards!// &7Progress to Lushlilac I: &e0&6%/&f-------------------- &e0&6\/&e25//&7Lushlilac I Reward:/　&aLushlilac Bonbon &7Recipe/　&7&8+&b4 Project Seria Caveblock XP//&eClick to view! 
 
-|3,6 = Sea Lumies, none;Sea Lumies/Collection UI, &eSea Lumies, &7View all your Sea Lumies Collection/&7progress and rewards!// &7Progress to Sea Lumies I: &e0&6%/&f-------------------- &e0&6\/&e25//&7Sea Lumies I Reward:/　&aBasic Fishing Net &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|3,6 = Sea Lumies, none;Sea Lumies/Collection UI, &eSea Lumies, &7View all your Sea Lumies Collection/&7progress and rewards!// &7Progress to Sea Lumies I: &e0&6%/&f-------------------- &e0&6\/&e25//&7Sea Lumies I Reward:/　&aBasic Fishing Net &7Recipe/　&7&8+&b4 Project Seria Caveblock XP//&eClick to view! 
 
 |goback = To Collections
 |return_id = collection-default

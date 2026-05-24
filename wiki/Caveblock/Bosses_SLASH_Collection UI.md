@@ -2,7 +2,7 @@
 |id=collection-bosses
 |fill=border
 
-|1,5 = Wither Skeleton Skull, none;none, &5Boss Collections, &7View your progress and claim/&7rewards you have obtained from/&7defeating SkyBlock bosses!//&7Boss Collections Unlocked: &e0&6%/&f-------------------- &e0&6\/&e8
+|1,5 = Wither Skeleton Skull, none;none, &5Boss Collections, &7View your progress and claim/&7rewards you have obtained from/&7defeating Project Seria Caveblock bosses!//&7Boss Collections Unlocked: &e0&6%/&f-------------------- &e0&6\/&e8
 |2,2 = Bonzo Head, none;Bonzo/Collection UI, &eBonzo, &7View all your Bonzo Collection/&7progress and rewards!//&7Progress to Bonzo I: &e0&6%/&f-------------------- &e0&6\/&e25//&7Bonzo I Reward:/　&9Red Nose//&eClick to view!
 |2,3 = Scarf Head, none;Scarf/Collection UI, &eScarf, &7View all your Scarf Collection/&7progress and rewards!//&7Progress to Scarf I: &e0&6%/&f-------------------- &e0&6\/&e25//&7Scarf I Reward:/　&9Red Scarf//&eClick to view!
 |2,4 = The Professor Head, none;The Professor/Collection UI, &eThe Professor, &7View all your The Professor/&7Collection progress and rewards!//&7Progress to The Professor I: &e0&6%/&f-------------------- &e0&6\/&e25//&7The Professor I Reward:/　&9Suspicious Vial//&eClick to view!

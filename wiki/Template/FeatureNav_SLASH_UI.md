@@ -1,4 +1,4 @@
-Hypixel SkyBlock Wiki UI Tool Set:
+Project Seria Caveblock Wiki UI Tool Set:
 
 Templates
 * Main Features
