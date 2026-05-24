@@ -1,0 +1,1 @@
+<includeonly>{{#invoke:String/Templates|code}}</includeonly><noinclude>[[Category:Formatting templates]]{{Doc}}</noinclude>
