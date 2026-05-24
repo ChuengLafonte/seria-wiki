@@ -133,7 +133,7 @@ end
 
 -- AnvilSB
 function p.anvilSB( frame )
-	function handleProject Seria CaveblockItemSpecialCases(itemName)
+	function handleCaveblockItemSpecialCases(itemName)
 		if not itemName then return nil end
 	    itemName = itemName:gsub("Enchanted Book %((.+)%)", "%1")
 	    return itemName
@@ -150,8 +150,8 @@ function p.anvilSB( frame )
 	args.costtext = 'Exp Levels Cost: ' .. (string._formatNum(args.cost) or 0)
 	
 	args.title = args.title or
-		handleProject Seria CaveblockItemSpecialCases(determineTitle(args.Output)) or
-		handleProject Seria CaveblockItemSpecialCases(determineTitle(args.Input1)) or ''
+		handleCaveblockItemSpecialCases(determineTitle(args.Output)) or
+		handleCaveblockItemSpecialCases(determineTitle(args.Input1)) or ''
 	
 	return p.anvil(args)
 end
