@@ -4,6 +4,7 @@ import mwclient
 from pathlib import Path
 import sys
 import subprocess
+import shlex
 
 # ── Rate limit config ─────────────────────────────────────────────────────────
 DELAY_BETWEEN = 3   # seconds between each successful save
@@ -90,16 +91,17 @@ def sync_wiki():
                     with open(list_file_path, 'r', encoding='utf-8') as lf:
                         lines = lf.read().splitlines()
                     for line in lines:
-                        line = line.strip()
-                        if not line:
-                            continue
-                        p = Path(line)
-                        if p.suffix == '.md' and p.exists():
-                            try:
-                                p.relative_to(wiki_dir)
-                                files_to_sync.append(p)
-                            except ValueError:
-                                pass
+                        for token in shlex.split(line):
+                            token = token.strip()
+                            if not token:
+                                continue
+                            p = Path(token)
+                            if p.suffix == '.md' and p.exists():
+                                try:
+                                    p.relative_to(wiki_dir)
+                                    files_to_sync.append(p)
+                                except ValueError:
+                                    pass
                 else:
                     print(f"❌ Error: List file '{list_file_path}' not found.")
                     sys.exit(1)
