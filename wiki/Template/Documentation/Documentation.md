@@ -1,1 +1,1 @@
-{{/doc}}
+{{#invoke:Documentation|_template}}

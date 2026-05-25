@@ -1,20 +1,45 @@
-{{doc/start}}
-To use, create a sub-page from the template called '''doc''', put {{tl|doc/start}} at the start of your documentation, and {{tl|doc/end}} at the end.
+{{Documentation subpage}}
+:''Also see {{T|Documentation subpage}}''
+{{Lua|Documentation}}
+This template is used to insert descriptions on template pages. This Template also has tools for users to quickly drafts and documentation subpages, and provides automatic notices for the template's state (ex: protection levels). 
 
-Go back to your main template page and put &lt;noinclude&gt;{{tl|doc}}&lt;/noinclude&gt; on a newline after the end of the template. /doc pages will automatically be added to [[:Category:Documentation templates]].
+==Syntax==
+{{Ts|Doc}}
+:Type <code><nowiki><noinclude></nowiki><nowiki>{{documentation}}</nowiki><nowiki></noinclude></nowiki></code> at the end of the template page.
 
-== Optional parameters ==
-=== clear ===
-If your main template page has floating content and you would like to stop it going over the documentation, put {{tlx|doc/start|clear}} instead of {{tl|doc/start}} on your documentation page.<br>
-This is also useful for templates not using &lt;includeonly&gt;, as it will put some space between the template and the documentation box.
+Under '''special''' cases when the documentation for a template is not located at Template:pagename/doc (such as with Navbox, which is used in other templates and automatically inserts Template:Navbox/doc onto any template that uses a navbox), you can tell it to display a different page by giving it a parameter such as:
+:<code><nowiki><noinclude>{{Documentation|Template:Navbox/doc}}</noinclude></nowiki></code> at the end of the template page.
 
-=== nodoc=1 ===
-If a template has no documentation and you don't know how to use it, put {{tlx|doc/start|nodoc{{=}}1}} (or if the template needs clear as well, {{tlx|doc/start|clear|nodoc{{=}}1}}) instead of {{tl|doc/start}} on your documentation page.<br>
-The documentation's background will become red to make it more noticeable, and the page will be added to [[:Category:Templates with no documentation]].
+==General usage==
+===On the Template page===
+<pre>
+Template code
+<includeonly>Any categories to be inserted into articles by the template</includeonly>
+<noinclude>{{documentation}}</noinclude>
+</pre>
 
-=== baddoc=1 ===
-Similar to nodoc, this is used to mark templates that '''do''' have documentation, but it isn't very good. This can mean it doesn't have enough examples, doesn't explain all the functions properly, or doesn't explain the point of the template properly.<br>
-The documentation's background will become yellow to make it more noticeable, and the page will be added to [[:Category:Templates with bad documentation]].
+===On the Template/doc page===
+:'' Main Article: [[Project Seria Wiki:Style Manual/Template Documentation|Style Manual / Template Documentation]]''
+<pre>
+{{Documentation subpage}}
+What this template is meant to do
 
-If both nodoc and baddoc are specified, baddoc will be ignored.
-{{doc/end}}
+==Syntax==
+{{templatename
+|field1 = 
+|field2 = 
+}}
+
+==Example==
+&lt;pre>{{templatename|foo}}&lt;/pre>
+{{templatename|foo}}
+
+<includeonly>Any categories for the template itself</includeonly>
+</pre>
+
+Use any or all of the above description/syntax/sample output sections. You may also want to add "see also" or further usage information sections.
+
+== See Also ==
+{{FeatureSet/Documentations}}
+
+<includeonly>[[Category:General wiki templates]]</includeonly>
