@@ -463,6 +463,3 @@ function p.stringifyFrames( frames )
 end
 
 return p
-
--- forced sync
-
