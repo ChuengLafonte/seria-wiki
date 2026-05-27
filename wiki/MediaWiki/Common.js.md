@@ -70,7 +70,7 @@ mw.loader.using(["mediawiki.api", "mediawiki.util", "mediawiki.Uri"]).then(funct
             var serverlang = conf.wgContentLanguage;
             var langcode = match2 ? ("/" + match2[1]) : (match ? "" : serverlang === "en" ? "" : ("/" + serverlang));
             var page = "/" + (match2 ? match2[2] : match ? match[2] : v);
-            var url = "https://" + wiki + ".fandom.com" + langcode + page + "?action=raw&ctype=text/javascript&redirect=no";
+            var url = "https://" + wiki + ".fandom.com" + langcode + page + "?action=raw&ctype=text/javascript&redirect=no&cb=" + Date.now();
             $.ajax({
                 url: url,
                 dataType: "script",
