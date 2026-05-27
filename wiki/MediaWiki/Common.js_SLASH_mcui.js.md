@@ -16,7 +16,7 @@
 */
 /* global mw */
 
-mw.loader.using(["mediawiki.api", "mediawiki.util", "mediawiki.Uri"]).then(function () {
+mw.loader.using(["mediawiki.api", "mediawiki.util"]).then(function () {
     "use strict";
     if (window.mcuiLoaded)
         return;

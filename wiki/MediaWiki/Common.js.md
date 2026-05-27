@@ -41,7 +41,7 @@ function copyToClipboard(text) {
         }).prop("outerHTML"), "confirm", null, 2000).show();
 }
 
-mw.loader.using(["mediawiki.api", "mediawiki.util", "mediawiki.Uri"]).then(function () {
+mw.loader.using(["mediawiki.api", "mediawiki.util"]).then(function () {
     var api = new mw.Api();
     var conf = mw.config.get([
         "wgUserGroups",
