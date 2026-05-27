@@ -83,23 +83,10 @@ mw.loader.using(["mediawiki.api", "mediawiki.util"]).then(function () {
     // Please note that ES5 script imports are moved to MediaWiki:ImportJS
     // (for convenience to promptly disable any script at any time)
     // ES6 scripts needs to be imported here
-    importArticles({
-        type: "script",
-        articles: [
-            "MediaWiki:Common.js/minetip.js",
-            "MediaWiki:Common.js/mcui.js",
-            "MediaWiki:Gadget-PartialLoadTool.js"
-        ]
-    });
-    
-    setTimeout(function() {
-        if (!window.partialLoadTool) {
-            console.warn("[Fallback] PartialLoadTool not loaded via importArticles, forcing manual load...");
-            var script = document.createElement("script");
-            script.src = "/load.php?mode=articles&only=scripts&articles=MediaWiki:Gadget-PartialLoadTool.js";
-            document.head.appendChild(script);
-        }
-    }, 2000);
+    // Load UI scripts natively via mw.loader
+    mw.loader.load('/load.php?mode=articles&only=scripts&articles=MediaWiki:Common.js/minetip.js');
+    mw.loader.load('/load.php?mode=articles&only=scripts&articles=MediaWiki:Common.js/mcui.js');
+    mw.loader.load('/load.php?mode=articles&only=scripts&articles=MediaWiki:Gadget-PartialLoadTool.js');
 
 
     //##############################################################
