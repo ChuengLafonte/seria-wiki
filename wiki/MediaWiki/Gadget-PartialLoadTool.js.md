@@ -262,12 +262,7 @@
                     // prevents adding more TOC icons
                     $("#toc .toctitle .wds-icon:not(\":first-child\")").remove();
                 });
-                importArticles({
-                    type: "style",
-                    articles: [
-                        "MediaWiki:Gadget-PartialLoadTool.css",
-                    ],
-                });
+                // CSS moved to Common.css
                 that.main();
             },
         });
