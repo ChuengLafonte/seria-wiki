@@ -24,30 +24,15 @@
     window.partialLoadTool = window.partialLoadTool || {};
     window.partialLoadTool.Loaded = true;
 
-    $.when(
-        mw.loader.using(["mediawiki.util", "mediawiki.api"]),
-        $.Deferred(function (def) {
-            if (mw.libs.QDmodal) {
-                def.resolve(mw.libs.QDmodal);
-            } else {
-                $.ajax({
-                    cache: true,
-                    dataType: "script",
-                    url: "https://dev.fandom.com/load.php?mode=articles&only=scripts&articles=MediaWiki:QDmodal.js"
-                }).done(function () {
-                    def.resolve(mw.libs.QDmodal);
-                });
-            }
-        })
-    ).then(function () {
+    mw.loader.using(["mediawiki.util", "mediawiki.api"]).then(function () {
         var that;
         var private_cache = {};
-        var partialLoadTool = window.partialLoadTool = Object.assign(this, {
+        var partialLoadTool = window.partialLoadTool = Object.assign(window.partialLoadTool, {
             api: new mw.Api(),
             getSpinner: function () {
                 return $("<div>", {
                     class: "partialLoad-spinner",
-                    html: mw.libs.QDmodal.getSpinner(),
+                    html: '<div class="wds-spinner wds-spinner__block"><svg class="wds-spinner__stroke" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="14" fill="none" stroke-width="2" stroke-dasharray="87.9645943005142" stroke-dashoffset="74.76990515543707"></circle></svg></div>',
                 });
             },
             getFullPageName: function (page) {
@@ -288,6 +273,6 @@
         });
 
         that = partialLoadTool;
-        this.init();
+        partialLoadTool.init();
     });
 }());
