@@ -42,7 +42,7 @@
     ).then(function () {
         var that;
         var private_cache = {};
-        var partialLoadTool = window.partialLoadTool = Object.assign(this, {
+        var partialLoadTool = window.partialLoadTool = Object.assign(window.partialLoadTool, {
             api: new mw.Api(),
             getSpinner: function () {
                 return $("<div>", {
@@ -282,6 +282,6 @@
         });
 
         that = partialLoadTool;
-        this.init();
+        partialLoadTool.init();
     });
 }());
