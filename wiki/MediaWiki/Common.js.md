@@ -83,13 +83,10 @@ mw.loader.using(["mediawiki.api", "mediawiki.util"]).then(function () {
     // Please note that ES5 script imports are moved to MediaWiki:ImportJS
     // (for convenience to promptly disable any script at any time)
     // ES6 scripts needs to be imported here
-    importArticles({
-        type: "script",
-        articles: [
-            "MediaWiki:Common.js/minetip.js",
-            "MediaWiki:Common.js/mcui.js"
-        ]
-    });
+    importScripts([
+        "MediaWiki:Common.js/minetip.js",
+        "MediaWiki:Common.js/mcui.js"
+    ]);
 
 
     //##############################################################
