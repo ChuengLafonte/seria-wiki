@@ -1,3 +1,3 @@
-MediaWiki:Common.js/minetip.js
-MediaWiki:Common.js/mcui.js
-MediaWiki:Gadget-PartialLoadTool.js
+Common.js/minetip-v4.js
+Common.js/mcui-v4.js
+Gadget-PartialLoadTool.js
