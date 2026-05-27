@@ -1,59 +1,25 @@
-{{UI|Mining Collections
+﻿{{UI|Mining Collections
 |id=collection-mining
 
-|1,5 = Stone Pickaxe, none;none, &aMining Collections, &7View your Mining Collections!//&7Collections Unlocked: &e0&6%/&f-------------------- &e0&6\/&e25
+|1,5 = Stone Pickaxe, none;none, &aMining Collections, &7View your Mining Collections!//&7Collections Unlocked: &e0&6%/&f-------------------- &e0&6\/&e9
 
-|2,2 = Coal, none;Coal/Collection UI, &eCoal, &7View all your Coal Collection/&7progress and rewards!// &7Progress to Coal I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Coal I Reward:/　&9Coal Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|2,3 = Coal, none;Coal/Collection UI, &eCoal, &7View all your Coal Collection/&7progress and rewards!// &7Progress to Coal I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Coal I Reward:/　&fTorch &7Recipe/　&7&8+&b4 EXP//&eClick to view!
 
-|2,3 = Cobblestone, none;Cobblestone/Collection UI, &eCobblestone, &7View all your Cobblestone Collection/&7progress and rewards!// &7Progress to Cobblestone I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Cobblestone I Reward:/　&9Cobblestone Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|2,4 = Cobblestone, none;Cobblestone/Collection UI, &eCobblestone, &7View all your Cobblestone Collection/&7progress and rewards!// &7Progress to Cobblestone I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Cobblestone I Reward:/　&fStone Pickaxe &7Recipe/　&7&8+&b4 EXP//&eClick to view!
 
-|2,4 = Diamond, none;Diamond/Collection UI, &eDiamond, &7View all your Diamond Collection/&7progress and rewards!// &7Progress to Diamond I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Diamond I Reward:/　&9Diamond Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|2,5 = Copper Ingot, none;Copper/Collection UI, &eCopper, &7View all your Copper Collection/&7progress and rewards!// &7Progress to Copper I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Copper I Reward:/　&eCrossbow &7Recipe/　&7&8+&b4 EXP//&eClick to view!
 
-|2,5 = Emerald, none;Emerald/Collection UI, &eEmerald, &7View all your Emerald Collection/&7progress and rewards!// &7Progress to Emerald I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Emerald I Reward:/　&9Emerald Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|2,6 = Iron Ingot, none;Iron/Collection UI, &eIron, &7View all your Iron Collection/&7progress and rewards!// &7Progress to Iron I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Iron I Reward:/　&fIron Sword &7Recipe/　&7&8+&b4 EXP//&eClick to view!
 
-|2,6 = End Stone, none;End Stone/Collection UI, &eEnd Stone, &7View all your End Stone Collection/&7progress and rewards!// &7Progress to End Stone I: &e0&6%/&f-------------------- &e0&6\/&e50//&7End Stone I Reward:/　&9End Stone Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|2,7 = Gold Ingot, none;Gold/Collection UI, &eGold, &7View all your Gold Collection/&7progress and rewards!// &7Progress to Gold I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Gold I Reward:/　&6Gold Sword &7Recipe/　&7&8+&b4 EXP//&eClick to view!
 
-|2,7 = Gemstone, none;Gemstone/Collection UI, &eGemstone, &7View all your Gemstone Collection/&7progress and rewards!// &7Progress to Gemstone I: &e0&6%/&f-------------------- &e0&6\/&e100//&7Gemstone I Reward:/　&9Small Gemstone Sack &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view!
+|3,3 = Lapis Lazuli, none;Lapis Lazuli/Collection UI, &eLapis Lazuli, &7View all your Lapis Lazuli Collection/&7progress and rewards!// &7Progress to Lapis Lazuli I: &e0&6%/&f-------------------- &e0&6\/&e250//&7Lapis Lazuli I Reward:/　&9Enchanted Book &7Recipe/　&7&8+&b4 EXP//&eClick to view!
 
-|2,8=Glacite , none;Glacite/Collection UI, &eGlacite, &7View all your Glacite Collection/&7progress and rewards!//&7Progress to Glacite I: &e0&6%/&f-------------------- &e0&6\/&e1k//&7Glacite I Reward:/　&7Chilled Torch &8(&4COMING SOON&8)/　&7&8+&b4 SkyBlock XP//&eClick to view!
+|3,4 = Emerald, none;Emerald/Collection UI, &eEmerald, &7View all your Emerald Collection/&7progress and rewards!// &7Progress to Emerald I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Emerald I Reward:/　&aEmerald Armor &7Recipe/　&7&8+&b4 EXP//&eClick to view!
 
-|3,2 = Glowstone Dust, none;Glowstone Dust/Collection UI, &eGlowstone Dust, &7View all your Glowstone Dust Collection/&7progress and rewards!// &7Progress to Glowstone Dust I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Glowstone Dust I Reward:/　&9Glowstone Dust Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
+|3,5 = Redstone, none;Redstone/Collection UI, &eRedstone, &7View all your Redstone Collection/&7progress and rewards!// &7Progress to Redstone I: &e0&6%/&f-------------------- &e0&6\/&e100//&7Redstone I Reward:/　&fRedstone Lamp &7Recipe/　&7&8+&b4 EXP//&eClick to view!
 
-|3,3 = Gold Ingot, none;Gold Ingot/Collection UI, &eGold Ingot, &7View all your Gold Ingot Collection/&7progress and rewards!// &7Progress to Gold Ingot I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Gold Ingot I Reward:/　&9Gold Ingot Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|3,4 = Gravel, none;Gravel/Collection UI, &eGravel, &7View all your Gravel Collection/&7progress and rewards!// &7Progress to Gravel I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Gravel I Reward:/　&9Gravel Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|3,5 = Hard Stone, none;Hard Stone/Collection UI, &eHard Stone, &7View all your Hard Stone Collection/&7progress and rewards!// &7Progress to Hard Stone I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Hard Stone I Reward:/　&9Hard Stone Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|3,6 = Ice, none;Ice/Collection UI, &eIce, &7View all your Ice Collection/&7progress and rewards!// &7Progress to Ice I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Ice I Reward:/　&9Ice Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|3,7 = Iron Ingot, none;Iron Ingot/Collection UI, &eIron Ingot, &7View all your Iron Ingot Collection/&7progress and rewards!// &7Progress to Iron Ingot I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Iron Ingot I Reward:/　&9Iron Ingot Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|3,8 = Lapis Lazuli, none;Lapis Lazuli/Collection UI, &eLapis Lazuli, &7View all your Lapis Lazuli Collection/&7progress and rewards!// &7Progress to Lapis Lazuli I: &e0&6%/&f-------------------- &e0&6\/&e250//&7Lapis Lazuli I Reward:/　&9Lapis Lazuli Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|4,2 = Mithril, none;Mithril/Collection UI, &eMithril, &7View all your Mithril Collection/&7progress and rewards!// &7Progress to Mithril I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Mithril I Reward:/　&9Mithril Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|4,3 = Mycelium, none;Mycelium/Collection UI, &eMycelium, &7View all your Mycelium Collection/&7progress and rewards!// &7Progress to Mycelium I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Mycelium I Reward:/　&9Mycelium Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|4,4 = Quartz, none;Nether_Quartz/Collection UI, &eNether Quartz, &7View all your Nether Quartz Collection/&7progress and rewards!// &7Progress to Nether Quartz I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Quartz I Reward:/　&9Quartz Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|4,5 = Netherrack, none;Netherrack/Collection UI, &eNetherrack, &7View all your Netherrack Collection/&7progress and rewards!// &7Progress to Netherrack I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Netherrack I Reward:/　&fNether Wart Island &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|4,6 = Obsidian, none;Obsidian/Collection UI, &eObsidian, &7View all your Obsidian Collection/&7progress and rewards!// &7Progress to Obsidian I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Obsidian I Reward:/　&9Obsidian Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|4,7 = Red Sand, none;Red Sand/Collection UI, &eRed Sand, &7View all your Red Sand Collection/&7progress and rewards!// &7Progress to Red Sand I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Red Sand I Reward:/　&9Red Sand Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|4,8 = Redstone, none;Redstone/Collection UI, &eRedstone, &7View all your Redstone Collection/&7progress and rewards!// &7Progress to Redstone I: &e0&6%/&f-------------------- &e0&6\/&e100//&7Redstone I Reward:/　&9Redstone Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|5,2 = Sand, none;Sand/Collection UI, &eSand, &7View all your Sand Collection/&7progress and rewards!// &7Progress to Sand I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Sand I Reward:/　&9Sand Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|5,3 = Sulphur, none;Sulphur/Collection UI, &eSulphur, &7View all your Sulphur Collection/&7progress and rewards!// &7Progress to Sulphur I: &e0&6%/&f-------------------- &e0&6\/&e200//&7Sulphur I Reward:/　&9Sulphur Minion &7Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|5,4 = Tungsten, none;Tungsten/Collection UI, &eTungsten, &7View all your Tungsten Collection/&7progress and rewards!// &7Progress to Tungsten I: &e0&6%/&f-------------------- &e0&6\/&e1k//&7 Tungsten I Reward:/　&fChisel &7Dwarven Forge Recipe/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|5,5 = Umber, none;Umber/Collection UI, &eUmber, &7View all your Umber Collection/&7progress and rewards!// &7Progress to Umber I: &e0&6%/&f-------------------- &e0&6\/&e1k//&7Umber I Reward:/　&7Umber Dice &8(&4COMING SOON&8)/　&7&8+&b4 SkyBlock XP//&eClick to view! 
-
-|row5 = ;6, 8
+|3,6 = Diamond, none;Diamond/Collection UI, &eDiamond, &7View all your Diamond Collection/&7progress and rewards!// &7Progress to Diamond I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Diamond I Reward:/　&bDiamond Armor &7Recipe/　&7&8+&b4 EXP//&eClick to view!
 
 |goback = To Collections
 |return_id = collection-default
