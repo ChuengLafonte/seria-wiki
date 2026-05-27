@@ -25,20 +25,7 @@
     window.partialLoadTool.Loaded = true;
 
     $.when(
-        mw.loader.using(["mediawiki.util", "mediawiki.api"]),
-        $.Deferred(function (def) {
-            if (mw.libs.QDmodal) {
-                def.resolve(mw.libs.QDmodal);
-            } else {
-                $.ajax({
-                    cache: true,
-                    dataType: "script",
-                    url: "https://dev.fandom.com/load.php?mode=articles&only=scripts&articles=MediaWiki:QDmodal.js"
-                }).done(function () {
-                    def.resolve(mw.libs.QDmodal);
-                });
-            }
-        })
+        mw.loader.using(["mediawiki.util", "mediawiki.api"])
     ).then(function () {
         var that;
         var private_cache = {};
@@ -47,7 +34,7 @@
             getSpinner: function () {
                 return $("<div>", {
                     class: "partialLoad-spinner",
-                    html: mw.libs.QDmodal.getSpinner(),
+                    html: "Loading...",
                 });
             },
             getFullPageName: function (page) {
