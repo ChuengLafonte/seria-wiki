@@ -83,15 +83,7 @@ mw.loader.using(["mediawiki.api", "mediawiki.util", "mediawiki.Uri"]).then(funct
     // Please note that ES5 script imports are moved to MediaWiki:ImportJS
     // (for convenience to promptly disable any script at any time)
     // ES6 scripts needs to be imported here
-    // Use mw.loader.getScript for reliable loading in FandomDesktop/UCP
-    var wikiScriptBase = mw.util.wikiScript('index');
-    [
-        "Common.js/minetip.js",
-        "Common.js/mcui.js",
-        "Gadget-PartialLoadTool.js"
-    ].forEach(function(article) {
-        mw.loader.getScript(wikiScriptBase + '?title=MediaWiki:' + encodeURIComponent(article) + '&action=raw&ctype=text/javascript');
-    });
+
 
     //##############################################################
     /* ==Small scripts== (W00)*/
