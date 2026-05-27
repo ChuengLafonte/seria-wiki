@@ -16,9 +16,14 @@ $(function () {
     var useSlashEscape = true;
 
     window.minetipConfig = window.minetipConfig || {};
-    if (window.minetipLoaded)
+    if (window.minetipLoadedV2)
         return;
-    window.minetipLoaded = true;
+    window.minetipLoadedV2 = true;
+
+    // Unbind any old cached minetip events before binding new ones
+    $(document.body).off("mouseenter mousemove mouseleave", ".invslot .invslot-item, .minetip");
+    $(document.body).off("mousedown", ".invslot .invslot-item");
+
     (window.updateTooltips = (function () {
         var escapeChars = {
             "\\&": "&#38;",

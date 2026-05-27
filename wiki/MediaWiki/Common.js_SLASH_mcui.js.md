@@ -18,9 +18,13 @@
 
 mw.loader.using(["mediawiki.api", "mediawiki.util"]).then(function () {
     "use strict";
-    if (window.mcuiLoaded)
+    if (window.mcuiLoadedV2)
         return;
-    window.mcuiLoaded = true;
+    window.mcuiLoadedV2 = true;
+
+    // Unbind any old cached events before binding new ones
+    $(document.body).off("click", ".sbw-ui-tabber .sbw-ui-tab");
+    $(document.body).off("click", ".sbw-ui-tabber .invslot[class*='goto-'] a");
     //##############################################################
     /* ==UI Tabber== (A00)*/
     // Code to allow making {{Slot}} clickable to show different content [Part 1/2]
