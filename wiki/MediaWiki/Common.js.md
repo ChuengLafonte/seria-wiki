@@ -86,10 +86,10 @@ mw.loader.using(["mediawiki.api", "mediawiki.util", "mediawiki.Uri"]).then(funct
     importArticles({
         type: "script",
         articles: [
-            "MediaWiki:Common.js/search.js",
-            "MediaWiki:Common.js/minetip.js",
-            "MediaWiki:Common.js/mcui.js",
-            "MediaWiki:Gadget-PartialLoadTool.js"
+            "Common.js/search.js",
+            "Common.js/minetip.js",
+            "Common.js/mcui.js",
+            "Gadget-PartialLoadTool.js"
         ]
     });
 

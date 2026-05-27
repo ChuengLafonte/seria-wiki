@@ -265,7 +265,7 @@
                 importArticles({
                     type: "style",
                     articles: [
-                        "MediaWiki:Gadget-PartialLoadTool.css",
+                        "Gadget-PartialLoadTool.css",
                     ],
                 });
                 that.main();
