@@ -195,6 +195,8 @@ function writePage(title, content, category, isTemplate, namespaceName) {
     
     // Replace colons and slashes
     safeTitle = safeTitle.replace(/:/g, '_COLON_').replace(/\//g, '_SLASH_');
+    // Escape other invalid Windows characters uniquely
+    safeTitle = safeTitle.replace(/\*/g, '_ASTERISK_');
     // Replace invalid windows characters
     safeTitle = safeTitle.replace(/[<>:"\\|?*]/g, '_');
     
