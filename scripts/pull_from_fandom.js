@@ -1,18 +1,34 @@
 const fs = require('fs');
 const path = require('path');
+const https = require('https');
 
 const WIKI_URL = 'https://seria.fandom.com/api.php';
 const WIKI_DIR = path.join(__dirname, '..', 'wiki');
 
-async function fetchAPI(params) {
-    const url = new URL(WIKI_URL);
-    url.search = new URLSearchParams({
-        ...params,
-        format: 'json',
-        formatversion: 2
+function fetchAPI(params) {
+    return new Promise((resolve, reject) => {
+        const url = new URL(WIKI_URL);
+        const allParams = {
+            ...params,
+            format: 'json',
+            formatversion: 2
+        };
+        for (const key in allParams) {
+            url.searchParams.append(key, allParams[key]);
+        }
+
+        https.get(url.toString(), (res) => {
+            let data = '';
+            res.on('data', (chunk) => { data += chunk; });
+            res.on('end', () => {
+                try {
+                    resolve(JSON.parse(data));
+                } catch (e) {
+                    reject(e);
+                }
+            });
+        }).on('error', reject);
     });
-    const response = await fetch(url.toString());
-    return await response.json();
 }
 
 async function getAllPages(namespace) {
@@ -119,12 +135,8 @@ function categorizeMain(graph) {
         'MMORPG': ['Bosses & Dungeons', 'Common Weapon Manuscript', 'NPC', 'RPG Crate', 'Aurelium Skill', 'Quest'],
         'Caveblock': ['Cave Block', 'Caveblock', 'Collections', 'Minions', 'Features', 'SeriaCollection', 'SeriaCrafting', 'The Farm'],
         'Survival': ['Survival', 'SURVIVAL'],
-        'Skyforge': ['Skyforge'] // Assuming Skyforge exists or will be linked
+        'Skyforge': ['Skyforge']
     };
-    
-    // Reverse adjacency list to see what links to what (parent to child)
-    // Actually, root pages link to their children. 
-    // E.g. 'Caveblock' links to 'Collections'. So linksTo['Caveblock'] contains 'Collections'.
     
     // Initialize BFS queue
     const queue = [];
@@ -160,20 +172,29 @@ function categorizeMain(graph) {
     return assignments;
 }
 
-function writePage(title, content, category, isTemplate) {
+function writePage(title, content, category, isTemplate, namespaceName) {
     let safeTitle = title;
-    
     let folder;
+    
     if (isTemplate) {
         let subFolder = category;
         folder = path.join(WIKI_DIR, 'Template', subFolder);
-        safeTitle = safeTitle.replace(/^Template:/, '');
+        safeTitle = safeTitle.replace(/^Template:/i, '');
+    } else if (namespaceName === 'Module') {
+        folder = path.join(WIKI_DIR, 'Module');
+        safeTitle = safeTitle.replace(/^Module:/i, '');
+    } else if (namespaceName === 'MediaWiki') {
+        folder = path.join(WIKI_DIR, 'MediaWiki');
+        safeTitle = safeTitle.replace(/^MediaWiki:/i, '');
+    } else if (namespaceName === 'Project') {
+        folder = path.join(WIKI_DIR, 'Project');
+        safeTitle = safeTitle.replace(/^(Project Seria Wiki|Project):/i, '');
     } else {
         folder = path.join(WIKI_DIR, category);
     }
     
-    // Replace slashes with _SLASH_
-    safeTitle = safeTitle.replace(/\//g, '_SLASH_');
+    // Replace colons and slashes
+    safeTitle = safeTitle.replace(/:/g, '_COLON_').replace(/\//g, '_SLASH_');
     // Replace invalid windows characters
     safeTitle = safeTitle.replace(/[<>:"\\|?*]/g, '_');
     
@@ -182,7 +203,7 @@ function writePage(title, content, category, isTemplate) {
     }
     
     const filePath = path.join(folder, safeTitle + '.md');
-    fs.writeFileSync(filePath, content, 'utf8');
+    fs.writeFileSync(filePath, content || '', 'utf8');
 }
 
 async function run() {
@@ -190,8 +211,14 @@ async function run() {
     const mainPages = await getAllPages(0);
     console.log("Fetching Template pages...");
     const templatePages = await getAllPages(10);
+    console.log("Fetching Project pages...");
+    const projectPages = await getAllPages(4);
+    console.log("Fetching MediaWiki pages...");
+    const mediawikiPages = await getAllPages(8);
+    console.log("Fetching Module pages...");
+    const modulePages = await getAllPages(828);
     
-    console.log(`Found ${mainPages.length} Main pages and ${templatePages.length} Template pages.`);
+    console.log(`Found ${mainPages.length} Main pages, ${templatePages.length} Template pages, ${projectPages.length} Project pages, ${mediawikiPages.length} MediaWiki pages, and ${modulePages.length} Module pages.`);
     
     // Categorize Templates
     const templateAssignments = categorizeTemplates(templatePages);
@@ -206,24 +233,37 @@ async function run() {
         seriaCollection.revisions[0].content = '#REDIRECT [[Collections]]';
     }
     
-    console.log("Writing files...");
-    
-    // Wipe existing wiki folder to start fresh? 
-    // We will just overwrite. Note that old files might linger if their names changed.
-    // So we'll recursively delete wiki and recreate it.
+    console.log("Wiping and recreating wiki directory...");
     if (fs.existsSync(WIKI_DIR)) {
         fs.rmSync(WIKI_DIR, { recursive: true, force: true });
     }
     fs.mkdirSync(WIKI_DIR);
     
+    console.log("Writing files...");
+    
     for (const page of mainPages) {
         const text = page.revisions && page.revisions[0] && page.revisions[0].content ? page.revisions[0].content : '';
-        writePage(page.title, text, mainAssignments[page.title], false);
+        writePage(page.title, text, mainAssignments[page.title], false, 'Main');
     }
     
     for (const page of templatePages) {
         const text = page.revisions && page.revisions[0] && page.revisions[0].content ? page.revisions[0].content : '';
-        writePage(page.title, text, templateAssignments[page.title], true);
+        writePage(page.title, text, templateAssignments[page.title], true, 'Template');
+    }
+    
+    for (const page of projectPages) {
+        const text = page.revisions && page.revisions[0] && page.revisions[0].content ? page.revisions[0].content : '';
+        writePage(page.title, text, null, false, 'Project');
+    }
+    
+    for (const page of mediawikiPages) {
+        const text = page.revisions && page.revisions[0] && page.revisions[0].content ? page.revisions[0].content : '';
+        writePage(page.title, text, null, false, 'MediaWiki');
+    }
+    
+    for (const page of modulePages) {
+        const text = page.revisions && page.revisions[0] && page.revisions[0].content ? page.revisions[0].content : '';
+        writePage(page.title, text, null, false, 'Module');
     }
     
     console.log("Done!");

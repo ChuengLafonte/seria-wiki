@@ -1,10 +1,10 @@
 <includeonly><tr><th colspan="3">{{
     #switch: {{lc:{{{1}}}}}
-      | ahn = [[Alpha Project Seria Caveblock Network]]
+      | ahn = [[Alpha Hypixel Network]]
       | beta
-      | prototype = [[Project Seria Caveblock Prototype]]
+      | prototype = [[SkyBlock Prototype]]
       | unknown = Unknown
       | release
-      | Project Seria Caveblock
-      | #default = Project Seria Caveblock
+      | skyblock
+      | #default = SkyBlock
       }}</th></tr></includeonly><noinclude>{{Documentation|History}}</noinclude>

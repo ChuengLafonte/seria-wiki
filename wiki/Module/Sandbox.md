@@ -1,0 +1,5 @@
+-----------------------------------------------------------------------
+-- NOTICE
+-- This is a test module. You may use it to test Lua code.
+-- Please restore it to have just this notice when you are finished.
+-----------------------------------------------------------------------

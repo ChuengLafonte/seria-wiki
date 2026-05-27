@@ -1,0 +1,1 @@
+<includeonly>{{#invoke:RightBox|shortcut}}</includeonly><noinclude>{{Documentation}}</noinclude>

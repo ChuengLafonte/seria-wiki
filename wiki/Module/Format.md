@@ -174,4 +174,3 @@ function p._makeMainSpan(bgcolor, fontsize, shadow, font, smallcaps, hovertext, 
 end
  
 return p
-

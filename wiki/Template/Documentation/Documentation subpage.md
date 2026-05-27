@@ -23,6 +23,4 @@
 -->
      | <!--(this template has not been transcluded on a /doc or /{{{override}}} page)-->
 }}<!--
---></includeonly><noinclude>{{Documentation}}
-[[Category:Templates]]</noinclude>
-
+--></includeonly><noinclude>{{Documentation}}</noinclude>

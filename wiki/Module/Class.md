@@ -1605,4 +1605,3 @@ end
 return setmetatable(p, {
 	__call = function(_, ...) return p.makeClass(...) end,
 })
-

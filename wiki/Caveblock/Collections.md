@@ -8,7 +8,7 @@ Terdapat berbagai jenis '''Collections''', yang dibagi ke dalam beberapa sub-bag
 
 Pemain dapat melihat progres '''Collections''' mereka melalui {{CodeTag|[[File:Caveblock Menu.png|20px|link=Caveblock Menu]] [[Caveblock Menu|{{G|Caveblock Menu}}]] → [[File:Painting.png|20px|link=]] {{G|Collection}}}}. Mencapai pencapaian tertentu akan membuka '''Tier''' (Tingkatan) baru.
 
-== Antarmuka (Interface) ==
+== Interface ==
 {{TabView|-|Collections/UI|forceTabber=true|noTabs=true}}
 
 == Daftar Koleksi ==

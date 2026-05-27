@@ -1,3 +1,4 @@
+--<pre>
 local p = {}
 
 local loader = require('Module:Loader')

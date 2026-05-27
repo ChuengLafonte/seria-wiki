@@ -17,7 +17,7 @@ Gunakan wiki ini sebagai panduan lengkap untuk menjelajahi semua fitur yang ada 
 
 === 🧪 Progression ===
 * [[Skill]]
-* [[SeriaCollection|Seria Collection]]
+* [[SeriaCollection|Collection]]
 * [[Custom Progression]]
 * [[Quest]]
 

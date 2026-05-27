@@ -1,0 +1,1 @@
+The official Seria Wiki is a complete resource for Seria, the Survival-MMORPG Minecraft Server in Indonesia. Include crafting material, mob loot, bosses, and gameplay. Seria was borned in 2024, previously known as Archilumi.

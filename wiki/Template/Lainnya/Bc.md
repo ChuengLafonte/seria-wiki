@@ -1,0 +1,1 @@
+#Redirect [[Template:Blank cell]]

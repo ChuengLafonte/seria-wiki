@@ -1,4 +1,4 @@
-{{Documentation subpage}}
+﻿{{Documentation subpage}}
 {{Lua|UI}}
 
 {{T|UI}} is a template used to create a generic UI.

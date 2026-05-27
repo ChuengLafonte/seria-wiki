@@ -1,3 +1,4 @@
+
 This module implements {{T|Documentation}} and {{T|LuaDocumentation}}. It is best to see those pages, as they are mainly used there. It also has methods so it can be used in regular modules. It provides automatic template notices based off of the template's state (ex: protection levels).
 {{dm|Arguments|Yesno|String|Table|Documentation/Config}}
 {{Tc}}

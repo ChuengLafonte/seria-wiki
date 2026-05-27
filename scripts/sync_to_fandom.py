@@ -6,6 +6,13 @@ import sys
 import subprocess
 import shlex
 
+# Force stdout/stderr to use UTF-8 to prevent encoding crashes on Windows console (e.g. printing stars ★)
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8')
+
+
 # ── Rate limit config ─────────────────────────────────────────────────────────
 DELAY_BETWEEN = 3   # seconds between each successful save
 RETRY_WAIT    = 60  # seconds to wait after a ratelimited response
@@ -169,7 +176,7 @@ def sync_wiki():
         # Determine namespace from the first folder level
         parts = relative_path.parts
         namespace = ""
-        valid_namespaces = ['Template', 'Category', 'Help', 'Project', 'Module']
+        valid_namespaces = ['Template', 'Category', 'Help', 'Project', 'Module', 'MediaWiki']
         if len(parts) > 1 and parts[0] in valid_namespaces:
             namespace = f"{parts[0]}:"
             
