@@ -82,11 +82,11 @@ mw.loader.using(["mediawiki.api", "mediawiki.util"]).then(function () {
     };
     // Please note that ES5 script imports are moved to MediaWiki:ImportJS
     // (for convenience to promptly disable any script at any time)
-    // ES6 scripts needs to be imported here
-    importScripts([
-        "MediaWiki:Common.js/minetip.js",
-        "MediaWiki:Common.js/mcui.js"
-    ]);
+    // Load UI scripts using $.getScript to bypass CDN cache
+    var scriptPath = mw.config.get("wgScript");
+    var cb = Date.now();
+    $.getScript(scriptPath + "?title=MediaWiki:Common.js/minetip.js&action=raw&ctype=text/javascript&cb=" + cb);
+    $.getScript(scriptPath + "?title=MediaWiki:Common.js/mcui.js&action=raw&ctype=text/javascript&cb=" + cb);
 
 
     //##############################################################
