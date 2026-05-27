@@ -83,12 +83,15 @@ mw.loader.using(["mediawiki.api", "mediawiki.util", "mediawiki.Uri"]).then(funct
     // Please note that ES5 script imports are moved to MediaWiki:ImportJS
     // (for convenience to promptly disable any script at any time)
     // ES6 scripts needs to be imported here
-    window.importScripts([
-        "MediaWiki:Common.js/search.js",
-        "MediaWiki:Common.js/minetip.js",
-        "MediaWiki:Common.js/mcui.js",
-        "MediaWiki:Gadget-PartialLoadTool.js"
-    ]);
+    importArticles({
+        type: "script",
+        articles: [
+            "MediaWiki:Common.js/search.js",
+            "MediaWiki:Common.js/minetip.js",
+            "MediaWiki:Common.js/mcui.js",
+            "MediaWiki:Gadget-PartialLoadTool.js"
+        ]
+    });
 
     //##############################################################
     /* ==Small scripts== (W00)*/
