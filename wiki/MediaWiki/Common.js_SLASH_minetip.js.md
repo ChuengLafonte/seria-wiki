@@ -11,6 +11,7 @@
 
 $(function () {
     "use strict";
+    console.log("Minetip JS successfully loaded and executed!");
     /* Wiki config */
     var useSlashEscape = true;
 
