@@ -262,12 +262,16 @@
                     // prevents adding more TOC icons
                     $("#toc .toctitle .wds-icon:not(\":first-child\")").remove();
                 });
-                importArticles({
-                    type: "style",
-                    articles: [
-                        "Gadget-PartialLoadTool.css",
-                    ],
-                });
+                // Load CSS via mw.util.addCSS or mw loader
+                mw.loader.load(mw.util.wikiScript('index') + '?title=MediaWiki:Gadget-PartialLoadTool.css&action=raw&ctype=text/css', 'text/css');
+                if (typeof importArticles === 'function') {
+                    importArticles({
+                        type: "style",
+                        articles: [
+                            "Gadget-PartialLoadTool.css",
+                        ],
+                    });
+                }
                 that.main();
             },
         });
