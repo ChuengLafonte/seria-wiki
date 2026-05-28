@@ -82,13 +82,7 @@ mw.loader.using(["mediawiki.api", "mediawiki.util"]).then(function () {
     };
     // Please note that ES5 script imports are moved to MediaWiki:ImportJS
     // (for convenience to promptly disable any script at any time)
-    // Load UI scripts using native mw.loader.load to bypass CDN cache and comply with CSP
-    var scriptPath = mw.config.get("wgScript");
-    var cb = Date.now();
-    ["minetip.js", "mcui.js"].forEach(function(js) {
-        var url = scriptPath + "?title=MediaWiki:Common.js/" + js + "&action=raw&ctype=text/javascript&cb=" + cb;
-        mw.loader.load(url);
-    });
+    // Load UI scripts via MediaWiki:ImportJS to ensure 100% native Fandom execution without CSP issues
 
 
     //##############################################################
