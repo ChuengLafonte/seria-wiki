@@ -7,6 +7,7 @@ return {
 	['Snow'] = 'Snow Block',
 	['Enchanted Snow'] = 'Enchanted Snow Block',
 	-- Others
+	['Go Back'] = 'Arrow',
 	['Redstone Dust'] = 'Redstone',
 	['Jack o\'Lantern'] = 'Jack o\' Lantern',
 	['Enchanted Iron Ingot'] = 'Enchanted Iron',
