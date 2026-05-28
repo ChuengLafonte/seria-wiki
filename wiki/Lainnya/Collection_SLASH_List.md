@@ -5,7 +5,9 @@
 
 Halaman ini berisi daftar seluruh [[Collection|Koleksi]] yang tersedia di dalam gim beserta tingkatan (*tier*) dan hadiah yang didapatkan dari setiap pencapaian.
 
-== Farming ==
+<tabber>
+|-|Farming=
+<div class="dual-table-grid">
 {{CollectionPageRow|name=Wheat|desc=Diperoleh dengan memanen gandum.}}
 {{CollectionPageRow|name=Carrot|desc=Diperoleh dengan memanen wortel.}}
 {{CollectionPageRow|name=Potato|desc=Diperoleh dengan memanen kentang.}}
@@ -23,8 +25,9 @@ Halaman ini berisi daftar seluruh [[Collection|Koleksi]] yang tersedia di dalam 
 {{CollectionPageRow|name=Raw Mutton|desc=Diperoleh dari domba.}}
 {{CollectionPageRow|name=Raw Rabbit|desc=Diperoleh dari kelinci.}}
 {{CollectionPageRow|name=Nether Wart|desc=Diperoleh dengan memanen Nether Wart.}}
-
-== Mining ==
+</div>
+|-|Mining=
+<div class="dual-table-grid">
 {{CollectionPageRow|name=Cobblestone|desc=Diperoleh dengan menambang Cobblestone.}}
 {{CollectionPageRow|name=Coal|desc=Diperoleh dengan menambang Coal Ore.}}
 {{CollectionPageRow|name=Iron Ingot|desc=Diperoleh dengan menambang Iron Ore.}}
@@ -47,8 +50,9 @@ Halaman ini berisi daftar seluruh [[Collection|Koleksi]] yang tersedia di dalam 
 {{CollectionPageRow|name=Glacite|desc=Diperoleh dengan menambang Glacite.}}
 {{CollectionPageRow|name=Umber|desc=Diperoleh dengan menambang Umber.}}
 {{CollectionPageRow|name=Tungsten|desc=Diperoleh dengan menambang Tungsten.}}
-
-== Combat ==
+</div>
+|-|Combat=
+<div class="dual-table-grid">
 {{CollectionPageRow|name=Rotten Flesh|desc=Diperoleh dengan membunuh Zombie.}}
 {{CollectionPageRow|name=Bone|desc=Diperoleh dengan membunuh Skeleton.}}
 {{CollectionPageRow|name=String|desc=Diperoleh dengan membunuh Spider.}}
@@ -59,8 +63,9 @@ Halaman ini berisi daftar seluruh [[Collection|Koleksi]] yang tersedia di dalam 
 {{CollectionPageRow|name=Slimeball|desc=Diperoleh dengan membunuh Slime.}}
 {{CollectionPageRow|name=Blaze Rod|desc=Diperoleh dengan membunuh Blaze.}}
 {{CollectionPageRow|name=Magma Cream|desc=Diperoleh dengan membunuh Magma Cube.}}
-
-== Foraging ==
+</div>
+|-|Foraging=
+<div class="dual-table-grid">
 {{CollectionPageRow|name=Oak Log|desc=Diperoleh dengan menebang pohon Oak.}}
 {{CollectionPageRow|name=Birch Log|desc=Diperoleh dengan menebang pohon Birch.}}
 {{CollectionPageRow|name=Spruce Log|desc=Diperoleh dengan menebang pohon Spruce.}}
@@ -68,8 +73,9 @@ Halaman ini berisi daftar seluruh [[Collection|Koleksi]] yang tersedia di dalam 
 {{CollectionPageRow|name=Acacia Log|desc=Diperoleh dengan menebang pohon Acacia.}}
 {{CollectionPageRow|name=Dark Oak Log|desc=Diperoleh dengan menebang pohon Dark Oak.}}
 {{CollectionPageRow|name=Mangrove Log|desc=Diperoleh dengan menebang pohon Mangrove.}}
-
-== Fishing ==
+</div>
+|-|Fishing=
+<div class="dual-table-grid">
 {{CollectionPageRow|name=Raw Cod|desc=Diperoleh dari memancing.}}
 {{CollectionPageRow|name=Raw Salmon|desc=Diperoleh dari memancing.}}
 {{CollectionPageRow|name=Tropical Fish|desc=Diperoleh dari memancing.}}
@@ -81,8 +87,9 @@ Halaman ini berisi daftar seluruh [[Collection|Koleksi]] yang tersedia di dalam 
 {{CollectionPageRow|name=Ink Sac|desc=Diperoleh dengan membunuh Squid.}}
 {{CollectionPageRow|name=Sponge|desc=Diperoleh dari memancing.}}
 {{CollectionPageRow|name=Magmafish|desc=Diperoleh dari memancing di Crimson Isle.}}
-
-== Bosses ==
+</div>
+|-|Bosses=
+<div class="dual-table-grid">
 {{CollectionPageRow|name=Bonzo|desc=Diperoleh dengan mengalahkan Bonzo di The Catacombs.}}
 {{CollectionPageRow|name=Scarf|desc=Diperoleh dengan mengalahkan Scarf di The Catacombs.}}
 {{CollectionPageRow|name=The Professor|desc=Diperoleh dengan mengalahkan The Professor di The Catacombs.}}
@@ -91,8 +98,9 @@ Halaman ini berisi daftar seluruh [[Collection|Koleksi]] yang tersedia di dalam 
 {{CollectionPageRow|name=Sadan|desc=Diperoleh dengan mengalahkan Sadan di The Catacombs.}}
 {{CollectionPageRow|name=Necron|desc=Diperoleh dengan mengalahkan Necron di The Catacombs.}}
 {{CollectionPageRow|name=Kuudra|desc=Diperoleh dengan mengalahkan Kuudra.}}
-
-== Rift ==
+</div>
+|-|Rift=
+<div class="dual-table-grid">
 {{CollectionPageRow|name=Agaricus Cap|desc=Diperoleh dari The Rift.}}
 {{CollectionPageRow|name=Caducous Stem|desc=Diperoleh dari The Rift.}}
 {{CollectionPageRow|name=Half-Eaten Carrot|desc=Diperoleh dari The Rift.}}
@@ -100,6 +108,8 @@ Halaman ini berisi daftar seluruh [[Collection|Koleksi]] yang tersedia di dalam 
 {{CollectionPageRow|name=Living Metal Heart|desc=Diperoleh dari The Rift.}}
 {{CollectionPageRow|name=Timite|desc=Diperoleh dari The Rift.}}
 {{CollectionPageRow|name=Wilted Berberis|desc=Diperoleh dari The Rift.}}
+</div>
+</tabber>
 
 [[Category:Collection]]
 [[Category:Lists]]
