@@ -59,7 +59,6 @@ function p._collectionTable( collection, colRowData, subTable )
 	row:tag('th'):wikitext('LVL'):done()
 	row:tag('th'):wikitext('Required'):addClass('size-small'):done()
 	row:tag('th'):wikitext('Reward'):css(subTable and { width="100%" } or {}):done()
-	row:tag('th'):wikitext('[[Project Seria Caveblock Levels|' .. color._colorTemplates('Aqua', 'XP') .. ']]'):done()
 	row:done()
 	
 	for i, data in ipairs(colRowData) do
@@ -86,17 +85,6 @@ function p._collectionTable( collection, colRowData, subTable )
 			table.push(cellData, getRewardLine(_name, _type, _comingsoon, _link, _nolink, _image))
 		end
 		td:wikitext(table.concat(cellData, '<br />')):done()
-		
-		-- Find Project Seria Caveblock Xp
-		td = row:tag('td')
-		local xp = '{{Bc}}'
-		for i, reward in pairs(data.reward) do
-			if (reward.type or data.type or 'Recipe'):match('Project Seria Caveblock Experience') then
-				xp = color._colorTemplates('Aqua', '+' .. reward[1])
-				break
-			end
-		end
-		td:wikitext(xp)
 		
 		row:done()
 	end

@@ -282,42 +282,36 @@ local all_collections = {
 			required = 25,
 			reward = {
 				{'Red Nose', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[2] = {
 			required = 50,
 			reward = {
 				{'Bonzo\'s Mask', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[3] = {
 			required = 100,
 			reward = {
 				{'Golden Bonzo Head', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[4] = {
 			required = 150,
 			reward = {
 				{'Bonzo\'s Staff', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[5] = {
 			required = 250,
 			reward = {
 				{'Recombobulator 3000', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[6] = {
 			required = 1000,
 			reward = {
 				{'Diamond Bonzo Head', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 	},
@@ -411,63 +405,6 @@ local all_collections = {
 			required = 500,
 			reward = {
 				{ 'Caducous Feeder', type = 'Recipe' },
-			},
-		},
-	},
-	['Carrot'] = {
-		minion = 'Carrot',
-		[1] = {
-			required = 100,
-			reward = {
-				{ 'Carrot Minion', type = 'Recipe' },
-			},
-		},
-		[2] = {
-			required = 250,
-			reward = {
-				{ 'Simple Carrot Candy', type = 'Recipe' },
-			},
-		},
-		[3] = {
-			required = 500,
-			reward = {
-				{ 'Carrot Bait', type = 'Recipe' },
-			},
-		},
-		[4] = {
-			required = 1750,
-			reward = {
-				{ 'Enchanted Carrot', type = 'Recipe' },
-			},
-		},
-		[5] = {
-			required = 5000,
-			reward = {
-				{ 'Enchanted Carrot on a Stick', type = 'Recipe' },
-			},
-		},
-		[6] = {
-			required = 10000,
-			reward = {
-				{ 'Great Carrot Candy', type = 'Recipe' },
-			},
-		},
-		[7] = {
-			required = 25000,
-			reward = {
-				{ 'Enchanted Golden Carrot', type = 'Recipe' },
-			},
-		},
-		[8] = {
-			required = 50000,
-			reward = {
-				{ 'Superb Carrot Candy', type = 'Recipe' },
-			},
-		},
-		[9] = {
-			required = 100000,
-			reward = {
-				{ 10000, type = 'Farming Experience' },
 			},
 		},
 	},
@@ -2104,7 +2041,6 @@ local all_collections = {
 				{'Common Kuudra Pet', type = 'Reward'},
 				{'Crimson', amount = '400', type = 'Essence'},
 				{'Kuudra Teeth', type = 'Reward'},
-				{'10', type = 'SkyBlock Experience'},
 			},
 		},
 		[2] = {
@@ -2113,7 +2049,6 @@ local all_collections = {
 				{'Kuudra Chunk', type = 'Reward'},
 				{'Crimson', amount = '1000', type = 'Essence'},
 				{'Kuudra Teeth', amount = '2', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[3] = {
@@ -2122,7 +2057,6 @@ local all_collections = {
 				{'Meaty Kuudra Chunk', type = 'Reward'},
 				{'Crimson', amount = '2500', type = 'Essence'},
 				{'Kuudra Teeth', amount = '4', type = 'Reward'},
-				{'20', type = 'SkyBlock Experience'},
 			},
 		},
 		[4] = {
@@ -2131,7 +2065,6 @@ local all_collections = {
 				{'Hardened Kuudra Chunk', type = 'Reward'},
 				{'Crimson', amount = '10000', type = 'Essence'},
 				{'Kuudra Teeth', amount = '8', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[5] = {
@@ -2140,7 +2073,6 @@ local all_collections = {
 				{'Enriched Kuudra Chunk', type = 'Reward'},
 				{'Crimson', amount = '20000', type = 'Essence'},
 				{'Kuudra Teeth', amount = '12', type = 'Reward'},
-				{'30', type = 'SkyBlock Experience'},
 			},
 		},
 	},
@@ -2347,49 +2279,42 @@ local all_collections = {
 			required = 50,
 			reward = {
 				{'Dark Orb', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[2] = {
 			required = 100,
 			reward = {
 				{'Golden Livid Head', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[3] = {
 			required = 150,
 			reward = {
 				{'Livid Dagger', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[4] = {
 			required = 250,
 			reward = {
 				{'Recombobulator 3000', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[5] = {
 			required = 500,
 			reward = {
 				{'Last Breath', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[6] = {
 			required = 750,
 			reward = {
 				{'Shadow Assassin Chestplate', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			}
 		},
 		[7] = {
 			required = 1000,
 			reward = {
 				{'Diamond Livid Head', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 	},
@@ -3019,49 +2944,42 @@ local all_collections = {
 			required = 50,
 			reward = {
 				{'Wither Blood', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[2] = {
 			required = 100,
 			reward = {
 				{'Golden Necron Head', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[3] = {
 			required = 150,
 			reward = {
 				{'Wither Helmet', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[4] = {
 			required = 250,
 			reward = {
 				{'Recombobulator 3000', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[5] = {
 			required = 500,
 			reward = {
 				{'Wither Leggings', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[6] = {
 			required = 750,
 			reward = {
 				{'Wither Chestplate', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			}
 		},
 		[7] = {
 			required = 1000,
 			reward = {
 				{'Diamond Necron Head', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 	},
@@ -3373,63 +3291,6 @@ local all_collections = {
 					rewardstr = '&6+1☘ Mining Fortune',
 				},
 				{ 50000, type = 'Mining Experience' },
-			},
-		},
-	},
-	['Potato'] = {
-		minion = 'Potato',
-		[1] = {
-			required = 100,
-			reward = {
-				{ 'Potato Minion', type = 'Recipe' },
-			},
-		},
-		[2] = {
-			required = 200,
-			reward = {
-				{ 'Portal to The Barn', type = 'Recipe' },
-			},
-		},
-		[3] = {
-			required = 500,
-			reward = {
-				{ 'Vaccine Talisman', type = 'Recipe' },
-			},
-		},
-		[4] = {
-			required = 1750,
-			reward = {
-				{ 'Enchanted Potato', type = 'Recipe' },
-			},
-		},
-		[5] = {
-			required = 5000,
-			reward = {
-				{ 'Venomous Potion', type = 'Recipe' },
-			},
-		},
-		[6] = {
-			required = 10000,
-			reward = {
-				{ 'Travel Scroll to The Barn', type = 'Recipe' },
-			},
-		},
-		[7] = {
-			required = 25000,
-			reward = {
-				{ 'Enchanted Baked Potato', type = 'Recipe' },
-			},
-		},
-		[8] = {
-			required = 50000,
-			reward = {
-				{ 'Hot Potato Book', type = 'Recipe' },
-			},
-		},
-		[9] = {
-			required = 100000,
-			reward = {
-				{ 10000, type = 'Farming Experience' },
 			},
 		},
 	},
@@ -4256,49 +4117,42 @@ local all_collections = {
 			required = 50,
 			reward = {
 				{'Giant Tooth', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[2] = {
 			required = 100,
 			reward = {
 				{'Golden Sadan Head', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[3] = {
 			required = 150,
 			reward = {
 				{'Necromancer Lord Helmet', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[4] = {
 			required = 250,
 			reward = {
 				{'Recombobulator 3000', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[5] = {
 			required = 500,
 			reward = {
 				{'Necromancer Lord Chestplate', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[6] = {
 			required = 750,
 			reward = {
 				{'Necromancer Sword', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			}
 		},
 		[7] = {
 			required = 1000,
 			reward = {
 				{'Diamond Sadan Head', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 	},
@@ -4354,42 +4208,36 @@ local all_collections = {
 			required = 25,
 			reward = {
 				{'Red Scarf', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[2] = {
 			required = 50,
 			reward = {
 				{'Scarf\'s Thesis', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[3] = {
 			required = 100,
 			reward = {
 				{'Golden Scarf Head', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[4] = {
 			required = 150,
 			reward = {
 				{'Adaptive Blade', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[5] = {
 			required = 250,
 			reward = {
 				{'Recombobulator 3000', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[6] = {
 			required = 1000,
 			reward = {
 				{'Diamond Scarf Head', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 	},
@@ -5051,42 +4899,36 @@ local all_collections = {
 			required = 25,
 			reward = {
 				{'Suspicious Vial', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[2] = {
 			required = 50,
 			reward = {
 				{'Adaptive Leggings', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[3] = {
 			required = 100,
 			reward = {
 				{'Golden Professor Head', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[4] = {
 			required = 150,
 			reward = {
 				{'Adaptive Chestplate', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[5] = {
 			required = 250,
 			reward = {
 				{'Recombobulator 3000', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[6] = {
 			required = 1000,
 			reward = {
 				{'Diamond Professor Head', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 	},
@@ -5097,42 +4939,36 @@ local all_collections = {
 			required = 50,
 			reward = {
 				{'Spirit Stone', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[2] = {
 			required = 100,
 			reward = {
 				{'Golden Thorn Head', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[3] = {
 			required = 150,
 			reward = {
 				{'Spirit Shortbow', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[4] = {
 			required = 250,
 			reward = {
 				{'Recombobulator 3000', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[5] = {
 			required = 400,
 			reward = {
 				{'Spirit Boots', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[6] = {
 			required = 1000,
 			reward = {
 				{'Diamond Thorn Head', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 	},
@@ -5434,82 +5270,6 @@ local all_collections = {
 			},
 		},
 	},
-	['Wheat'] = {
-		minion = 'Wheat',
-		[1] = {
-			required = 50,
-			reward = {
-				{ 'Wheat Minion', type = 'Recipe' },
-			},
-		},
-		[2] = {
-			required = 100,
-			reward = {
-				{
-					'{{Blue|Harvesting}} Exp Discount {{G|(-25%)}}',
-					type = 'Custom',
-					nolink = true,
-					rewardstr = '&9Harvesting &7Exp Discount &a(-25%)',
-				},
-			},
-		},
-		[3] = {
-			required = 250,
-			reward = {
-				{ 'Farm Suit', type = 'Recipe' },
-			},
-		},
-		[4] = {
-			required = 500,
-			reward = {
-				{ 'Farming Talisman', type = 'Recipe' },
-			},
-		},
-		[5] = {
-			required = 1000,
-			reward = {
-				{ 'Enchanted Wheat', type = 'Recipe' },
-				{ 'Enchanted Bread', type = 'Recipe' },
-			},
-		},
-		[6] = {
-			required = 2500,
-			reward = {
-				{ 'Farming Island', type = 'Recipe' },
-			},
-		},
-		[7] = {
-			required = 10000,
-			reward = {
-				{ 'Small Agronomy Sack', type = 'Recipe' },
-			},
-		},
-		[8] = {
-			required = 15000,
-			reward = {
-				{ 'Medium Agronomy Sack', type = 'Recipe' },
-			},
-		},
-		[9] = {
-			required = 25000,
-			reward = {
-				{ 'Farm Armor', type = 'Recipe' },
-			},
-		},
-		[10] = {
-			required = 50000,
-			reward = {
-				{ 'Large Agronomy Sack', type = 'Recipe' },
-			},
-		},
-		[11] = {
-			required = 100000,
-			reward = {
-				{ 'Enchanted Hay Bale', type = 'Recipe' },
-				{ 'Large Enchanted Agronomy Sack', type = 'Recipe' },
-			},
-		},
-	},
 	['Wild Rose'] = {
 		[1] = {
 			required = 1000,
@@ -5586,13 +5346,578 @@ local all_collections = {
 			},
 		},
 	},
+	['Wheat Seeds'] = {
+		minion = 'Wheat Seeds',
+		[1] = {
+			required = 50,
+			reward = {
+				{ 'Dirt', type = 'Trade' },
+			},
+		},
+		[2] = {
+			required = 100,
+			reward = {
+				{ 'Clay Ball', type = 'Trade' },
+			},
+		},
+		[3] = {
+			required = 250,
+			reward = {
+				{ 'Long Grass', type = 'Trade' },
+			},
+		},
+		[4] = {
+			required = 1000,
+			reward = {
+				{ 'Fern', type = 'Trade' },
+			},
+		},
+		[5] = {
+			required = 2500,
+			reward = {
+				{ 'Small Wheat Seeds Magic Bundle', type = 'Reward' },
+				{ 'Dead Bush', type = 'Trade' },
+			},
+		},
+		[6] = {
+			required = 5000,
+			reward = {
+				{ 'Double Tall Grass', type = 'Trade' },
+			},
+		},
+		[7] = {
+			required = 25000,
+			reward = {
+				{ 'Medium Wheat Seeds Magic Bundle', type = 'Reward' },
+			},
+		},
+		[8] = {
+			required = 50000,
+			reward = {
+				{ 1000, type = 'Farming Experience' },
+			},
+		},
+		[9] = {
+			required = 100000,
+			reward = {
+				{ 'Large Wheat Magic Bundle', type = 'Reward' },
+			},
+		},
+	},
+	['Wheat'] = {
+		minion = 'Wheat',
+		[1] = {
+			required = 50,
+			reward = {
+				{ 'Wheat Minion', type = 'Recipe' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[2] = {
+			required = 100,
+			reward = {
+				{ 'Farmer Hoe', type = 'Recipe' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[3] = {
+			required = 250,
+			reward = {
+				{ 'Wheat Suit Set', type = 'Recipe' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[4] = {
+			required = 500,
+			reward = {
+				{ 'Enchanted Wheat', type = 'Recipe' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[5] = {
+			required = 1000,
+			reward = {
+				{ 'Small Wheat Magic Bundle', type = 'Reward' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[6] = {
+			required = 2500,
+			reward = {
+				{
+					'Akses ke Chuville Farming Area',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&7Akses ke &aChuville &7Farming Area',
+				},
+				{ 'Elder Farmer Hoe', type = 'Recipe' },
+				{
+					'{{Gold|+5}} {{G|Wheat Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+5~~ Wheat Fortune',
+				},
+			},
+		},
+		[7] = {
+			required = 10000,
+			reward = {
+				{ 'Medium Wheat Magic Bundle', type = 'Reward' },
+				{
+					'{{Gold|+5}} {{G|Wheat Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+5~~ Wheat Fortune',
+				},
+			},
+		},
+		[8] = {
+			required = 15000,
+			reward = {
+				{ 'Enchanted Bread', type = 'Recipe' },
+				{
+					'{{Gold|+10}} {{G|Wheat Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+10~~ Wheat Fortune',
+				},
+			},
+		},
+		[9] = {
+			required = 25000,
+			reward = {
+				{ 'Wheat Armor Set', type = 'Recipe' },
+				{ 'Large Wheat Magic Bundle', type = 'Reward' },
+				{
+					'{{Gold|+10}} {{G|Wheat Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+10~~ Wheat Fortune',
+				},
+			},
+		},
+		[10] = {
+			required = 50000,
+			reward = {
+				{ 'Sacred Farmer Hoe', type = 'Recipe' },
+				{
+					'{{Gold|+10}} {{G|Wheat Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+10~~ Wheat Fortune',
+				},
+			},
+		},
+		[11] = {
+			required = 100000,
+			reward = {
+				{ 'Enchanted Hay Bale', type = 'Recipe' },
+				{
+					'{{Gold|+10}} {{G|Wheat Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+10~~ Wheat Fortune',
+				},
+			},
+		},
+	},
+	['Potato'] = {
+		minion = 'Potato',
+		[1] = {
+			required = 100,
+			reward = {
+				{ 'Potato Minion', type = 'Recipe' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[2] = {
+			required = 200,
+			reward = {
+				{ 'Enchanted Potato', type = 'Recipe' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[3] = {
+			required = 500,
+			reward = {
+				{ 'Potato Suit Set', type = 'Recipe' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[4] = {
+			required = 1750,
+			reward = {
+				{ 'Plantation Hoe', type = 'Recipe' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[5] = {
+			required = 5000,
+			reward = {
+				{ 'Small Potato Magic Bundle', type = 'Reward' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[6] = {
+			required = 10000,
+			reward = {
+				{ 'Mystic Hoe', type = 'Recipe' },
+				{
+					'{{Gold|+5}} {{G|Potato Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+5~~ Potato Fortune',
+				},
+			},
+		},
+		[7] = {
+			required = 15000,
+			reward = {
+				{ 'Medium Potato Magic Bundle', type = 'Reward' },
+				{
+					'{{Gold|+5}} {{G|Potato Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+5~~ Potato Fortune',
+				},
+			},
+		},
+		[8] = {
+			required = 25000,
+			reward = {
+				{ 'Enchanted Baked Potato', type = 'Recipe' },
+				{
+					'{{Gold|+10}} {{G|Potato Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+10~~ Potato Fortune',
+				},
+			},
+		},
+		[9] = {
+			required = 50000,
+			reward = {
+				{ 'Potato Armor Set', type = 'Recipe' },
+				{ 'Large Potato Magic Bundle', type = 'Reward' },
+				{
+					'{{Gold|+10}} {{G|Potato Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+10~~ Potato Fortune',
+				},
+			},
+		},
+		[10] = {
+			required = 100000,
+			reward = {
+				{ 'Mystic Plantation Hoe', type = 'Recipe' },
+				{
+					'{{Gold|+10}} {{G|Potato Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+10~~ Potato Fortune',
+				},
+			},
+		},
+	},
+	['Carrot'] = {
+		minion = 'Carrot',
+		[1] = {
+			required = 100,
+			reward = {
+				{ 'Carrot Minion', type = 'Recipe' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[2] = {
+			required = 200,
+			reward = {
+				{ 'Enchanted Carrot', type = 'Recipe' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[3] = {
+			required = 500,
+			reward = {
+				{ 'Carrot Suit Set', type = 'Recipe' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[4] = {
+			required = 1750,
+			reward = {
+				{ 'Creator Hoe', type = 'Recipe' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[5] = {
+			required = 5000,
+			reward = {
+				{ 'Small Carrot Magic Bundle', type = 'Reward' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[6] = {
+			required = 10000,
+			reward = {
+				{ 'Enchanted Golden Carrot', type = 'Recipe' },
+				{
+					'{{Gold|+5}} {{G|Carrot Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+5~~ Carrot Fortune',
+				},
+			},
+		},
+		[7] = {
+			required = 15000,
+			reward = {
+				{ 'Medium Carrot Magic Bundle', type = 'Reward' },
+				{
+					'{{Gold|+5}} {{G|Carrot Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+5~~ Carrot Fortune',
+				},
+			},
+		},
+		[8] = {
+			required = 25000,
+			reward = {
+				{ 'Carrot Armor Set', type = 'Recipe' },
+				{
+					'{{Gold|+10}} {{G|Carrot Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+10~~ Carrot Fortune',
+				},
+			},
+		},
+		[9] = {
+			required = 50000,
+			reward = {
+				{ 'Large Carrot Magic Bundle', type = 'Reward' },
+				{
+					'{{Gold|+10}} {{G|Carrot Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+10~~ Carrot Fortune',
+				},
+			},
+		},
+		[10] = {
+			required = 100000,
+			reward = {
+				{ 'Constellation Hoe', type = 'Recipe' },
+				{
+					'{{Gold|+10}} {{G|Carrot Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+10~~ Carrot Fortune',
+				},
+			},
+		},
+	},
+	['Beetroot'] = {
+		minion = 'Beetroot',
+		[1] = {
+			required = 100,
+			reward = {
+				{ 'Beetroot Minion', type = 'Recipe' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[2] = {
+			required = 200,
+			reward = {
+				{ 'Enchanted Beetroot', type = 'Recipe' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[3] = {
+			required = 500,
+			reward = {
+				{ 'Beetroot Suit Set', type = 'Recipe' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[4] = {
+			required = 1750,
+			reward = {
+				{ 'Claustrophobic Hoe', type = 'Recipe' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[5] = {
+			required = 5000,
+			reward = {
+				{ 'Small Beetroot Magic Bundle', type = 'Reward' },
+				{
+					'{{Gold|+2}} {{G|Farming Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+2~~ Farming Fortune',
+				},
+			},
+		},
+		[6] = {
+			required = 10000,
+			reward = {
+				{ 'Enchanted Beetroot Soup', type = 'Recipe' },
+				{
+					'{{Gold|+5}} {{G|Beetroot Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+5~~ Beetroot Fortune',
+				},
+			},
+		},
+		[7] = {
+			required = 15000,
+			reward = {
+				{ 'Medium Beetroot Magic Bundle', type = 'Reward' },
+				{
+					'{{Gold|+5}} {{G|Beetroot Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+5~~ Beetroot Fortune',
+				},
+			},
+		},
+		[8] = {
+			required = 25000,
+			reward = {
+				{ 'Beetroot Armor Set', type = 'Recipe' },
+				{
+					'{{Gold|+10}} {{G|Beetroot Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+10~~ Beetroot Fortune',
+				},
+			},
+		},
+		[9] = {
+			required = 50000,
+			reward = {
+				{ 'Large Beetroot Magic Bundle', type = 'Reward' },
+				{
+					'{{Gold|+10}} {{G|Beetroot Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+10~~ Beetroot Fortune',
+				},
+			},
+		},
+		[10] = {
+			required = 100000,
+			reward = {
+				{
+					'{{Gold|+10}} {{G|Beetroot Fortune}}',
+					type = 'Custom',
+					nolink = true,
+					rewardstr = '&6+10~~ Beetroot Fortune',
+				},
+				{ 10000, type = 'Farming Experience' },
+			},
+		},
+	},
 }
--- Adding skyblock experience
-for _, data in pairs(all_collections) do
-	for _, tier in ipairs(data) do -- use ipair - we want only the indexed ones
-		if tier.reward and tier.reward[#tier.reward].type ~= 'SkyBlock Experience' then tier.reward[#tier.reward + 1] = { '4', type = 'SkyBlock Experience' } end
-	end
-end
+
 
 -- for debug
 -- local p = { main = function() return all_collections end }

@@ -1,1 +1,0 @@
-'''Pitboss Arena''' merupakan tempat untuk para pahlawan melatih kemampuan bertarung mereka. Biasanya Boss dari pada [[Echoes]] akan dilepas di tempat ini, dan pada pahlawan akan mengalahkannya untuk membuktikan kemampuan serta kekuatan mereka. Berlokasi di kota [[Sevis]] dengan koordinat [X:267 Z:25]
