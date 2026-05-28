@@ -74,11 +74,7 @@ local function frm(...)
 end
 local function typeformatter(item, _type, ttcol, amount)
 	local str, tp
-	-- tp is the internal 'type' in the game
-	if _type:match('SkyBlock Experience') then
-		str = ('&7&8+&b%s'):format(string._formatNum(item) or item)
-		tp = 'SkyBlock XP'
-	elseif _type:match('[Ff]arming [Ee]xperience') then
+	if _type:match('[Ff]arming [Ee]xperience') then
 		str = ('&7&8+&3%s'):format(string._formatNum(item) or item)
 		tp = '&7' .. 'Farming Experience'
 	elseif _type:match('[Ff]ishing [Ee]xperience') then

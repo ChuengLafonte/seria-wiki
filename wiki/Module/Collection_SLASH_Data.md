@@ -282,42 +282,36 @@ local all_collections = {
 			required = 25,
 			reward = {
 				{'Red Nose', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[2] = {
 			required = 50,
 			reward = {
 				{'Bonzo\'s Mask', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[3] = {
 			required = 100,
 			reward = {
 				{'Golden Bonzo Head', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[4] = {
 			required = 150,
 			reward = {
 				{'Bonzo\'s Staff', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[5] = {
 			required = 250,
 			reward = {
 				{'Recombobulator 3000', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[6] = {
 			required = 1000,
 			reward = {
 				{'Diamond Bonzo Head', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 	},
@@ -2104,7 +2098,6 @@ local all_collections = {
 				{'Common Kuudra Pet', type = 'Reward'},
 				{'Crimson', amount = '400', type = 'Essence'},
 				{'Kuudra Teeth', type = 'Reward'},
-				{'10', type = 'SkyBlock Experience'},
 			},
 		},
 		[2] = {
@@ -2113,7 +2106,6 @@ local all_collections = {
 				{'Kuudra Chunk', type = 'Reward'},
 				{'Crimson', amount = '1000', type = 'Essence'},
 				{'Kuudra Teeth', amount = '2', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[3] = {
@@ -2122,7 +2114,6 @@ local all_collections = {
 				{'Meaty Kuudra Chunk', type = 'Reward'},
 				{'Crimson', amount = '2500', type = 'Essence'},
 				{'Kuudra Teeth', amount = '4', type = 'Reward'},
-				{'20', type = 'SkyBlock Experience'},
 			},
 		},
 		[4] = {
@@ -2131,7 +2122,6 @@ local all_collections = {
 				{'Hardened Kuudra Chunk', type = 'Reward'},
 				{'Crimson', amount = '10000', type = 'Essence'},
 				{'Kuudra Teeth', amount = '8', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[5] = {
@@ -2140,7 +2130,6 @@ local all_collections = {
 				{'Enriched Kuudra Chunk', type = 'Reward'},
 				{'Crimson', amount = '20000', type = 'Essence'},
 				{'Kuudra Teeth', amount = '12', type = 'Reward'},
-				{'30', type = 'SkyBlock Experience'},
 			},
 		},
 	},
@@ -2347,49 +2336,42 @@ local all_collections = {
 			required = 50,
 			reward = {
 				{'Dark Orb', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[2] = {
 			required = 100,
 			reward = {
 				{'Golden Livid Head', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[3] = {
 			required = 150,
 			reward = {
 				{'Livid Dagger', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[4] = {
 			required = 250,
 			reward = {
 				{'Recombobulator 3000', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[5] = {
 			required = 500,
 			reward = {
 				{'Last Breath', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[6] = {
 			required = 750,
 			reward = {
 				{'Shadow Assassin Chestplate', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			}
 		},
 		[7] = {
 			required = 1000,
 			reward = {
 				{'Diamond Livid Head', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 	},
@@ -3019,49 +3001,42 @@ local all_collections = {
 			required = 50,
 			reward = {
 				{'Wither Blood', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[2] = {
 			required = 100,
 			reward = {
 				{'Golden Necron Head', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[3] = {
 			required = 150,
 			reward = {
 				{'Wither Helmet', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[4] = {
 			required = 250,
 			reward = {
 				{'Recombobulator 3000', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[5] = {
 			required = 500,
 			reward = {
 				{'Wither Leggings', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[6] = {
 			required = 750,
 			reward = {
 				{'Wither Chestplate', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			}
 		},
 		[7] = {
 			required = 1000,
 			reward = {
 				{'Diamond Necron Head', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 	},
@@ -4256,49 +4231,42 @@ local all_collections = {
 			required = 50,
 			reward = {
 				{'Giant Tooth', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[2] = {
 			required = 100,
 			reward = {
 				{'Golden Sadan Head', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[3] = {
 			required = 150,
 			reward = {
 				{'Necromancer Lord Helmet', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[4] = {
 			required = 250,
 			reward = {
 				{'Recombobulator 3000', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[5] = {
 			required = 500,
 			reward = {
 				{'Necromancer Lord Chestplate', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[6] = {
 			required = 750,
 			reward = {
 				{'Necromancer Sword', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			}
 		},
 		[7] = {
 			required = 1000,
 			reward = {
 				{'Diamond Sadan Head', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 	},
@@ -4354,42 +4322,36 @@ local all_collections = {
 			required = 25,
 			reward = {
 				{'Red Scarf', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[2] = {
 			required = 50,
 			reward = {
 				{'Scarf\'s Thesis', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[3] = {
 			required = 100,
 			reward = {
 				{'Golden Scarf Head', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[4] = {
 			required = 150,
 			reward = {
 				{'Adaptive Blade', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[5] = {
 			required = 250,
 			reward = {
 				{'Recombobulator 3000', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[6] = {
 			required = 1000,
 			reward = {
 				{'Diamond Scarf Head', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 	},
@@ -5051,42 +5013,36 @@ local all_collections = {
 			required = 25,
 			reward = {
 				{'Suspicious Vial', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[2] = {
 			required = 50,
 			reward = {
 				{'Adaptive Leggings', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[3] = {
 			required = 100,
 			reward = {
 				{'Golden Professor Head', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[4] = {
 			required = 150,
 			reward = {
 				{'Adaptive Chestplate', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[5] = {
 			required = 250,
 			reward = {
 				{'Recombobulator 3000', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[6] = {
 			required = 1000,
 			reward = {
 				{'Diamond Professor Head', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 	},
@@ -5097,42 +5053,36 @@ local all_collections = {
 			required = 50,
 			reward = {
 				{'Spirit Stone', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[2] = {
 			required = 100,
 			reward = {
 				{'Golden Thorn Head', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[3] = {
 			required = 150,
 			reward = {
 				{'Spirit Shortbow', type = 'Reward'},
-				{'15', type = 'SkyBlock Experience'},
 			},
 		},
 		[4] = {
 			required = 250,
 			reward = {
 				{'Recombobulator 3000', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[5] = {
 			required = 400,
 			reward = {
 				{'Spirit Boots', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 		[6] = {
 			required = 1000,
 			reward = {
 				{'Diamond Thorn Head', type = 'Reward'},
-				{'25', type = 'SkyBlock Experience'},
 			},
 		},
 	},
@@ -5587,12 +5537,7 @@ local all_collections = {
 		},
 	},
 }
--- Adding skyblock experience
-for _, data in pairs(all_collections) do
-	for _, tier in ipairs(data) do -- use ipair - we want only the indexed ones
-		if tier.reward and tier.reward[#tier.reward].type ~= 'SkyBlock Experience' then tier.reward[#tier.reward + 1] = { '4', type = 'SkyBlock Experience' } end
-	end
-end
+
 
 -- for debug
 -- local p = { main = function() return all_collections end }
