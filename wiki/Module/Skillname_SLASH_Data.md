@@ -64,5 +64,11 @@ return {
 		nameshort = "Rune",
 		icon = "Runecrafting Skill.png",
 		color = "Pink"
+	},
+	skyblock = {
+		name = "SkyBlock",
+		nameshort = "SB",
+		icon = "SkyBlock Level.png",
+		color = "Aqua"
 	}
 }

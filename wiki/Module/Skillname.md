@@ -59,11 +59,13 @@ function p._getSkillName(skill, text, opts)
 	
 	skill = skill:lower():gsub('_', ' ')
 	skill = aliases[skill] or skill
-	local skill = skills[skill]
+	local skillData = skills[skill]
 	
-	if not skill
+	if not skillData
 		then return string.error('Invalid Skill name %q', skill)
 	end
+	
+	skill = skillData
 	
 	local out = {}
 	if not yesno(textOnly, false) then
