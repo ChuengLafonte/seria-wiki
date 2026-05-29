@@ -1,4 +1,4 @@
-<infobox theme="default" layout="stacked">
+<infobox theme="default" layout="stacked" class="pi-text-center">
     <title source="title">
         <default>{{PAGENAME}}</default>
     </title>
@@ -106,28 +106,28 @@
         <!-- Sell -->
         <data source="sell">
             <label>Sell</label>
-            <format>{{Gins|%s}}</format>
+            <format>{{Gins|1=%s}}</format>
         </data>
         <data source="sell_shard">
             <label>Sell</label>
-            <format>{{Shard|%s}}</format>
+            <format>{{Shard|1=%s}}</format>
         </data>
         <data source="sell_serium">
             <label>Sell</label>
-            <format>{{Serium|%s}}</format>
+            <format>{{Serium|1=%s}}</format>
         </data>
         <!-- Buy -->
         <data source="buy">
             <label>Buy</label>
-            <format>{{Gins|%s}}</format>
+            <format>{{Gins|1=%s}}</format>
         </data>
         <data source="buy_shard">
             <label>Buy</label>
-            <format>{{Shard|%s}}</format>
+            <format>{{Shard|1=%s}}</format>
         </data>
         <data source="buy_serium">
             <label>Buy</label>
-            <format>{{Serium|%s}}</format>
+            <format>{{Serium|1=%s}}</format>
         </data>
     </group>
 
