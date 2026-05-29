@@ -5705,3 +5705,22 @@ a[href$="Abuse_filter"]::before {
     color: #fb4040;
     font-weight: bold;
 }
+
+/* Ensure hyperlinks inherit currency colors */
+.pi-theme-seria [data-source="sell"] .pi-data-value a,
+.pi-theme-seria [data-source="buy"] .pi-data-value a,
+.pi-theme-seria [data-source="sell_shard"] .pi-data-value a,
+.pi-theme-seria [data-source="buy_shard"] .pi-data-value a,
+.pi-theme-seria [data-source="sell_serium"] .pi-data-value a,
+.pi-theme-seria [data-source="buy_serium"] .pi-data-value a {
+    color: inherit;
+    text-decoration: none;
+}
+.pi-theme-seria [data-source="sell"] .pi-data-value a:hover,
+.pi-theme-seria [data-source="buy"] .pi-data-value a:hover,
+.pi-theme-seria [data-source="sell_shard"] .pi-data-value a:hover,
+.pi-theme-seria [data-source="buy_shard"] .pi-data-value a:hover,
+.pi-theme-seria [data-source="sell_serium"] .pi-data-value a:hover,
+.pi-theme-seria [data-source="buy_serium"] .pi-data-value a:hover {
+    text-decoration: underline;
+}
