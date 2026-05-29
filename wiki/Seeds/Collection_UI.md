@@ -1,0 +1,1 @@
+{| class="article-table" style="width: 100%; text-align: center;"`n! colspan="3" | Seeds Collection Tiers`n|-`n! Tier !! Requirement !! Reward`n|-`n| I || 50 Seeds || Farming XP`n|-`n| II || 100 Seeds || Wheat Minion I`n|-`n| III || 250 Seeds || Dirt Trade`n|-`n| IV || 500 Seeds || Clay Trade`n|-`n| V || 1000 Seeds || Enchanted Seeds`n|-`n| VI || 2000 Seeds || Unknown`n|}
