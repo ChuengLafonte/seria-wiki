@@ -70,7 +70,48 @@
         <data source="cooldown"><label>Cooldown</label></data>
     </group>
 
-    <!-- Economic & Crafting Properties -->
+    <!-- Material Tiers -->
+    <group layout="horizontal">
+        <header>Material Tiers</header>
+        <data source="prev_material">
+            <label>← Previous</label>
+            <default>None</default>
+        </data>
+        <data source="next_material">
+            <label>Next →</label>
+            <default>None</default>
+        </data>
+    </group>
+
+    <!-- Properties -->
+    <group layout="horizontal">
+        <header>Properties</header>
+        <data source="salable">
+            <label>Salable</label>
+        </data>
+        <data source="tradeable">
+            <label>Tradeable</label>
+        </data>
+        <data source="auctionable">
+            <label>Auctionable</label>
+        </data>
+        <data source="museum">
+            <label>Museum</label>
+        </data>
+    </group>
+
+    <!-- Shop -->
+    <group>
+        <header>Shop</header>
+        <data source="sell">
+            <label>Sell</label>
+        </data>
+        <data source="buy">
+            <label>Buy</label>
+        </data>
+    </group>
+
+    <!-- Other Details -->
     <group collapse="closed">
         <header>Details</header>
         <data source="id"><label>Item ID</label></data>
@@ -79,10 +120,6 @@
         <data source="upgrades_to"><label>Upgrades To</label></data>
         <data source="raw_materials"><label>Raw Materials</label></data>
         <data source="material_cost"><label>Material Cost</label></data>
-        <data source="sell"><label>Sell Price</label></data>
-        <data source="auctionable"><label>Auctionable</label></data>
-        <data source="tradeable"><label>Tradeable</label></data>
-        <data source="salable"><label>Salable</label></data>
     </group>
 
 </infobox>
