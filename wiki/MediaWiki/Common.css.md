@@ -5727,10 +5727,10 @@ a[href$="Abuse_filter"]::before {
 
 /* Crafting Table Styles */
 .mc-crafting-table { display: inline-flex; align-items: center; background-color: #c6c6c6; border: 2px solid #555; padding: 10px; border-radius: 4px; margin: 10px 0; }
-.mc-crafting-table.enchanted { background-color: #1a0b2e; border-color: #aa00aa; box-shadow: 0 0 10px #aa00aa; color: white; }
+.mc-crafting-table.enchanted { background-color: #8b8b8b; border-color: #880088; box-shadow: 0 0 12px #ff55ff; }
 .mc-crafting-grid { display: grid; grid-template-columns: repeat(3, 36px); grid-template-rows: repeat(3, 36px); gap: 2px; }
 .mc-slot { width: 36px; height: 36px; background-color: #8b8b8b; border: 2px solid #373737; border-top-color: #fff; border-left-color: #fff; display: flex; justify-content: center; align-items: center; }
-.mc-crafting-table.enchanted .mc-slot { background-color: #2b114d; border-color: #550055; border-top-color: #dd44dd; border-left-color: #dd44dd; }
+.mc-crafting-table.enchanted .mc-slot { background-color: #8b8b8b; border-color: #883388; border-top-color: #ff77ff; border-left-color: #ff77ff; }
 .mc-crafting-arrow { font-size: 24px; margin: 0 15px; color: #555; }
-.mc-crafting-table.enchanted .mc-crafting-arrow { color: #aa00aa; }
+.mc-crafting-table.enchanted .mc-crafting-arrow { color: #ff77ff; text-shadow: 0 0 5px #ff77ff; }
 .output-slot { width: 54px; height: 54px; }
