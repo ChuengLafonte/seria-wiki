@@ -103,11 +103,31 @@
     <!-- Shop -->
     <group>
         <header>Shop</header>
+        <!-- Sell -->
         <data source="sell">
             <label>Sell</label>
+            <format>{{Gins|%s}}</format>
         </data>
+        <data source="sell_shard">
+            <label>Sell</label>
+            <format>{{Shard|%s}}</format>
+        </data>
+        <data source="sell_serium">
+            <label>Sell</label>
+            <format>{{Serium|%s}}</format>
+        </data>
+        <!-- Buy -->
         <data source="buy">
             <label>Buy</label>
+            <format>{{Gins|%s}}</format>
+        </data>
+        <data source="buy_shard">
+            <label>Buy</label>
+            <format>{{Shard|%s}}</format>
+        </data>
+        <data source="buy_serium">
+            <label>Buy</label>
+            <format>{{Serium|%s}}</format>
         </data>
     </group>
 

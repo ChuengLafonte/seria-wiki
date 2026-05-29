@@ -1,0 +1,1 @@
+<span style="color: #55FFFF; font-weight: bold;">{{{1}}} ✧ Shards</span><noinclude>[[Category:Templates]]</noinclude>
