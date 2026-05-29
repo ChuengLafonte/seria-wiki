@@ -1,1 +1,1 @@
-<span style="color: #FFAA00; font-weight: bold;">{{{1}}} ⏺ Gins</span><noinclude>[[Category:Templates]]</noinclude>
+⏺ Gins<noinclude>[[Category:Templates]]</noinclude>

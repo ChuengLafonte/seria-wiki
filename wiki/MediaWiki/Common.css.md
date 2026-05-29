@@ -5688,3 +5688,20 @@ a[href$="Abuse_filter"]::before {
 .pi-theme-seria .pi-header {
     text-align: center;
 }
+
+/* Currency Colors */
+.pi-theme-seria [data-source="sell"] .pi-data-value,
+.pi-theme-seria [data-source="buy"] .pi-data-value {
+    color: #FFAA00;
+    font-weight: bold;
+}
+.pi-theme-seria [data-source="sell_shard"] .pi-data-value,
+.pi-theme-seria [data-source="buy_shard"] .pi-data-value {
+    color: #A303F9;
+    font-weight: bold;
+}
+.pi-theme-seria [data-source="sell_serium"] .pi-data-value,
+.pi-theme-seria [data-source="buy_serium"] .pi-data-value {
+    color: #fb4040;
+    font-weight: bold;
+}

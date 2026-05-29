@@ -106,28 +106,28 @@
         <!-- Sell -->
         <data source="sell">
             <label>Sell</label>
-            <format>{{Gins|1=%s}}</format>
+            <format>%s {{Gins}}</format>
         </data>
         <data source="sell_shard">
             <label>Sell</label>
-            <format>{{Shard|1=%s}}</format>
+            <format>%s {{Shard}}</format>
         </data>
         <data source="sell_serium">
             <label>Sell</label>
-            <format>{{Serium|1=%s}}</format>
+            <format>%s {{Serium}}</format>
         </data>
         <!-- Buy -->
         <data source="buy">
             <label>Buy</label>
-            <format>{{Gins|1=%s}}</format>
+            <format>%s {{Gins}}</format>
         </data>
         <data source="buy_shard">
             <label>Buy</label>
-            <format>{{Shard|1=%s}}</format>
+            <format>%s {{Shard}}</format>
         </data>
         <data source="buy_serium">
             <label>Buy</label>
-            <format>{{Serium|1=%s}}</format>
+            <format>%s {{Serium}}</format>
         </data>
     </group>
 
