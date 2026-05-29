@@ -5734,23 +5734,3 @@ a[href$="Abuse_filter"]::before {
 .mc-crafting-arrow { font-size: 24px; margin: 0 15px; color: #555; }
 .mc-crafting-table.enchanted .mc-crafting-arrow { color: #aa00aa; }
 .output-slot { width: 54px; height: 54px; }
-/* Vanilla Badge - UI Tip Style */
-.vanilla-item-badge {
-    background-color: #100010;
-    background-color: rgba(16, 0, 16, 0.94);
-    border: 2px solid #280028;
-    border: 2px solid rgba(40, 0, 40, 0.94);
-    border-radius: 4px;
-    box-shadow: inset 0 0 0 2px #100010, inset 0 0 0 2px rgba(16, 0, 16, 0.94);
-    color: #AAAAAA;
-    padding: 6px 10px;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    margin: 10px 0;
-    font-size: 14px;
-    text-shadow: 2px 2px #3F3F3F;
-}
-.vanilla-item-badge b, .vanilla-item-badge strong {
-    color: #FFAA00;
-}
