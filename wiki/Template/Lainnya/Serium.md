@@ -1,1 +1,1 @@
-<span style="color: #FF55FF; font-weight: bold;">{{{1}}} ❂ Serium</span><noinclude>[[Category:Templates]]</noinclude>
+<span style="color: #fb4040; font-weight: bold;">{{{1}}} 💎 Serium</span><noinclude>[[Category:Templates]]</noinclude>
