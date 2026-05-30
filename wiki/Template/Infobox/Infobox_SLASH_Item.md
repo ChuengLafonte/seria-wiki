@@ -1,7 +1,7 @@
 <includeonly>{{Infobox/Item/Core
 | title = {{{title|{{PAGENAME}}}}}
 | image = {{{image|}}}
-| slot = {{{slot|}}}
+| slot = {{#if:{{{slot|}}}|{{Slot|{{{slot}}}}}}}
 | gallery = {{{gallery|}}}
 | aka = {{{aka|}}}
 | type = {{{type|}}}
