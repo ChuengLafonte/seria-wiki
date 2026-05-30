@@ -55,7 +55,14 @@
 | upgrades_to = {{{upgrades_to|}}}
 | raw_materials = {{{raw_materials|}}}
 | material_cost = {{{material_cost|}}}
-}}</includeonly><noinclude>
+}}
+{{#if:{{{slot|}}}{{{gallery|}}}|
+<div style="float: right; clear: right; width: 270px; margin: 0 0 1em 1em; text-align: center; border: 1px solid var(--theme-border-color); padding: 5px; background: var(--theme-page-background-color); border-radius: 5px;">
+{{#if:{{{slot|}}}|{{Slot|{{{slot}}}}}}}
+{{#if:{{{gallery|}}}|<div style="{{#if:{{{slot|}}}|margin-top:5px; padding-top:5px; border-top: 1px solid var(--theme-border-color);}}">{{{gallery}}}</div>}}
+</div>
+}}
+</includeonly><noinclude>
 [[Category:Templates]]
 Template pembungkus (Wrapper Template) untuk [[Template:Infobox/Item/Core]].
 Fungsinya adalah untuk menambahkan tulisan mata uang (Gins/Shards/Serium) ke dalam angka secara otomatis tanpa terjebak bug pada Fandom Portable Infobox.
