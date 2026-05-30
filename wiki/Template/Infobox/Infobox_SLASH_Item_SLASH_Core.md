@@ -9,7 +9,7 @@
     
     <data source="slot">
         <format>
-            <div style="margin: 0 auto; margin-top: 5px; width: 36px; height: 36px; padding: 2px; background-color: #8b8b8b; border: 2px solid; border-color: #373737 #fff #fff #373737; text-align: center;">[[File:{{{slot|{{PAGENAME}}}}}.png|32px]]</div>
+            <div style="margin: 5px auto 0 auto; width: 32px; height: 32px; background-color: #8b8b8b; border: 2px solid; border-color: #373737 #fff #fff #373737; display: flex; justify-content: center; align-items: center; box-sizing: content-box;">[[File:{{{slot|{{PAGENAME}}}}}.png|32px]]</div>
         </format>
     </data>
 
