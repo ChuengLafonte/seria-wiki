@@ -6,6 +6,14 @@
     <image source="image">
         <default>[[File:{{PAGENAME}}.png|200px]]</default>
     </image>
+    
+    <data source="slot">
+        <format><div style="text-align: center; margin-top: 5px; padding: 5px; border-top: 1px solid #b8b8b8;">{{Slot|%s}}</div></format>
+    </data>
+
+    <data source="gallery">
+        <format><div style="text-align: center; margin-top: 5px; padding: 5px; border-top: 1px solid #b8b8b8;">%s</div></format>
+    </data>
 
     <!-- Basic Information -->
     <group>

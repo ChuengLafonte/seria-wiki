@@ -1,6 +1,8 @@
 <includeonly>{{Infobox/Item/Core
 | title = {{{title|{{PAGENAME}}}}}
 | image = {{{image|}}}
+| slot = {{{slot|}}}
+| gallery = {{{gallery|}}}
 | aka = {{{aka|}}}
 | type = {{{type|}}}
 | rarity = {{{rarity|}}}
