@@ -9,13 +9,13 @@
     
     <data source="slot">
         <format>
-            <div style="margin: 0 auto; margin-top: 5px; width: 36px; height: 36px; padding: 2px; background-color: #8b8b8b; border: 2px solid; border-color: #373737 #fff #fff #373737; text-align: center;">[[File:%s.png|32px]]</div>
+            <div style="margin: 0 auto; margin-top: 5px; width: 36px; height: 36px; padding: 2px; background-color: #8b8b8b; border: 2px solid; border-color: #373737 #fff #fff #373737; text-align: center;">[[File:{{{slot|{{PAGENAME}}}}}.png|32px]]</div>
         </format>
     </data>
 
     <data source="gallery">
         <format>
-            <div style="text-align: center; margin-top: 5px; padding-top: 5px; border-top: 1px solid #b8b8b8;">%s</div>
+            <div style="text-align: center; margin-top: 5px; padding-top: 5px; border-top: 1px solid #b8b8b8;">{{{gallery}}}</div>
         </format>
     </data>
 
