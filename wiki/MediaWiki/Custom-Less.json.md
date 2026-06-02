@@ -1,0 +1,19 @@
+[
+	"Custom-common.less/variables.less",
+	"Custom-common.less/roles.less",
+	"Custom-common.less/fonts.less",
+	"Custom-common.less/navbox.less",
+	"Custom-common.less/minecraft.less",
+	"Custom-common.less/buttons.less",
+	"Custom-common.less/mainpage.less",
+	"Custom-common.less/site.less",
+	"Custom-common.less/containers.less",
+	"Custom-common.less/color.less",
+	"Custom-common.less/AceEditor.less",
+	"Custom-common.less/CodeHighlight.less",
+	"Custom-common.less/minimap.less",
+	"Custom-common.less/staff-colors.less",
+	"Custom-common.less/general.less",
+	"Custom-common.less/ucx.less",
+	"Custom-common.less/language-local.less"
+]

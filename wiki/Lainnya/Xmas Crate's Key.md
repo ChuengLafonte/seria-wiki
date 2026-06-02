@@ -1,0 +1,2 @@
+{{Material|title1=Xmas Crate's Key|image1=[[file:Xmas Crate's Key.png]]}}'''Xmas Crate's Key''' merupakan kunci khusus untuk membuka [[Xmas Crate 2024]]. Didapatkan dari membelinya di '''/mall''', atau dengan menukarkan [[Boss Soul]] atau [[Xmas Token]].
+[[Category:Key]]

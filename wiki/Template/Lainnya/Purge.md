@@ -1,0 +1,1 @@
+<includeonly>{{fullurl|action=purge|{{FULLPAGENAMEE}}|{{{1|purge}}}}}</includeonly><noinclude>{{Documentation}}</noinclude>

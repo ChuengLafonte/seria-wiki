@@ -1,4 +1,4 @@
-Project Seria Caveblock Wiki UI Tool Set:
+Project Seria Wiki UI Tool Set:
 
 Templates
 * Main Features

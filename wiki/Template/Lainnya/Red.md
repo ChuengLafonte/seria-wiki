@@ -1,0 +1,1 @@
+{{#invoke:Color|colorTemplates|{{{1}}}|color=Red}}<noinclude>[[Category:Single Color templates]]</noinclude><noinclude>{{Documentation|Template:Green/doc}}</noinclude>

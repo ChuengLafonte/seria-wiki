@@ -1,4 +1,3 @@
--- <pre>
 local loader = require('Module:Loader')
 
 local makeClass, yesno, inventorySlot, random =

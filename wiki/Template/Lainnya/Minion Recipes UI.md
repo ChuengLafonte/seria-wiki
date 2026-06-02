@@ -1,0 +1,1 @@
+<includeonly>{{#invoke:Collection/UI|minionRecipesUI}}</includeonly><noinclude>{{Documentation}}</noinclude>

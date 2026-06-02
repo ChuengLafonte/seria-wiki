@@ -1,0 +1,1 @@
+<includeonly>{{#invoke:Color|color}}</includeonly><noinclude>{{Documentation}}</noinclude>

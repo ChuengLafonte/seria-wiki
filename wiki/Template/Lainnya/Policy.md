@@ -5,11 +5,11 @@
 -->To dispute a policy, please discuss on the [{{fullurl:{{TALKPAGENAME}}}} talk page] or contact the [[Project:Staff Assistance|Staff Team]].
 |image_right = {{#if:{{{1|}}}{{{2|}}}{{{3|}}}{{{4|}}}{{{5|}}}|
 {{Shortcut<!--
--->|{{#if:{{{1|}}}|HSW:{{uc:{{{1|}}}}}}}<!--
--->|{{#if:{{{2|}}}|HSW:{{uc:{{{2|}}}}}}}<!--
--->|{{#if:{{{3|}}}|HSW:{{uc:{{{3|}}}}}}}<!--
--->|{{#if:{{{4|}}}|HSW:{{uc:{{{4|}}}}}}}<!--
--->|{{#if:{{{5|}}}|HSW:{{uc:{{{5|}}}}}}}<!--
+-->|{{#if:{{{1|}}}|PSW:{{uc:{{{1|}}}}}}}<!--
+-->|{{#if:{{{2|}}}|PSW:{{uc:{{{2|}}}}}}}<!--
+-->|{{#if:{{{3|}}}|PSW:{{uc:{{{3|}}}}}}}<!--
+-->|{{#if:{{{4|}}}|PSW:{{uc:{{{4|}}}}}}}<!--
+-->|{{#if:{{{5|}}}|PSW:{{uc:{{{5|}}}}}}}<!--
 -->}}}}
 |category=Wiki Policies
 }}<noinclude>{{Documentation}}</noinclude>

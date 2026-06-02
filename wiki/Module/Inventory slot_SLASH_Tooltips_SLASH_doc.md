@@ -15,7 +15,7 @@ The Tooltips Editor is currently bugged and is disabled temporarily. Please use 
 
 </div>--><!--Normal Button
 --><div style="border: 2px solid white; padding: 1em 1em; margin: 1em 1em; font-weight: bold; text-align: center;">
-<div style="font-size: 2rem; line-height: 2.1rem;">'''Hypixel SkyBlock Wiki: Tooltips Editor'''</div>
+<div style="font-size: 2rem; line-height: 2.1rem;">'''Project Seria Wiki: Tooltips Editor'''</div>
 <small>Click to Launch!</small>
 <div style="text-align: center;">
 <div class="editTooltips-Loading">
@@ -30,11 +30,11 @@ The Tooltips Editor is currently bugged and is disabled temporarily. Please use 
 <div style="border:1px double pink; padding: 1em 1em; margin: 1em 1em;">
 '''Guidelines:'''
 * Items should appear as if a blank profile were to see them, with all base values.
-* Items that have randomized stats (mainly dungeon weapon/armor drops) should show the base value (if present), or the stats of a random item. '''If the item is in the Essence Guide (seen in [[Malik]]'s UI → Essence Crafting → Essence Guide), use that information instead!'''
-* Items that may include player names (such as the [[Kloonboat]]), or items such as the [[Spooky Pie]] that show more specific information, should be replaced with an identifier such as <code>'''[#]'''</code> or <code>'''[player]'''</code>.
+* Items that have randomized stats (mainly dungeon weapon/armor drops) should show the base value (if present), or the stats of a random item. '''If the item is in the Essence Guide (seen in Malik's UI → Essence Crafting → Essence Guide), use that information instead!'''
+* Items that may include player names (such as the Kloonboat), or items such as the Spooky Pie that show more specific information, should be replaced with an identifier such as <code>'''[#]'''</code> or <code>'''[player]'''</code>.
 
 '''Useful Tools:'''
-* [[Project:Resources#Wikitools|Wikitools]]
+* Wikitools
 
 '''Reminders:'''
 * If you are editing in source mode, in order to use slash (/), put {{Code|\\/}}. In order to use backslash (\), put {{Code|\\\\}}.

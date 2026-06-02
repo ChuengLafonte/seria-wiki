@@ -1,1 +1,1 @@
-#REDIRECT[[Template:FeatureNav/Documentations]]
+#REDIRECT [[Template:FeatureNav/Documentations]]

@@ -1,1 +1,5 @@
-<includeonly></table></includeonly><noinclude>{{Documentation|History}}</noinclude>
+|}
+<noinclude>
+[[Category:Templates]]
+Penutup untuk tabel History.
+</noinclude>

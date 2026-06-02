@@ -1,4 +1,3 @@
--- <pre>
 --NOTE: For Tooltip Colors, please use Module:UIText
 
 local p = {}

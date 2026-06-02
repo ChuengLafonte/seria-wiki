@@ -1,5 +1,10 @@
 *Survival
-*Caveblock
+*#|Caveblock
+**#|Combat & Weapon
+**Dungeon
+**#|Progression
+**[[Collections]]|Collections
+
 *SkyForge
 *#|Features
 **Crafting Weapon

@@ -1,0 +1,70 @@
+{{UI Pager|Crafted Minions
+|id=crafted-minions
+|Cobblestone Minion I, none; Cobblestone Minion, &eCobblestone Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Obsidian Minion I, none; Obsidian Minion, &eObsidian Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Glowstone Minion I, none; Glowstone Minion, &eGlowstone Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Gravel Minion I, none; Gravel Minion, &eGravel Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Sand Minion I, none; Sand Minion, &eSand Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Red Sand Minion I, none; Red Sand Minion, &eRed Sand Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Mycelium Minion I, none; Mycelium Minion, &eMycelium Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Clay Minion I, none; Clay Minion, &eClay Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Ice Minion I, none; Ice Minion, &eIce Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Snow Minion I, none; Snow Minion, &eSnow Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Coal Minion I, none; Coal Minion, &eCoal Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Iron Minion I, none; Iron Minion, &eIron Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Gold Minion I, none; Gold Minion, &eGold Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Diamond Minion I, none; Diamond Minion, &eDiamond Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Lapis Minion I, none; Lapis Minion, &eLapis Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Redstone Minion I, none; Redstone Minion, &eRedstone Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Emerald Minion I, none; Emerald Minion, &eEmerald Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Quartz Minion I, none; Quartz Minion, &eQuartz Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|End Stone Minion I, none; End Stone Minion, &eEnd Stone Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Mithril Minion I, none; Mithril Minion, &eMithril Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Hard Stone Minion I, none; Hard Stone Minion, &eHard Stone Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Wheat Minion I, none; Wheat Minion, &eWheat Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Melon Minion I, none; Melon Minion, &eMelon Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Pumpkin Minion I, none; Pumpkin Minion, &ePumpkin Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Carrot Minion I, none; Carrot Minion, &eCarrot Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Potato Minion I, none; Potato Minion, &ePotato Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Mushroom Minion I, none; Mushroom Minion, &eMushroom Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Cactus Minion I, none; Cactus Minion, &eCactus Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Cocoa Beans Minion I, none; Cocoa Beans Minion, &eCocoa Beans Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Sugar Cane Minion I, none; Sugar Cane Minion, &eSugar Cane Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Nether Wart Minion I, none; Nether Wart Minion, &eNether Wart Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Flower Minion I, none; Flower Minion, &eFlower Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Fishing Minion I, none; Fishing Minion, &eFishing Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Zombie Minion I, none; Zombie Minion, &eZombie Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Revenant Minion I, none; Revenant Minion, &eRevenant Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Voidling Minion I, none; Voidling Minion, &eVoidling Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Inferno Minion I, none; Inferno Minion, &eInferno Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Vampire Minion I, none; Vampire Minion, &eVampire Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Skeleton Minion I, none; Skeleton Minion, &eSkeleton Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Creeper Minion I, none; Creeper Minion, &eCreeper Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Spider Minion I, none; Spider Minion, &eSpider Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Tarantula Minion I, none; Tarantula Minion, &eTarantula Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Cave Spider Minion I, none; Cave Spider Minion, &eCave Spider Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Blaze Minion I, none; Blaze Minion, &eBlaze Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Magma Cube Minion I, none; Magma Cube Minion, &eMagma Cube Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Enderman Minion I, none; Enderman Minion, &eEnderman Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Ghast Minion I, none; Ghast Minion, &eGhast Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Slime Minion I, none; Slime Minion, &eSlime Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Cow Minion I, none; Cow Minion, &eCow Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Pig Minion I, none; Pig Minion, &ePig Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Chicken Minion I, none; Chicken Minion, &eChicken Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Sheep Minion I, none; Sheep Minion, &eSheep Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Rabbit Minion I, none; Rabbit Minion, &eRabbit Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI/&c✖ Tier XII//&eClick to view recipes
+|Oak Minion I, none; Oak Minion, &eOak Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Spruce Minion I, none; Spruce Minion, &eSpruce Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Birch Minion I, none; Birch Minion, &eBirch Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Dark Oak Minion I, none; Dark Oak Minion, &eDark Oak Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Acacia Minion I, none; Acacia Minion, &eAcacia Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+|Jungle Minion I, none; Jungle Minion, &eJungle Minion, &c✖ Tier I/&c✖ Tier II/&c✖ Tier III/&c✖ Tier IV/&c✖ Tier V/&c✖ Tier VI/&c✖ Tier VII/&c✖ Tier VIII/&c✖ Tier IX/&c✖ Tier X/&c✖ Tier XI//&eClick to view recipes
+
+|6, 6=Redstone Torch, none;none, &aInformation, &7This menu shows all of the unique/&7minions that you have crafted so/&7far.//&7&7Craft minions &ayou have never/&acrafted before &7to increase the/&7minions limit on your Private/&7Island! You can also unlock 5 bonus/&7slots via the &bCommunity Shop &7in/&7the Hub!//&7Minions limit: &e5//&7Craft &b5 &7more &aunique/&a&7minions to unlock your &b6th/&b&7slot.//&7Next minion slot: (&e0&7\/&a5&7)
+
+|clickable=true
+|id=crafted-minions
+}}<!--
+
+--><includeonly>[[Category:Pages with UIs]]</includeonly><!--
+--><noinclude>[[Category:UI Subpages]]</noinclude>

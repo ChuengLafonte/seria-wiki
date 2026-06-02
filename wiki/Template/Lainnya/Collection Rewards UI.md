@@ -1,0 +1,1 @@
+<includeonly>{{#invoke:Collection/UI|collectionRewardsUI}}</includeonly><noinclude>{{Documentation}}</noinclude>
