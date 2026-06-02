@@ -133,7 +133,7 @@ end
 
 -- AnvilSB
 function p.anvilSB( frame )
-	function handleCaveblockItemSpecialCases(itemName)
+	function handleSkyBlockItemSpecialCases(itemName)
 		if not itemName then return nil end
 	    itemName = itemName:gsub("Enchanted Book %((.+)%)", "%1")
 	    return itemName
@@ -150,8 +150,8 @@ function p.anvilSB( frame )
 	args.costtext = 'Exp Levels Cost: ' .. (string._formatNum(args.cost) or 0)
 	
 	args.title = args.title or
-		handleCaveblockItemSpecialCases(determineTitle(args.Output)) or
-		handleCaveblockItemSpecialCases(determineTitle(args.Input1)) or ''
+		handleSkyBlockItemSpecialCases(determineTitle(args.Output)) or
+		handleSkyBlockItemSpecialCases(determineTitle(args.Input1)) or ''
 	
 	return p.anvil(args)
 end
@@ -520,6 +520,8 @@ function p.uiPager(frame)
 		v.id = pagerid(id, i)
 		if i > 1 then
 			v.hide = true
+		else
+			v.hide = args.hide
 		end
 		v[1] = v[1]:gsub('{0}', i):gsub('{1}', #t)
 		return tostring(p.ui(v))
@@ -606,6 +608,8 @@ function p.rewardsUI(frame)
 		v.id = pagerid(id, i)
 		if i > 1 then
 			v.hide = true
+		else
+			v.hide = args.hide
 		end
 		v[1] = v[1]:gsub('{0}', i):gsub('{1}', #t)
 		return tostring(p.ui(v))
@@ -659,6 +663,8 @@ function p.skillUI(frame)
 		v.id = pagerid(id, i)
 		if i > 1 then
 			v.hide = true
+		else
+			v.hide = args.hide
 		end
 		v[1] = v[1]:gsub('{0}', i):gsub('{1}', #t)
 		return tostring(p.ui(v))
