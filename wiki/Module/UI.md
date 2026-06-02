@@ -301,7 +301,8 @@ function p._uipage(page, args)
 	
 	for i = 1, ls.n, 1 do
 		local callStr = ls[i][1]
-		local x, y = callStr:find('{{UI|')
+		local x, y = callStr:find('{{UI|', 1, true)
+		if not x then x, y = callStr:find('{{UI Pager|', 1, true) end
 		local x1, y1, subpage, subparams = callStr:find('{{UIPage|(.-)%f[|}](.-)}}')
 		if x == 1 then
 			if firstUI then -- first UI on page, apply all the custom settings to this UI
