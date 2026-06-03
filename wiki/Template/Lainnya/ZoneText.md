@@ -1,4 +1,5 @@
-<includeonly>== Tugas ==
+<includeonly>
+== Tugas ==
 Ketika [[player|pemain]] pertama kali memasuki {{zone|{{#if:{{{zone|}}}|{{{zone}}}|{{#titleparts:{{PAGENAME}}}}}}}}, mereka akan disambut dengan pesan berikut:
 
 {{TextSection|boxed=true|text={{#invoke:Mctxt|dialogue
