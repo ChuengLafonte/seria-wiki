@@ -3,8 +3,8 @@
 |rarity = common
 |sell = 2
 }}
-'''Clay''' is a {{R|C}} item that can be obtained through [[Trade|Trading]] or fishing.
+'''Clay''' adalah item {{R|C}} yang dapat diperoleh melalui [[Trade|Trading]] atau memancing.
 
-It is used to craft blocks and other items.
+Ini digunakan untuk membuat blok dan item lainnya.
 
 [[Category:Items]]

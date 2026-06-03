@@ -15,12 +15,12 @@
 |buy = 3
 |sell = 2
 }}
-A '''Flint Arrow''' is a {{R|c}} [[Arrows|Arrow]]. It grants {{Red|+1}} {{stat|dmg}}. They can be purchased from several merchants, and can drop from {{MobSprite|Seer}}s.
+'''Flint Arrow''' adalah [[Arrows|Arrow]] {{R|c}}. Ia memberikan {{Red|+1}} {{stat|dmg}}. Mereka dapat dibeli dari beberapa merchant, dan bisa didapatkan dari drop {{MobSprite|Seer}}.
 
-== Obtaining ==
-'''Flint Arrows''' can be obtained by killing mobs, purchasing from [[Merchant]]s, or [[Crafting]].
+== Cara Mendapatkan ==
+'''Flint Arrows''' dapat diperoleh dengan membunuh mob, membeli dari [[Merchant]], atau [[Crafting]].
 
-=== Drops ===
+=== Drop ===
 {| class="wikitable"
 ! Mob
 ! Drop amount
@@ -29,13 +29,13 @@ A '''Flint Arrow''' is a {{R|c}} [[Arrows|Arrow]]. It grants {{Red|+1}} {{stat|d
 | 1–4
 |}
 
-=== Purchase ===
+=== Pembelian ===
 {{Merchant Price|merchant=[[Weaponsmith]]|3.3,1|16.7,5|33.3,10|40,12|106.7,32|213.3,64}}
 {{Merchant Price|merchant=[[Gregory]]|240,20}}
 {{Merchant Price|merchant=[[Ophelia]]|200,20}}
-Arrows have no daily purchase limit.
+Arrow tidak memiliki batas pembelian harian.
 
-{{NPCSprite|Gregory}} and {{NPCSprite|Ophelia}} both sell arrows. They exist as a convenience option, both being located in areas players may urgently be in need of arrows. However, they are more expensive when bought from them instead of buying arrows in the hub.
+{{NPCSprite|Gregory}} dan {{NPCSprite|Ophelia}} keduanya menjual arrow. Mereka ada sebagai opsi kenyamanan, keduanya berlokasi di area di mana pemain mungkin sangat membutuhkan arrow. Namun, harganya lebih mahal jika dibeli dari mereka daripada membeli arrow di hub.
 
 === Crafting ===
 {| class="wikitable"
@@ -44,12 +44,12 @@ Arrows have no daily purchase limit.
 | {{RL|1 Flint|1 Stick|1 Feather}} || {{Crafting Table|Flint Arrow}}
 |}
 
-== Usage ==
+== Penggunaan ==
 === Quiver ===
 {{Main|Quiver}}
-'''Flint Arrows''' obtained either from the ground or through the [[Auto-pickup]] feature are automatically placed into the [[Quiver]], assuming space availability, prior to being added to the player's inventory. Players can manually transfer '''Flint Arrows''' into or out of the Quiver.
+'''Flint Arrows''' yang diperoleh dari tanah atau melalui fitur [[Auto-pickup]] secara otomatis ditempatkan ke dalam [[Quiver]], asalkan ada ruang, sebelum ditambahkan ke inventaris pemain. Pemain dapat memindahkan '''Flint Arrows''' secara manual ke dalam atau ke luar Quiver.
 
-When using a [[Bows|Bow]], '''Flint Arrows''' located in the player's inventory are used before those in the Quiver. If there are no '''Flint Arrows''' in the inventory, the [[SkyBlock Menu]] transforms into a special ”Quiver Arrow" when the player is holding a [[Bows|Bow]]. This allows the player to use arrows from the Quiver. The Quiver Arrow is presented as a fixed stack of 64, irrespective of the actual quantity of arrows in the [[Quiver]]. Reverting to any item other than a Bow restores the SkyBlock Menu.
+Saat menggunakan [[Bows|Bow]], '''Flint Arrows''' yang berada di inventaris pemain akan digunakan sebelum yang ada di Quiver. Jika tidak ada '''Flint Arrows''' di inventaris, [[SkyBlock Menu]] berubah menjadi "Quiver Arrow" khusus saat pemain memegang [[Bows|Bow]]. Hal ini memungkinkan pemain menggunakan arrow dari Quiver. Quiver Arrow ditampilkan sebagai tumpukan tetap 64, terlepas dari jumlah arrow yang sebenarnya di [[Quiver]]. Beralih ke item apa pun selain Bow akan mengembalikan SkyBlock Menu.
 
 ===[[Crafting]]===
 {|class="wikitable"
@@ -65,7 +65,7 @@ When using a [[Bows|Bow]], '''Flint Arrows''' located in the player's inventory 
 |}
 
 == Trivia ==
-* [[Auto-pickup|Auto Pickup]] does not automatically fill the [[Quiver]] if '''Flint Arrows''' are collected from [[Chest]]s broken on the [[Private Island]].
+* [[Auto-pickup|Auto Pickup]] tidak secara otomatis mengisi [[Quiver]] jika '''Flint Arrows''' dikumpulkan dari [[Chest]] yang dihancurkan di [[Private Island]].
 
 == History ==
 {{History head}}

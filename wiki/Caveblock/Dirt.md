@@ -3,9 +3,9 @@
 |rarity = common
 |sell = 1
 |image=File:Dirt.png|type=item}}
-'''Dirt''' is a {{R|C}} block that can be obtained through [[Trade|Trading]] or mining on the private island. 
+'''Dirt''' adalah blok {{R|C}} yang dapat diperoleh melalui [[Trade|Trading]] atau menambang di pulau pribadi. 
 
-It is primarily used for building and expanding farms.
+Ia terutama digunakan untuk membangun dan memperluas lahan pertanian.
 
 [[Category:Blocks]]
 [[Category:Items]]

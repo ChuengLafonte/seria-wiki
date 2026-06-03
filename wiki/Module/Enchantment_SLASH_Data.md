@@ -831,7 +831,7 @@ return {
 	
 	['Overload'] = {
 		max = 5,
-		desc = '&7Increases &9☠ Crit Damage &7by &a{0}% &7and/&9☣ Crit Chance &7by &a{0}%&7. Having a/Critical chance above &9100% &7grants a/chance to perform a Mega Critical Hit/&7dealing &9{1}% &7extra damage.',
+		desc = '&7Increases &9�� Crit Damage &7by &a{0}% &7and/&9☣ Crit Chance &7by &a{0}%&7. Having a/Critical chance above &9100% &7grants a/chance to perform a Mega Critical Hit/&7dealing &9{1}% &7extra damage.',
 		req = 33,
 		vars = {
 			{1, 2, 3, 4, 5}, -- Vars 1 and 2 are identical

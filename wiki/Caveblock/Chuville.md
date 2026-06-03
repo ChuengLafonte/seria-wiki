@@ -1,5 +1,5 @@
-'''Chuville''' is a Farming Area where players can harvest various crops such as [[Wheat]], [[Carrot]], [[Potato]], and [[Beetroot]].
+'''Chuville''' adalah Area Farming di mana pemain dapat memanen berbagai tanaman seperti [[Wheat]], [[Carrot]], [[Potato]], dan [[Beetroot]].
 
-Players can access this zone once they reach the required tier in their farming collections or quests.
+Pemain dapat mengakses zona ini setelah mereka mencapai tier yang diperlukan dalam koleksi farming atau quest mereka.
 
 [[Category:Zones]]

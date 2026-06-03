@@ -9,30 +9,30 @@
 |auctionable = Yes
 |salable = No
 }}
-The '''Barrier''' is a {{R|{{R|c}}}} [[Blacklisted Items|blacklisted]] block, obtained using glitches and exploits.
+The '''Barrier''' adalah blok [[Blacklisted Items|blacklisted]] {{R|{{R|c}}}}, yang diperoleh menggunakan glitch dan eksploitasi.
 
-== Obtaining ==
-Barriers can not be obtained by normal means, however, one popular method includes the use of an [[Anvil]].
+== Cara Mendapatkan ==
+Barrier tidak dapat diperoleh dengan cara normal, namun, satu metode populer melibatkan penggunaan [[Anvil]].
 1.
-* Switch to touchscreen controls in your settings.
-* Get an item that can be enchanted with an anvil.
-* Get an enchanted book that has enchantments that can be applied to your item.
-* Drag the anvil inside the UI into your inventory.
-* Once the item gets enchanted, drag it into your inventory as well. 
+* Beralih ke kontrol layar sentuh di pengaturan Anda.
+* Dapatkan item yang dapat di-enchant dengan anvil.
+* Dapatkan buku enchanted yang memiliki enchantment yang dapat diterapkan pada item Anda.
+* Seret anvil di dalam UI ke inventaris Anda.
+* Setelah item di-enchant, seret item tersebut ke inventaris Anda juga.
 
-This results in barrier named "Anvil" appearing in your inventory. If you hold it in your hand the name switches to "barrier".
+Hal ini menghasilkan barrier bernama "Anvil" muncul di inventaris Anda. Jika Anda memegangnya di tangan Anda, namanya berubah menjadi "barrier".
 
 2.
-* Get a [[Necron's Blade]] or its refined versions with 2 scrolls applied.
-* Apply the third scroll onto it.
-* Take the Necron's Blade (or the refined ones) back without closing the anvil menu or shift-clicking.
-This results in barrier named "Anvil" appearing in your inventory.
+* Dapatkan [[Necron's Blade]] atau versi refined-nya dengan 2 scroll diterapkan.
+* Terapkan scroll ketiga padanya.
+* Ambil kembali Necron's Blade (atau versi refined) tanpa menutup menu anvil atau shift-klik.
+Hal ini menghasilkan barrier bernama "Anvil" muncul di inventaris Anda.
 
-== Description ==
-Barriers are blacklisted. They cannot be stored inside your inventory, backpacks or most containers, and get wiped after about 5–10 seconds. Barriers also can't be stored with [[Item Frame]]s or decoration chests. Barriers are also auctionable and they sell anywhere from 10k-20k each. It is not recommended to buy them as they are blacklisted quickly and they cost [[Coins|40 coins]] to make using the [[anvil]] method.
+== Deskripsi ==
+Barrier adalah item yang masuk daftar hitam (blacklisted). Mereka tidak dapat disimpan di dalam inventaris, ransel (backpack), atau sebagian besar wadah, dan akan terhapus setelah sekitar 5–10 detik. Barrier juga tidak dapat disimpan dengan [[Item Frame]] atau decoration chest. Barrier juga dapat dilelang dan dijual mulai dari 10k-20k masing-masing. Tidak disarankan untuk membelinya karena mereka di-blacklist dengan cepat dan butuh [[Coins|40 coin]] untuk membuatnya menggunakan metode [[anvil]].
 
-== Uses ==
-When barriers were introduced, they could be placed on your [[Private Island]]; however, it has since been patched.
+== Penggunaan ==
+Saat barrier diperkenalkan, mereka dapat ditempatkan di [[Private Island]] Anda; namun, hal ini telah di-patch.
 
 == History ==
 {{History head}}

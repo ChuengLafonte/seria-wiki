@@ -1,39 +1,39 @@
-{{Coll S B|id=aaa|name=Show/Hide Source Code|class=full-width-button}}
+{{Coll S B|id=aaa|name=Tampilkan/Sembunyikan Kode Sumber|class=full-width-button}}
 {{Coll S|id=aaa|1=
 <div style="padding: 2px; margin: 2px; border: 1px solid orange">
 {{Documentation subpage}}
-==Overview==
+==Ringkasan==
 {{T|Green}} is a color template used to add a Green color to text it is applied to.
-==Syntax==
+==Sintaksis==
 {{T|Green|text}}
 *{{S|text}} - The text to color.
 **{{B|Note}} the Template uses {{s|span}} tags to format the text color.
-==Examples==
+==Contoh==
 ===Green===
 <pre>{{Green|Foo Bar Baz}}</pre>
-;Produces
+;Menghasilkan
 {{Green|Foo Bar Baz}}
 ===Gold===
 <pre>{{Gold|Foo Bar Baz}}</pre>
-;Produces
+;Menghasilkan
 {{Gold|Foo Bar Baz}}
 ===Yellow===
 <pre>{{Yellow|Foo Bar Baz}}</pre>
-;Produces
+;Menghasilkan
 {{Yellow|Foo Bar Baz}}
 ===Red===
 <pre>{{Red|Foo Bar Baz}}</pre>
-;Produces
+;Menghasilkan
 {{Red|Foo Bar Baz}}
 ===Black===
 <pre>{{Black|Foo Bar Baz}}</pre>
-;Produces
+;Menghasilkan
 {{Black|Foo Bar Baz}}
 ===Pink===
 <pre>{{Pink|Foo Bar Baz}}</pre>
-;Produces
+;Menghasilkan
 {{Pink|Foo Bar Baz}}
-==List of Color Templates==
+==Daftar Templat Warna==
 *{{T|Aqua}}
 *{{T|Black}}
 *{{T|Blue}}
@@ -55,7 +55,7 @@
 </div>
 }}<!--
 
--->{{Coll S B|id=bbb|name=Show/Hide Detailed Description|class=full-width-button}}
+-->{{Coll S B|id=bbb|name=Tampilkan/Sembunyikan Deskripsi Detail|class=full-width-button}}
 {{Coll S|id=bbb|1=
 <div style="padding: 2px; margin: 2px; border: 1px solid orange">
 {{DarkCodeBox|

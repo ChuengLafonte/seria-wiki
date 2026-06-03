@@ -12,23 +12,23 @@
 |next_material = Ench Diamond Bl
 |bazaar = Enchanted Diamond
 |auctionable = No}}
-The '''Enchanted Diamond''' is an {{r|u}} item unlocked at {{CollectionLink|Diamond IV}}. It can be used to craft many items in-game.
+'''Enchanted Diamond''' adalah item {{r|u}} yang tidak dikunci pada {{CollectionLink|Diamond IV}}. Ia dapat digunakan untuk membuat (craft) banyak item di dalam game.
 
 == Crafting ==
 {| class="wikitable"
-! Requirements !! Ingredients !! Recipe
+! Persyaratan !! Bahan !! Resep
 |-
 | {{Coll|Diamond IV}}
 | {{RL|160 Diamond}}
 | {{Crafting Table|Enchanted Diamond}}
 |}
 
-== Usage ==
+== Penggunaan ==
 {| class="wikitable"
 ! colspan="2" | Name 
-! Requirements 
-! Ingredients 
-! Recipe
+! Persyaratan 
+! Bahan 
+! Resep
 |-
 ! rowspan="6" | {{ID|Diamond Minion}}
 ! V

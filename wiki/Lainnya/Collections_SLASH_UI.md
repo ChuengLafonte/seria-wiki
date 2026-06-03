@@ -6,15 +6,15 @@
 |rows=5
 |noarrow=true
 
-|1,5 = Painting, collection-ranked, &aCollection, &7View all of the items available/&7in Caveblock. Collect more of an/&7item to unlock rewards on your/&7way to mastering Caveblock!//&7Collections Unlocked: &e0&6%/&f-------------------- &e0&6\/&e6//&eClick to show rankings!
-|2,5 = Spruce Sapling, collection-foraging, &aForaging Collections, &7View your Foraging Collections!//&7Collections Unlocked: &e0&6%/&f-------------------- &e0&6\/&e6//&eClick to view!
-|3,3 = Wheat, collection-farming, &aFarming Collections, &7View your Farming Collections!//&7Collections Unlocked: &e0&6%/&f-------------------- &e0&6\/&e4//&eClick to view!
-|3,4 = Diamond, collection-mining, &aMining Collections, &7View your Mining Collections!//&7Collections Unlocked: &e0&6%/&f-------------------- &e0&6\/&e9//&eClick to view!
-|3,5 = Iron Sword, collection-slayer, &aSlayer Collections, &7View your Slayer Collections!//&7Collections Unlocked: &e0&6%/&f-------------------- &e0&6\/&e11//&eClick to view!
-|3,6 = Tropical Fish, collection-fishing, &aFishing Collections, &7View your Fishing Collections!//&7Collections Unlocked: &e0&6%/&f-------------------- &e0&6\/&e4//&eClick to view!
-|3,7 = Sand, collection-excavating, &aExcavating Collections, &7View your Excavating Collections!//&7Collections Unlocked: &e0&6%/&f-------------------- &e0&6\/&e3//&eClick to view!
-|4,5 = Cobblestone Minion I, crafted-minions, &aCrafted Minions, &7View all the unique minions that you /&7have crafted.//&eClick to view!
-|5,5 = Barrier, none;Caveblock Menu/UI, &cClose
+|1,5 = Painting, collection-ranked, &aCollection, &7Lihat semua item yang tersedia/&7di Caveblock. Kumpulkan lebih banyak/&7item untuk membuka hadiah dalam/&7perjalanan Anda menguasai Caveblock!//&7Koleksi Terbuka: &e0&6%/&f-------------------- &e0&6\/&e6//&eKlik untuk melihat peringkat!
+|2,5 = Spruce Sapling, collection-foraging, &aForaging Collections, &7Lihat Koleksi Foraging Anda!//&7Koleksi Terbuka: &e0&6%/&f-------------------- &e0&6\/&e6//&eKlik untuk melihat!
+|3,3 = Wheat, collection-farming, &aFarming Collections, &7Lihat Koleksi Farming Anda!//&7Koleksi Terbuka: &e0&6%/&f-------------------- &e0&6\/&e4//&eKlik untuk melihat!
+|3,4 = Diamond, collection-mining, &aMining Collections, &7Lihat Koleksi Mining Anda!//&7Koleksi Terbuka: &e0&6%/&f-------------------- &e0&6\/&e9//&eKlik untuk melihat!
+|3,5 = Iron Sword, collection-slayer, &aSlayer Collections, &7Lihat Koleksi Slayer Anda!//&7Koleksi Terbuka: &e0&6%/&f-------------------- &e0&6\/&e11//&eKlik untuk melihat!
+|3,6 = Tropical Fish, collection-fishing, &aFishing Collections, &7Lihat Koleksi Fishing Anda!//&7Koleksi Terbuka: &e0&6%/&f-------------------- &e0&6\/&e4//&eKlik untuk melihat!
+|3,7 = Sand, collection-excavating, &aExcavating Collections, &7Lihat Koleksi Excavating Anda!//&7Koleksi Terbuka: &e0&6%/&f-------------------- &e0&6\/&e3//&eKlik untuk melihat!
+|4,5 = Cobblestone Minion I, crafted-minions, &aCrafted Minions, &7Lihat semua minion unik yang /&7telah Anda buat.//&eKlik untuk melihat!
+|5,5 = Barrier, none;Caveblock Menu/UI, &cTutup
 }}
 <!--
  ~~ FARMING ~~
@@ -30,7 +30,7 @@
  ~~ EXCAVATING ~~
 -->{{UIPage|Excavating/Collection UI|hide=true|return_id=collection-default}}<!--
  ~~ CRAFTED MINIONS ~~
--->{{UIPage|Crafted_Minions/UI|hide=true|return_id=collection-default}}
+-->{{UIPage|Crafted Minions/UI|hide=true|return_id=collection-default}}
 </div><!--
 
 --><includeonly>[[Category:Pages with UIs]]</includeonly><!--

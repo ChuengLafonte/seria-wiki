@@ -2,15 +2,15 @@
 |id=collection-bosses
 |fill=border
 
-|1,5 = Wither Skeleton Skull, none;none, &5Boss Collections, &7View your progress and claim/&7rewards you have obtained from/&7defeating SkyBlock bosses!//&7Boss Collections Unlocked: &e0&6%/&f-------------------- &e0&6\/&e8
-|2,2 = Bonzo Head, none;Bonzo/Collection UI, &eBonzo, &7View all your Bonzo Collection/&7progress and rewards!//&7Progress to Bonzo I: &e0&6%/&f-------------------- &e0&6\/&e25//&7Bonzo I Reward:/　&9Red Nose//&eClick to view!
-|2,3 = Scarf Head, none;Scarf/Collection UI, &eScarf, &7View all your Scarf Collection/&7progress and rewards!//&7Progress to Scarf I: &e0&6%/&f-------------------- &e0&6\/&e25//&7Scarf I Reward:/　&9Red Scarf//&eClick to view!
-|2,4 = The Professor Head, none;The Professor/Collection UI, &eThe Professor, &7View all your The Professor/&7Collection progress and rewards!//&7Progress to The Professor I: &e0&6%/&f-------------------- &e0&6\/&e25//&7The Professor I Reward:/　&9Suspicious Vial//&eClick to view!
-|2,5 = Ghast Head, none;Thorn/Collection UI, &eThorn, &7View all your Thorn Collection/&7progress and rewards!//&7Progress to Thorn I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Thorn I Reward:/　&9Spirit Stone//&eClick to view!
-|2,6 = Livid Head, none;Livid/Collection UI, &eLivid, &7View all your Livid Collection/&7progress and rewards!//&7Progress to Livid I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Livid I Reward:/　&9Dark Orb//&eClick to view!
-|2,7 = Sadan Head, none;Sadan/Collection UI, &eSadan, &7View all your Sadan Collection/&7progress and rewards!//&7Progress to Sadan I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Sadan I Reward:/　&5Giant Tooth//&eClick to view!
-|2,8 = Wither Skeleton Skull, none;Necron/Collection UI, &eNecron, &7View all your Necron Collection/&7progress and rewards!//&7Progress to Necron I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Necron I Reward:/  &5Wither Blood//&eClick to view!
-|3,2 = Infernal Kuudra Key, none;Kuudra/Collection UI, &eKuudra, &7View all your Kuudra Collection/&7progress and rewards!//&7Progress to Kuudra I: &e0&6%/&f-------------------- &e0&6\/&e10//&7Kuudra I Reward:/  &fCommon Kuudra Pet/  &dCrimson Essence &7x400/  &5Kuudra Teeth//&eClick to view!
+|1,5 = Wither Skeleton Skull, none;none, &5Boss Collections, &7Lihat progres Anda dan klaim/&7hadiah yang telah Anda peroleh dari/&7mengalahkan bos SkyBlock!//&7Koleksi Bos Terbuka: &e0&6%/&f-------------------- &e0&6\/&e8
+|2,2 = Bonzo Head, none;Bonzo/Collection UI, &eBonzo, &7Lihat semua progres/&7Koleksi Bonzo Anda dan hadiahnya!//&7Progres ke Bonzo I: &e0&6%/&f-------------------- &e0&6\/&e25//&7Hadiah Bonzo I:/　&9Red Nose//&eKlik untuk melihat!
+|2,3 = Scarf Head, none;Scarf/Collection UI, &eScarf, &7Lihat semua progres/&7Koleksi Scarf Anda dan hadiahnya!//&7Progres ke Scarf I: &e0&6%/&f-------------------- &e0&6\/&e25//&7Hadiah Scarf I:/　&9Red Scarf//&eKlik untuk melihat!
+|2,4 = The Professor Head, none;The Professor/Collection UI, &eThe Professor, &7Lihat semua progres/&7Koleksi The Professor Anda dan hadiahnya!//&7Progres ke The Professor I: &e0&6%/&f-------------------- &e0&6\/&e25//&7Hadiah The Professor I:/　&9Suspicious Vial//&eKlik untuk melihat!
+|2,5 = Ghast Head, none;Thorn/Collection UI, &eThorn, &7Lihat semua progres/&7Koleksi Thorn Anda dan hadiahnya!//&7Progres ke Thorn I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Hadiah Thorn I:/　&9Spirit Stone//&eKlik untuk melihat!
+|2,6 = Livid Head, none;Livid/Collection UI, &eLivid, &7Lihat semua progres/&7Koleksi Livid Anda dan hadiahnya!//&7Progres ke Livid I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Hadiah Livid I:/　&9Dark Orb//&eKlik untuk melihat!
+|2,7 = Sadan Head, none;Sadan/Collection UI, &eSadan, &7Lihat semua progres/&7Koleksi Sadan Anda dan hadiahnya!//&7Progres ke Sadan I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Hadiah Sadan I:/　&5Giant Tooth//&eKlik untuk melihat!
+|2,8 = Wither Skeleton Skull, none;Necron/Collection UI, &eNecron, &7Lihat semua progres/&7Koleksi Necron Anda dan hadiahnya!//&7Progres ke Necron I: &e0&6%/&f-------------------- &e0&6\/&e50//&7Hadiah Necron I:/  &5Wither Blood//&eKlik untuk melihat!
+|3,2 = Infernal Kuudra Key, none;Kuudra/Collection UI, &eKuudra, &7Lihat semua progres/&7Koleksi Kuudra Anda dan hadiahnya!//&7Progres ke Kuudra I: &e0&6%/&f-------------------- &e0&6\/&e10//&7Hadiah Kuudra I:/  &fCommon Kuudra Pet/  &dCrimson Essence &7x400/  &5Kuudra Teeth//&eKlik untuk melihat!
 
 |goback = To Collections
 |return_id = collection-default

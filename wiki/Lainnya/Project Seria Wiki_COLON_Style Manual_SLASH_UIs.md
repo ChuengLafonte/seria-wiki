@@ -1,10 +1,10 @@
 {{Policy}}
 :< [[Wiki Policies]] | < [[Style Manual]]
-'''UIs''' Are custom interactable user interfaces that emulate the real thing in-game. 
-All UI's use custom fonts. They may range from Project Seria Wiki UI's to vanilla UIs.
+'''UI''' adalah antarmuka pengguna interaktif kustom yang mengemulasi hal aslinya di dalam game.
+Semua UI menggunakan font kustom. UI tersebut dapat bervariasi dari UI Project Seria Wiki hingga UI vanilla.
 
-==Templates Used==
-Since UI's are a huge topic, many different templates are used to help reduce the strain on editors and the source code size on pages.
+==Templat yang Digunakan==
+Karena UI merupakan topik yang sangat luas, banyak templat berbeda yang digunakan untuk membantu mengurangi beban editor dan ukuran kode sumber pada halaman.
 
 The templates used are as follows:
 
@@ -24,13 +24,13 @@ The templates used are as follows:
 
 **See the categories UI templates and UI templates for all templates relating to UI's.
 
-===Unused Vanilla UIs===
+===UI Vanilla yang Tidak Digunakan===
 *{{Code|{{((}}Grindstone{{))}}}} - A template that creates Vanilla Minecraft '''Grindstone''' UI. Not currently used due to Project Seria not implementing this item.
 *{{Code|{{((}}Loom{{))}}}} - A template that creates Vanilla Minecraft '''Loom''' UI. Not currently used due to Project Seria not implementing this item.
 *{{Code|{{((}}Anvil{{))}}}} - A template that creates Vanilla Minecraft [[Anvil]] UI. Not currently used due to Project Seria not implementing this item.
 *{{Code|{{((}}Smithing{{))}}}} - A template that creates Vanilla Minecraft '''Smithing Table''' UI. Not currently used due to Project Seria not implementing this item.
 
-==Project Seria UI layout==
+==Tata Letak UI Project Seria==
 Project Seria UIs comprise of the following layout:
 *The main table, which is a class called {{code|mcui}}.
 *The main title, which is made out of a custom minecraft font.
@@ -45,18 +45,18 @@ For a collection UI, please note the following:
 **For Potion Recipes, which currently should be created with {{T|UI}}, only the page with all the potions need to be created
 **For Armor Set Recipes, which are created with {{T|UI}}, '''should further link to subpages of individual recipes'''
 
-==Tooltips==
+==Tooltip==
 Since Project Seria makes extensive use of custom tooltips, the wiki also uses them. These tooltips are generated with [[MediaWiki:Common.js/minetip.js]].
 These can be added to inventory slots with {{T|Slot}}.
 
 When {{T|Slot}} is called, it first draws from an aliases module ([[Module:Inventory slot/Aliases]] and [[Module:Inventory slot/Tooltips]]) to see if there are any preloaded tooltips. If not manual tooltips may be added.
 
-===Fonts===
+===Font===
 In tooltips, custom colors may be used. The syntax for tooltips is quite simple:
 *For custom colors, {{GP|minecraft:Formatting_Codes|Formatting Codes}} such as {{code|&a}} or {{code|&l}} may be used.
 *For newlines, the character {{code|/}} is used. This may be prevented by escaping it as follows: {{code|\/}}
 
-==Tabbers==
+==Tabber==
 In Project Seria, UI's may link/open other UI's. The {{SITENAME}} replicates this with '''UI Tabbers'''. These may be activated by adding an element with a class called {{code|sbw-ui-tabber}} and placing UI's inside.
 
 When a UI is placed inside, a slot with a class with the prefix {{code|goto-}} (this may be generated using {{T|Slot}} and the {{s|class}} paramater) will attempt to find a UI with the matching ID with the {{Code|ui-}} prefix.

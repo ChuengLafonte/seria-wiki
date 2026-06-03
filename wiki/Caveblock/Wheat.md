@@ -3,12 +3,12 @@
 |rarity = common
 |sell = 1
 }}
-'''Wheat''' is a {{R|C}} item found when harvesting crops in [[Chuville]] or using a [[Wheat Minion]].
+'''Wheat''' adalah item {{R|C}} yang ditemukan saat memanen tanaman di [[Chuville]] atau menggunakan [[Wheat Minion]].
 
-It is a primary ingredient in many farming recipes.
+Ini adalah bahan utama dalam banyak resep farming.
 
-== Collection ==
-Collecting Wheat increases the player's Wheat [[Collection/List|Collection]], which grants useful items and perks upon collecting certain amounts of Wheat.
+== Koleksi ==
+Mengumpulkan Wheat meningkatkan [[Collection/List|Koleksi]] Wheat pemain, yang memberikan item berguna dan perk saat mengumpulkan sejumlah Wheat tertentu.
 
 {{CollectionTable|Wheat}}
 

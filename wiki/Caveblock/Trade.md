@@ -1,3 +1,3 @@
-'''Trade''' (or Trades) is a system where players can exchange certain items for other items, such as exchanging [[Wheat Seeds]] for [[Dirt]] or [[Clay]].
+'''Trade''' (atau Trades) adalah sistem di mana pemain dapat menukar item tertentu dengan item lain, seperti menukar [[Wheat Seeds]] dengan [[Dirt]] atau [[Clay]].
 
 [[Category:Mechanics]]
