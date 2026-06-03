@@ -1,4 +1,8 @@
 local data = {
+	-- seria wiki custom zones
+	['chuville'] = { name = 'Chuville', color = 'yellow' },
+	['spawn cave'] = { name = 'Spawn Cave', color = 'aqua' },
+	
 	-- hub island
 	['abiphones & co.'] = { name = 'Abiphones & Co.', color = 'dark aqua', parent = 'hub island' },
 	['archery range'] = { name = 'Archery Range', color = 'dark aqua', parent = 'hub island' },
