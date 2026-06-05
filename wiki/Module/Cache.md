@@ -51,6 +51,9 @@ local function makeModuleCache(moduleName)
 				end
 				cachedTable = mod or {}
 			end
+			if cachedTable.items and cachedTable.lastUpdated then
+				return cachedTable.items[key]
+			end
 			return cachedTable[key]
 		end,
 		set = function(self, key, value)

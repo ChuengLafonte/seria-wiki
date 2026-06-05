@@ -45,10 +45,10 @@ return {
 			{ tba = 9, storage = 768, crafting = { item = 'Enchanted Wheat', num = 16 } },
 			{ tba = 9, storage = 960, crafting = { item = 'Enchanted Wheat', num = 32 } },
 			{ tba = 8, storage = 960, crafting = { item = 'Enchanted Wheat', num = 64 } },
-			{ tba = 7, storage = 960, trade = {
-				{ item = 'Enchanted Wheat', num = 1024 },
-				{ item = 'Pelt', num = 75 },
-			}, tradeNpc = 'Tony' },
+			-- { tba = 7, storage = 960, trade = {
+			-- 	{ item = 'Enchanted Wheat', num = 1024 },
+			-- 	{ item = 'Pelt', num = 75 },
+			-- }, tradeNpc = 'Tony' },
 		},
 		description = '&7Place this minion and it will/&7start generating and harvesting/&7wheat. Requires dirt or soil/&7nearby so wheat can be planted./&7Minions also work when you are/&7offline!'
 	},
