@@ -1,0 +1,1 @@
+<includeonly>{{#invoke:Currency|gins}}</includeonly><noinclude>{{documentation}}</noinclude>
