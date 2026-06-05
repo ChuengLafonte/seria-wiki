@@ -22,8 +22,21 @@ p.invslotCache2 = makeSimpleCache()
 p.slotAliasesCache = makeSimpleCache()
 
 -- Item Variants cache (simplified — always miss)
-p.itemVariantsCache = makeSimpleCache()
-
+local function makeVariantsCache()
+	local variantsTable = nil
+	return {
+		get = function(self, key, mode)
+			if variantsTable == nil then
+				local status, variantsModule = pcall(require, 'Module:Item/Variants')
+				variantsTable = status and variantsModule or {}
+			end
+			return variantsTable[key]
+		end,
+		set = function(self, key, value)
+		end,
+	}
+end
+p.itemVariantsCache = makeVariantsCache()
 -- Other caches
 p.itemApiDataCache    = makeSimpleCache()
 p.itemApiAliasesCache = makeSimpleCache()
