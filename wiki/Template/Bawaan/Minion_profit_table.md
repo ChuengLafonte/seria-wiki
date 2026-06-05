@@ -1,0 +1,1 @@
+<includeonly>{{#invoke:Minion|minionProfitTable}}</includeonly><noinclude>{{Documentation}}[[Category:Templates]][[Category:Minion Templates]]</noinclude>

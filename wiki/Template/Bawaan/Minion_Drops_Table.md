@@ -1,0 +1,1 @@
+<includeonly>{{#invoke:minion|minionDropsTable}}</includeonly><noinclude>{{Documentation}}</noinclude>
