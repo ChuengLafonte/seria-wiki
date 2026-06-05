@@ -370,12 +370,13 @@ function p._infoboxCreate(args)
 			s.skill_special_effect = argK('skill_special_effect')
 			
 			-- Upgrades group
+			local disable_upgrades = yesno(argK('disable_upgrades'), false)
 			--[[M0]]
-			s.super_compactor = isMinion and yesnoIcon(argK('super_compactor') or true) or nil
+			s.super_compactor = (isMinion and not disable_upgrades) and yesnoIcon(argK('super_compactor') or true) or nil
 			--[[M1]]
-			s.compactor = isMinion and yesnoIcon(argK('compactor')) or nil
+			s.compactor = (isMinion and not disable_upgrades) and yesnoIcon(argK('compactor')) or nil
 			--[[M2]]
-			s.auto_smelter = isMinion and yesnoIcon(argK('auto_smelter')) or nil
+			s.auto_smelter = (isMinion and not disable_upgrades) and yesnoIcon(argK('auto_smelter')) or nil
 			
 			-- Player Interactions group
 			--[[N0]]

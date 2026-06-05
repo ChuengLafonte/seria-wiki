@@ -17,6 +17,7 @@ Untuk menggunakan template ini, tambahkan template {{T|Infobox/Minion}} dan isi 
  | super_compactor = Nilai yes/no untuk gaya; sebaliknya menggunakan nilai yang dimasukkan
  | compactor       = Nilai yes/no untuk gaya; sebaliknya menggunakan nilai yang dimasukkan
  | auto_smelter    = Nilai yes/no untuk gaya; sebaliknya menggunakan nilai yang dimasukkan
+ | disable_upgrades= Nilai yes/no untuk menonaktifkan bagian Upgrades (standarnya yes)
  
  | ideal_layout    = Gunakan {{Minion ideal layout}}
  | id              = ID item minion
