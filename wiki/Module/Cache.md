@@ -28,7 +28,10 @@ local function makeVariantsCache()
 		get = function(self, key, mode)
 			if variantsTable == nil then
 				local status, variantsModule = pcall(require, 'Module:Item/Variants')
-				variantsTable = status and variantsModule or {}
+				if not status then
+					error("Failed to load Module:Item/Variants: " .. tostring(variantsModule))
+				end
+				variantsTable = variantsModule or {}
 			end
 			return variantsTable[key]
 		end,
