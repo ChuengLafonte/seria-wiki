@@ -7,12 +7,12 @@ return {
 		collection = 'Wheat I',
 		items = {
 			{ item = 'Wheat', avg = 1, exp = 0.2 },
-			{ item = 'Seeds', avg = 1.5, exp = 0.1 },
+			{ item = 'Wheat Seeds', avg = 1.5, exp = 0.1 },
 		},
 		drops = {
 			none = {
 				{ item = 'Wheat', avg = 1, exp = '0.2 Farming' }, -- exp not tested
-				{ item = 'Seeds', avg = 1.5, exp = '0.1 Farming' },
+				{ item = 'Wheat Seeds', avg = 1.5, exp = '0.1 Farming' },
 			},
 			compactor = {
 				{ item = 'Hay Bale', exp = '1.8 Farming', from = { item = 'Wheat', num = 9 } }, -- exp not tested
@@ -21,7 +21,7 @@ return {
 				{ item = 'Enchanted Bread', exp = '12 Farming', from = { item = 'Wheat', num = 60 } }, -- exp:tested
 				{ item = 'Enchanted Wheat', exp = '32 Farming', from = { item = 'Wheat', num = 160 } }, -- exp not tested
 				{ item = 'Enchanted Hay Bale', exp = '5120 Farming', from = { item = 'Enchanted Wheat', num = 160 } }, -- exp not tested
-				{ item = 'Enchanted Seeds', exp = '16 Farming', from = { item = 'Seeds', num = 160 } }, -- exp:tested
+				{ item = 'Enchanted Seeds', exp = '16 Farming', from = { item = 'Wheat Seeds', num = 160 } }, -- exp:tested
 				{ item = 'Box of Seeds', exp = '2560 Farming', from = { item = 'Enchanted Seeds', num = 160 } }, -- exp not tested
 			},
 		},
@@ -30,7 +30,7 @@ return {
 			['Enchanted Bread'] = { {'Wheat', 60 } },
 			['Enchanted Wheat'] = { {'Wheat', 160 } },
 			['Enchanted Hay Bale'] = { {'Enchanted Wheat', 160 } },
-			['Enchanted Seeds'] = { {'Seeds', 160 } },
+			['Enchanted Seeds'] = { {'Wheat Seeds', 160 } },
 			['Box of Seeds'] = { {'Enchanted Seeds', 160 } },
 		},
 		stats = {

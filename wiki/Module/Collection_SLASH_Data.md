@@ -4299,7 +4299,7 @@ local all_collections = {
 			},
 		},
 	},
-	['Seeds'] = {
+	['Wheat Seeds'] = {
 		minion = 'Wheat',
 		[1] = {
 			required = 50,

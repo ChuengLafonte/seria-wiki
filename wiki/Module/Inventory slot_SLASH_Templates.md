@@ -1379,7 +1379,7 @@ return {
 			'Red Mushroom',
 			'Rotten Flesh',
 			'Sand',
-			'Seeds',
+			'Wheat Seeds',
 			'Sponge',
 			'Spruce Log',
 			'String',

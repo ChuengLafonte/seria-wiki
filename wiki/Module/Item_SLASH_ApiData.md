@@ -4128,7 +4128,7 @@ return {
 		SECRET_DUNGEON_REDSTONE_KEY = {material="SKULL_ITEM",durability=3,skin="a223e36ac13f0f71abcfbf0c96fdc2010cc3e11ff2b0d8112d0e63f4b4aaa0de",name="Redstone Key",tier="RARE",dungeon_item=true,id="SECRET_DUNGEON_REDSTONE_KEY"},
 		SECRET_RAILROAD_PASS = {material="PAPER",name="Secret Railroad Pass",glowing=true,tier="SPECIAL",soulbound="SOLO",unstackable=true,description="%%dark_gray%%Quest Item\n\n%%gray%%Show this pass to the %%aqua%%Ticket Master%%gray%%.",id="SECRET_RAILROAD_PASS"},
 		SECRET_TRACKER = {material="COMPASS",name="Secret Tracker 3000",glowing=false,tier="UNCOMMON",dungeon_item=true,museum_data={category="DUNGEONEERING",donation_xp=3,game_stage="INTERMEDIATE"},id="SECRET_TRACKER"},
-		SEEDS = {material="SEEDS",name="Seeds",npc_sell_price=3,id="SEEDS"},
+		SEEDS = {material="SEEDS",name="Wheat Seeds",npc_sell_price=3,id="SEEDS"},
 		SEISMIC_WAVE_STICK = {material="STICK",name="Seismic Wave",glowing=true,category="SWORD",tier="RARE",stats={DAMAGE=10},npc_sell_price=1,dungeon_item=true,serializable=false,id="SEISMIC_WAVE_STICK"},
 		SELF_RECURSIVE_PICKAXE = {material="DIAMOND_PICKAXE",name="Self-Recursive Pickaxe",tier="RARE",motes_sell_price=25,category="SWORD",origin="RIFT",stats={rift_damage=5},item_specific={mana_refund=4},id="SELF_RECURSIVE_PICKAXE"},
 		SERIOUSLY_DAMAGED_AXE = {material="WOOD_AXE",name="Seriously Damaged Axe",category="AXE",tier="UNCOMMON",stats={FORAGING_FORTUNE=5,SWEEP=7,damage=10},can_have_booster=true,requirements={{type="SKILL",skill="FORAGING",level=12}},museum_data={category="FORAGING",donation_xp=1,parent={SERIOUSLY_DAMAGED_AXE="DECENT_AXE"},mapped_item_ids={},game_stage="STARTER"},id="SERIOUSLY_DAMAGED_AXE"},
