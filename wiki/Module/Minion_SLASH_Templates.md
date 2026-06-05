@@ -12,7 +12,7 @@ local function minions()
 	
 	table.each(table.keys(minionData), function(name)
 		local stats = minionData[name].stats
-		local description = {{ req = 1, minionData[name].description or 'No Description' }}
+		local description = {{ req = 1, minionData[name].description or 'Tidak ada deskripsi' }}
 		table.merge(description, table.deepCopy(minionData[name].abilities or {}, true))
 		local max = table.length(stats)
 		local max_ = string._toRoman(max)

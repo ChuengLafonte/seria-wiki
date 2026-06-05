@@ -1,16 +1,16 @@
 {{Documentation subpage}}
 {{Lua|Minion/UI}}
-Displays a minion's ideal layout.
+Menampilkan tata letak ideal minion.
 
-== Syntax ==
+== Sintaks ==
 {{T|Minion ideal layout|minion|ideal|border|A1..E5}}
-* {{S|minion}} -  Full minion name (without the tier at the end)
-* {{S|ideal}} -  What the center area is filled with
-* {{S|border}} - (optional) what the border is made of (if there is one)
-* {{S|A1...E5}} -  In some cases the "ideal" isn't just a solid type; in these cases, A1-A5 to E1-E5 can be used in the same manor as a crafting table template to display an item there
-* In the case of a minion requiring air, the value should be "<code>Air (minion)</code>".
+* {{S|minion}} -  Nama lengkap minion (tanpa tingkat di akhir)
+* {{S|ideal}} -  Area tengah diisi dengan blok/item apa
+* {{S|border}} - (opsional) bahan pinggiran layout (jika ada)
+* {{S|A1...E5}} -  Dalam beberapa kasus, bagian 'ideal' tidak selalu blok solid; kamu bisa menggunakan parameter A1-E5 untuk mengatur setiap blok layaknya membuat tata letak di meja pembuatan.
+* Jika minion tersebut membutuhkan udara kosong (air), maka nilainya harus: "<code>Air (minion)</code>".
 
-== Examples ==
+== Contoh Penggunaan ==
 <pre>
 {{Minion ideal layout|minion=Cocoa Beans Minion|ideal=Air (minion)
 |A1=Jungle Wood|C1=Jungle Wood|E1=Jungle Wood

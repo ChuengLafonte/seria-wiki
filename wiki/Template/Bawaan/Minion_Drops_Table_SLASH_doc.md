@@ -4,12 +4,12 @@
 {{T|Minion Drops Table}} is a template used to display the drops collected by a minion.
 {{Tc}}
 
-==Syntax==
+==Sintaks==
 {{T|Minion Drops Table|minion}}
 *{{S|minion}} or {{S|m}} or {{S|1}} - the name of the minion. Default to {{Code|<nowiki>{{PAGENAME}}</nowiki>}}. Case insensitive.
 
 
-==Examples==
+==Contoh Penggunaan==
 ;Example 1
 <pre>
 {{Minion Drops Table|fishing}}

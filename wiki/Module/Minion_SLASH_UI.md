@@ -225,7 +225,7 @@ function p._minionUI( minion )
 			then return { '' } -- Empty Slot
 			else return {
 				'White Stained Glass Pane',
-				title = '&eStorage unlocked at tier ' .. string._toRoman(storageTier[num]),
+				title = '&ePenyimpanan terbuka pada tingkat ' .. string._toRoman(storageTier[num]),
 				text = 'none',
 				link = 'none',
 			}
@@ -239,22 +239,22 @@ function p._minionUI( minion )
 	local upgradeMessageUpgrade = ''
 	
 	if tier == highestTier then
-		upgradeMessage = '&aHighest tier has been reached!'
-		upgradeMessageView = 'The highest tier of this minion/has been reached//' .. upgradeMessage
-		upgradeMessageUpgrade = '&cThis minion has reached the/maximum tier.'
+		upgradeMessage = '&aTingkat tertinggi telah dicapai!'
+		upgradeMessageView = 'Tingkat tertinggi dari minion ini/telah dicapai//' .. upgradeMessage
+		upgradeMessageUpgrade = '&cMinion ini telah mencapai/tingkat maksimum.'
 	elseif tier == highestCraftable then
 		local tradenpc = dt.stats[tier + 1].tradeNpc
-		upgradeMessage = '&aHighest craftable tier has been/&areached!'
-		upgradeMessageView = '&7The highest craftable tier of/&7this minion has been reached/&7Talk to ' .. (npctext[tradenpc] and npctext[tradenpc].name or tradenpc) .. ' &r&7in the/&7' .. (npctext[tradenpc] and npctext[tradenpc].loc or '(unknown)') .. ' &r&7to unlock the/next tier!//' .. upgradeMessage
+		upgradeMessage = '&aTingkat tertinggi yang bisa dibuat telah/&adicapai!'
+		upgradeMessageView = '&7Tingkat tertinggi yang bisa dibuat dari/&7minion ini telah dicapai/&7Bicara dengan ' .. (npctext[tradenpc] and npctext[tradenpc].name or tradenpc) .. ' &r&7in the/&7' .. (npctext[tradenpc] and npctext[tradenpc].loc or '(unknown)') .. ' &r&7untuk membuka/tingkat berikutnya!//' .. upgradeMessage
 		upgradeMessageUpgrade = '&cThis minion has reached the/&cmaximum tier.'
 	elseif dt.stats[tier + 1].storage > dt.stats[tier].storage then
-		upgradeMessage = '&7Time Between Actions: &e' .. dt.stats[tier].tba .. 's/&7Max Storage: &8' .. dt.stats[tier].storage .. ' ➜ &a' .. dt.stats[tier + 1].storage
-		upgradeMessageView = '&7View the items required to/&7upgrade this minion to the/&7next tier.//' .. upgradeMessage .. '//&eClick to view!'
-		upgradeMessageUpgrade = upgradeMessage .. '//&eClick to upgrade!'
+		upgradeMessage = '&7Waktu Antar Aksi: &e' .. dt.stats[tier].tba .. 's/&7Penyimpanan Maksimal: &8' .. dt.stats[tier].storage .. ' ➜ &a' .. dt.stats[tier + 1].storage
+		upgradeMessageView = '&7Lihat item yang dibutuhkan untuk/&7meningkatkan minion ini ke/&7tingkat berikutnya.//' .. upgradeMessage .. '//&eKlik untuk melihat!'
+		upgradeMessageUpgrade = upgradeMessage .. '//&eKlik untuk meningkatkan!'
 	else
-		upgradeMessage = '&7Time Between Actions: &8' .. dt.stats[tier].tba .. 's ➜ &a' .. dt.stats[tier + 1].tba .. 's/&7Max Storage: &e' .. dt.stats[tier].storage
-		upgradeMessageView = '&7View the items required to/&7upgrade this minion to the/&7next tier.//' .. upgradeMessage .. '//&eClick to view!'
-		upgradeMessageUpgrade = upgradeMessage .. '//&eClick to upgrade!'
+		upgradeMessage = '&7Waktu Antar Aksi: &8' .. dt.stats[tier].tba .. 's ➜ &a' .. dt.stats[tier + 1].tba .. 's/&7Penyimpanan Maksimal: &e' .. dt.stats[tier].storage
+		upgradeMessageView = '&7Lihat item yang dibutuhkan untuk/&7meningkatkan minion ini ke/&7tingkat berikutnya.//' .. upgradeMessage .. '//&eKlik untuk melihat!'
+		upgradeMessageUpgrade = upgradeMessage .. '//&eKlik untuk meningkatkan!'
 	end
 	
 	local ui = Interface({
@@ -264,70 +264,70 @@ function p._minionUI( minion )
 	})
 	ui:setSlot(1, 4, {
 		'Redstone Torch',
-		title = '&aIdeal Layout',
-		text = '&7View the most effecient spot for/&7this minion to be placed in.',
+		title = '&aTata Letak Ideal',
+		text = '&7Lihat letak paling efisien untuk/&7menempatkan minion ini.',
 		link = 'none',
 	})
 	ui:setSlot(1, 5, {
 		title,
 		title = '&9' .. title,
-		text = ('&7%s//&7Time Between Action: &a%ss/&7Max Storage: &e%s/&7Resources Generated: &b0'):format(
-			dt.description or 'No Description',
+		text = ('&7%s//&7Waktu Antar Aksi: &a%ss/&7Penyimpanan Maksimal: &e%s/&7Sumber Daya Dihasilkan: &b0'):format(
+			dt.description or 'Tidak ada deskripsi',
 			dt.stats[tier].tba, dt.stats[tier].storage
 		),
 	})
 	ui:setSlot(1, 6, {
 		'Gold Ingot',
-		title = '&aNext Tier',
+		title = '&aTingkat Berikutnya',
 		text = upgradeMessageView,
 		link = 'none',
 	})
 	ui:setSlot(2, 2, {
 		'Lime Stained Glass Pane',
-		title = '&aMinion Skin Slot',
-		text = '&7You can insert a Minion Skin/&7here to change the appearance of/&7your minion.',
+		title = '&aSlot Skin Minion',
+		text = '&7Kamu bisa memasukkan Skin Minion/&7di sini untuk mengubah penampilan/&7dari minion milikmu.',
 		link = 'none',
 	})
 	ui:setSlot(3, 2, {
 		'Orange Stained Glass Pane',
-		title = '&aFuel',
-		text = '&7Increase the speed of your/&7minion by adding minion fuel/&7items here.//&cNote: &7You can\'t take/&7fuel back out after you/&7place it here!',
+		title = '&aBahan Bakar',
+		text = '&7Tingkatkan kecepatan/&7minion kamu dengan menambahkan item bahan bakar/&7di sini.//&cCatatan: &7Kamu tidak bisa mengambil/&7bahan bakar kembali setelah/&7kamu meletakkannya di sini!',
 		link = 'none',
 	})
 	ui:setSlot(4, 2, {
 		'Blue Stained Glass Pane',
-		title = '&aAutomated Shipping',
+		title = '&aPengiriman Otomatis',
 		text = '&7Add a &bBudget Hopper&7\\,/&bEnchanted Hopper&7 or a/&bPerfect Hopper&7 here to make/&7your minion automatically sell/&7generated items after its/&7inventory is full.',
 		link = 'none',
 	})
 	ui:setSlot(5, 2, {
 		'Yellow Stained Glass Pane',
-		title = '&aUpgrade Slot',
-		text = '&7You can improve your minion by/&7adding a minion upgrade item/&7here.',
+		title = '&aSlot Peningkatan',
+		text = '&7Kamu bisa meningkatkan minion kamu dengan/&7menambahkan item peningkatan minion/&7di sini.',
 		link = 'none',
 	})
 	ui:setSlot(6, 2, {
 		'Yellow Stained Glass Pane',
-		title = '&aUpgrade Slot',
-		text = '&7You can improve your minion by/&7adding a minion upgrade item/&7here.',
+		title = '&aSlot Peningkatan',
+		text = '&7Kamu bisa meningkatkan minion kamu dengan/&7menambahkan item peningkatan minion/&7di sini.',
 		link = 'none',
 	})
 	ui:setSlot(6, 4, {
 		'Chest',
-		title = '&aCollect All',
-		text = '&eClick to Collect all items!',
+		title = '&aKumpulkan Semua',
+		text = '&eKlik untuk Mengumpulkan semua item!',
 		link = 'none',
 	})
 	ui:setSlot(6, 6, {
 		'Diamond',
-		title = '&aQuick-Upgrade Minion',
-		text = '&7Click here to upgrade your/&7minion to the next tier.//' .. upgradeMessageUpgrade,
+		title = '&aPeningkatan Cepat Minion',
+		text = '&7Klik di sini untuk meningkatkan/&7minion kamu ke tingkat berikutnya.//' .. upgradeMessageUpgrade,
 		link = 'none',
 	})
 	ui:setSlot(6, 9, {
 		'Bedrock',
-		title = '&aPickup Minion',
-		text = '&eClick to pickup!',
+		title = '&aAmbil Minion',
+		text = '&eKlik untuk mengambil!',
 		link = 'none',
 	})
 	

@@ -1,24 +1,24 @@
 {{Documentation subpage}}{{Lua|Infobox/Mechanic}}
-To use this template, add the {{T|Infobox/Minion}} template and fill in the appropriate fields. Fields left blank will not appear in articles. This infobox template uses [[Help:Infobox|Fandom's infobox syntax]].
+Untuk menggunakan template ini, tambahkan template {{T|Infobox/Minion}} dan isi kolom yang sesuai. Kolom yang dibiarkan kosong tidak akan muncul di artikel. Template infobox ini menggunakan [[Help:Infobox|Sintaks infobox Fandom]].
 
 == Syntax ==
 <pre>
 {{ Infobox/Minion
- | tab[1-10]      = headers for different tabs (should only really be used if needed on infoboxes with more than 1 tab)
+ | tab[1-10]      = header untuk tab yang berbeda (hanya gunakan jika diperlukan pada infobox dengan lebih dari 1 tab)
  
  | title           =
  | image           =
  
  | category        =
- | collection      = Any input accepted by {{CollectionLink}}
+ | collection      = Semua input diterima oleh {{CollectionLink}}
  | upgrade_with    =
  | collects        =
  
- | super_compactor = Any yes/no value for styling; otherwise uses exact value entered
- | compactor       = Any yes/no value for styling; otherwise uses exact value entered
- | auto_smelter    = Any yes/no value for styling; otherwise uses exact value entered
+ | super_compactor = Nilai yes/no untuk gaya; sebaliknya menggunakan nilai yang dimasukkan
+ | compactor       = Nilai yes/no untuk gaya; sebaliknya menggunakan nilai yang dimasukkan
+ | auto_smelter    = Nilai yes/no untuk gaya; sebaliknya menggunakan nilai yang dimasukkan
  
- | ideal_layout    = Use {{Minion ideal layout}}
- | id              = The minion item ID
+ | ideal_layout    = Gunakan {{Minion ideal layout}}
+ | id              = ID item minion
 }}
 </pre>
