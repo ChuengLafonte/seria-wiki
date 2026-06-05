@@ -40,10 +40,28 @@ local function makeVariantsCache()
 	}
 end
 p.itemVariantsCache = makeVariantsCache()
+local function makeModuleCache(moduleName)
+	local cachedTable = nil
+	return {
+		get = function(self, key, mode)
+			if cachedTable == nil then
+				local status, mod = pcall(require, moduleName)
+				if not status then
+					error("Failed to load " .. moduleName .. ": " .. tostring(mod))
+				end
+				cachedTable = mod or {}
+			end
+			return cachedTable[key]
+		end,
+		set = function(self, key, value)
+		end,
+	}
+end
+
 -- Other caches
-p.itemApiDataCache    = makeSimpleCache()
-p.itemApiAliasesCache = makeSimpleCache()
-p.craftingAliasesCache = makeSimpleCache()
+p.itemApiDataCache    = makeModuleCache('Module:Item/ApiData')
+p.itemApiAliasesCache = makeModuleCache('Module:Item/ApiAliases')
+p.craftingAliasesCache = makeModuleCache('Module:Crafting/Aliases')
 p.minionDataCache     = makeSimpleCache()
 
 -- Tooltips Cache Access, for Module:Inventory slot and Module:Collection/UI
