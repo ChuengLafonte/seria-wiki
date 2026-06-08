@@ -110,7 +110,8 @@ function p._createPriceCell(npc, bz, amount, products, additional_text, shop_fir
 	
 	local cell = mw.html.create('td')
 	npc.price = tonumber(npc.val)
-	bz.price = tonumber(bz.val)
+	bz = {} -- Disabled Bazaar
+	bz.price = nil
 	npc.price = npc.price and npc.price * amount
 	bz.price = bz.price and bz.price * amount
 	npc.coin = makeCoin(npc.price)
@@ -515,7 +516,7 @@ function p._minionStatsTable( minionName )
 	end
 	local recipes = minion.recipes
 	
-	local showBazaarCost = minionName:lower() ~= 'flower'
+	local showBazaarCost = false
 	
 	local wikitable = mw.html.create('table'):addClass('wikitable article-margin-off article-msTable')
 	local cumulativeDisplay = string.wrapHtml(string.makeTitle('CUMU', 'This result is cumulative.'), 'sup')
@@ -990,15 +991,14 @@ function p._minionProfitTable(minionName, isOffline)
 	-- compose the header of the table
 	local wikitable = mw.html.create('table'):addClass('wikitable')
 	wikitable:tag('caption'):addClass('txt-nowrap')
-		:wikitext('Listed below are the profits of this minion when its items are sold to [[Bazaar]].<br>No [[Minion Fuel]], [[Super Compactor 3000|Compactors]], nor [[Diamond Spreading]] are used in the calculation.', '<br>', 'Values are shown when the player is online.')
+		:wikitext('Listed below are the profits of this minion when its items are sold to Shop.<br>No [[Minion Fuel]], [[Super Compactor 3000|Compactors]], nor [[Diamond Spreading]] are used in the calculation.', '<br>', 'Values are shown when the player is online.')
 	wikitable:tag('tr')
 		:tag('th'):wikitext('Tier'):attr({ rowspan = 2 }):done()
 		:tag('th'):wikitext('<abbr title="Harvests per minute = 60 / (time between actions × 2)">Harvests<br>per minute</abbr>'):attr({ rowspan = 2 }):done()
-		:tag('th'):wikitext('Per day'):attr ({ colspan = 3 }):done()
+		:tag('th'):wikitext('Per day'):attr ({ colspan = 2 }):done()
 	:done()
 	wikitable:tag('tr')
 		:tag('th'):wikitext('Items'):done()
-		:tag('th'):wikitext('Bazaar Profit{{BazaarInfoIcon}}'):done()
 		:tag('th'):wikitext('NPC Profit'):done()
 	:done()
 	
@@ -1092,12 +1092,10 @@ function p._minionProfitTable(minionName, isOffline)
 			npcPriceSum = npcPriceSum + npcPrice[j]
 		end
 		
-		-- add the table cells and fill them with the data from above
 		wikitable:tag('tr')
 			:tag('th'):wikitext(string._toRoman(i), '<br>{{Slot|', minionName, ' Minion ', string._toRoman(i), '}}'):done()
 			:tag('td'):wikitext('<center>{{Green|', hpm, '}}</center>'):done()
 			:tag('td'):wikitext('{{Resource List|', resourceStr_24, '}}'):done()
-			:tag('td'):wikitext('{{BazaarPurchaseCalc|type=sell|', bazaarStr_24, '}}'):done()
 			:tag('td'):wikitext(npcPriceSum ~= 0 and ('{{Coins|%.2f}}'):format(npcPriceSum) or '{{Red|None}}'):done()
 		:done()
 	end
