@@ -5,8 +5,9 @@
 {{Tc}}
 
 ==Sintaks==
-{{T|Minion Drops Table|minion}}
+{{T|Minion Drops Table|minion|disable_upgrades=yes}}
 *{{S|minion}} or {{S|m}} or {{S|1}} - the name of the minion. Default to {{Code|<nowiki>{{PAGENAME}}</nowiki>}}. Case insensitive.
+*{{S|disable_upgrades}} - if set to {{Code|yes}}, hides the Compactor, Super Compactor 3000, and Auto Smelter drops from the table.
 
 
 ==Contoh Penggunaan==

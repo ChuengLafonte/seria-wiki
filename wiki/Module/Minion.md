@@ -717,12 +717,13 @@ function p.minionDropsTable(frame)
 	local args = getArgs(frame)
 	
 	local minion = args.minion or args.m or args[1] or title
+	local disable_upgrades = yesno(args.disable_upgrades, false)
 	
-	local success, result = safeResponse.call(p._minionDropsTable, minion, true, true)
+	local success, result = safeResponse.call(p._minionDropsTable, minion, true, true, disable_upgrades)
 	return mw.getCurrentFrame():preprocess(result)
 end
 -- <SafeResponse:enabled>
-function p._minionDropsTable(minionName, withSellPrices, withNotice)
+function p._minionDropsTable(minionName, withSellPrices, withNotice, disable_upgrades)
 	minion = minionName:lower()
 	minion = minion:match('(.+) minion') or minion
 	local divideTwo = minion:lower() == 'fishing' and true or false
@@ -750,7 +751,9 @@ function p._minionDropsTable(minionName, withSellPrices, withNotice)
 	
 	-- data
 	for _, cond in ipairs(minionAliases.minionPageRowParams) do
-		if dropsData[cond.param] then
+		if disable_upgrades and (cond.param == 'compactor' or cond.param == 'sc3000' or cond.param == 'smelter' or cond.param == 'smelter_compactor') then
+			-- skip this upgrade tier
+		elseif dropsData[cond.param] then
 			local dd = dropsData[cond.param]
 			for i, drop in ipairs(dd) do
 				row = wikitable:tag('tr')
@@ -801,7 +804,7 @@ function p._minionDropsTable(minionName, withSellPrices, withNotice)
 			end
 		end
 	end
-	return (withNotice and 'Note: {{ID|Auto Smelter}} and {{ID|Super Compactor 3000}} mentioned below are interchangeable with {{ID|Dwarven Super Compactor}}, which can perform the combination of functionalities of the prior two items.\n\n' or '') .. tostring(wikitable)
+	return (withNotice and not disable_upgrades and 'Note: {{ID|Auto Smelter}} and {{ID|Super Compactor 3000}} mentioned below are interchangeable with {{ID|Dwarven Super Compactor}}, which can perform the combination of functionalities of the prior two items.\n\n' or '') .. tostring(wikitable)
 end
 
 --------------------------------------------------------------------------------
