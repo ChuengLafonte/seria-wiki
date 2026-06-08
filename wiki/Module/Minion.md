@@ -519,20 +519,20 @@ function p._minionStatsTable( minionName )
 	local showBazaarCost = false
 	
 	local wikitable = mw.html.create('table'):addClass('wikitable article-margin-off article-msTable')
-	local cumulativeDisplay = string.wrapHtml(string.makeTitle('CUMU', 'This result is cumulative.'), 'sup')
+	local cumulativeDisplay = string.wrapHtml(string.makeTitle('KUMU', 'Hasil ini bersifat kumulatif.'), 'sup')
 	
 	-- Header row
 	local row = wikitable:tag('tr')
 		:tag('th'):attr({ rowspan = 2 }):wikitext('Tier'):done()
 		:tag('th'):attr({ rowspan = 2 }):wikitext('Info'):done()
-		:tag('th'):wikitext('Total Upgrade Cost'):done()
-	if showBazaarCost then row:tag('th'):wikitext('Bazaar Upgrade Cost{{BazaarInfoIcon}}'):done() end
-	row:tag('th'):attr({ rowspan = 2 }):wikitext('Recipe'):done()
+		:tag('th'):wikitext('Total Biaya Upgrade'):done()
+	if showBazaarCost then row:tag('th'):wikitext('Biaya Upgrade Bazaar{{BazaarInfoIcon}}'):done() end
+	row:tag('th'):attr({ rowspan = 2 }):wikitext('Resep'):done()
 	
 	-- Header row (second row)
 	row = wikitable:tag('tr')
-	row:tag('th'):wikitext('Total Cumulative Cost')
-	if showBazaarCost then row:tag('th'):wikitext('Bazaar Cumulat. Cost{{BazaarInfoIcon}}') end
+	row:tag('th'):wikitext('Total Biaya Kumulatif')
+	if showBazaarCost then row:tag('th'):wikitext('Biaya Kumulatif Bazaar{{BazaarInfoIcon}}') end
 	
 	-- Display non-header rows
 	
@@ -646,9 +646,9 @@ function p._minionStatsTable( minionName )
 		-- Info
 		row:tag('td')
 			:attr({ rowspan = 2 })
-			:wikitext('Cooldown:&nbsp;' .. colorModule._colorTemplates('Green', stats.tba .. 's'))
-			:wikitext('<br>Storage:&nbsp;' .. colorModule._colorTemplates('Yellow', stats.storage))
-			:wikitext(stats.req and '<br>Requires:&nbsp;' .. stats.req or '')
+			:wikitext('Waktu jeda:&nbsp;' .. colorModule._colorTemplates('Green', stats.tba .. 's'))
+			:wikitext('<br>Penyimpanan:&nbsp;' .. colorModule._colorTemplates('Yellow', stats.storage))
+			:wikitext(stats.req and '<br>Syarat:&nbsp;' .. stats.req or '')
 		
 		-- Cost
 		row:tag('td'):wikitext(table.length(tierCosts) > 0 and
@@ -675,10 +675,10 @@ function p._minionStatsTable( minionName )
 				end
 			end
 			row:tag('td'):attr({ rowspan = 2 }):addClass('centertxt')
-				:wikitext('<u>Merchant</u><br>' .. (table.concat(table.map(type(stats.tradeNpc) == 'table' and stats.tradeNpc or { stats.tradeNpc }, function (v)
+				:wikitext('<u>Pedagang</u><br>' .. (table.concat(table.map(type(stats.tradeNpc) == 'table' and stats.tradeNpc or { stats.tradeNpc }, function (v)
 					return '{{NPCSprite|' .. v .. '|noerr=y}}'
 				end), '<br>')))
-				:tag('div'):wikitext('<u>Required</u><br>' .. table.concat(slots, '')):done()
+				:tag('div'):wikitext('<u>Dibutuhkan</u><br>' .. table.concat(slots, '')):done()
 				:tag('ul'):addClass('lowmargin'):wikitext('<li>' .. table.concat(list, '</li><li>') .. '</li>'):done()
 		elseif crafting.info then -- If there is no crafting recipe, show the details on why
 			row:tag('td'):attr({ rowspan = 2 }):addClass('centertxt'):wikitext(crafting.info):done()
@@ -742,12 +742,12 @@ function p._minionDropsTable(minionName, withSellPrices, withNotice, disable_upg
 	-- headers
 	local dropsData = minionDt.drops
 	local row = wikitable:tag('tr')
-	row:tag('th'):wikitext('Condition')
+	row:tag('th'):wikitext('Kondisi')
 	row:tag('th'):attr('colspan', 2):wikitext('Input')
 	row:tag('th'):attr('colspan', 2):wikitext('Output')
 	row:tag('th'):wikitext('XP')
 	if withSellPrices then
-		row:tag('th'):wikitext('Sell Price')
+		row:tag('th'):wikitext('Harga Jual')
 	end
 	
 	-- data
@@ -766,19 +766,19 @@ function p._minionDropsTable(minionName, withSellPrices, withNotice, disable_upg
 					-- Input: Harvest Table
 					local innerTable = mw.html.create('table'):addClass('wikitable table-margin-off full-width smalltxt')
 					local innerRow = innerTable:tag('tr')
-					innerRow:tag('th'):attr('colspan', 2):wikitext('From Harvest')
+					innerRow:tag('th'):attr('colspan', 2):wikitext('Dari Panen')
 					innerRow = innerTable:tag('tr')
-					innerRow:tag('td'):wikitext('Avg. Amount')
+					innerRow:tag('td'):wikitext('Jumlah Rata-rata')
 					innerRow:tag('td'):wikitext(tostring(drop.avg))
 					innerRow = innerTable:tag('tr')
-					innerRow:tag('td'):wikitext('Chance of Obtaining')
-					innerRow:tag('td'):wikitext(drop.onein and ('1 in %s'):format(drop.onein) or ('%s%%'):format(drop.avg < 1 and (drop.avg / (divideTwo and 2 or 1) * 100) or 100))
+					innerRow:tag('td'):wikitext('Peluang Didapat')
+					innerRow:tag('td'):wikitext(drop.onein and ('1 dari %s'):format(drop.onein) or ('%s%%'):format(drop.avg < 1 and (drop.avg / (divideTwo and 2 or 1) * 100) or 100))
 					row:tag('td'):attr('colspan', 2):addClass('table-margin-off'):node(innerTable)
 				elseif drop.from then
 					row:tag('td'):wikitext(slot{('%s, %d'):format(drop.from.item, drop.from.num)})
 					row:tag('td'):wikitext(('<span class="color-green">%sx</span> [[%s]]'):format(drop.from.num, drop.from.item)) -- Input
 				else
-					row:tag('td'):wikitext('None')
+					row:tag('td'):wikitext('Tidak ada')
 				end
 				row:tag('td'):wikitext(slot{drop.item})
 				row:tag('td'):wikitext(string.makeLink(drop.item)) -- Output
@@ -788,15 +788,15 @@ function p._minionDropsTable(minionName, withSellPrices, withNotice, disable_upg
 					local innerTable = mw.html.create('table'):addClass('table-margin-off full-width smalltxt')
 					local innerRow = innerTable:tag('tr')
 					innerRow:tag('th'):wikitext('Per Item')
-					innerRow:tag('th'):wikitext('Stack')
+					innerRow:tag('th'):wikitext('Satu Stack')
 					innerRow = innerTable:tag('tr')
 					local npc = {
 						val = npcSellPrice(drop.item),
-						text = string.makeTitle('NPC', 'Price when sold to a shop.'),
+						text = string.makeTitle('NPC', 'Harga jika dijual ke pedagang (NPC).'),
 					}
 					local bz = {
 						val = bazaar._getProduct(drop.item) and bazaar._calcMaterialBuyPrices({{ drop.item, 1 }}, 'sell') or nil,
-						text = string.makeTitle('BZ', 'Price when sold to bazaar. Non-bazaar items sold to shop instead.'),
+						text = string.makeTitle('BZ', 'Harga jika dijual ke Bazaar. Item non-bazaar akan dijual ke pedagang.'),
 					}
 					innerRow:node(p._createPriceCell(npc, bz, 1))
 					innerRow:node(p._createPriceCell(npc, bz, 64))
@@ -805,7 +805,7 @@ function p._minionDropsTable(minionName, withSellPrices, withNotice, disable_upg
 			end
 		end
 	end
-	return (withNotice and not disable_upgrades and 'Note: {{ID|Auto Smelter}} and {{ID|Super Compactor 3000}} mentioned below are interchangeable with {{ID|Dwarven Super Compactor}}, which can perform the combination of functionalities of the prior two items.\n\n' or '') .. tostring(wikitable)
+	return (withNotice and not disable_upgrades and 'Catatan: {{ID|Auto Smelter}} dan {{ID|Super Compactor 3000}} yang disebutkan di bawah dapat diganti dengan {{ID|Dwarven Super Compactor}}, yang memiliki kombinasi fungsi dari dua item tersebut.\n\n' or '') .. tostring(wikitable)
 end
 
 --------------------------------------------------------------------------------
@@ -847,11 +847,11 @@ function p._minionCollectionDaysTable( coll, minion )
 	
 	local wikitable = mw.html.create('table'):addClass('article-table')
 	wikitable:tag('caption'):wikitext(string.format(
-		'Time needed to acquire each tier of the %s Collection using a [[%s Minion]] (by tier, no fuel)<br><small>If you have multiple minions, just divide the number of days by how many minions you have.</small>',
+		'Waktu yang dibutuhkan untuk mencapai setiap tingkat Koleksi %s menggunakan [[Minion %s]] (berdasarkan tier, tanpa bahan bakar)<br><small>Jika Anda memiliki beberapa minion, bagilah jumlah hari dengan jumlah minion yang Anda miliki.</small>',
 		string.ucfirst(coll), minion))
 	
 	local highestTier, _ = p.peakStat(minion)
-	local row = wikitable:tag('th'):wikitext('Minion Tier'):done()
+	local row = wikitable:tag('th'):wikitext('Tier Minion'):done()
 	for i = 1, highestTier, 1 do
 		row:tag('th'):addClass('article-minion-coolLabel'):wikitext(string._toRoman(i)):done()
 	end
@@ -990,16 +990,14 @@ function p._minionProfitTable(minionName, isOffline)
 	
 	-- compose the header of the table
 	local wikitable = mw.html.create('table'):addClass('wikitable')
-	wikitable:tag('caption'):addClass('txt-nowrap')
-		:wikitext('Listed below are the profits of this minion when its items are sold to Shop.<br>No [[Minion Fuel]], [[Super Compactor 3000|Compactors]], nor [[Diamond Spreading]] are used in the calculation.', '<br>', 'Values are shown when the player is online.')
 	wikitable:tag('tr')
 		:tag('th'):wikitext('Tier'):attr({ rowspan = 2 }):done()
-		:tag('th'):wikitext('<abbr title="Harvests per minute = 60 / (time between actions × 2)">Harvests<br>per minute</abbr>'):attr({ rowspan = 2 }):done()
-		:tag('th'):wikitext('Per day'):attr ({ colspan = 2 }):done()
+		:tag('th'):wikitext('<abbr title="Panen per menit = 60 / (waktu antar aksi × 2)">Panen<br>per menit</abbr>'):attr({ rowspan = 2 }):done()
+		:tag('th'):wikitext('Per hari'):attr ({ colspan = 2 }):done()
 	:done()
 	wikitable:tag('tr')
-		:tag('th'):wikitext('Items'):done()
-		:tag('th'):wikitext('NPC Profit'):done()
+		:tag('th'):wikitext('Item'):done()
+		:tag('th'):wikitext('Profit NPC'):done()
 	:done()
 	
 	function getProduceAmountDisplay(item, tba, hours)
@@ -1096,7 +1094,7 @@ function p._minionProfitTable(minionName, isOffline)
 			:tag('th'):wikitext(string._toRoman(i), '<br>{{Slot|', minionName, ' Minion ', string._toRoman(i), '}}'):done()
 			:tag('td'):wikitext('<center>{{Green|', hpm, '}}</center>'):done()
 			:tag('td'):wikitext('{{Resource List|', resourceStr_24, '}}'):done()
-			:tag('td'):wikitext(npcPriceSum ~= 0 and ('{{Gins|%.2f}}'):format(npcPriceSum) or '{{Red|None}}'):done()
+			:tag('td'):wikitext(npcPriceSum ~= 0 and ('{{Gins|%.2f}}'):format(npcPriceSum) or '{{Red|Tidak ada}}'):done()
 		:done()
 	end
 	
@@ -1300,10 +1298,10 @@ function p._minionFullProfitTable(args)
 		local _multiplier = p._getMultiplier(minion, args)
 		local minionText = table.concat{
 			mw.getCurrentFrame():expandTemplate{ title = 'MinionName', args = {minion, short = 'y'} },
-			minion == 'Chicken' and '<sup><abbr title="Assumes an Enchanted Egg is being used">ⓘ</abbr></sup>'
-				or minion == 'Gravel' and '<sup><abbr title="Assumes a Flint Shovel is being used">ⓘ</abbr></sup>'
+			minion == 'Chicken' and '<sup><abbr title="Berasumsi bahwa Enchanted Egg digunakan">ⓘ</abbr></sup>'
+				or minion == 'Gravel' and '<sup><abbr title="Berasumsi bahwa Flint Shovel digunakan">ⓘ</abbr></sup>'
 				or '',
-			_multiplier > 1 and ('<br>+%s%% Boost'):format((_multiplier - 1) * 100) or ''
+			_multiplier > 1 and ('<br>+%s%% Peningkatan'):format((_multiplier - 1) * 100) or ''
 		}
 		
 		local function getPrice(minion, tier)
@@ -1333,7 +1331,7 @@ function p._minionFullProfitTable(args)
 	
 	-- Now construct table
 	local wikitable = mw.html.create('table'):addClass('wikitable sortable searchable')
-	wikitable:tag('caption'):wikitext(('Profit per %s hours'):format(args.input_time))
+	wikitable:tag('caption'):wikitext(('Keuntungan per %s jam'):format(args.input_time))
 	wikitable:tag('tr')
 		:tag('th'):wikitext('Minion'):done()
 		:tag('th'):attr( 'data-sort-type', 'number' ):wikitext('Tier 1'):done()
@@ -1351,11 +1349,11 @@ function p._minionFullProfitTable(args)
 		for count = 1, 7 do
 			local npc = {
 				val = data[count][1],
-				text = string.makeTitle('NPC', 'Price when sold to a shop.'),
+				text = string.makeTitle('NPC', 'Harga jika dijual ke pedagang (NPC).'),
 			}
 			local bz = {
 				val = data[count][2],
-				text = string.makeTitle('BZ', 'Price when sold to bazaar. Non-bazaar items sold to shop instead.'),
+				text = string.makeTitle('BZ', 'Harga jika dijual ke Bazaar. Item non-bazaar akan dijual ke pedagang.'),
 			}
 			local products = data[count].products
 			local tba = data[count].tba
