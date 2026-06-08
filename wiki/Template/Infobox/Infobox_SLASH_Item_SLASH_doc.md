@@ -41,8 +41,8 @@ Sellable is not a word, but Salable and Saleable are. It is VERY intentional, pl
  | donatable         = (Yes/No - default: No)
 
  | merchant          = Any input allowed by {{NPCSprite}}
- | buy               = Any input allowed by {{Coins}}
- | sell              = Any input allowed by {{Coins}}
+ | buy               = Any input allowed by {{Gins}}
+ | sell              = Any input allowed by {{Gins}}
 
  | upgrades_from     = 
  | upgrades_to       = 

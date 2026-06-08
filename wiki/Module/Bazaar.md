@@ -5,7 +5,7 @@ local loader = require('Module:Loader')
 local string, table, yesno, currency, color = loader.require('String', 'Table', 'Yesno', 'Currency', 'Color')
 local bazaarData, aliases, i18n = loader.loadData('Bazaar/Data', 'Bazaar/Aliases', 'Bazaar/i18n')
 
-local formatCoins = currency._coins
+local formatGins = currency._gins
 local makeColor = color._colorTemplates
 local _error = string.error
 
@@ -82,7 +82,7 @@ function p.calcMaterialBuyPrices(frame)
 	local lang = mw.language.new('en')
 	
 	local price_type = args['type'] or args['t']
-	local coin = yesno(args['coin'] or args['c'], true)
+	local gins = yesno(args['gins'] or args['c'], true)
 	local not_including = args['not_including']
 	local noerror = args['noerror']
 	
@@ -118,10 +118,10 @@ function p.calcMaterialBuyPrices(frame)
 		end
 	end
 	
-	return p._calcMaterialBuyPrices(items, price_type, coin, not_including, noerror)
+	return p._calcMaterialBuyPrices(items, price_type, gins, not_including, noerror)
 end
 
-function p._calcMaterialBuyPrices(entries, price_type, coin, not_including, noerror) -- entries = [ [id,num] or num ]
+function p._calcMaterialBuyPrices(entries, price_type, gins, not_including, noerror) -- entries = [ [id,num] or num ]
 	local total, abbr = 0, {}
 	noerror = yesno(noerror, false)
 	for i, entry in pairs(entries) do
@@ -143,8 +143,8 @@ function p._calcMaterialBuyPrices(entries, price_type, coin, not_including, noer
 		end
 	end
 	not_including = not_including and (' (not including: %s)'):format(not_including) or ''
-	if coin then
-		local ret = tostring(formatCoins(shortenNum(total)))
+	if gins then
+		local ret = tostring(formatGins(shortenNum(total)))
 		local temp = ret:match('<.-font%-variant%-numeric.->(.-)</.->')
 		if temp then temp = string.makeTitle(string.trim(temp), 'Materials used: &#10;'..table.concat(abbr, ', &#010;')) end
 		ret = ret:gsub('<(.-)font%-variant%-numeric(.-)>.-</(.-)>',
@@ -161,12 +161,12 @@ function p.getProductData(frame)
 	local productId = args[1]
 	local datatype = string.lower(args[2] or 'buy')
 	local long = yesno(args['long'], false)
-	local coin = yesno(args['coin'], false)
+	local gins = yesno(args['gins'], false)
 	
-	return p._getProductData(productId, datatype, long, coin)
+	return p._getProductData(productId, datatype, long, gins)
 end
 
-function p._getProductData(productId, datatype, long, coin)
+function p._getProductData(productId, datatype, long, gins)
 	
 	local product = p._getProduct(productId);
 	
@@ -179,8 +179,8 @@ function p._getProductData(productId, datatype, long, coin)
 		if not long then
 			num = shortenNum(num)
 		end
-		if coin then
-			num = formatCoins(num)
+		if gins then
+			num = formatGins(num)
 		end
 		return num
 	end
@@ -247,12 +247,12 @@ function p.getPriceSpread(frame)
 	
 	local productId = args[1]
 	local long = yesno(args.long or args.l, false)
-	local coin = yesno(args.coin or args.coins or args.c, false)
+	local gins = yesno(args.gins or args.gins or args.c, false)
 	
-	return p._getPriceSpread(productId, long, coin)
+	return p._getPriceSpread(productId, long, gins)
 end
 
-function p._getPriceSpread(productId, long, coin)
+function p._getPriceSpread(productId, long, gins)
 	
 	local product = p._getProduct(productId);
 	
@@ -267,8 +267,8 @@ function p._getPriceSpread(productId, long, coin)
 	if not long then
 		spread = shortenNum(spread)
 	end
-	if coin then
-		spread = tostring(formatCoins(spread))
+	if gins then
+		spread = tostring(formatGins(spread))
 	end
 	return spread
 end

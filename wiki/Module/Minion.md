@@ -99,7 +99,7 @@ function p._createPriceCell(npc, bz, amount, products, additional_text, shop_fir
 		if tonumber(num) == nil then
 			return
 		end
-		return tostring(currency._coins(math.ceil(num)))
+		return tostring(currency._gins(math.ceil(num)))
 	end
 	amount = amount or 1
 	additional_text = additional_text or ''
@@ -114,9 +114,9 @@ function p._createPriceCell(npc, bz, amount, products, additional_text, shop_fir
 	bz.price = nil
 	npc.price = npc.price and npc.price * amount
 	bz.price = bz.price and bz.price * amount
-	npc.coin = makeCoin(npc.price)
-	bz.coin = makeCoin(bz.price)
-	if npc.coin and bz.coin then
+	npc.gin = makeCoin(npc.price)
+	bz.gin = makeCoin(bz.price)
+	if npc.gin and bz.gin then
 		local shopfirst = npc.price > bz.price -- shop prize first or bazaar price first
 		if shop_first then -- If shop_first arguement, change shopfirst based on it.
 			if shop_first == "Best" then
@@ -131,25 +131,25 @@ function p._createPriceCell(npc, bz, amount, products, additional_text, shop_fir
 		end
 		if shopfirst then
 			cell:attr('data-sort-value', shopfirst and npc.price or bz.price):wikitext(('<small><span class="%s">%s:</span> %s<br><span class="%s">%s:</span> %s<br>%s %s</small>'):format(
-				'color-alburn', npc.text, npc.coin,
-				'color-blue_violet', bz.text, bz.coin,
+				'color-alburn', npc.text, npc.gin,
+				'color-blue_violet', bz.text, bz.gin,
 				productInfo, additional_text
 				)):done()
 		else
 			cell:attr('data-sort-value', shopfirst and npc.price or bz.price):wikitext(('<small><span class="%s">%s:</span> %s<br><span class="%s">%s:</span> %s<br>%s %s</small>'):format(
-				'color-blue_violet', bz.text, bz.coin,
-				'color-alburn', npc.text, npc.coin,
+				'color-blue_violet', bz.text, bz.gin,
+				'color-alburn', npc.text, npc.gin,
 				productInfo, additional_text
 				)):done()
 		end
-	elseif npc.coin and not bz.coin then
+	elseif npc.gin and not bz.gin then
 		cell:attr('data-sort-value', npc.price):wikitext(('<small><span class="%s">%s:</span> %s<br>%s %s</small>'):format(
-			'color-alburn', npc.text, npc.coin,
+			'color-alburn', npc.text, npc.gin,
 			productInfo, additional_text
 			)):done()
-	elseif bz.coin and not npc.coin then
+	elseif bz.gin and not npc.gin then
 		cell:attr('data-sort-value', bz.price):wikitext(('<small><span class="%s">%s:</span> %s<br>%s %s</small>'):format(
-			'color-alburn', bz.text, bz.coin,
+			'color-alburn', bz.text, bz.gin,
 			productInfo, additional_text
 			)):done()
 	else
@@ -586,7 +586,7 @@ function p._minionStatsTable( minionName )
 		elseif stats.trade then
 			for _, itemData in ipairs(stats.trade) do
 				if itemData.item:lower() == 'coin' then
-					table.push(tierCosts, itemData.num .. ' coins')
+					table.push(tierCosts, itemData.num .. ' gins')
 				elseif itemData.item:lower() == 'pelt' then
 					table.push(tierCosts, itemData.num .. ' pelts')
 				elseif itemData.item:lower() == 'north star' then
@@ -665,7 +665,7 @@ function p._minionStatsTable( minionName )
 			local slots, list = { slot{ minionName .. ' Minion ' .. TIERS[i - 1] } }, {}
 			for _, trd in ipairs(stats.trade) do
 				if trd.item:lower() == 'coin' then
-					slots[#slots + 1] = slot{trd.num .. ' coins'}
+					slots[#slots + 1] = slot{trd.num .. ' gins'}
 				elseif trd.item:lower() == 'pelt' then
 					slots[#slots + 1] = slot{trd.num .. ' pelts'}
 				elseif trd.item:lower() == 'north star' then
@@ -1096,7 +1096,7 @@ function p._minionProfitTable(minionName, isOffline)
 			:tag('th'):wikitext(string._toRoman(i), '<br>{{Slot|', minionName, ' Minion ', string._toRoman(i), '}}'):done()
 			:tag('td'):wikitext('<center>{{Green|', hpm, '}}</center>'):done()
 			:tag('td'):wikitext('{{Resource List|', resourceStr_24, '}}'):done()
-			:tag('td'):wikitext(npcPriceSum ~= 0 and ('{{Coins|%.2f}}'):format(npcPriceSum) or '{{Red|None}}'):done()
+			:tag('td'):wikitext(npcPriceSum ~= 0 and ('{{Gins|%.2f}}'):format(npcPriceSum) or '{{Red|None}}'):done()
 		:done()
 	end
 	

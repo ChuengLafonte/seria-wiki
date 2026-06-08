@@ -343,7 +343,7 @@ function p._infoboxCreate(args)
 			--[[R1]]
 			s.xp = argK('xp') and ('{{Skill XP|%s}}'):format(argK('xp'))
 			--[[R2]]
-			s.coins = argK('coins') and ('{{C|%s}}'):format(argK('coins'))
+			s.gins = argK('gins') and ('{{C|%s}}'):format(argK('gins'))
 			--[[R3]]
 			s.experience = argK('exp') or argK('experience') or argK('experience_orbs')
 			--[[R4]]
@@ -670,7 +670,7 @@ function p._infoboxCreate(args)
 		section:addGroup{ header = 'Drops' }
 			--[[R0 ]]:addData{ sdata.mob_drops, label = 'Drops' }
 			--[[R1 ]]:addData{ sdata.xp, label = 'XP' }
-			--[[R2 ]]:addData{ sdata.coins, label = '{{C|alt=Coins}}' }
+			--[[R2 ]]:addData{ sdata.gins, label = '{{C|alt=Gins}}' }
 			--[[R3 ]]:addData{ sdata.experience, label = '[[File:Experience Orb.png|18px]] [[Experience]] Orbs' }
 			--[[R4 ]]:addData{ sdata.essence, label = 'Essence' }
 			--[[R5 ]]:addData{ sdata.attribute_shard, label = 'Attribute Shard' }
