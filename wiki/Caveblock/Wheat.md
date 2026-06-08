@@ -1,7 +1,6 @@
 {{Infobox item
 |id = WHEAT
 |rarity = common
-|sell = 1
 }}
 '''Wheat''' adalah item {{R|C}} yang ditemukan saat memanen tanaman di [[Chuville]] atau menggunakan [[Wheat Minion]].
 

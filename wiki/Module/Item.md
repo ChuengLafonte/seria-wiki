@@ -303,5 +303,12 @@ function p._sellPrice( id )
 	return it and it.npc_sell_price
 end
 
+function p.sellPrice( frame )
+	local args = getArgs(frame)
+	local id = args[1] or args.id
+	if not id then return '' end
+	return p._sellPrice(id) or ''
+end
+
 --Finish Module
 return p

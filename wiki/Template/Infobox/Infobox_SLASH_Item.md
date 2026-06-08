@@ -43,7 +43,7 @@
 | tradeable = {{{tradeable|}}}
 | auctionable = {{{auctionable|}}}
 | museum = {{{museum|}}}
-| sell = {{#if:{{{sell|}}} | {{{sell}}} ⏺ [[Gins]] }}
+| sell = {{#if:{{{sell|}}} | {{{sell}}} ⏺ [[Gins]] | {{#if:{{#invoke:Item|sellPrice|{{{id|}}}}} | {{#invoke:Item|sellPrice|{{{id|}}}}} ⏺ [[Gins]] }} }}
 | sell_shard = {{#if:{{{sell_shard|}}} | {{{sell_shard}}} ★ [[Shards]] }}
 | sell_serium = {{#if:{{{sell_serium|}}} | {{{sell_serium}}} 💎 [[Serium]] }}
 | buy = {{#if:{{{buy|}}} | {{{buy}}} ⏺ [[Gins]] }}
