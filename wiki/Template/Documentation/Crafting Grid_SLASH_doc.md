@@ -1,3 +1,11 @@
+Title: Live Content
+
+Description: Fetched live
+
+Source: https://hypixel-skyblock.fandom.com/wiki/Template:Crafting_Grid/doc?action=raw
+
+---
+
 {{Documentation subpage}}
 {{Lua|Crafting/UI}}
 {{T|Crafting Table}} is used to create an interface that looks similar to the Crafting Table's. {{T|Crafting Grid}} is used to display only the recipe grid, not the whole UI.
@@ -220,3 +228,4 @@ Taken from / inspired by https://minecraft.gamepedia.com/Template:Crafting_Table
 <includeonly>
 [[Category:Inventory templates]]
 </includeonly>
+
