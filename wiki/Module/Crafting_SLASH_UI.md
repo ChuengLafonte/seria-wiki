@@ -67,8 +67,9 @@ end
 -- Crafting table
 function p.craftingTable( frame )
 	local args = getArgs(frame)
+	local isEnchanted = yesno(args.enchanted)
 	
-	local body = mw.html.create('span'):addClass('mcui mcui-Crafting_Table pixel-image')
+	local body = mw.html.create('span'):addClass('mcui mcui-Crafting_Table pixel-image' .. (isEnchanted and ' enchanted' or ''))
 	
 	local recipe, cat = crafting.parseRecipe(args)
 	local grid = p._craftingGrid(recipe)
