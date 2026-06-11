@@ -1,0 +1,106 @@
+MISCELLANEOUS:
+  ENCHANTED_COAL:
+    craft-amount: 9
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v COAL_BLOCK - 32.0..|v AIR 0 1..
+          - v COAL_BLOCK - 32.0..|v COAL_BLOCK - 32.0..|v COAL_BLOCK - 32.0..
+          - v AIR 0 1..|v COAL_BLOCK - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v COAL_BLOCK - 32.0..|v COAL_BLOCK - 32.0..|v COAL_BLOCK - 32.0..
+          - v COAL_BLOCK - 32.0..|v COAL_BLOCK - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: COAL - 3
+  ENCHANTED_COPPER_INGOT:
+    craft-amount: 9
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v COPPER_BLOCK - 32.0..|v AIR 0 1..
+          - v COPPER_BLOCK - 32.0..|v COPPER_BLOCK - 32.0..|v COPPER_BLOCK - 32.0..
+          - v AIR 0 1..|v COPPER_BLOCK - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v COPPER_BLOCK - 32.0..|v COPPER_BLOCK - 32.0..|v COPPER_BLOCK - 32.0..
+          - v COPPER_BLOCK - 32.0..|v COPPER_BLOCK - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: COPPER - 3
+  ENCHANTED_IRON_INGOT:
+    craft-amount: 9
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v IRON_BLOCK - 32.0..|v AIR 0 1..
+          - v IRON_BLOCK - 32.0..|v IRON_BLOCK - 32.0..|v IRON_BLOCK - 32.0..
+          - v AIR 0 1..|v IRON_BLOCK - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v IRON_BLOCK - 32.0..|v IRON_BLOCK - 32.0..|v IRON_BLOCK - 32.0..
+          - v IRON_BLOCK - 32.0..|v IRON_BLOCK - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: IRON - 3
+  ENCHANTED_LAPIS_LAZULI:
+    craft-amount: 9
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v LAPIS_BLOCK - 32.0..|v AIR 0 1..
+          - v LAPIS_BLOCK - 32.0..|v LAPIS_BLOCK - 32.0..|v LAPIS_BLOCK - 32.0..
+          - v AIR 0 1..|v LAPIS_BLOCK - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v LAPIS_BLOCK - 32.0..|v LAPIS_BLOCK - 32.0..|v LAPIS_BLOCK - 32.0..
+          - v LAPIS_BLOCK - 32.0..|v LAPIS_BLOCK - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: LAPIS - 2
+  ENCHANTED_REDSTONE:
+    craft-amount: 9
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v REDSTONE_BLOCK - 32.0..|v AIR 0 1..
+          - v REDSTONE_BLOCK - 32.0..|v REDSTONE_BLOCK - 32.0..|v REDSTONE_BLOCK - 32.0..
+          - v AIR 0 1..|v REDSTONE_BLOCK - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v REDSTONE_BLOCK - 32.0..|v REDSTONE_BLOCK - 32.0..|v REDSTONE_BLOCK - 32.0..
+          - v REDSTONE_BLOCK - 32.0..|v REDSTONE_BLOCK - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: REDSTONE - 2
+  ENCHANTED_EMERALD:
+    craft-amount: 9
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v EMERALD_BLOCK - 32.0..|v AIR 0 1..
+          - v EMERALD_BLOCK - 32.0..|v EMERALD_BLOCK - 32.0..|v EMERALD_BLOCK - 32.0..
+          - v AIR 0 1..|v EMERALD_BLOCK - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v EMERALD_BLOCK - 32.0..|v EMERALD_BLOCK - 32.0..|v EMERALD_BLOCK - 32.0..
+          - v EMERALD_BLOCK - 32.0..|v EMERALD_BLOCK - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: EMERALD - 2
+  ENCHANTED_DIAMOND:
+    craft-amount: 9
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v DIAMOND_BLOCK - 32.0..|v AIR 0 1..
+          - v DIAMOND_BLOCK - 32.0..|v DIAMOND_BLOCK - 32.0..|v DIAMOND_BLOCK - 32.0..
+          - v AIR 0 1..|v DIAMOND_BLOCK - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v DIAMOND_BLOCK - 32.0..|v DIAMOND_BLOCK - 32.0..|v DIAMOND_BLOCK - 32.0..
+          - v DIAMOND_BLOCK - 32.0..|v DIAMOND_BLOCK - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: DIAMOND - 3

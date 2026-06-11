@@ -1,0 +1,44 @@
+BOW:  
+  HURRICANE_BOW:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR - 1..|m MISCELLANEOUS ENCHANTED_BONE - 32..|v STRING - 32..
+          - m MISCELLANEOUS ENCHANTED_BONE - 32..|v AIR - 1..|v STRING - 32..
+          - v AIR - 1..|m MISCELLANEOUS ENCHANTED_BONE - 32..|v STRING - 32..
+      scollect-tier: BONE - 6
+
+  RONAN_BOW:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR - 1..|m MISCELLANEOUS ENCHANTED_BONE - 64..|m MISCELLANEOUS ENCHANTED_STRING - 64..
+          - m MISCELLANEOUS ENCHANTED_BONE - 64..|v AIR - 1..|m MISCELLANEOUS ENCHANTED_STRING - 64..
+          - v AIR - 1..|m MISCELLANEOUS ENCHANTED_BONE - 64..|m MISCELLANEOUS ENCHANTED_STRING - 64..
+      scollect-tier: BONE - 9
+
+  EXPLOSIVE_BOW:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR - 1..|m MISCELLANEOUS ENCHANTED_FIREWORK_ROCKET - 1..|v STRING - 1..
+          - m MISCELLANEOUS ENCHANTED_FIREWORK_ROCKET - 1..|v AIR - 1..|v STRING - 1..
+          - v AIR - 1..|m MISCELLANEOUS ENCHANTED_FIREWORK_ROCKET - 1..|v STRING - 1..
+      scollect-tier: GUNPOWDER - 8
+
+  ENDER_BOW:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR - 1..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 1..|v STRING - 1..
+          - m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 1..|v AIR - 1..|v STRING - 1..
+          - v AIR - 1..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 1..|v STRING - 1..
+      scollect-tier: ENDER_PEARL - 9

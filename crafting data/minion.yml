@@ -1,0 +1,1447 @@
+MINION:
+# ///////////////////////////////////// #
+#          FORAGING/LUMBERJACK          #
+# ///////////////////////////////////// #
+# =================[OAK]=============== #
+
+  OAK_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion lumberjack OAK_LOG 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v OAK_WOOD - 10.0..|v OAK_WOOD - 10.0..|v OAK_WOOD - 10.0..
+          - v OAK_WOOD - 10.0..|v WOODEN_AXE - 1.0..|v OAK_WOOD - 10.0..
+          - v OAK_WOOD - 10.0..|v OAK_WOOD - 10.0..|v OAK_WOOD - 10.0..
+    scollect-tier: OAK_LOG - 1  
+
+  OAK_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion lumberjack OAK_LOG 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v OAK_WOOD - 20.0..|v OAK_WOOD - 20.0..|v OAK_WOOD - 20.0..
+          - v OAK_WOOD - 20.0..|t OAK_LOG:1 - 1.0..|v OAK_WOOD - 20.0..
+          - v OAK_WOOD - 20.0..|v OAK_WOOD - 20.0..|v OAK_WOOD - 20.0..
+    scollect-tier: OAK_LOG - 1   
+
+  OAK_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion lumberjack OAK_LOG 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v OAK_WOOD - 40.0..|v OAK_WOOD - 40.0..|v OAK_WOOD - 40.0..
+          - v OAK_WOOD - 40.0..|t OAK_LOG:2 - 1.0..|v OAK_WOOD - 40.0..
+          - v OAK_WOOD - 40.0..|v OAK_WOOD - 40.0..|v OAK_WOOD - 40.0..
+    scollect-tier: OAK_LOG - 1
+
+  OAK_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion lumberjack OAK_LOG 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v OAK_WOOD - 64.0..|v OAK_WOOD - 64.0..|v OAK_WOOD - 64.0..
+          - v OAK_WOOD - 64.0..|t OAK_LOG:3 - 1.0..|v OAK_WOOD - 64.0..
+          - v OAK_WOOD - 64.0..|v OAK_WOOD - 64.0..|v OAK_WOOD - 64.0..
+    scollect-tier: OAK_LOG - 1
+
+  OAK_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion lumberjack OAK_LOG 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 1.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 1.0..|t OAK_LOG:4 - 1.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 1.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 1.0..
+    scollect-tier: OAK_LOG - 1
+
+  OAK_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion lumberjack OAK_LOG 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 2.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 2.0..|t OAK_LOG:5 - 1.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 2.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 2.0..
+    scollect-tier: OAK_LOG - 1
+
+  OAK_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion lumberjack OAK_LOG 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 4.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 4.0..|t OAK_LOG:6 - 1.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 4.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 4.0..
+    scollect-tier: OAK_LOG - 1 
+
+  OAK_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion lumberjack OAK_LOG 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|t OAK_LOG:7 - 1.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..
+    scollect-tier: OAK_LOG - 1
+
+  OAK_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion lumberjack OAK_LOG 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 16.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 16.0..|t OAK_LOG:8 - 1.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 16.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 16.0..
+    scollect-tier: OAK_LOG - 1
+
+  OAK_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion lumberjack OAK_LOG 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 32.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 32.0..|t OAK_LOG:9 - 1.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 32.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 32.0..
+    scollect-tier: OAK_LOG - 1
+
+  OAK_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion lumberjack OAK_LOG 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 64.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 64.0..|t OAK_LOG:10 - 1.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 64.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 64.0..
+    scollect-tier: OAK_LOG - 1
+
+# ================[BIRCH]============== #
+  BIRCH_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion lumberjack BIRCH_LOG 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BIRCH_WOOD - 10.0..|v BIRCH_WOOD - 10.0..|v BIRCH_WOOD - 10.0..
+          - v BIRCH_WOOD - 10.0..|v WOODEN_AXE - 1.0..|v BIRCH_WOOD - 10.0..
+          - v BIRCH_WOOD - 10.0..|v BIRCH_WOOD - 10.0..|v BIRCH_WOOD - 10.0..
+    scollect-tier: BIRCH_LOG - 1  
+
+  BIRCH_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion lumberjack BIRCH_LOG 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BIRCH_WOOD - 20.0..|v BIRCH_WOOD - 20.0..|v BIRCH_WOOD - 20.0..
+          - v BIRCH_WOOD - 20.0..|t BIRCH_LOG:1 - 1.0..|v BIRCH_WOOD - 20.0..
+          - v BIRCH_WOOD - 20.0..|v BIRCH_WOOD - 20.0..|v BIRCH_WOOD - 20.0..
+    scollect-tier: BIRCH_LOG - 1   
+
+  BIRCH_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion lumberjack BIRCH_LOG 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BIRCH_WOOD - 40.0..|v BIRCH_WOOD - 40.0..|v BIRCH_WOOD - 40.0..
+          - v BIRCH_WOOD - 40.0..|t BIRCH_LOG:2 - 1.0..|v BIRCH_WOOD - 40.0..
+          - v BIRCH_WOOD - 40.0..|v BIRCH_WOOD - 40.0..|v BIRCH_WOOD - 40.0..
+    scollect-tier: BIRCH_LOG - 1
+
+  BIRCH_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion lumberjack BIRCH_LOG 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BIRCH_WOOD - 64.0..|v BIRCH_WOOD - 64.0..|v BIRCH_WOOD - 64.0..
+          - v BIRCH_WOOD - 64.0..|t BIRCH_LOG:3 - 1.0..|v BIRCH_WOOD - 64.0..
+          - v BIRCH_WOOD - 64.0..|v BIRCH_WOOD - 64.0..|v BIRCH_WOOD - 64.0..
+    scollect-tier: BIRCH_LOG - 1
+
+  BIRCH_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion lumberjack BIRCH_LOG 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 1.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 1.0..|t BIRCH_LOG:4 - 1.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 1.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 1.0..
+    scollect-tier: BIRCH_LOG - 1
+
+  BIRCH_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion lumberjack BIRCH_LOG 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 2.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 2.0..|t BIRCH_LOG:5 - 1.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 2.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 2.0..
+    scollect-tier: BIRCH_LOG - 1
+
+  BIRCH_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion lumberjack BIRCH_LOG 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 4.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 4.0..|t BIRCH_LOG:6 - 1.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 4.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 4.0..
+    scollect-tier: BIRCH_LOG - 1 
+
+  BIRCH_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion lumberjack BIRCH_LOG 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|t BIRCH_LOG:7 - 1.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..
+    scollect-tier: BIRCH_LOG - 1
+
+  BIRCH_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion lumberjack BIRCH_LOG 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 16.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 16.0..|t BIRCH_LOG:8 - 1.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 16.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 16.0..
+    scollect-tier: BIRCH_LOG - 1
+
+  BIRCH_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion lumberjack BIRCH_LOG 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 32.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 32.0..|t BIRCH_LOG:9 - 1.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 32.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 32.0..
+    scollect-tier: BIRCH_LOG - 1
+
+  BIRCH_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion lumberjack BIRCH_LOG 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 64.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 64.0..|t BIRCH_LOG:10 - 1.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 64.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 64.0..
+    scollect-tier: BIRCH_LOG - 1
+
+# ===============[ACACIA]============== #
+  ACACIA_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion lumberjack ACACIA_LOG 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ACACIA_WOOD - 10.0..|v ACACIA_WOOD - 10.0..|v ACACIA_WOOD - 10.0..
+          - v ACACIA_WOOD - 10.0..|v WOODEN_AXE - 1.0..|v ACACIA_WOOD - 10.0..
+          - v ACACIA_WOOD - 10.0..|v ACACIA_WOOD - 10.0..|v ACACIA_WOOD - 10.0..
+    scollect-tier: ACACIA_LOG - 1  
+
+  ACACIA_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion lumberjack ACACIA_LOG 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ACACIA_WOOD - 20.0..|v ACACIA_WOOD - 20.0..|v ACACIA_WOOD - 20.0..
+          - v ACACIA_WOOD - 20.0..|t ACACIA_LOG:1 - 1.0..|v ACACIA_WOOD - 20.0..
+          - v ACACIA_WOOD - 20.0..|v ACACIA_WOOD - 20.0..|v ACACIA_WOOD - 20.0..
+    scollect-tier: ACACIA_LOG - 1   
+
+  ACACIA_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion lumberjack ACACIA_LOG 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ACACIA_WOOD - 40.0..|v ACACIA_WOOD - 40.0..|v ACACIA_WOOD - 40.0..
+          - v ACACIA_WOOD - 40.0..|t ACACIA_LOG:2 - 1.0..|v ACACIA_WOOD - 40.0..
+          - v ACACIA_WOOD - 40.0..|v ACACIA_WOOD - 40.0..|v ACACIA_WOOD - 40.0..
+    scollect-tier: ACACIA_LOG - 1
+
+  ACACIA_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion lumberjack ACACIA_LOG 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ACACIA_WOOD - 64.0..|v ACACIA_WOOD - 64.0..|v ACACIA_WOOD - 64.0..
+          - v ACACIA_WOOD - 64.0..|t ACACIA_LOG:3 - 1.0..|v ACACIA_WOOD - 64.0..
+          - v ACACIA_WOOD - 64.0..|v ACACIA_WOOD - 64.0..|v ACACIA_WOOD - 64.0..
+    scollect-tier: ACACIA_LOG - 1
+
+  ACACIA_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion lumberjack ACACIA_LOG 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 1.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 1.0..|t ACACIA_LOG:4 - 1.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 1.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 1.0..
+    scollect-tier: ACACIA_LOG - 1
+
+  ACACIA_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion lumberjack ACACIA_LOG 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 2.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 2.0..|t ACACIA_LOG:5 - 1.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 2.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 2.0..
+    scollect-tier: ACACIA_LOG - 1
+
+  ACACIA_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion lumberjack ACACIA_LOG 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 4.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 4.0..|t ACACIA_LOG:6 - 1.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 4.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 4.0..
+    scollect-tier: ACACIA_LOG - 1 
+
+  ACACIA_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion lumberjack ACACIA_LOG 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|t ACACIA_LOG:7 - 1.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..
+    scollect-tier: ACACIA_LOG - 1
+
+  ACACIA_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion lumberjack ACACIA_LOG 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 16.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 16.0..|t ACACIA_LOG:8 - 1.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 16.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 16.0..
+    scollect-tier: ACACIA_LOG - 1
+
+  ACACIA_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion lumberjack ACACIA_LOG 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 32.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 32.0..|t ACACIA_LOG:9 - 1.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 32.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 32.0..
+    scollect-tier: ACACIA_LOG - 1
+
+  ACACIA_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion lumberjack ACACIA_LOG 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 64.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 64.0..|t ACACIA_LOG:10 - 1.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 64.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 64.0..
+    scollect-tier: ACACIA_LOG - 1
+
+# ===============[SPRUCE]============== #
+  SPRUCE_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion lumberjack SPRUCE_LOG 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SPRUCE_WOOD - 10.0..|v SPRUCE_WOOD - 10.0..|v SPRUCE_WOOD - 10.0..
+          - v SPRUCE_WOOD - 10.0..|v WOODEN_AXE - 1.0..|v SPRUCE_WOOD - 10.0..
+          - v SPRUCE_WOOD - 10.0..|v SPRUCE_WOOD - 10.0..|v SPRUCE_WOOD - 10.0..
+    scollect-tier: SPRUCE_LOG - 1  
+
+  SPRUCE_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion lumberjack SPRUCE_LOG 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SPRUCE_WOOD - 20.0..|v SPRUCE_WOOD - 20.0..|v SPRUCE_WOOD - 20.0..
+          - v SPRUCE_WOOD - 20.0..|t SPRUCE_LOG:1 - 1.0..|v SPRUCE_WOOD - 20.0..
+          - v SPRUCE_WOOD - 20.0..|v SPRUCE_WOOD - 20.0..|v SPRUCE_WOOD - 20.0..
+    scollect-tier: SPRUCE_LOG - 1   
+
+  SPRUCE_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion lumberjack SPRUCE_LOG 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SPRUCE_WOOD - 40.0..|v SPRUCE_WOOD - 40.0..|v SPRUCE_WOOD - 40.0..
+          - v SPRUCE_WOOD - 40.0..|t SPRUCE_LOG:2 - 1.0..|v SPRUCE_WOOD - 40.0..
+          - v SPRUCE_WOOD - 40.0..|v SPRUCE_WOOD - 40.0..|v SPRUCE_WOOD - 40.0..
+    scollect-tier: SPRUCE_LOG - 1
+
+  SPRUCE_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion lumberjack SPRUCE_LOG 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SPRUCE_WOOD - 64.0..|v SPRUCE_WOOD - 64.0..|v SPRUCE_WOOD - 64.0..
+          - v SPRUCE_WOOD - 64.0..|t SPRUCE_LOG:3 - 1.0..|v SPRUCE_WOOD - 64.0..
+          - v SPRUCE_WOOD - 64.0..|v SPRUCE_WOOD - 64.0..|v SPRUCE_WOOD - 64.0..
+    scollect-tier: SPRUCE_LOG - 1
+
+  SPRUCE_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion lumberjack SPRUCE_LOG 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 1.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 1.0..|t SPRUCE_LOG:4 - 1.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 1.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 1.0..
+    scollect-tier: SPRUCE_LOG - 1
+
+  SPRUCE_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion lumberjack SPRUCE_LOG 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 2.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 2.0..|t SPRUCE_LOG:5 - 1.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 2.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 2.0..
+    scollect-tier: SPRUCE_LOG - 1
+
+  SPRUCE_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion lumberjack SPRUCE_LOG 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 4.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 4.0..|t SPRUCE_LOG:6 - 1.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 4.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 4.0..
+    scollect-tier: SPRUCE_LOG - 1 
+
+  SPRUCE_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion lumberjack SPRUCE_LOG 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|t SPRUCE_LOG:7 - 1.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+    scollect-tier: SPRUCE_LOG - 1
+
+  SPRUCE_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion lumberjack SPRUCE_LOG 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 16.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 16.0..|t SPRUCE_LOG:8 - 1.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 16.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 16.0..
+    scollect-tier: SPRUCE_LOG - 1
+
+  SPRUCE_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion lumberjack SPRUCE_LOG 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 32.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 32.0..|t SPRUCE_LOG:9 - 1.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 32.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 32.0..
+    scollect-tier: SPRUCE_LOG - 1
+
+  SPRUCE_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion lumberjack SPRUCE_LOG 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 64.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 64.0..|t SPRUCE_LOG:10 - 1.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 64.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 64.0..
+    scollect-tier: SPRUCE_LOG - 1
+
+# ==============[DARK_OAK]============= #
+  DARK_OAK_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion lumberjack DARK_OAK_LOG 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v DARK_OAK_WOOD - 10.0..|v DARK_OAK_WOOD - 10.0..|v DARK_OAK_WOOD - 10.0..
+          - v DARK_OAK_WOOD - 10.0..|v WOODEN_AXE - 1.0..|v DARK_OAK_WOOD - 10.0..
+          - v DARK_OAK_WOOD - 10.0..|v DARK_OAK_WOOD - 10.0..|v DARK_OAK_WOOD - 10.0..
+    scollect-tier: DARK_OAK_LOG - 1  
+
+  DARK_OAK_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion lumberjack DARK_OAK_LOG 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v DARK_OAK_WOOD - 20.0..|v DARK_OAK_WOOD - 20.0..|v DARK_OAK_WOOD - 20.0..
+          - v DARK_OAK_WOOD - 20.0..|t DARK_OAK_LOG:1 - 1.0..|v DARK_OAK_WOOD - 20.0..
+          - v DARK_OAK_WOOD - 20.0..|v DARK_OAK_WOOD - 20.0..|v DARK_OAK_WOOD - 20.0..
+    scollect-tier: DARK_OAK_LOG - 1   
+
+  DARK_OAK_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion lumberjack DARK_OAK_LOG 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v DARK_OAK_WOOD - 40.0..|v DARK_OAK_WOOD - 40.0..|v DARK_OAK_WOOD - 40.0..
+          - v DARK_OAK_WOOD - 40.0..|t DARK_OAK_LOG:2 - 1.0..|v DARK_OAK_WOOD - 40.0..
+          - v DARK_OAK_WOOD - 40.0..|v DARK_OAK_WOOD - 40.0..|v DARK_OAK_WOOD - 40.0..
+    scollect-tier: DARK_OAK_LOG - 1
+
+  DARK_OAK_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion lumberjack DARK_OAK_LOG 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v DARK_OAK_WOOD - 64.0..|v DARK_OAK_WOOD - 64.0..|v DARK_OAK_WOOD - 64.0..
+          - v DARK_OAK_WOOD - 64.0..|t DARK_OAK_LOG:3 - 1.0..|v DARK_OAK_WOOD - 64.0..
+          - v DARK_OAK_WOOD - 64.0..|v DARK_OAK_WOOD - 64.0..|v DARK_OAK_WOOD - 64.0..
+    scollect-tier: DARK_OAK_LOG - 1
+
+  DARK_OAK_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion lumberjack DARK_OAK_LOG 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 1.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 1.0..|t DARK_OAK_LOG:4 - 1.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 1.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 1.0..
+    scollect-tier: DARK_OAK_LOG - 1
+
+  DARK_OAK_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion lumberjack DARK_OAK_LOG 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 2.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 2.0..|t DARK_OAK_LOG:5 - 1.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 2.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 2.0..
+    scollect-tier: DARK_OAK_LOG - 1
+
+  DARK_OAK_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion lumberjack DARK_OAK_LOG 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 4.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 4.0..|t DARK_OAK_LOG:6 - 1.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 4.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 4.0..
+    scollect-tier: DARK_OAK_LOG - 1 
+
+  DARK_OAK_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion lumberjack DARK_OAK_LOG 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|t DARK_OAK_LOG:7 - 1.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..
+    scollect-tier: DARK_OAK_LOG - 1
+
+  DARK_OAK_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion lumberjack DARK_OAK_LOG 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 16.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 16.0..|t DARK_OAK_LOG:8 - 1.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 16.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 16.0..
+    scollect-tier: DARK_OAK_LOG - 1
+
+  DARK_OAK_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion lumberjack DARK_OAK_LOG 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 32.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 32.0..|t DARK_OAK_LOG:9 - 1.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 32.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 32.0..
+    scollect-tier: DARK_OAK_LOG - 1
+
+  DARK_OAK_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion lumberjack DARK_OAK_LOG 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 64.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 64.0..|t DARK_OAK_LOG:10 - 1.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 64.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 64.0..
+    scollect-tier: DARK_OAK_LOG - 1
+
+# ===============[JUNGLE]============== #
+  JUNGLE_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion lumberjack JUNGLE_LOG 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v JUNGLE_WOOD - 10.0..|v JUNGLE_WOOD - 10.0..|v JUNGLE_WOOD - 10.0..
+          - v JUNGLE_WOOD - 10.0..|v WOODEN_AXE - 1.0..|v JUNGLE_WOOD - 10.0..
+          - v JUNGLE_WOOD - 10.0..|v JUNGLE_WOOD - 10.0..|v JUNGLE_WOOD - 10.0..
+    scollect-tier: JUNGLE_LOG - 1  
+
+  JUNGLE_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion lumberjack JUNGLE_LOG 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v JUNGLE_WOOD - 20.0..|v JUNGLE_WOOD - 20.0..|v JUNGLE_WOOD - 20.0..
+          - v JUNGLE_WOOD - 20.0..|t JUNGLE_LOG:1 - 1.0..|v JUNGLE_WOOD - 20.0..
+          - v JUNGLE_WOOD - 20.0..|v JUNGLE_WOOD - 20.0..|v JUNGLE_WOOD - 20.0..
+    scollect-tier: JUNGLE_LOG - 1   
+
+  JUNGLE_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion lumberjack JUNGLE_LOG 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v JUNGLE_WOOD - 40.0..|v JUNGLE_WOOD - 40.0..|v JUNGLE_WOOD - 40.0..
+          - v JUNGLE_WOOD - 40.0..|t JUNGLE_LOG:2 - 1.0..|v JUNGLE_WOOD - 40.0..
+          - v JUNGLE_WOOD - 40.0..|v JUNGLE_WOOD - 40.0..|v JUNGLE_WOOD - 40.0..
+    scollect-tier: JUNGLE_LOG - 1
+
+  JUNGLE_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion lumberjack JUNGLE_LOG 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v JUNGLE_WOOD - 64.0..|v JUNGLE_WOOD - 64.0..|v JUNGLE_WOOD - 64.0..
+          - v JUNGLE_WOOD - 64.0..|t JUNGLE_LOG:3 - 1.0..|v JUNGLE_WOOD - 64.0..
+          - v JUNGLE_WOOD - 64.0..|v JUNGLE_WOOD - 64.0..|v JUNGLE_WOOD - 64.0..
+    scollect-tier: JUNGLE_LOG - 1
+
+  JUNGLE_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion lumberjack JUNGLE_LOG 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 1.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 1.0..|t JUNGLE_LOG:4 - 1.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 1.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 1.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 1.0..
+    scollect-tier: JUNGLE_LOG - 1
+
+  JUNGLE_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion lumberjack JUNGLE_LOG 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 2.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 2.0..|t JUNGLE_LOG:5 - 1.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 2.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 2.0..
+    scollect-tier: JUNGLE_LOG - 1
+
+  JUNGLE_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion lumberjack JUNGLE_LOG 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 4.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 4.0..|t JUNGLE_LOG:6 - 1.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 4.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 4.0..
+    scollect-tier: JUNGLE_LOG - 1 
+
+  JUNGLE_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion lumberjack JUNGLE_LOG 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|t JUNGLE_LOG:7 - 1.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..
+    scollect-tier: JUNGLE_LOG - 1
+
+  JUNGLE_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion lumberjack JUNGLE_LOG 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 16.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 16.0..|t JUNGLE_LOG:8 - 1.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 16.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 16.0..
+    scollect-tier: JUNGLE_LOG - 1
+
+  JUNGLE_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion lumberjack JUNGLE_LOG 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 32.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 32.0..|t JUNGLE_LOG:9 - 1.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 32.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 32.0..
+    scollect-tier: JUNGLE_LOG - 1
+
+  JUNGLE_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion lumberjack JUNGLE_LOG 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 64.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 64.0..|t JUNGLE_LOG:10 - 1.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 64.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 64.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 64.0..
+    scollect-tier: JUNGLE_LOG - 1
+
+# ///////////////////////////////////// #
+#                FARMING                #
+# ///////////////////////////////////// # 
+# ===============[WHEAT]============== #
+  WHEAT_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion farmer WHEAT 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v WHEAT - 10.0..|v WHEAT - 10.0..|v WHEAT - 10.0..
+          - v WHEAT - 10.0..|v WOODEN_HOE - 1.0..|v WHEAT - 10.0..
+          - v WHEAT - 10.0..|v WHEAT - 10.0..|v WHEAT - 10.0..
+    scollect-tier: WHEAT - 1  
+
+  WHEAT_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion farmer WHEAT 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v WHEAT - 20.0..|v WHEAT - 20.0..|v WHEAT - 20.0..
+          - v WHEAT - 20.0..|t WHEAT:1 - 1.0..|v WHEAT - 20.0..
+          - v WHEAT - 20.0..|v WHEAT - 20.0..|v WHEAT - 20.0..
+    scollect-tier: WHEAT - 1   
+
+  WHEAT_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion farmer WHEAT 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v WHEAT - 40.0..|v WHEAT - 40.0..|v WHEAT - 40.0..
+          - v WHEAT - 40.0..|t WHEAT:2 - 1.0..|v WHEAT - 40.0..
+          - v WHEAT - 40.0..|v WHEAT - 40.0..|v WHEAT - 40.0..
+    scollect-tier: WHEAT - 1
+
+  WHEAT_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion farmer WHEAT 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v WHEAT - 64.0..|v WHEAT - 64.0..|v WHEAT - 64.0..
+          - v WHEAT - 64.0..|t WHEAT:3 - 1.0..|v WHEAT - 64.0..
+          - v WHEAT - 64.0..|v WHEAT - 64.0..|v WHEAT - 64.0..
+    scollect-tier: WHEAT - 1
+
+  WHEAT_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion farmer WHEAT 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 1.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 1.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 1.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 1.0..|t WHEAT:4 - 1.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 1.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 1.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 1.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 1.0..
+    scollect-tier: WHEAT - 1
+
+  WHEAT_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion farmer WHEAT 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 2.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 2.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 2.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 2.0..|t WHEAT:5 - 1.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 2.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 2.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 2.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 2.0..
+    scollect-tier: WHEAT - 1
+
+  WHEAT_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion farmer WHEAT 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 4.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 4.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 4.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 4.0..|t WHEAT:6 - 1.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 4.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 4.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 4.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 4.0..
+    scollect-tier: WHEAT - 1 
+
+  WHEAT_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion farmer WHEAT 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 8.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 8.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 8.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 8.0..|t WHEAT:7 - 1.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 8.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 8.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 8.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 8.0..
+    scollect-tier: WHEAT - 1
+
+  WHEAT_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion farmer WHEAT 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 16.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 16.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 16.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 16.0..|t WHEAT:8 - 1.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 16.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 16.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 16.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 16.0..
+    scollect-tier: WHEAT - 1
+
+  WHEAT_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion farmer WHEAT 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..|t WHEAT:9 - 1.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..
+    scollect-tier: WHEAT - 1
+
+  WHEAT_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion farmer WHEAT 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 64.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 64.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 64.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 64.0..|t WHEAT:10 - 1.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 64.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 64.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 64.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 64.0..
+    scollect-tier: WHEAT - 1
+
+# ===============[POTATO]============== #
+  POTATO_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion farmer POTATOES 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v POTATO - 16.0..|v POTATO - 16.0..|v POTATO - 16.0..
+          - v POTATO - 16.0..|v WOODEN_HOE - 1.0..|v POTATO - 16.0..
+          - v POTATO - 16.0..|v POTATO - 16.0..|v POTATO - 16.0..
+    scollect-tier: POTATO - 1  
+
+  POTATO_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion farmer POTATOES 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v POTATO - 32.0..|v POTATO - 32.0..|v POTATO - 32.0..
+          - v POTATO - 32.0..|t POTATOES:1 - 1.0..|v POTATO - 32.0..
+          - v POTATO - 32.0..|v POTATO - 32.0..|v POTATO - 32.0..
+    scollect-tier: POTATO - 1   
+
+  POTATO_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion farmer POTATOES 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v POTATO - 64.0..|v POTATO - 64.0..|v POTATO - 64.0..
+          - v POTATO - 64.0..|t POTATOES:2 - 1.0..|v POTATO - 64.0..
+          - v POTATO - 64.0..|v POTATO - 64.0..|v POTATO - 64.0..
+    scollect-tier: POTATO - 1
+
+  POTATO_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion farmer POTATOES 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_POTATO - 1.0..|m MISCELLANEOUS ENCHANTED_POTATO - 1.0..|m MISCELLANEOUS ENCHANTED_POTATO - 1.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 1.0..|t POTATOES:3 - 1.0..|m MISCELLANEOUS ENCHANTED_POTATO - 1.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 1.0..|m MISCELLANEOUS ENCHANTED_POTATO - 1.0..|m MISCELLANEOUS ENCHANTED_POTATO - 1.0..
+    scollect-tier: POTATO - 1
+
+  POTATO_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion farmer POTATOES 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_POTATO - 3.0..|m MISCELLANEOUS ENCHANTED_POTATO - 3.0..|m MISCELLANEOUS ENCHANTED_POTATO - 3.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 3.0..|t POTATOES:4 - 1.0..|m MISCELLANEOUS ENCHANTED_POTATO - 3.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 3.0..|m MISCELLANEOUS ENCHANTED_POTATO - 3.0..|m MISCELLANEOUS ENCHANTED_POTATO - 3.0..
+    scollect-tier: POTATO - 1
+
+  POTATO_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion farmer POTATOES 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_POTATO - 8.0..|m MISCELLANEOUS ENCHANTED_POTATO - 8.0..|m MISCELLANEOUS ENCHANTED_POTATO - 8.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 8.0..|t POTATOES:5 - 1.0..|m MISCELLANEOUS ENCHANTED_POTATO - 8.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 8.0..|m MISCELLANEOUS ENCHANTED_POTATO - 8.0..|m MISCELLANEOUS ENCHANTED_POTATO - 8.0..
+    scollect-tier: POTATO - 1
+
+  POTATO_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion farmer POTATOES 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_POTATO - 16.0..|m MISCELLANEOUS ENCHANTED_POTATO - 16.0..|m MISCELLANEOUS ENCHANTED_POTATO - 16.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 16.0..|t POTATOES:6 - 1.0..|m MISCELLANEOUS ENCHANTED_POTATO - 16.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 16.0..|m MISCELLANEOUS ENCHANTED_POTATO - 16.0..|m MISCELLANEOUS ENCHANTED_POTATO - 16.0..
+    scollect-tier: POTATO - 1 
+
+  POTATO_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion farmer POTATOES 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_POTATO - 32.0..|m MISCELLANEOUS ENCHANTED_POTATO - 32.0..|m MISCELLANEOUS ENCHANTED_POTATO - 32.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 32.0..|t POTATOES:7 - 1.0..|m MISCELLANEOUS ENCHANTED_POTATO - 32.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 32.0..|m MISCELLANEOUS ENCHANTED_POTATO - 32.0..|m MISCELLANEOUS ENCHANTED_POTATO - 32.0..
+    scollect-tier: POTATO - 1
+
+  POTATO_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion farmer POTATOES 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_POTATO - 64.0..|m MISCELLANEOUS ENCHANTED_POTATO - 64.0..|m MISCELLANEOUS ENCHANTED_POTATO - 64.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 64.0..|t POTATOES:8 - 1.0..|m MISCELLANEOUS ENCHANTED_POTATO - 64.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 64.0..|m MISCELLANEOUS ENCHANTED_POTATO - 64.0..|m MISCELLANEOUS ENCHANTED_POTATO - 64.0..
+    scollect-tier: POTATO - 1
+
+  POTATO_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion farmer POTATOES 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 1.0..|m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 1.0..|m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 1.0..
+          - m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 1.0..|t POTATOES:9 - 1.0..|m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 1.0..
+          - m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 1.0..|m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 1.0..|m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 1.0..
+    scollect-tier: POTATO - 1
+
+  POTATO_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion farmer POTATOES 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 2.0..|m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 2.0..|m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 2.0..
+          - m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 2.0..|t POTATOES:10 - 1.0..|m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 2.0..
+          - m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 2.0..|m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 2.0..|m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 2.0..
+    scollect-tier: POTATO - 1
+
+# ===============[CARROT]============== #
+  CARROT_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion farmer CARROTS 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v CARROT - 16.0..|v CARROT - 16.0..|v CARROT - 16.0..
+          - v CARROT - 16.0..|v WOODEN_HOE - 1.0..|v CARROT - 16.0..
+          - v CARROT - 16.0..|v CARROT - 16.0..|v CARROT - 16.0..
+    scollect-tier: CARROT - 1  
+
+  CARROT_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion farmer CARROTS 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v CARROT - 32.0..|v CARROT - 32.0..|v CARROT - 32.0..
+          - v CARROT - 32.0..|t CARROTS:1 - 1.0..|v CARROT - 32.0..
+          - v CARROT - 32.0..|v CARROT - 32.0..|v CARROT - 32.0..
+    scollect-tier: CARROT - 1   
+
+  CARROT_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion farmer CARROTS 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v CARROT - 64.0..|v CARROT - 64.0..|v CARROT - 64.0..
+          - v CARROT - 64.0..|t CARROTS:2 - 1.0..|v CARROT - 64.0..
+          - v CARROT - 64.0..|v CARROT - 64.0..|v CARROT - 64.0..
+    scollect-tier: CARROT - 1
+
+  CARROT_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion farmer CARROTS 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_CARROT - 1.0..|m MISCELLANEOUS ENCHANTED_CARROT - 1.0..|m MISCELLANEOUS ENCHANTED_CARROT - 1.0..
+          - m MISCELLANEOUS ENCHANTED_CARROT - 1.0..|t CARROTS:3 - 1.0..|m MISCELLANEOUS ENCHANTED_CARROT - 1.0..
+          - m MISCELLANEOUS ENCHANTED_CARROT - 1.0..|m MISCELLANEOUS ENCHANTED_CARROT - 1.0..|m MISCELLANEOUS ENCHANTED_CARROT - 1.0..
+    scollect-tier: CARROT - 1
+
+  CARROT_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion farmer CARROTS 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_CARROT - 3.0..|m MISCELLANEOUS ENCHANTED_CARROT - 3.0..|m MISCELLANEOUS ENCHANTED_CARROT - 3.0..
+          - m MISCELLANEOUS ENCHANTED_CARROT - 3.0..|t CARROTS:4 - 1.0..|m MISCELLANEOUS ENCHANTED_CARROT - 3.0..
+          - m MISCELLANEOUS ENCHANTED_CARROT - 3.0..|m MISCELLANEOUS ENCHANTED_CARROT - 3.0..|m MISCELLANEOUS ENCHANTED_CARROT - 3.0..
+    scollect-tier: CARROT - 1
+
+  CARROT_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion farmer CARROTS 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_CARROT - 8.0..|m MISCELLANEOUS ENCHANTED_CARROT - 8.0..|m MISCELLANEOUS ENCHANTED_CARROT - 8.0..
+          - m MISCELLANEOUS ENCHANTED_CARROT - 8.0..|t CARROTS:5 - 1.0..|m MISCELLANEOUS ENCHANTED_CARROT - 8.0..
+          - m MISCELLANEOUS ENCHANTED_CARROT - 8.0..|m MISCELLANEOUS ENCHANTED_CARROT - 8.0..|m MISCELLANEOUS ENCHANTED_CARROT - 8.0..
+    scollect-tier: CARROT - 1
+
+  CARROT_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion farmer CARROTS 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_CARROT - 16.0..|m MISCELLANEOUS ENCHANTED_CARROT - 16.0..|m MISCELLANEOUS ENCHANTED_CARROT - 16.0..
+          - m MISCELLANEOUS ENCHANTED_CARROT - 16.0..|t CARROTS:6 - 1.0..|m MISCELLANEOUS ENCHANTED_CARROT - 16.0..
+          - m MISCELLANEOUS ENCHANTED_CARROT - 16.0..|m MISCELLANEOUS ENCHANTED_CARROT - 16.0..|m MISCELLANEOUS ENCHANTED_CARROT - 16.0..
+    scollect-tier: CARROT - 1 
+
+  CARROT_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion farmer CARROTS 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_CARROT - 32.0..|m MISCELLANEOUS ENCHANTED_CARROT - 32.0..|m MISCELLANEOUS ENCHANTED_CARROT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_CARROT - 32.0..|t CARROTS:7 - 1.0..|m MISCELLANEOUS ENCHANTED_CARROT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_CARROT - 32.0..|m MISCELLANEOUS ENCHANTED_CARROT - 32.0..|m MISCELLANEOUS ENCHANTED_CARROT - 32.0..
+    scollect-tier: CARROT - 1
+
+  CARROT_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion farmer CARROTS 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_CARROT - 64.0..|m MISCELLANEOUS ENCHANTED_CARROT - 64.0..|m MISCELLANEOUS ENCHANTED_CARROT - 64.0..
+          - m MISCELLANEOUS ENCHANTED_CARROT - 64.0..|t CARROTS:8 - 1.0..|m MISCELLANEOUS ENCHANTED_CARROT - 64.0..
+          - m MISCELLANEOUS ENCHANTED_CARROT - 64.0..|m MISCELLANEOUS ENCHANTED_CARROT - 64.0..|m MISCELLANEOUS ENCHANTED_CARROT - 64.0..
+    scollect-tier: CARROT - 1
+
+  CARROT_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion farmer CARROTS 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 1.0..|m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 1.0..|m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 1.0..
+          - m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 1.0..|t CARROTS:9 - 1.0..|m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 1.0..
+          - m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 1.0..|m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 1.0..|m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 1.0..
+    scollect-tier: CARROT - 1
+
+  CARROT_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion farmer CARROTS 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 2.0..|m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 2.0..|m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 2.0..
+          - m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 2.0..|t CARROTS:10 - 1.0..|m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 2.0..
+          - m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 2.0..|m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 2.0..|m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 2.0..
+    scollect-tier: CARROT - 1
+
+# ===============[BEETROOT]============== #
+  BEETROOT_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion farmer BEETROOTS 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BEETROOT - 16.0..|v BEETROOT - 16.0..|v BEETROOT - 16.0..
+          - v BEETROOT - 16.0..|v WOODEN_HOE - 1.0..|v BEETROOT - 16.0..
+          - v BEETROOT - 16.0..|v BEETROOT - 16.0..|v BEETROOT - 16.0..
+    scollect-tier: BEETROOT - 1  
+
+  BEETROOT_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion farmer BEETROOTS 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BEETROOT - 32.0..|v BEETROOT - 32.0..|v BEETROOT - 32.0..
+          - v BEETROOT - 32.0..|t BEETROOTS:1 - 1.0..|v BEETROOT - 32.0..
+          - v BEETROOT - 32.0..|v BEETROOT - 32.0..|v BEETROOT - 32.0..
+    scollect-tier: BEETROOT - 1   
+
+  BEETROOT_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion farmer BEETROOTS 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BEETROOT - 64.0..|v BEETROOT - 64.0..|v BEETROOT - 64.0..
+          - v BEETROOT - 64.0..|t BEETROOTS:2 - 1.0..|v BEETROOT - 64.0..
+          - v BEETROOT - 64.0..|v BEETROOT - 64.0..|v BEETROOT - 64.0..
+    scollect-tier: BEETROOT - 1
+
+  BEETROOT_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion farmer BEETROOTS 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 1.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 1.0..|t BEETROOTS:3 - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 1.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 1.0..
+    scollect-tier: BEETROOT - 1
+
+  BEETROOT_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion farmer BEETROOTS 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 3.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 3.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 3.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 3.0..|t BEETROOTS:4 - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 3.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 3.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 3.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 3.0..
+    scollect-tier: BEETROOT - 1
+
+  BEETROOT_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion farmer BEETROOTS 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 8.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 8.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 8.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 8.0..|t BEETROOTS:5 - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 8.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 8.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 8.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 8.0..
+    scollect-tier: BEETROOT - 1
+
+  BEETROOT_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion farmer BEETROOTS 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 16.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 16.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 16.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 16.0..|t BEETROOTS:6 - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 16.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 16.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 16.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 16.0..
+    scollect-tier: BEETROOT - 1 
+
+  BEETROOT_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion farmer BEETROOTS 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|t BEETROOTS:7 - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..
+    scollect-tier: BEETROOT - 1
+
+  BEETROOT_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion farmer BEETROOTS 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 64.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 64.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 64.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 64.0..|t BEETROOTS:8 - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 64.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 64.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 64.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 64.0..
+    scollect-tier: BEETROOT - 1
+
+  BEETROOT_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion farmer BEETROOTS 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BEETROOT_SOUP - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT_SOUP - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT_SOUP - 1.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT_SOUP - 1.0..|t BEETROOTS:9 - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT_SOUP - 1.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT_SOUP - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT_SOUP - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT_SOUP - 1.0..
+    scollect-tier: BEETROOT - 1
+
+  BEETROOT_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion farmer BEETROOTS 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 2.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 2.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 2.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 2.0..|t BEETROOTS:10 - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 2.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 2.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 2.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 2.0..
+    scollect-tier: BEETROOT - 1

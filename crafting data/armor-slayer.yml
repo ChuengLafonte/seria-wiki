@@ -1,0 +1,82 @@
+ARMOR_SLAYER:
+  ZOMBIE_CHESTPLATE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1..|v AIR 0 1..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1..|m HELMET ZOMBIE_HEART - 1.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1..
+          - m HELMET ZOMBIE_HEART - 1.0..|m HELMET ZOMBIE_HEART - 1.0..|m HELMET ZOMBIE_HEART - 1.0..     
+    scollect-tier: ROTTEN_FLESH - 8
+  ZOMBIE_LEGGINGS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m HELMET ZOMBIE_HEART - 1.0..|m HELMET ZOMBIE_HEART - 1.0..|m HELMET ZOMBIE_HEART - 1.0..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1..|v AIR 0 1..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1..|v AIR 0 1..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1..  
+    scollect-tier: ROTTEN_FLESH - 8
+  ZOMBIE_BOOTS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1..|v AIR 0 1..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1..
+          - m HELMET ZOMBIE_HEART - 1.0..|v AIR 0 1..|m HELMET ZOMBIE_HEART - 1.0..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..   
+    scollect-tier: ROTTEN_FLESH - 8
+
+  BLAZE_HELMET:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..|v AIR 0 1..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+        '2':
+          input:
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..|v AIR 0 1..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..
+    scollect-tier: BLAZE_ROD - 8
+  BLAZE_CHESTPLATE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..|v AIR 0 1..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..     
+    scollect-tier: BLAZE_ROD - 8
+  BLAZE_LEGGINGS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..|v AIR 0 1..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..|v AIR 0 1..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..
+    scollect-tier: BLAZE_ROD - 8
+  BLAZE_BOOTS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..|v AIR 0 1..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..|v AIR 0 1..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..   
+        '2':
+          input:
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..|v AIR 0 1..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..|v AIR 0 1..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1..
+    scollect-tier: BLAZE_ROD - 8

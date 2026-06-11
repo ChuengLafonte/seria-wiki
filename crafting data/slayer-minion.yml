@@ -1,0 +1,874 @@
+MINION:
+# ///////////////////////////////////// #
+#               SLAYER                  #
+# ///////////////////////////////////// #
+
+# ===============[ZOMBIE]================ #
+
+  ZOMBIE_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion slayer ZOMBIE 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ROTTEN_FLESH - 10.0..|v ROTTEN_FLESH - 10.0..|v ROTTEN_FLESH - 10.0..
+          - v ROTTEN_FLESH - 10.0..|v WOODEN_SWORD - 1.0..|v ROTTEN_FLESH - 10.0..
+          - v ROTTEN_FLESH - 10.0..|v ROTTEN_FLESH - 10.0..|v ROTTEN_FLESH - 10.0..
+    scollect-tier: ROTTEN_FLESH - 1  
+
+  ZOMBIE_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion slayer ZOMBIE 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ROTTEN_FLESH - 20.0..|v ROTTEN_FLESH - 20.0..|v ROTTEN_FLESH - 20.0..
+          - v ROTTEN_FLESH - 20.0..|t ZOMBIE:1 - 1.0..|v ROTTEN_FLESH - 20.0..
+          - v ROTTEN_FLESH - 20.0..|v ROTTEN_FLESH - 20.0..|v ROTTEN_FLESH - 20.0..
+    scollect-tier: ROTTEN_FLESH - 1   
+
+  ZOMBIE_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion slayer ZOMBIE 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ROTTEN_FLESH - 40.0..|v ROTTEN_FLESH - 40.0..|v ROTTEN_FLESH - 40.0..
+          - v ROTTEN_FLESH - 40.0..|t ZOMBIE:2 - 1.0..|v ROTTEN_FLESH - 40.0..
+          - v ROTTEN_FLESH - 40.0..|v ROTTEN_FLESH - 40.0..|v ROTTEN_FLESH - 40.0..
+    scollect-tier: ROTTEN_FLESH - 1
+
+  ZOMBIE_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion slayer ZOMBIE 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ROTTEN_FLESH - 64.0..|v ROTTEN_FLESH - 64.0..|v ROTTEN_FLESH - 64.0..
+          - v ROTTEN_FLESH - 64.0..|t ZOMBIE:3 - 1.0..|v ROTTEN_FLESH - 64.0..
+          - v ROTTEN_FLESH - 64.0..|v ROTTEN_FLESH - 64.0..|v ROTTEN_FLESH - 64.0..
+    scollect-tier: ROTTEN_FLESH - 1
+
+  ZOMBIE_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion slayer ZOMBIE 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1.0..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1.0..|t ZOMBIE:4 - 1.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1.0..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 1.0..
+    scollect-tier: ROTTEN_FLESH - 1
+
+  ZOMBIE_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion slayer ZOMBIE 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 2.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 2.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 2.0..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 2.0..|t ZOMBIE:5 - 1.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 2.0..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 2.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 2.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 2.0..
+    scollect-tier: ROTTEN_FLESH - 1
+
+  ZOMBIE_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion slayer ZOMBIE 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 4.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 4.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 4.0..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 4.0..|t ZOMBIE:6 - 1.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 4.0..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 4.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 4.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 4.0..
+    scollect-tier: ROTTEN_FLESH - 1 
+
+  ZOMBIE_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion slayer ZOMBIE 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 8.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 8.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 8.0..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 8.0..|t ZOMBIE:7 - 1.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 8.0..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 8.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 8.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 8.0..
+    scollect-tier: ROTTEN_FLESH - 1
+
+  ZOMBIE_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion slayer ZOMBIE 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 16.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 16.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 16.0..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 16.0..|t ZOMBIE:8 - 1.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 16.0..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 16.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 16.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 16.0..
+    scollect-tier: ROTTEN_FLESH - 1
+
+  ZOMBIE_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion slayer ZOMBIE 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 32.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 32.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 32.0..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 32.0..|t ZOMBIE:9 - 1.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 32.0..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 32.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 32.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 32.0..
+    scollect-tier: ROTTEN_FLESH - 1
+
+  ZOMBIE_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion slayer ZOMBIE 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 64.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 64.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 64.0..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 64.0..|t ZOMBIE:10 - 1.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 64.0..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 64.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 64.0..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 64.0..
+    scollect-tier: ROTTEN_FLESH - 1
+
+# ===============[SKELETON]================ #
+
+  SKELETON_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion slayer SKELETON 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BONE - 10.0..|v BONE - 10.0..|v BONE - 10.0..
+          - v BONE - 10.0..|v WOODEN_SWORD - 1.0..|v BONE - 10.0..
+          - v BONE - 10.0..|v BONE - 10.0..|v BONE - 10.0..
+    scollect-tier: BONE - 1  
+
+  SKELETON_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion slayer SKELETON 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BONE - 20.0..|v BONE - 20.0..|v BONE - 20.0..
+          - v BONE - 20.0..|t SKELETON:1 - 1.0..|v BONE - 20.0..
+          - v BONE - 20.0..|v BONE - 20.0..|v BONE - 20.0..
+    scollect-tier: BONE - 1   
+
+  SKELETON_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion slayer SKELETON 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BONE - 40.0..|v BONE - 40.0..|v BONE - 40.0..
+          - v BONE - 40.0..|t SKELETON:2 - 1.0..|v BONE - 40.0..
+          - v BONE - 40.0..|v BONE - 40.0..|v BONE - 40.0..
+    scollect-tier: BONE - 1
+
+  SKELETON_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion slayer SKELETON 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BONE - 64.0..|v BONE - 64.0..|v BONE - 64.0..
+          - v BONE - 64.0..|t SKELETON:3 - 1.0..|v BONE - 64.0..
+          - v BONE - 64.0..|v BONE - 64.0..|v BONE - 64.0..
+    scollect-tier: BONE - 1
+
+  SKELETON_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion slayer SKELETON 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BONE - 1.0..|m MISCELLANEOUS ENCHANTED_BONE - 1.0..|m MISCELLANEOUS ENCHANTED_BONE - 1.0..
+          - m MISCELLANEOUS ENCHANTED_BONE - 1.0..|t SKELETON:4 - 1.0..|m MISCELLANEOUS ENCHANTED_BONE - 1.0..
+          - m MISCELLANEOUS ENCHANTED_BONE - 1.0..|m MISCELLANEOUS ENCHANTED_BONE - 1.0..|m MISCELLANEOUS ENCHANTED_BONE - 1.0..
+    scollect-tier: BONE - 1
+
+  SKELETON_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion slayer SKELETON 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BONE - 2.0..|m MISCELLANEOUS ENCHANTED_BONE - 2.0..|m MISCELLANEOUS ENCHANTED_BONE - 2.0..
+          - m MISCELLANEOUS ENCHANTED_BONE - 2.0..|t SKELETON:5 - 1.0..|m MISCELLANEOUS ENCHANTED_BONE - 2.0..
+          - m MISCELLANEOUS ENCHANTED_BONE - 2.0..|m MISCELLANEOUS ENCHANTED_BONE - 2.0..|m MISCELLANEOUS ENCHANTED_BONE - 2.0..
+    scollect-tier: BONE - 1
+
+  SKELETON_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion slayer SKELETON 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BONE - 4.0..|m MISCELLANEOUS ENCHANTED_BONE - 4.0..|m MISCELLANEOUS ENCHANTED_BONE - 4.0..
+          - m MISCELLANEOUS ENCHANTED_BONE - 4.0..|t SKELETON:6 - 1.0..|m MISCELLANEOUS ENCHANTED_BONE - 4.0..
+          - m MISCELLANEOUS ENCHANTED_BONE - 4.0..|m MISCELLANEOUS ENCHANTED_BONE - 4.0..|m MISCELLANEOUS ENCHANTED_BONE - 4.0..
+    scollect-tier: BONE - 1 
+
+  SKELETON_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion slayer SKELETON 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BONE - 8.0..|m MISCELLANEOUS ENCHANTED_BONE - 8.0..|m MISCELLANEOUS ENCHANTED_BONE - 8.0..
+          - m MISCELLANEOUS ENCHANTED_BONE - 8.0..|t SKELETON:7 - 1.0..|m MISCELLANEOUS ENCHANTED_BONE - 8.0..
+          - m MISCELLANEOUS ENCHANTED_BONE - 8.0..|m MISCELLANEOUS ENCHANTED_BONE - 8.0..|m MISCELLANEOUS ENCHANTED_BONE - 8.0..
+    scollect-tier: BONE - 1
+
+  SKELETON_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion slayer SKELETON 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BONE - 16.0..|m MISCELLANEOUS ENCHANTED_BONE - 16.0..|m MISCELLANEOUS ENCHANTED_BONE - 16.0..
+          - m MISCELLANEOUS ENCHANTED_BONE - 16.0..|t SKELETON:8 - 1.0..|m MISCELLANEOUS ENCHANTED_BONE - 16.0..
+          - m MISCELLANEOUS ENCHANTED_BONE - 16.0..|m MISCELLANEOUS ENCHANTED_BONE - 16.0..|m MISCELLANEOUS ENCHANTED_BONE - 16.0..
+    scollect-tier: BONE - 1
+
+  SKELETON_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion slayer SKELETON 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BONE - 32.0..|m MISCELLANEOUS ENCHANTED_BONE - 32.0..|m MISCELLANEOUS ENCHANTED_BONE - 32.0..
+          - m MISCELLANEOUS ENCHANTED_BONE - 32.0..|t SKELETON:9 - 1.0..|m MISCELLANEOUS ENCHANTED_BONE - 32.0..
+          - m MISCELLANEOUS ENCHANTED_BONE - 32.0..|m MISCELLANEOUS ENCHANTED_BONE - 32.0..|m MISCELLANEOUS ENCHANTED_BONE - 32.0..
+    scollect-tier: BONE - 1
+
+  SKELETON_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion slayer SKELETON 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BONE - 64.0..|m MISCELLANEOUS ENCHANTED_BONE - 64.0..|m MISCELLANEOUS ENCHANTED_BONE - 64.0..
+          - m MISCELLANEOUS ENCHANTED_BONE - 64.0..|t SKELETON:10 - 1.0..|m MISCELLANEOUS ENCHANTED_BONE - 64.0..
+          - m MISCELLANEOUS ENCHANTED_BONE - 64.0..|m MISCELLANEOUS ENCHANTED_BONE - 64.0..|m MISCELLANEOUS ENCHANTED_BONE - 64.0..
+    scollect-tier: BONE - 1
+
+# ===============[SPIDER]================ #
+
+  SPIDER_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion slayer SPIDER 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v STRING - 10.0..|v STRING - 10.0..|v STRING - 10.0..
+          - v STRING - 10.0..|v WOODEN_SWORD - 1.0..|v STRING - 10.0..
+          - v STRING - 10.0..|v STRING - 10.0..|v STRING - 10.0..
+    scollect-tier: STRING - 1  
+
+  SPIDER_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion slayer SPIDER 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v STRING - 20.0..|v STRING - 20.0..|v STRING - 20.0..
+          - v STRING - 20.0..|t SPIDER:1 - 1.0..|v STRING - 20.0..
+          - v STRING - 20.0..|v STRING - 20.0..|v STRING - 20.0..
+    scollect-tier: STRING - 1   
+
+  SPIDER_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion slayer SPIDER 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v STRING - 40.0..|v STRING - 40.0..|v STRING - 40.0..
+          - v STRING - 40.0..|t SPIDER:2 - 1.0..|v STRING - 40.0..
+          - v STRING - 40.0..|v STRING - 40.0..|v STRING - 40.0..
+    scollect-tier: STRING - 1
+
+  SPIDER_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion slayer SPIDER 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v STRING - 64.0..|v STRING - 64.0..|v STRING - 64.0..
+          - v STRING - 64.0..|t SPIDER:3 - 1.0..|v STRING - 64.0..
+          - v STRING - 64.0..|v STRING - 64.0..|v STRING - 64.0..
+    scollect-tier: STRING - 1
+
+  SPIDER_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion slayer SPIDER 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_STRING - 1.0..|m MISCELLANEOUS ENCHANTED_STRING - 1.0..|m MISCELLANEOUS ENCHANTED_STRING - 1.0..
+          - m MISCELLANEOUS ENCHANTED_STRING - 1.0..|t SPIDER:4 - 1.0..|m MISCELLANEOUS ENCHANTED_STRING - 1.0..
+          - m MISCELLANEOUS ENCHANTED_STRING - 1.0..|m MISCELLANEOUS ENCHANTED_STRING - 1.0..|m MISCELLANEOUS ENCHANTED_STRING - 1.0..
+    scollect-tier: STRING - 1
+
+  SPIDER_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion slayer SPIDER 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_STRING - 2.0..|m MISCELLANEOUS ENCHANTED_STRING - 2.0..|m MISCELLANEOUS ENCHANTED_STRING - 2.0..
+          - m MISCELLANEOUS ENCHANTED_STRING - 2.0..|t SPIDER:5 - 1.0..|m MISCELLANEOUS ENCHANTED_STRING - 2.0..
+          - m MISCELLANEOUS ENCHANTED_STRING - 2.0..|m MISCELLANEOUS ENCHANTED_STRING - 2.0..|m MISCELLANEOUS ENCHANTED_STRING - 2.0..
+    scollect-tier: STRING - 1
+
+  SPIDER_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion slayer SPIDER 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_STRING - 4.0..|m MISCELLANEOUS ENCHANTED_STRING - 4.0..|m MISCELLANEOUS ENCHANTED_STRING - 4.0..
+          - m MISCELLANEOUS ENCHANTED_STRING - 4.0..|t SPIDER:6 - 1.0..|m MISCELLANEOUS ENCHANTED_STRING - 4.0..
+          - m MISCELLANEOUS ENCHANTED_STRING - 4.0..|m MISCELLANEOUS ENCHANTED_STRING - 4.0..|m MISCELLANEOUS ENCHANTED_STRING - 4.0..
+    scollect-tier: STRING - 1 
+
+  SPIDER_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion slayer SPIDER 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_STRING - 8.0..|m MISCELLANEOUS ENCHANTED_STRING - 8.0..|m MISCELLANEOUS ENCHANTED_STRING - 8.0..
+          - m MISCELLANEOUS ENCHANTED_STRING - 8.0..|t SPIDER:7 - 1.0..|m MISCELLANEOUS ENCHANTED_STRING - 8.0..
+          - m MISCELLANEOUS ENCHANTED_STRING - 8.0..|m MISCELLANEOUS ENCHANTED_STRING - 8.0..|m MISCELLANEOUS ENCHANTED_STRING - 8.0..
+    scollect-tier: STRING - 1
+
+  SPIDER_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion slayer SPIDER 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_STRING - 16.0..|m MISCELLANEOUS ENCHANTED_STRING - 16.0..|m MISCELLANEOUS ENCHANTED_STRING - 16.0..
+          - m MISCELLANEOUS ENCHANTED_STRING - 16.0..|t SPIDER:8 - 1.0..|m MISCELLANEOUS ENCHANTED_STRING - 16.0..
+          - m MISCELLANEOUS ENCHANTED_STRING - 16.0..|m MISCELLANEOUS ENCHANTED_STRING - 16.0..|m MISCELLANEOUS ENCHANTED_STRING - 16.0..
+    scollect-tier: STRING - 1
+
+  SPIDER_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion slayer SPIDER 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_STRING - 32.0..|m MISCELLANEOUS ENCHANTED_STRING - 32.0..|m MISCELLANEOUS ENCHANTED_STRING - 32.0..
+          - m MISCELLANEOUS ENCHANTED_STRING - 32.0..|t SPIDER:9 - 1.0..|m MISCELLANEOUS ENCHANTED_STRING - 32.0..
+          - m MISCELLANEOUS ENCHANTED_STRING - 32.0..|m MISCELLANEOUS ENCHANTED_STRING - 32.0..|m MISCELLANEOUS ENCHANTED_STRING - 32.0..
+    scollect-tier: STRING - 1
+
+  SPIDER_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion slayer SPIDER 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_STRING - 64.0..|m MISCELLANEOUS ENCHANTED_STRING - 64.0..|m MISCELLANEOUS ENCHANTED_STRING - 64.0..
+          - m MISCELLANEOUS ENCHANTED_STRING - 64.0..|t SPIDER:10 - 1.0..|m MISCELLANEOUS ENCHANTED_STRING - 64.0..
+          - m MISCELLANEOUS ENCHANTED_STRING - 64.0..|m MISCELLANEOUS ENCHANTED_STRING - 64.0..|m MISCELLANEOUS ENCHANTED_STRING - 64.0..
+    scollect-tier: STRING - 1
+
+# ===============[CREEPER]================ #
+
+  CREEPER_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion slayer CREEPER 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v GUNPOWDER - 10.0..|v GUNPOWDER - 10.0..|v GUNPOWDER - 10.0..
+          - v GUNPOWDER - 10.0..|v WOODEN_SWORD - 1.0..|v GUNPOWDER - 10.0..
+          - v GUNPOWDER - 10.0..|v GUNPOWDER - 10.0..|v GUNPOWDER - 10.0..
+    scollect-tier: GUNPOWDER - 1  
+
+  CREEPER_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion slayer CREEPER 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v GUNPOWDER - 20.0..|v GUNPOWDER - 20.0..|v GUNPOWDER - 20.0..
+          - v GUNPOWDER - 20.0..|t CREEPER:1 - 1.0..|v GUNPOWDER - 20.0..
+          - v GUNPOWDER - 20.0..|v GUNPOWDER - 20.0..|v GUNPOWDER - 20.0..
+    scollect-tier: GUNPOWDER - 1   
+
+  CREEPER_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion slayer CREEPER 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v GUNPOWDER - 40.0..|v GUNPOWDER - 40.0..|v GUNPOWDER - 40.0..
+          - v GUNPOWDER - 40.0..|t CREEPER:2 - 1.0..|v GUNPOWDER - 40.0..
+          - v GUNPOWDER - 40.0..|v GUNPOWDER - 40.0..|v GUNPOWDER - 40.0..
+    scollect-tier: GUNPOWDER - 1
+
+  CREEPER_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion slayer CREEPER 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v GUNPOWDER - 64.0..|v GUNPOWDER - 64.0..|v GUNPOWDER - 64.0..
+          - v GUNPOWDER - 64.0..|t CREEPER:3 - 1.0..|v GUNPOWDER - 64.0..
+          - v GUNPOWDER - 64.0..|v GUNPOWDER - 64.0..|v GUNPOWDER - 64.0..
+    scollect-tier: GUNPOWDER - 1
+
+  CREEPER_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion slayer CREEPER 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 1.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 1.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 1.0..
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 1.0..|t CREEPER:4 - 1.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 1.0..
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 1.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 1.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 1.0..
+    scollect-tier: GUNPOWDER - 1
+
+  CREEPER_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion slayer CREEPER 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 3.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 3.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 3.0..
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 3.0..|t CREEPER:5 - 1.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 3.0..
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 3.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 3.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 3.0..
+    scollect-tier: GUNPOWDER - 1
+
+  CREEPER_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion slayer CREEPER 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 8.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 8.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 8.0..
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 8.0..|t CREEPER:6 - 1.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 8.0..
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 8.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 8.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 8.0..
+    scollect-tier: GUNPOWDER - 1 
+
+  CREEPER_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion slayer CREEPER 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 16.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 16.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 16.0..
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 16.0..|t CREEPER:7 - 1.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 16.0..
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 16.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 16.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 16.0..
+    scollect-tier: GUNPOWDER - 1
+
+  CREEPER_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion slayer CREEPER 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 32.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 32.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 32.0..
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 32.0..|t CREEPER:8 - 1.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 32.0..
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 32.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 32.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 32.0..
+    scollect-tier: GUNPOWDER - 1
+
+  CREEPER_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion slayer CREEPER 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 64.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 64.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 64.0..
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 64.0..|t CREEPER:9 - 1.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 64.0..
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 64.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 64.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 64.0..
+    scollect-tier: GUNPOWDER - 1
+
+  CREEPER_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion slayer CREEPER 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_FIREWORK_ROCKET - 2.0..|m MISCELLANEOUS ENCHANTED_FIREWORK_ROCKET - 2.0..|m MISCELLANEOUS ENCHANTED_FIREWORK_ROCKET - 2.0..
+          - m MISCELLANEOUS ENCHANTED_FIREWORK_ROCKET - 2.0..|t CREEPER:10 - 1.0..|m MISCELLANEOUS ENCHANTED_FIREWORK_ROCKET - 2.0..
+          - m MISCELLANEOUS ENCHANTED_FIREWORK_ROCKET - 2.0..|m MISCELLANEOUS ENCHANTED_FIREWORK_ROCKET - 2.0..|m MISCELLANEOUS ENCHANTED_FIREWORK_ROCKET - 2.0..
+    scollect-tier: GUNPOWDER - 1
+
+# ===============[ENDERPEARL]================ #
+
+  BLAZE_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion slayer BLAZE 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BLAZE_ROD - 10.0..|v BLAZE_ROD - 10.0..|v BLAZE_ROD - 10.0..
+          - v BLAZE_ROD - 10.0..|v WOODEN_SWORD - 1.0..|v BLAZE_ROD - 10.0..
+          - v BLAZE_ROD - 10.0..|v BLAZE_ROD - 10.0..|v BLAZE_ROD - 10.0..
+    scollect-tier: BLAZE_ROD - 1  
+
+  BLAZE_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion slayer BLAZE 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BLAZE_ROD - 20.0..|v BLAZE_ROD - 20.0..|v BLAZE_ROD - 20.0..
+          - v BLAZE_ROD - 20.0..|t BLAZE:1 - 1.0..|v BLAZE_ROD - 20.0..
+          - v BLAZE_ROD - 20.0..|v BLAZE_ROD - 20.0..|v BLAZE_ROD - 20.0..
+    scollect-tier: BLAZE_ROD - 1   
+
+  BLAZE_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion slayer BLAZE 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BLAZE_ROD - 40.0..|v BLAZE_ROD - 40.0..|v BLAZE_ROD - 40.0..
+          - v BLAZE_ROD - 40.0..|t BLAZE:2 - 1.0..|v BLAZE_ROD - 40.0..
+          - v BLAZE_ROD - 40.0..|v BLAZE_ROD - 40.0..|v BLAZE_ROD - 40.0..
+    scollect-tier: BLAZE_ROD - 1
+
+  BLAZE_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion slayer BLAZE 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BLAZE_ROD - 64.0..|v BLAZE_ROD - 64.0..|v BLAZE_ROD - 64.0..
+          - v BLAZE_ROD - 64.0..|t BLAZE:3 - 1.0..|v BLAZE_ROD - 64.0..
+          - v BLAZE_ROD - 64.0..|v BLAZE_ROD - 64.0..|v BLAZE_ROD - 64.0..
+    scollect-tier: BLAZE_ROD - 1
+
+  BLAZE_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion slayer BLAZE 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 1.0..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 1.0..|t BLAZE:4 - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 1.0..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 1.0..
+    scollect-tier: BLAZE_ROD - 1
+
+  BLAZE_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion slayer BLAZE 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 3.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 3.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 3.0..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 3.0..|t BLAZE:5 - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 3.0..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 3.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 3.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 3.0..
+    scollect-tier: BLAZE_ROD - 1
+
+  BLAZE_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion slayer BLAZE 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 8.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 8.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 8.0..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 8.0..|t BLAZE:6 - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 8.0..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 8.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 8.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 8.0..
+    scollect-tier: BLAZE_ROD - 1 
+
+  BLAZE_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion slayer BLAZE 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 16.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 16.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 16.0..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 16.0..|t BLAZE:7 - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 16.0..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 16.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 16.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 16.0..
+    scollect-tier: BLAZE_ROD - 1 
+
+  BLAZE_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion slayer BLAZE 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 32.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 32.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 32.0..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 32.0..|t BLAZE:8 - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 32.0..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 32.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 32.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 32.0..
+    scollect-tier: BLAZE_ROD - 1
+
+  BLAZE_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion slayer BLAZE 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 64.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 64.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 64.0..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 64.0..|t BLAZE:9 - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 64.0..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 64.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 64.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 64.0..
+    scollect-tier: BLAZE_ROD - 1
+
+  BLAZE_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion slayer BLAZE 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1.0..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1.0..|t BLAZE:10 - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1.0..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1.0..|m MISCELLANEOUS ENCHANTED_BLAZE_ROD - 1.0..
+    scollect-tier: BLAZE_ROD - 1
+
+# ===============[ENDERPEARL]================ #
+
+  ENDERMAN_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion slayer ENDERMAN 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ENDER_PEARL - 8.0..|v ENDER_PEARL - 8.0..|v ENDER_PEARL - 8.0..
+          - v ENDER_PEARL - 8.0..|v WOODEN_SWORD - 1.0..|v ENDER_PEARL - 8.0..
+          - v ENDER_PEARL - 8.0..|v ENDER_PEARL - 8.0..|v ENDER_PEARL - 8.0..
+    scollect-tier: ENDER_PEARL - 1  
+
+  ENDERMAN_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion slayer ENDERMAN 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ENDER_PEARL - 16.0..|v ENDER_PEARL - 16.0..|v ENDER_PEARL - 16.0..
+          - v ENDER_PEARL - 16.0..|t ENDERMAN:1 - 1.0..|v ENDER_PEARL - 16.0..
+          - v ENDER_PEARL - 16.0..|v ENDER_PEARL - 16.0..|v ENDER_PEARL - 16.0..
+    scollect-tier: ENDER_PEARL - 1   
+
+  ENDERMAN_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion slayer ENDERMAN 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 1.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 1.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 1.0..
+          - m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 1.0..|t ENDERMAN:2 - 1.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 1.0..
+          - m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 1.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 1.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 1.0..
+    scollect-tier: ENDER_PEARL - 1
+
+  ENDERMAN_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion slayer ENDERMAN 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 3.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 3.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 3.0..
+          - m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 3.0..|t ENDERMAN:3 - 1.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 3.0..
+          - m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 3.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 3.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 3.0..
+    scollect-tier: ENDER_PEARL - 1
+
+  ENDERMAN_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion slayer ENDERMAN 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 6.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 6.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 6.0..
+          - m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 6.0..|t ENDERMAN:4 - 1.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 6.0..
+          - m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 6.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 6.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 6.0..
+    scollect-tier: ENDER_PEARL - 1
+
+  ENDERMAN_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion slayer ENDERMAN 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 12.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 12.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 12.0..
+          - m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 12.0..|t ENDERMAN:5 - 1.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 12.0..
+          - m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 12.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 12.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 12.0..
+    scollect-tier: ENDER_PEARL - 1
+
+  ENDERMAN_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion slayer ENDERMAN 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 1.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 1.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 1.0..
+          - m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 1.0..|t ENDERMAN:6 - 1.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 1.0..
+          - m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 1.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 1.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 1.0..
+    scollect-tier: ENDER_PEARL - 1 
+
+  ENDERMAN_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion slayer ENDERMAN 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 3.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 3.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 3.0..
+          - m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 3.0..|t ENDERMAN:7 - 1.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 3.0..
+          - m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 3.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 3.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 3.0..
+    scollect-tier: ENDER_PEARL - 1 
+
+  ENDERMAN_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion slayer ENDERMAN 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 6.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 6.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 6.0..
+          - m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 6.0..|t ENDERMAN:8 - 1.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 6.0..
+          - m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 6.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 6.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 6.0..
+    scollect-tier: ENDER_PEARL - 1
+
+  ENDERMAN_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion slayer ENDERMAN 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 12.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 12.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 12.0..
+          - m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 12.0..|t ENDERMAN:9 - 1.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 12.0..
+          - m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 12.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 12.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 12.0..
+    scollect-tier: ENDER_PEARL - 1
+
+  ENDERMAN_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion slayer ENDERMAN 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 24.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 24.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 24.0..
+          - m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 24.0..|t ENDERMAN:10 - 1.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 24.0..
+          - m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 24.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 24.0..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 24.0..
+    scollect-tier: ENDER_PEARL - 1

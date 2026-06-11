@@ -1,0 +1,439 @@
+MINION:
+# ///////////////////////////////////// #
+#               EXCAVATOR               #
+# ///////////////////////////////////// #
+
+# =================[SAND]================ #
+
+  SAND_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion miner SAND 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SAND - 10.0..|v SAND - 10.0..|v SAND - 10.0..
+          - v SAND - 10.0..|v WOODEN_SHOVEL - 1.0..|v SAND - 10.0..
+          - v SAND - 10.0..|v SAND - 10.0..|v SAND - 10.0..
+    scollect-tier: SAND - 1  
+
+  SAND_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion miner SAND 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SAND - 20.0..|v SAND - 20.0..|v SAND - 20.0..
+          - v SAND - 20.0..|t SAND:1 - 1.0..|v SAND - 20.0..
+          - v SAND - 20.0..|v SAND - 20.0..|v SAND - 20.0..
+    scollect-tier: SAND - 1   
+
+  SAND_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion miner SAND 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SAND - 32.0..|v SAND - 32.0..|v SAND - 32.0..
+          - v SAND - 32.0..|t SAND:2 - 1.0..|v SAND - 32.0..
+          - v SAND - 32.0..|v SAND - 32.0..|v SAND - 32.0..
+    scollect-tier: SAND - 1
+
+  SAND_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion miner SAND 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SAND - 64.0..|v SAND - 64.0..|v SAND - 64.0..
+          - v SAND - 64.0..|t SAND:3 - 1.0..|v SAND - 64.0..
+          - v SAND - 64.0..|v SAND - 64.0..|v SAND - 64.0..
+    scollect-tier: SAND - 1
+
+  SAND_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion miner SAND 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SAND - 1.0..|m MISCELLANEOUS ENCHANTED_SAND - 1.0..|m MISCELLANEOUS ENCHANTED_SAND - 1.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 1.0..|t SAND:4 - 1.0..|m MISCELLANEOUS ENCHANTED_SAND - 1.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 1.0..|m MISCELLANEOUS ENCHANTED_SAND - 1.0..|m MISCELLANEOUS ENCHANTED_SAND - 1.0..
+    scollect-tier: SAND - 1
+
+  SAND_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion miner SAND 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SAND - 2.0..|m MISCELLANEOUS ENCHANTED_SAND - 3.0..|m MISCELLANEOUS ENCHANTED_SAND - 3.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 2.0..|t SAND:5 - 1.0..|m MISCELLANEOUS ENCHANTED_SAND - 3.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 2.0..|m MISCELLANEOUS ENCHANTED_SAND - 3.0..|m MISCELLANEOUS ENCHANTED_SAND - 3.0..
+    scollect-tier: SAND - 1
+
+  SAND_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion miner SAND 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SAND - 4.0..|m MISCELLANEOUS ENCHANTED_SAND - 4.0..|m MISCELLANEOUS ENCHANTED_SAND - 4.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 4.0..|t SAND:6 - 1.0..|m MISCELLANEOUS ENCHANTED_SAND - 4.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 4.0..|m MISCELLANEOUS ENCHANTED_SAND - 4.0..|m MISCELLANEOUS ENCHANTED_SAND - 4.0..
+    scollect-tier: SAND - 1 
+
+  SAND_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion miner SAND 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SAND - 8.0..|m MISCELLANEOUS ENCHANTED_SAND - 8.0..|m MISCELLANEOUS ENCHANTED_SAND - 8.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 8.0..|t SAND:7 - 1.0..|m MISCELLANEOUS ENCHANTED_SAND - 8.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 8.0..|m MISCELLANEOUS ENCHANTED_SAND - 8.0..|m MISCELLANEOUS ENCHANTED_SAND - 8.0..
+    scollect-tier: SAND - 1
+
+  SAND_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion miner SAND 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SAND - 16.0..|m MISCELLANEOUS ENCHANTED_SAND - 16.0..|m MISCELLANEOUS ENCHANTED_SAND - 16.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 16.0..|t SAND:8 - 1.0..|m MISCELLANEOUS ENCHANTED_SAND - 16.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 16.0..|m MISCELLANEOUS ENCHANTED_SAND - 16.0..|m MISCELLANEOUS ENCHANTED_SAND - 16.0..
+    scollect-tier: SAND - 1
+
+  SAND_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion miner SAND 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_SAND - 32.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 32.0..|t SAND:9 - 1.0..|m MISCELLANEOUS ENCHANTED_SAND - 32.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_SAND - 32.0..
+    scollect-tier: SAND - 1
+
+  SAND_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion miner SAND 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SAND - 64.0..|m MISCELLANEOUS ENCHANTED_SAND - 64.0..|m MISCELLANEOUS ENCHANTED_SAND - 64.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 64.0..|t SAND:10 - 1.0..|m MISCELLANEOUS ENCHANTED_SAND - 64.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 64.0..|m MISCELLANEOUS ENCHANTED_SAND - 64.0..|m MISCELLANEOUS ENCHANTED_SAND - 64.0..
+    scollect-tier: SAND - 1
+
+# =================[RED SAND]================ #
+
+  RED_SAND_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion miner RED_SAND 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v RED_SAND - 10.0..|v RED_SAND - 10.0..|v RED_SAND - 10.0..
+          - v RED_SAND - 10.0..|v WOODEN_SHOVEL - 1.0..|v RED_SAND - 10.0..
+          - v RED_SAND - 10.0..|v RED_SAND - 10.0..|v RED_SAND - 10.0..
+    scollect-tier: RED_SAND - 1  
+
+  RED_SAND_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion miner RED_SAND 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v RED_SAND - 32.0..|v RED_SAND - 32.0..|v RED_SAND - 32.0..
+          - v RED_SAND - 32.0..|t RED_SAND:1 - 1.0..|v RED_SAND - 32.0..
+          - v RED_SAND - 32.0..|v RED_SAND - 32.0..|v RED_SAND - 32.0..
+    scollect-tier: RED_SAND - 1   
+
+  RED_SAND_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion miner RED_SAND 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v RED_SAND - 64.0..|v RED_SAND - 64.0..|v RED_SAND - 64.0..
+          - v RED_SAND - 64.0..|t RED_SAND:2 - 1.0..|v RED_SAND - 64.0..
+          - v RED_SAND - 64.0..|v RED_SAND - 64.0..|v RED_SAND - 64.0..
+    scollect-tier: RED_SAND - 1
+
+  RED_SAND_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion miner RED_SAND 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 2.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 2.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 2.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 2.0..|t RED_SAND:3 - 1.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 2.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 2.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 2.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 2.0..
+    scollect-tier: RED_SAND - 1
+
+  RED_SAND_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion miner RED_SAND 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 4.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 4.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 4.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 4.0..|t RED_SAND:4 - 1.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 4.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 4.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 4.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 4.0..
+    scollect-tier: RED_SAND - 1
+
+  RED_SAND_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion miner RED_SAND 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 8.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 8.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 8.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 8.0..|t RED_SAND:5 - 1.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 8.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 8.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 8.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 8.0..
+    scollect-tier: RED_SAND - 1
+
+  RED_SAND_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion miner RED_SAND 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 16.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 16.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 16.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 16.0..|t RED_SAND:5 - 1.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 16.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 16.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 16.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 16.0..
+    scollect-tier: RED_SAND - 1 
+
+  RED_SAND_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion miner RED_SAND 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..|t RED_SAND:6 - 1.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..
+    scollect-tier: RED_SAND - 1
+
+  RED_SAND_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion miner RED_SAND 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 64.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 64.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 64.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 64.0..|t RED_SAND:8 - 1.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 64.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 64.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 64.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 64.0..
+    scollect-tier: RED_SAND - 1
+
+  RED_SAND_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion miner RED_SAND 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 1.0..|m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 1.0..|m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 1.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 1.0..|t RED_SAND:9 - 1.0..|m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 1.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 1.0..|m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 1.0..|m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 1.0..
+    scollect-tier: RED_SAND - 1
+
+  RED_SAND_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion miner RED_SAND 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 2.0..|m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 2.0..|m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 2.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 2.0..|t RED_SAND:10 - 1.0..|m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 2.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 2.0..|m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 2.0..|m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 2.0..
+    scollect-tier: RED_SAND - 1
+
+# =================[GRAVEL]================ #
+
+  GRAVEL_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion miner GRAVEL 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v GRAVEL - 8.0..|v GRAVEL - 8.0..|v GRAVEL - 8.0..
+          - v GRAVEL - 8.0..|v WOODEN_SHOVEL - 1.0..|v GRAVEL - 8.0..
+          - v GRAVEL - 8.0..|v GRAVEL - 8.0..|v GRAVEL - 8.0..
+    scollect-tier: GRAVEL - 1  
+
+  GRAVEL_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion miner GRAVEL 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v GRAVEL - 16.0..|v GRAVEL - 16.0..|v GRAVEL - 16.0..
+          - v GRAVEL - 16.0..|t GRAVEL:1 - 1.0..|v GRAVEL - 16.0..
+          - v GRAVEL - 16.0..|v GRAVEL - 16.0..|v GRAVEL - 16.0..
+    scollect-tier: GRAVEL - 1   
+
+  GRAVEL_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion miner GRAVEL 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v GRAVEL - 32.0..|v GRAVEL - 32.0..|v GRAVEL - 32.0..
+          - v GRAVEL - 32.0..|t GRAVEL:2 - 1.0..|v GRAVEL - 32.0..
+          - v GRAVEL - 32.0..|v GRAVEL - 32.0..|v GRAVEL - 32.0..
+    scollect-tier: GRAVEL - 1
+
+  GRAVEL_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion miner GRAVEL 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v GRAVEL - 64.0..|v GRAVEL - 64.0..|v GRAVEL - 64.0..
+          - v GRAVEL - 64.0..|t GRAVEL:3 - 1.0..|v GRAVEL - 64.0..
+          - v GRAVEL - 64.0..|v GRAVEL - 64.0..|v GRAVEL - 64.0..
+    scollect-tier: GRAVEL - 1
+
+  GRAVEL_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion miner GRAVEL 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 1.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 1.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 1.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 1.0..|t GRAVEL:4 - 1.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 1.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 1.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 1.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 1.0..
+    scollect-tier: GRAVEL - 1
+
+  GRAVEL_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion miner GRAVEL 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 3.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 3.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 3.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 3.0..|t GRAVEL:5 - 1.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 3.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 3.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 3.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 3.0..
+    scollect-tier: GRAVEL - 1
+
+  GRAVEL_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion miner GRAVEL 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 8.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 8.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 8.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 8.0..|t GRAVEL:6 - 1.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 8.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 8.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 8.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 8.0..
+    scollect-tier: GRAVEL - 1 
+
+  GRAVEL_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion miner GRAVEL 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 16.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 16.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 16.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 16.0..|t GRAVEL:7 - 1.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 16.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 16.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 16.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 16.0..
+    scollect-tier: GRAVEL - 1
+
+  GRAVEL_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion miner GRAVEL 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|t GRAVEL:8 - 1.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..
+    scollect-tier: GRAVEL - 1
+
+  GRAVEL_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion miner GRAVEL 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 64.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 64.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 64.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 64.0..|t GRAVEL:9 - 1.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 64.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 64.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 64.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 64.0..
+    scollect-tier: GRAVEL - 1
+
+  GRAVEL_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion miner GRAVEL 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_FLINT - 1.0..|m MISCELLANEOUS ENCHANTED_FLINT - 1.0..|m MISCELLANEOUS ENCHANTED_FLINT - 1.0..
+          - m MISCELLANEOUS ENCHANTED_FLINT - 1.0..|t GRAVEL:10 - 1.0..|m MISCELLANEOUS ENCHANTED_FLINT - 1.0..
+          - m MISCELLANEOUS ENCHANTED_FLINT - 1.0..|m MISCELLANEOUS ENCHANTED_FLINT - 1.0..|m MISCELLANEOUS ENCHANTED_FLINT - 1.0..
+    scollect-tier: GRAVEL - 1

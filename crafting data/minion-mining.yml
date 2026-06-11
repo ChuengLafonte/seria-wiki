@@ -1,0 +1,1310 @@
+MINION:
+# ///////////////////////////////////// #
+#               MINING                  #
+# ///////////////////////////////////// #
+
+# ===============[COBBLESTONE]================ #
+
+  COBBLESTONE_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion mining COBBLESTONE 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COBBLESTONE - 10.0..|v COBBLESTONE - 10.0..|v COBBLESTONE - 10.0..
+          - v COBBLESTONE - 10.0..|m PICKAXE WOODEN_PICKAXE - 1.0..|v COBBLESTONE - 10.0..
+          - v COBBLESTONE - 10.0..|v COBBLESTONE - 10.0..|v COBBLESTONE - 10.0..
+    scollect-tier: COBBLESTONE - 1  
+
+  COBBLESTONE_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion mining COBBLESTONE 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COBBLESTONE - 20.0..|v COBBLESTONE - 20.0..|v COBBLESTONE - 20.0..
+          - v COBBLESTONE - 20.0..|t COBBLESTONE:1 - 1.0..|v COBBLESTONE - 20.0..
+          - v COBBLESTONE - 20.0..|v COBBLESTONE - 20.0..|v COBBLESTONE - 20.0..
+    scollect-tier: COBBLESTONE - 1   
+
+  COBBLESTONE_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion mining COBBLESTONE 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COBBLESTONE - 40.0..|v COBBLESTONE - 40.0..|v COBBLESTONE - 40.0..
+          - v COBBLESTONE - 40.0..|t COBBLESTONE:2 - 1.0..|v COBBLESTONE - 40.0..
+          - v COBBLESTONE - 40.0..|v COBBLESTONE - 40.0..|v COBBLESTONE - 40.0..
+    scollect-tier: COBBLESTONE - 1
+
+  COBBLESTONE_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion mining COBBLESTONE 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COBBLESTONE - 64.0..|v COBBLESTONE - 64.0..|v COBBLESTONE - 64.0..
+          - v COBBLESTONE - 64.0..|t COBBLESTONE:3 - 1.0..|v COBBLESTONE - 64.0..
+          - v COBBLESTONE - 64.0..|v COBBLESTONE - 64.0..|v COBBLESTONE - 64.0..
+    scollect-tier: COBBLESTONE - 1
+
+  COBBLESTONE_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion mining COBBLESTONE 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 1.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 1.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 1.0..
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 1.0..|t COBBLESTONE:4 - 1.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 1.0..
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 1.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 1.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 1.0..
+    scollect-tier: COBBLESTONE - 1
+
+  COBBLESTONE_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion mining COBBLESTONE 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 2.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 2.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 2.0..
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 2.0..|t COBBLESTONE:5 - 1.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 2.0..
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 2.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 2.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 2.0..
+    scollect-tier: COBBLESTONE - 1
+
+  COBBLESTONE_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion mining COBBLESTONE 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 4.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 4.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 4.0..
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 4.0..|t COBBLESTONE:6 - 1.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 4.0..
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 4.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 4.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 4.0..
+    scollect-tier: COBBLESTONE - 1 
+
+  COBBLESTONE_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion mining COBBLESTONE 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 8.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 8.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 8.0..
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 8.0..|t COBBLESTONE:7 - 1.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 8.0..
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 8.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 8.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 8.0..
+    scollect-tier: COBBLESTONE - 1
+
+  COBBLESTONE_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion mining COBBLESTONE 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 16.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 16.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 16.0..
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 16.0..|t COBBLESTONE:8 - 1.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 16.0..
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 16.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 16.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 16.0..
+    scollect-tier: COBBLESTONE - 1
+
+  COBBLESTONE_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion mining COBBLESTONE 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 32.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 32.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 32.0..
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 32.0..|t COBBLESTONE:9 - 1.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 32.0..
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 32.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 32.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 32.0..
+    scollect-tier: COBBLESTONE - 1
+
+  COBBLESTONE_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion mining COBBLESTONE 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 64.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 64.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 64.0..
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 64.0..|t COBBLESTONE:10 - 1.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 64.0..
+          - m MISCELLANEOUS ENCHANTED_COBBLESTONE - 64.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 64.0..|m MISCELLANEOUS ENCHANTED_COBBLESTONE - 64.0..
+    scollect-tier: COBBLESTONE - 1
+
+# ===============[COAL]================ #
+
+  COAL_ORE_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion mining COAL_ORE 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COAL - 10.0..|v COAL - 10.0..|v COAL - 10.0..
+          - v COAL - 10.0..|m PICKAXE WOODEN_PICKAXE - 1.0..|v COAL - 10.0..
+          - v COAL - 10.0..|v COAL - 10.0..|v COAL - 10.0..
+    scollect-tier: COAL - 1  
+
+  COAL_ORE_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion mining COAL_ORE 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COAL - 20.0..|v COAL - 20.0..|v COAL - 20.0..
+          - v COAL - 20.0..|t COAL_ORE:1 - 1.0..|v COAL - 20.0..
+          - v COAL - 20.0..|v COAL - 20.0..|v COAL - 20.0..
+    scollect-tier: COAL - 1   
+
+  COAL_ORE_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion mining COAL_ORE 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COAL - 40.0..|v COAL - 40.0..|v COAL - 40.0..
+          - v COAL - 40.0..|t COAL_ORE:2 - 1.0..|v COAL - 40.0..
+          - v COAL - 40.0..|v COAL - 40.0..|v COAL - 40.0..
+    scollect-tier: COAL - 1
+
+  COAL_ORE_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion mining COAL_ORE 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COAL - 64.0..|v COAL - 64.0..|v COAL - 64.0..
+          - v COAL - 64.0..|t COAL_ORE:3 - 1.0..|v COAL - 64.0..
+          - v COAL - 64.0..|v COAL - 64.0..|v COAL - 64.0..
+    scollect-tier: COAL - 1
+
+  COAL_ORE_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion mining COAL_ORE 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COAL - 1.0..|m MISCELLANEOUS ENCHANTED_COAL - 1.0..|m MISCELLANEOUS ENCHANTED_COAL - 1.0..
+          - m MISCELLANEOUS ENCHANTED_COAL - 1.0..|t COAL_ORE:4 - 1.0..|m MISCELLANEOUS ENCHANTED_COAL - 1.0..
+          - m MISCELLANEOUS ENCHANTED_COAL - 1.0..|m MISCELLANEOUS ENCHANTED_COAL - 1.0..|m MISCELLANEOUS ENCHANTED_COAL - 1.0..
+    scollect-tier: COAL - 1
+
+  COAL_ORE_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion mining COAL_ORE 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COAL - 3.0..|m MISCELLANEOUS ENCHANTED_COAL - 3.0..|m MISCELLANEOUS ENCHANTED_COAL - 3.0..
+          - m MISCELLANEOUS ENCHANTED_COAL - 3.0..|t COAL_ORE:5 - 1.0..|m MISCELLANEOUS ENCHANTED_COAL - 3.0..
+          - m MISCELLANEOUS ENCHANTED_COAL - 3.0..|m MISCELLANEOUS ENCHANTED_COAL - 3.0..|m MISCELLANEOUS ENCHANTED_COAL - 3.0..
+    scollect-tier: COAL - 1
+
+  COAL_ORE_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion mining COAL_ORE 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COAL - 8.0..|m MISCELLANEOUS ENCHANTED_COAL - 8.0..|m MISCELLANEOUS ENCHANTED_COAL - 8.0..
+          - m MISCELLANEOUS ENCHANTED_COAL - 8.0..|t COAL_ORE:6 - 1.0..|m MISCELLANEOUS ENCHANTED_COAL - 8.0..
+          - m MISCELLANEOUS ENCHANTED_COAL - 8.0..|m MISCELLANEOUS ENCHANTED_COAL - 8.0..|m MISCELLANEOUS ENCHANTED_COAL - 8.0..
+    scollect-tier: COAL - 1 
+
+  COAL_ORE_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion mining COAL_ORE 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COAL - 16.0..|m MISCELLANEOUS ENCHANTED_COAL - 16.0..|m MISCELLANEOUS ENCHANTED_COAL - 16.0..
+          - m MISCELLANEOUS ENCHANTED_COAL - 16.0..|t COAL_ORE:7 - 1.0..|m MISCELLANEOUS ENCHANTED_COAL - 16.0..
+          - m MISCELLANEOUS ENCHANTED_COAL - 16.0..|m MISCELLANEOUS ENCHANTED_COAL - 16.0..|m MISCELLANEOUS ENCHANTED_COAL - 16.0..
+    scollect-tier: COAL - 1
+
+  COAL_ORE_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion mining COAL_ORE 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COAL - 32.0..|m MISCELLANEOUS ENCHANTED_COAL - 32.0..|m MISCELLANEOUS ENCHANTED_COAL - 32.0..
+          - m MISCELLANEOUS ENCHANTED_COAL - 32.0..|t COAL_ORE:8 - 1.0..|m MISCELLANEOUS ENCHANTED_COAL - 32.0..
+          - m MISCELLANEOUS ENCHANTED_COAL - 32.0..|m MISCELLANEOUS ENCHANTED_COAL - 32.0..|m MISCELLANEOUS ENCHANTED_COAL - 32.0..
+    scollect-tier: COAL - 1
+
+  COAL_ORE_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion mining COAL_ORE 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COAL - 64.0..|m MISCELLANEOUS ENCHANTED_COAL - 64.0..|m MISCELLANEOUS ENCHANTED_COAL - 64.0..
+          - m MISCELLANEOUS ENCHANTED_COAL - 64.0..|t COAL_ORE:9 - 1.0..|m MISCELLANEOUS ENCHANTED_COAL - 64.0..
+          - m MISCELLANEOUS ENCHANTED_COAL - 64.0..|m MISCELLANEOUS ENCHANTED_COAL - 64.0..|m MISCELLANEOUS ENCHANTED_COAL - 64.0..
+    scollect-tier: COAL - 1
+
+  COAL_ORE_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion mining COAL_ORE 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COAL_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_COAL_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_COAL_BLOCK - 1.0..
+          - m MISCELLANEOUS ENCHANTED_COAL_BLOCK - 1.0..|t COAL_ORE:10 - 1.0..|m MISCELLANEOUS ENCHANTED_COAL_BLOCK - 1.0..
+          - m MISCELLANEOUS ENCHANTED_COAL_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_COAL_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_COAL_BLOCK - 1.0..
+    scollect-tier: COAL - 1
+
+
+# ===============[IRON]================ #
+
+  IRON_ORE_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion mining IRON_ORE 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v IRON_INGOT - 10.0..|v IRON_INGOT - 10.0..|v IRON_INGOT - 10.0..
+          - v IRON_INGOT - 10.0..|m PICKAXE WOODEN_PICKAXE - 1.0..|v IRON_INGOT - 10.0..
+          - v IRON_INGOT - 10.0..|v IRON_INGOT - 10.0..|v IRON_INGOT - 10.0..
+    scollect-tier: IRON - 1  
+
+  IRON_ORE_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion mining IRON_ORE 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v IRON_INGOT - 20.0..|v IRON_INGOT - 20.0..|v IRON_INGOT - 20.0..
+          - v IRON_INGOT - 20.0..|t IRON_ORE:1 - 1.0..|v IRON_INGOT - 20.0..
+          - v IRON_INGOT - 20.0..|v IRON_INGOT - 20.0..|v IRON_INGOT - 20.0..
+    scollect-tier: IRON - 1   
+
+  IRON_ORE_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion mining IRON_ORE 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v IRON_INGOT - 40.0..|v IRON_INGOT - 40.0..|v IRON_INGOT - 40.0..
+          - v IRON_INGOT - 40.0..|t IRON_ORE:2 - 1.0..|v IRON_INGOT - 40.0..
+          - v IRON_INGOT - 40.0..|v IRON_INGOT - 40.0..|v IRON_INGOT - 40.0..
+    scollect-tier: IRON - 1
+
+  IRON_ORE_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion mining IRON_ORE 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v IRON_INGOT - 64.0..|v IRON_INGOT - 64.0..|v IRON_INGOT - 64.0..
+          - v IRON_INGOT - 64.0..|t IRON_ORE:3 - 1.0..|v IRON_INGOT - 64.0..
+          - v IRON_INGOT - 64.0..|v IRON_INGOT - 64.0..|v IRON_INGOT - 64.0..
+    scollect-tier: IRON - 1
+
+  IRON_ORE_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion mining IRON_ORE 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 1.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 1.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 1.0..
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 1.0..|t IRON_ORE:4 - 1.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 1.0..
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 1.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 1.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 1.0..
+    scollect-tier: IRON - 1
+
+  IRON_ORE_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion mining IRON_ORE 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 3.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 3.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 3.0..
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 3.0..|t IRON_ORE:5 - 1.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 3.0..
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 3.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 3.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 3.0..
+    scollect-tier: IRON - 1
+
+  IRON_ORE_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion mining IRON_ORE 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 8.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 8.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 8.0..
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 8.0..|t IRON_ORE:6 - 1.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 8.0..
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 8.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 8.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 8.0..
+    scollect-tier: IRON - 1 
+
+  IRON_ORE_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion mining IRON_ORE 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 16.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 16.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 16.0..
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 16.0..|t IRON_ORE:7 - 1.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 16.0..
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 16.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 16.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 16.0..
+    scollect-tier: IRON - 1
+
+  IRON_ORE_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion mining IRON_ORE 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..|t IRON_ORE:8 - 1.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..
+    scollect-tier: IRON - 1
+
+  IRON_ORE_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion mining IRON_ORE 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 64.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 64.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 64.0..
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 64.0..|t IRON_ORE:9 - 1.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 64.0..
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 64.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 64.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 64.0..
+    scollect-tier: IRON - 1
+
+  IRON_ORE_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion mining IRON_ORE 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_IRON_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_IRON_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_IRON_BLOCK - 1.0..
+          - m MISCELLANEOUS ENCHANTED_IRON_BLOCK - 1.0..|t IRON_ORE:10 - 1.0..|m MISCELLANEOUS ENCHANTED_IRON_BLOCK - 1.0..
+          - m MISCELLANEOUS ENCHANTED_IRON_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_IRON_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_IRON_BLOCK - 1.0..
+    scollect-tier: IRON - 1
+
+# ===============[COPPER]================ #
+
+  COPPER_ORE_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion mining COPPER_ORE 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COPPER_INGOT - 10.0..|v COPPER_INGOT - 10.0..|v COPPER_INGOT - 10.0..
+          - v COPPER_INGOT - 10.0..|m PICKAXE WOODEN_PICKAXE - 1.0..|v COPPER_INGOT - 10.0..
+          - v COPPER_INGOT - 10.0..|v COPPER_INGOT - 10.0..|v COPPER_INGOT - 10.0..
+    scollect-tier: COPPER - 1  
+
+  COPPER_ORE_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion mining COPPER_ORE 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COPPER_INGOT - 20.0..|v COPPER_INGOT - 20.0..|v COPPER_INGOT - 20.0..
+          - v COPPER_INGOT - 20.0..|t COPPER_ORE:1 - 1.0..|v COPPER_INGOT - 20.0..
+          - v COPPER_INGOT - 20.0..|v COPPER_INGOT - 20.0..|v COPPER_INGOT - 20.0..
+    scollect-tier: COPPER - 1   
+
+  COPPER_ORE_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion mining COPPER_ORE 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COPPER_INGOT - 40.0..|v COPPER_INGOT - 40.0..|v COPPER_INGOT - 40.0..
+          - v COPPER_INGOT - 40.0..|t COPPER_ORE:2 - 1.0..|v COPPER_INGOT - 40.0..
+          - v COPPER_INGOT - 40.0..|v COPPER_INGOT - 40.0..|v COPPER_INGOT - 40.0..
+    scollect-tier: COPPER - 1
+
+  COPPER_ORE_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion mining COPPER_ORE 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COPPER_INGOT - 64.0..|v COPPER_INGOT - 64.0..|v COPPER_INGOT - 64.0..
+          - v COPPER_INGOT - 64.0..|t COPPER_ORE:3 - 1.0..|v COPPER_INGOT - 64.0..
+          - v COPPER_INGOT - 64.0..|v COPPER_INGOT - 64.0..|v COPPER_INGOT - 64.0..
+    scollect-tier: COPPER - 1
+
+  COPPER_ORE_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion mining COPPER_ORE 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 1.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 1.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 1.0..
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 1.0..|t COPPER_ORE:4 - 1.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 1.0..
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 1.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 1.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 1.0..
+    scollect-tier: COPPER - 1
+
+  COPPER_ORE_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion mining COPPER_ORE 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 3.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 3.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 3.0..
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 3.0..|t COPPER_ORE:5 - 1.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 3.0..
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 3.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 3.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 3.0..
+    scollect-tier: COPPER - 1
+
+  COPPER_ORE_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion mining COPPER_ORE 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 8.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 8.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 8.0..
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 8.0..|t COPPER_ORE:6 - 1.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 8.0..
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 8.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 8.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 8.0..
+    scollect-tier: COPPER - 1 
+
+  COPPER_ORE_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion mining COPPER_ORE 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 16.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 16.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 16.0..
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 16.0..|t COPPER_ORE:7 - 1.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 16.0..
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 16.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 16.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 16.0..
+    scollect-tier: COPPER - 1
+
+  COPPER_ORE_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion mining COPPER_ORE 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..|t COPPER_ORE:8 - 1.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..
+    scollect-tier: COPPER - 1
+
+  COPPER_ORE_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion mining COPPER_ORE 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 64.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 64.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 64.0..
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 64.0..|t COPPER_ORE:9 - 1.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 64.0..
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 64.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 64.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 64.0..
+    scollect-tier: COPPER - 1
+
+  COPPER_ORE_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion mining COPPER_ORE 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COPPER_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_COPPER_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_COPPER_BLOCK - 1.0..
+          - m MISCELLANEOUS ENCHANTED_COPPER_BLOCK - 1.0..|t COPPER_ORE:10 - 1.0..|m MISCELLANEOUS ENCHANTED_COPPER_BLOCK - 1.0..
+          - m MISCELLANEOUS ENCHANTED_COPPER_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_COPPER_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_COPPER_BLOCK - 1.0..
+    scollect-tier: COPPER - 1
+
+# ===============[GOLD]================ #
+
+  GOLD_ORE_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion mining GOLD_ORE 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v GOLD_INGOT - 10.0..|v GOLD_INGOT - 10.0..|v GOLD_INGOT - 10.0..
+          - v GOLD_INGOT - 10.0..|m PICKAXE WOODEN_PICKAXE - 1.0..|v GOLD_INGOT - 10.0..
+          - v GOLD_INGOT - 10.0..|v GOLD_INGOT - 10.0..|v GOLD_INGOT - 10.0..
+    scollect-tier: GOLD - 1  
+
+  GOLD_ORE_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion mining GOLD_ORE 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v GOLD_INGOT - 20.0..|v GOLD_INGOT - 20.0..|v GOLD_INGOT - 20.0..
+          - v GOLD_INGOT - 20.0..|t GOLD_ORE:1 - 1.0..|v GOLD_INGOT - 20.0..
+          - v GOLD_INGOT - 20.0..|v GOLD_INGOT - 20.0..|v GOLD_INGOT - 20.0..
+    scollect-tier: GOLD - 1   
+
+  GOLD_ORE_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion mining GOLD_ORE 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v GOLD_INGOT - 40.0..|v GOLD_INGOT - 40.0..|v GOLD_INGOT - 40.0..
+          - v GOLD_INGOT - 40.0..|t GOLD_ORE:2 - 1.0..|v GOLD_INGOT - 40.0..
+          - v GOLD_INGOT - 40.0..|v GOLD_INGOT - 40.0..|v GOLD_INGOT - 40.0..
+    scollect-tier: GOLD - 1
+
+  GOLD_ORE_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion mining GOLD_ORE 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v GOLD_INGOT - 64.0..|v GOLD_INGOT - 64.0..|v GOLD_INGOT - 64.0..
+          - v GOLD_INGOT - 64.0..|t GOLD_ORE:3 - 1.0..|v GOLD_INGOT - 64.0..
+          - v GOLD_INGOT - 64.0..|v GOLD_INGOT - 64.0..|v GOLD_INGOT - 64.0..
+    scollect-tier: GOLD - 1
+
+  GOLD_ORE_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion mining GOLD_ORE 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 1.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 1.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 1.0..
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 1.0..|t GOLD_ORE:4 - 1.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 1.0..
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 1.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 1.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 1.0..
+    scollect-tier: GOLD - 1
+
+  GOLD_ORE_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion mining GOLD_ORE 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 3.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 3.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 3.0..
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 3.0..|t GOLD_ORE:5 - 1.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 3.0..
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 3.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 3.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 3.0..
+    scollect-tier: GOLD - 1
+
+  GOLD_ORE_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion mining GOLD_ORE 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 8.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 8.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 8.0..
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 8.0..|t GOLD_ORE:6 - 1.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 8.0..
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 8.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 8.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 8.0..
+    scollect-tier: GOLD - 1 
+
+  GOLD_ORE_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion mining GOLD_ORE 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 16.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 16.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 16.0..
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 16.0..|t GOLD_ORE:7 - 1.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 16.0..
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 16.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 16.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 16.0..
+    scollect-tier: GOLD - 1
+
+  GOLD_ORE_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion mining GOLD_ORE 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..|t GOLD_ORE:8 - 1.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..
+    scollect-tier: GOLD - 1
+
+  GOLD_ORE_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion mining GOLD_ORE 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 64.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 64.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 64.0..
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 64.0..|t GOLD_ORE:9 - 1.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 64.0..
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 64.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 64.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 64.0..
+    scollect-tier: GOLD - 1
+
+  GOLD_ORE_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion mining GOLD_ORE 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GOLD_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_GOLD_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_GOLD_BLOCK - 1.0..
+          - m MISCELLANEOUS ENCHANTED_GOLD_BLOCK - 1.0..|t GOLD_ORE:10 - 1.0..|m MISCELLANEOUS ENCHANTED_GOLD_BLOCK - 1.0..
+          - m MISCELLANEOUS ENCHANTED_GOLD_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_GOLD_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_GOLD_BLOCK - 1.0..
+    scollect-tier: GOLD - 1
+
+# ===============[LAPIS]================ #
+
+  LAPIS_ORE_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion mining LAPIS_ORE 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v LAPIS_LAZULI - 32.0..|v LAPIS_LAZULI - 32.0..|v LAPIS_LAZULI - 32.0..
+          - v LAPIS_LAZULI - 32.0..|m PICKAXE WOODEN_PICKAXE - 1.0..|v LAPIS_LAZULI - 32.0..
+          - v LAPIS_LAZULI - 32.0..|v LAPIS_LAZULI - 32.0..|v LAPIS_LAZULI - 32.0..
+    scollect-tier: LAPIS - 1  
+
+  LAPIS_ORE_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion mining LAPIS_ORE 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v LAPIS_LAZULI - 64.0..|v LAPIS_LAZULI - 64.0..|v LAPIS_LAZULI - 64.0..
+          - v LAPIS_LAZULI - 64.0..|t LAPIS_ORE:1 - 1.0..|v LAPIS_LAZULI - 64.0..
+          - v LAPIS_LAZULI - 64.0..|v LAPIS_LAZULI - 64.0..|v LAPIS_LAZULI - 64.0..
+    scollect-tier: LAPIS - 1   
+
+  LAPIS_ORE_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion mining LAPIS_ORE 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 1.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 1.0..|t LAPIS_ORE:2 - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 1.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 1.0..
+    scollect-tier: LAPIS - 1
+
+  LAPIS_ORE_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion mining LAPIS_ORE 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 3.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 3.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 3.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 3.0..|t LAPIS_ORE:3 - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 3.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 3.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 3.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 3.0..
+    scollect-tier: LAPIS - 1
+
+  LAPIS_ORE_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion mining LAPIS_ORE 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 8.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 8.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 8.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 8.0..|t LAPIS_ORE:4 - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 8.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 8.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 8.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 8.0..
+    scollect-tier: LAPIS - 1
+
+  LAPIS_ORE_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion mining LAPIS_ORE 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 16.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 16.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 16.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 16.0..|t LAPIS_ORE:5 - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 16.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 16.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 16.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 16.0..
+    scollect-tier: LAPIS - 1
+
+  LAPIS_ORE_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion mining LAPIS_ORE 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..|t LAPIS_ORE:6 - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..
+    scollect-tier: LAPIS - 1 
+
+  LAPIS_ORE_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion mining LAPIS_ORE 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 64.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 64.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 64.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 64.0..|t LAPIS_ORE:7 - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 64.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 64.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 64.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 64.0..
+    scollect-tier: LAPIS - 1
+
+  LAPIS_ORE_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion mining LAPIS_ORE 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 1.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 1.0..|t LAPIS_ORE:8 - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 1.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 1.0..
+    scollect-tier: LAPIS - 1
+
+  LAPIS_ORE_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion mining LAPIS_ORE 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 2.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 2.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 2.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 2.0..|t LAPIS_ORE:9 - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 2.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 2.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 2.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 2.0..
+    scollect-tier: LAPIS - 1
+
+  LAPIS_ORE_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion mining LAPIS_ORE 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 4.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 4.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 4.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 4.0..|t LAPIS_ORE:10 - 1.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 4.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 4.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 4.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI_BLOCK - 4.0..
+    scollect-tier: LAPIS - 1
+
+# ===============[REDSTONE]================ #
+
+  REDSTONE_ORE_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion mining REDSTONE_ORE 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v REDSTONE - 16.0..|v REDSTONE - 16.0..|v REDSTONE - 16.0..
+          - v REDSTONE - 16.0..|m PICKAXE WOODEN_PICKAXE - 1.0..|v REDSTONE - 16.0..
+          - v REDSTONE - 16.0..|v REDSTONE - 16.0..|v REDSTONE - 16.0..
+    scollect-tier: REDSTONE - 1  
+
+  REDSTONE_ORE_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion mining REDSTONE_ORE 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v REDSTONE - 32.0..|v REDSTONE - 32.0..|v REDSTONE - 32.0..
+          - v REDSTONE - 32.0..|t REDSTONE_ORE:1 - 1.0..|v REDSTONE - 32.0..
+          - v REDSTONE - 32.0..|v REDSTONE - 32.0..|v REDSTONE - 32.0..
+    scollect-tier: REDSTONE - 1   
+
+  REDSTONE_ORE_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion mining REDSTONE_ORE 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v REDSTONE - 64.0..|v REDSTONE - 64.0..|v REDSTONE - 64.0..
+          - v REDSTONE - 64.0..|t REDSTONE_ORE:2 - 1.0..|v REDSTONE - 64.0..
+          - v REDSTONE - 64.0..|v REDSTONE - 64.0..|v REDSTONE - 64.0..
+    scollect-tier: REDSTONE - 1
+
+  REDSTONE_ORE_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion mining REDSTONE_ORE 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 1.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 1.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 1.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 1.0..|t REDSTONE_ORE:3 - 1.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 1.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 1.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 1.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 1.0..
+    scollect-tier: REDSTONE - 1
+
+  REDSTONE_ORE_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion mining REDSTONE_ORE 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 3.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 3.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 3.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 3.0..|t REDSTONE_ORE:4 - 1.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 3.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 3.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 3.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 3.0..
+    scollect-tier: REDSTONE - 1
+
+  REDSTONE_ORE_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion mining REDSTONE_ORE 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 8.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 8.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 8.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 8.0..|t REDSTONE_ORE:5 - 1.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 8.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 8.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 8.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 8.0..
+    scollect-tier: REDSTONE - 1
+
+  REDSTONE_ORE_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion mining REDSTONE_ORE 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 16.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 16.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 16.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 16.0..|t REDSTONE_ORE:6 - 1.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 16.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 16.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 16.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 16.0..
+    scollect-tier: REDSTONE - 1 
+
+  REDSTONE_ORE_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion mining REDSTONE_ORE 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..|t REDSTONE_ORE:7 - 1.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..
+    scollect-tier: REDSTONE - 1
+
+  REDSTONE_ORE_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion mining REDSTONE_ORE 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 64.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 64.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 64.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 64.0..|t REDSTONE_ORE:8 - 1.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 64.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 64.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 64.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 64.0..
+    scollect-tier: REDSTONE - 1
+
+  REDSTONE_ORE_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion mining REDSTONE_ORE 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_REDSTONE_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_REDSTONE_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_REDSTONE_BLOCK - 1.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE_BLOCK - 1.0..|t REDSTONE_ORE:9 - 1.0..|m MISCELLANEOUS ENCHANTED_REDSTONE_BLOCK - 1.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_REDSTONE_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_REDSTONE_BLOCK - 1.0..
+    scollect-tier: REDSTONE - 1
+
+  REDSTONE_ORE_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion mining REDSTONE_ORE 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_REDSTONE_BLOCK - 2.0..|m MISCELLANEOUS ENCHANTED_REDSTONE_BLOCK - 2.0..|m MISCELLANEOUS ENCHANTED_REDSTONE_BLOCK - 2.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE_BLOCK - 2.0..|t REDSTONE_ORE:10 - 1.0..|m MISCELLANEOUS ENCHANTED_REDSTONE_BLOCK - 2.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE_BLOCK - 2.0..|m MISCELLANEOUS ENCHANTED_REDSTONE_BLOCK - 2.0..|m MISCELLANEOUS ENCHANTED_REDSTONE_BLOCK - 2.0..
+    scollect-tier: REDSTONE - 1
+
+# ===============[EMERALD]================ #
+
+  EMERALD_ORE_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion mining EMERALD_ORE 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v EMERALD - 10.0..|v EMERALD - 10.0..|v EMERALD - 10.0..
+          - v EMERALD - 10.0..|m PICKAXE WOODEN_PICKAXE - 1.0..|v EMERALD - 10.0..
+          - v EMERALD - 10.0..|v EMERALD - 10.0..|v EMERALD - 10.0..
+    scollect-tier: EMERALD - 1  
+
+  EMERALD_ORE_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion mining EMERALD_ORE 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v EMERALD - 20.0..|v EMERALD - 20.0..|v EMERALD - 20.0..
+          - v EMERALD - 20.0..|t EMERALD_ORE:1 - 1.0..|v EMERALD - 20.0..
+          - v EMERALD - 20.0..|v EMERALD - 20.0..|v EMERALD - 20.0..
+    scollect-tier: EMERALD - 1   
+
+  EMERALD_ORE_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion mining EMERALD_ORE 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v EMERALD - 40.0..|v EMERALD - 40.0..|v EMERALD - 40.0..
+          - v EMERALD - 40.0..|t EMERALD_ORE:2 - 1.0..|v EMERALD - 40.0..
+          - v EMERALD - 40.0..|v EMERALD - 40.0..|v EMERALD - 40.0..
+    scollect-tier: EMERALD - 1
+
+  EMERALD_ORE_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion mining EMERALD_ORE 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v EMERALD - 64.0..|v EMERALD - 64.0..|v EMERALD - 64.0..
+          - v EMERALD - 64.0..|t EMERALD_ORE:3 - 1.0..|v EMERALD - 64.0..
+          - v EMERALD - 64.0..|v EMERALD - 64.0..|v EMERALD - 64.0..
+    scollect-tier: EMERALD - 1
+
+  EMERALD_ORE_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion mining EMERALD_ORE 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 1.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 1.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 1.0..
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 1.0..|t EMERALD_ORE:4 - 1.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 1.0..
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 1.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 1.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 1.0..
+    scollect-tier: EMERALD - 1
+
+  EMERALD_ORE_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion mining EMERALD_ORE 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 3.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 3.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 3.0..
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 3.0..|t EMERALD_ORE:5 - 1.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 3.0..
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 3.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 3.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 3.0..
+    scollect-tier: EMERALD - 1
+
+  EMERALD_ORE_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion mining EMERALD_ORE 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 8.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 8.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 8.0..
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 8.0..|t EMERALD_ORE:6 - 1.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 8.0..
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 8.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 8.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 8.0..
+    scollect-tier: EMERALD - 1 
+
+  EMERALD_ORE_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion mining EMERALD_ORE 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 16.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 16.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 16.0..
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 16.0..|t EMERALD_ORE:7 - 1.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 16.0..
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 16.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 16.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 16.0..
+    scollect-tier: EMERALD - 1
+
+  EMERALD_ORE_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion mining EMERALD_ORE 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..|t EMERALD_ORE:8 - 1.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..
+    scollect-tier: EMERALD - 1
+
+  EMERALD_ORE_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion mining EMERALD_ORE 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 64.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 64.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 64.0..
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 64.0..|t EMERALD_ORE:9 - 1.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 64.0..
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 64.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 64.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 64.0..
+    scollect-tier: EMERALD - 1
+
+  EMERALD_ORE_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion mining EMERALD_ORE 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_EMERALD_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_EMERALD_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_EMERALD_BLOCK - 1.0..
+          - m MISCELLANEOUS ENCHANTED_EMERALD_BLOCK - 1.0..|t EMERALD_ORE:10 - 1.0..|m MISCELLANEOUS ENCHANTED_EMERALD_BLOCK - 1.0..
+          - m MISCELLANEOUS ENCHANTED_EMERALD_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_EMERALD_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_EMERALD_BLOCK - 1.0..
+    scollect-tier: EMERALD - 1
+
+# ===============[DIAMOND]================ #
+
+  DIAMOND_ORE_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion mining DIAMOND_ORE 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v DIAMOND - 10.0..|v DIAMOND - 10.0..|v DIAMOND - 10.0..
+          - v DIAMOND - 10.0..|m PICKAXE WOODEN_PICKAXE - 1.0..|v DIAMOND - 10.0..
+          - v DIAMOND - 10.0..|v DIAMOND - 10.0..|v DIAMOND - 10.0..
+    scollect-tier: DIAMOND - 1  
+
+  DIAMOND_ORE_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion mining DIAMOND_ORE 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v DIAMOND - 20.0..|v DIAMOND - 20.0..|v DIAMOND - 20.0..
+          - v DIAMOND - 20.0..|t DIAMOND_ORE:1 - 1.0..|v DIAMOND - 20.0..
+          - v DIAMOND - 20.0..|v DIAMOND - 20.0..|v DIAMOND - 20.0..
+    scollect-tier: DIAMOND - 1   
+
+  DIAMOND_ORE_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion mining DIAMOND_ORE 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v DIAMOND - 40.0..|v DIAMOND - 40.0..|v DIAMOND - 40.0..
+          - v DIAMOND - 40.0..|t DIAMOND_ORE:2 - 1.0..|v DIAMOND - 40.0..
+          - v DIAMOND - 40.0..|v DIAMOND - 40.0..|v DIAMOND - 40.0..
+    scollect-tier: DIAMOND - 1
+
+  DIAMOND_ORE_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion mining DIAMOND_ORE 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v DIAMOND - 64.0..|v DIAMOND - 64.0..|v DIAMOND - 64.0..
+          - v DIAMOND - 64.0..|t DIAMOND_ORE:3 - 1.0..|v DIAMOND - 64.0..
+          - v DIAMOND - 64.0..|v DIAMOND - 64.0..|v DIAMOND - 64.0..
+    scollect-tier: DIAMOND - 1
+
+  DIAMOND_ORE_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion mining DIAMOND_ORE 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 1.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 1.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 1.0..
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 1.0..|t DIAMOND_ORE:4 - 1.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 1.0..
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 1.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 1.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 1.0..
+    scollect-tier: DIAMOND - 1
+
+  DIAMOND_ORE_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion mining DIAMOND_ORE 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 3.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 3.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 3.0..
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 3.0..|t DIAMOND_ORE:5 - 1.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 3.0..
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 3.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 3.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 3.0..
+    scollect-tier: DIAMOND - 1
+
+  DIAMOND_ORE_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion mining DIAMOND_ORE 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 8.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 8.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 8.0..
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 8.0..|t DIAMOND_ORE:6 - 1.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 8.0..
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 8.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 8.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 8.0..
+    scollect-tier: DIAMOND - 1 
+
+  DIAMOND_ORE_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion mining DIAMOND_ORE 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 16.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 16.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 16.0..
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 16.0..|t DIAMOND_ORE:7 - 1.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 16.0..
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 16.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 16.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 16.0..
+    scollect-tier: DIAMOND - 1
+
+  DIAMOND_ORE_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion mining DIAMOND_ORE 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..|t DIAMOND_ORE:8 - 1.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..
+    scollect-tier: DIAMOND - 1
+
+  DIAMOND_ORE_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion mining DIAMOND_ORE 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 64.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 64.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 64.0..
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 64.0..|t DIAMOND_ORE:9 - 1.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 64.0..
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 64.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 64.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 64.0..
+    scollect-tier: DIAMOND - 1
+
+  DIAMOND_ORE_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion mining DIAMOND_ORE 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DIAMOND_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_DIAMOND_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_DIAMOND_BLOCK - 1.0..
+          - m MISCELLANEOUS ENCHANTED_DIAMOND_BLOCK - 1.0..|t DIAMOND_ORE:10 - 1.0..|m MISCELLANEOUS ENCHANTED_DIAMOND_BLOCK - 1.0..
+          - m MISCELLANEOUS ENCHANTED_DIAMOND_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_DIAMOND_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_DIAMOND_BLOCK - 1.0..
+    scollect-tier: DIAMOND - 1

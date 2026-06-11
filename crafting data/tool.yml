@@ -1,0 +1,227 @@
+TOOL:
+# ///////////////////////////////////// #
+#                 FORAGING              #
+# ///////////////////////////////////// #
+# ==================== [OAK] ======================= #
+  WOODCUTTER_AXE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v OAK_WOOD - 16.0..|v OAK_WOOD - 16.0..|v AIR 0 1..
+          - v OAK_WOOD - 16.0..|v STICK - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v STICK - 1.0..|v AIR 0 1..         
+    scollect-tier: OAK_LOG - 2
+
+  APPRENTICE_HATCHET:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 2.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 2.0..|m TOOL WOODCUTTER_AXE - 1.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 2.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 2.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 2.0..         
+    scollect-tier: OAK_LOG - 6
+
+# ==================== [BIRCH] ======================= #
+  BIRCH_BARK_CLEAVER:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BIRCH_WOOD - 32.0..|v BIRCH_WOOD - 32.0..|v BIRCH_WOOD - 32.0..
+          - v BIRCH_WOOD - 32.0..|m TOOL APPRENTICE_HATCHET - 1.0..|v BIRCH_WOOD - 32.0..
+          - v BIRCH_WOOD - 32.0..|v BIRCH_WOOD - 32.0..|v BIRCH_WOOD - 32.0..       
+    scollect-tier: BIRCH_LOG - 2
+
+  SILVER_LOG_SLICER:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 4.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 4.0..|m TOOL BIRCH_BARK_CLEAVER - 1.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 4.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 4.0..         
+    scollect-tier: BIRCH_LOG - 6
+
+# ==================== [ACACIA] ======================= #
+  SAVANNAH_MACKET:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ACACIA_WOOD - 32.0..|v ACACIA_WOOD - 32.0..|v ACACIA_WOOD - 32.0..
+          - v ACACIA_WOOD - 32.0..|m TOOL SILVER_LOG_SLICER - 1.0..|v ACACIA_WOOD - 32.0..
+          - v ACACIA_WOOD - 32.0..|v ACACIA_WOOD - 32.0..|v ACACIA_WOOD - 32.0..       
+    scollect-tier: ACACIA_LOG - 2
+
+  DESERT_ACACIA_AXE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 4.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 4.0..|m TOOL SAVANNAH_MACKET - 1.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 4.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 4.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 4.0..         
+    scollect-tier: ACACIA_LOG - 6
+
+# ==================== [SPRUCE] ======================= #
+  TAIGA_FROST_BLADE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SPRUCE_WOOD - 32.0..|v SPRUCE_WOOD - 32.0..|v SPRUCE_WOOD - 32.0..
+          - v SPRUCE_WOOD - 32.0..|m TOOL DESERT_ACACIA_AXE - 1.0..|v SPRUCE_WOOD - 32.0..
+          - v SPRUCE_WOOD - 32.0..|v SPRUCE_WOOD - 32.0..|v SPRUCE_WOOD - 32.0..       
+    scollect-tier: SPRUCE_LOG - 2
+
+  SPRUCE_ANNIHILATOR:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m TOOL TAIGA_FROST_BLADE - 1.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..         
+    scollect-tier: SPRUCE_LOG - 6
+
+# ==================== [DARK_OAK] ======================= #
+
+  SHADOW_FOREST_SCYTHE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 16.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 16.0..|m TOOL SPRUCE_ANNIHILATOR - 1.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 16.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 16.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 16.0..         
+    scollect-tier: DARK_OAK_LOG - 4
+
+# ==================== [JUNGLE] ======================= #
+
+  TREECAPITATOR_REPLICA:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 32.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 32.0..|m TOOL SHADOW_FOREST_SCYTHE - 1.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 32.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 32.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 32.0..         
+    scollect-tier: JUNGLE_LOG - 4
+
+# ///////////////////////////////////// #
+#                 FARMING               #
+# ///////////////////////////////////// #
+# ==================== [WHEAT] ======================= #
+  FARMER_HOE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v WHEAT - 64.0..|v WHEAT - 64.0..|v AIR 0 1..
+          - v AIR 0 1..|v STICK - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v STICK - 1.0..|v AIR 0 1..         
+    scollect-tier: WHEAT - 2
+
+  FARMER_HOE_II:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 4.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 4.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 4.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 4.0..|m TOOL FARMER_HOE - 1.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 4.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 4.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 4.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 4.0..         
+    scollect-tier: WHEAT - 6
+
+  FARMER_HOE_III:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 8.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 8.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 8.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 8.0..|m TOOL FARMER_HOE_II - 1.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 8.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 8.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 8.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 8.0..         
+    scollect-tier: WHEAT - 10
+
+# ==================== [POTATO] ======================= #
+  PLANTATION_HOE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_POTATO - 8.0..|m MISCELLANEOUS ENCHANTED_POTATO - 8.0..|m MISCELLANEOUS ENCHANTED_POTATO - 8.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 8.0..|m TOOL FARMER_HOE_III - 1.0..|m MISCELLANEOUS ENCHANTED_POTATO - 8.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 8.0..|m MISCELLANEOUS ENCHANTED_POTATO - 8.0..|m MISCELLANEOUS ENCHANTED_POTATO - 8.0..         
+    scollect-tier: POTATO - 4
+
+  MYSTHIC_HOE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_POTATO - 16.0..|m MISCELLANEOUS ENCHANTED_POTATO - 16.0..|m MISCELLANEOUS ENCHANTED_POTATO - 16.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 16.0..|m TOOL PLANTATION_HOE - 1.0..|m MISCELLANEOUS ENCHANTED_POTATO - 16.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 16.0..|m MISCELLANEOUS ENCHANTED_POTATO - 16.0..|m MISCELLANEOUS ENCHANTED_POTATO - 16.0..         
+    scollect-tier: POTATO - 6
+
+  MYSTHIC_PLANTATION_HOE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 2.0..|m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 2.0..|m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 2.0..
+          - m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 2.0..|m TOOL MYSTHIC_HOE - 1.0..|m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 2.0..
+          - m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 2.0..|m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 2.0..|m MISCELLANEOUS ENCHANTED_BAKED_POTATO - 2.0..         
+    scollect-tier: POTATO - 10
+
+# ==================== [CARROT] ======================= #
+  CREATOR_HOE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_CARROT - 16.0..|m MISCELLANEOUS ENCHANTED_CARROT - 16.0..|m MISCELLANEOUS ENCHANTED_CARROT - 16.0..
+          - m MISCELLANEOUS ENCHANTED_CARROT - 16.0..|m TOOL MYSTHIC_PLANTATION_HOE - 1.0..|m MISCELLANEOUS ENCHANTED_CARROT - 16.0..
+          - m MISCELLANEOUS ENCHANTED_CARROT - 16.0..|m MISCELLANEOUS ENCHANTED_CARROT - 16.0..|m MISCELLANEOUS ENCHANTED_CARROT - 16.0..       
+    scollect-tier: CARROT - 4
+
+  CONSTELLATION_HOE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 2.0..|m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 2.0..|m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 2.0..
+          - m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 2.0..|m TOOL CREATOR_HOE - 1.0..|m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 2.0..
+          - m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 2.0..|m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 2.0..|m MISCELLANEOUS ENCHANTED_GOLDEN_CARROT - 2.0..         
+    scollect-tier: CARROT - 10
+
+# ==================== [BEETROOT] ======================= #
+  CLAUSTROPHOBIC_HOE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|m TOOL CONSTELLATION_HOE - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..         
+    scollect-tier: BEETROOT - 4

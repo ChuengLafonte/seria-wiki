@@ -1,0 +1,21 @@
+SWORD:
+  ENDER_BLINKER:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR - 1..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 16..|v AIR - 1..
+          - v AIR - 1..|m MISCELLANEOUS ENCHANTED_EYE_OF_ENDER - 16..|v AIR - 1..
+          - v AIR - 1..|m MISCELLANEOUS ENCHANTED_DIAMOND - 1..|v AIR - 1..
+      scollect-tier: ENDER_PEARL - 8
+  ZOMBIE_SWORD:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR - 1..|v ZOMBIE_HEART - 1..|v AIR - 1..
+          - v AIR - 1..|v ZOMBIE_HEART - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+      scollect-tier: ROTTEN_FLESH - 7

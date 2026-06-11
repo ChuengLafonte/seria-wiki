@@ -1,0 +1,874 @@
+MINION:
+# ///////////////////////////////////// #
+#                FISHING                #
+# ///////////////////////////////////// #
+
+# =================[COD]================ #
+
+  COD_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion fisher COD 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COD - 8.0..|v COD - 8.0..|v COD - 8.0..
+          - v COD - 8.0..|v FISHING_ROD - 1.0..|v COD - 8.0..
+          - v COD - 8.0..|v COD - 8.0..|v COD - 8.0..
+    scollect-tier: COD - 1  
+
+  COD_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion fisher COD 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COD - 16.0..|v COD - 16.0..|v COD - 16.0..
+          - v COD - 16.0..|t COD:1 - 1.0..|v COD - 16.0..
+          - v COD - 16.0..|v COD - 16.0..|v COD - 16.0..
+    scollect-tier: COD - 1   
+
+  COD_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion fisher COD 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COD - 32.0..|v COD - 32.0..|v COD - 32.0..
+          - v COD - 32.0..|t COD:2 - 1.0..|v COD - 32.0..
+          - v COD - 32.0..|v COD - 32.0..|v COD - 32.0..
+    scollect-tier: COD - 1
+
+  COD_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion fisher COD 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COD - 64.0..|v COD - 64.0..|v COD - 64.0..
+          - v COD - 64.0..|t COD:3 - 1.0..|v COD - 64.0..
+          - v COD - 64.0..|v COD - 64.0..|v COD - 64.0..
+    scollect-tier: COD - 1
+
+  COD_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion fisher COD 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 1.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 1.0..|t COD:4 - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 1.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 1.0..
+    scollect-tier: COD - 1
+
+  COD_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion fisher COD 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 3.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 3.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 3.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 3.0..|t COD:5 - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 3.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 3.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 3.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 3.0..
+    scollect-tier: COD - 1
+
+  COD_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion fisher COD 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 8.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 8.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 8.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 8.0..|t COD:6 - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 8.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 8.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 8.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 8.0..
+    scollect-tier: COD - 1 
+
+  COD_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion fisher COD 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 16.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 16.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 16.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 16.0..|t COD:7 - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 16.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 16.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 16.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 16.0..
+    scollect-tier: COD - 1
+
+  COD_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion fisher COD 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..|t COD:8 - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..
+    scollect-tier: COD - 1
+
+  COD_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion fisher COD 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 64.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 64.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 64.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 64.0..|t COD:9 - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 64.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 64.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 64.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 64.0..
+    scollect-tier: COD - 1
+
+  COD_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion fisher COD 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COOKED_COD - 1.0..|m MISCELLANEOUS ENCHANTED_COOKED_COD - 1.0..|m MISCELLANEOUS ENCHANTED_COOKED_COD - 1.0..
+          - m MISCELLANEOUS ENCHANTED_COOKED_COD - 1.0..|t COD:10 - 1.0..|m MISCELLANEOUS ENCHANTED_COOKED_COD - 1.0..
+          - m MISCELLANEOUS ENCHANTED_COOKED_COD - 1.0..|m MISCELLANEOUS ENCHANTED_COOKED_COD - 1.0..|m MISCELLANEOUS ENCHANTED_COOKED_COD - 1.0..
+    scollect-tier: COD - 1
+
+# =================[SALMON]================ #
+
+  SALMON_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion fisher SALMON 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SALMON - 8.0..|v SALMON - 8.0..|v SALMON - 8.0..
+          - v SALMON - 8.0..|v FISHING_ROD - 1.0..|v SALMON - 8.0..
+          - v SALMON - 8.0..|v SALMON - 8.0..|v SALMON - 8.0..
+    scollect-tier: SALMON - 1  
+
+  SALMON_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion fisher SALMON 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SALMON - 16.0..|v SALMON - 16.0..|v SALMON - 16.0..
+          - v SALMON - 16.0..|t SALMON:1 - 1.0..|v SALMON - 16.0..
+          - v SALMON - 16.0..|v SALMON - 16.0..|v SALMON - 16.0..
+    scollect-tier: SALMON - 1   
+
+  SALMON_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion fisher SALMON 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SALMON - 32.0..|v SALMON - 32.0..|v SALMON - 32.0..
+          - v SALMON - 32.0..|t SALMON:2 - 1.0..|v SALMON - 32.0..
+          - v SALMON - 32.0..|v SALMON - 32.0..|v SALMON - 32.0..
+    scollect-tier: SALMON - 1
+
+  SALMON_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion fisher SALMON 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SALMON - 64.0..|v SALMON - 64.0..|v SALMON - 64.0..
+          - v SALMON - 64.0..|t SALMON:3 - 1.0..|v SALMON - 64.0..
+          - v SALMON - 64.0..|v SALMON - 64.0..|v SALMON - 64.0..
+    scollect-tier: SALMON - 1
+
+  SALMON_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion fisher SALMON 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 1.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 1.0..|t SALMON:4 - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 1.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 1.0..
+    scollect-tier: SALMON - 1
+
+  SALMON_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion fisher SALMON 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 3.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 3.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 3.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 3.0..|t SALMON:5 - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 3.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 3.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 3.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 3.0..
+    scollect-tier: SALMON - 1
+
+  SALMON_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion fisher SALMON 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 8.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 8.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 8.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 8.0..|t SALMON:6 - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 8.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 8.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 8.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 8.0..
+    scollect-tier: SALMON - 1 
+
+  SALMON_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion fisher SALMON 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 16.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 16.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 16.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 16.0..|t SALMON:7 - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 16.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 16.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 16.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 16.0..
+    scollect-tier: SALMON - 1
+
+  SALMON_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion fisher SALMON 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..|t SALMON:8 - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..
+    scollect-tier: SALMON - 1
+
+  SALMON_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion fisher SALMON 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 64.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 64.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 64.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 64.0..|t SALMON:9 - 1.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 64.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 64.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 64.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 64.0..
+    scollect-tier: SALMON - 1
+
+  SALMON_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion fisher SALMON 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COOKED_SALMON - 1.0..|m MISCELLANEOUS ENCHANTED_COOKED_SALMON - 1.0..|m MISCELLANEOUS ENCHANTED_COOKED_SALMON - 1.0..
+          - m MISCELLANEOUS ENCHANTED_COOKED_SALMON - 1.0..|t SALMON:10 - 1.0..|m MISCELLANEOUS ENCHANTED_COOKED_SALMON - 1.0..
+          - m MISCELLANEOUS ENCHANTED_COOKED_SALMON - 1.0..|m MISCELLANEOUS ENCHANTED_COOKED_SALMON - 1.0..|m MISCELLANEOUS ENCHANTED_COOKED_SALMON - 1.0..
+    scollect-tier: SALMON - 1
+
+# =================[PUFFERFISH]================ #
+
+  PUFFERFISH_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion fisher PUFFERFISH 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v PUFFERFISH - 8.0..|v PUFFERFISH - 8.0..|v PUFFERFISH - 8.0..
+          - v PUFFERFISH - 8.0..|v FISHING_ROD - 1.0..|v PUFFERFISH - 8.0..
+          - v PUFFERFISH - 8.0..|v PUFFERFISH - 8.0..|v PUFFERFISH - 8.0..
+    scollect-tier: PUFFERFISH - 1  
+
+  PUFFERFISH_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion fisher PUFFERFISH 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v PUFFERFISH - 16.0..|v PUFFERFISH - 16.0..|v PUFFERFISH - 16.0..
+          - v PUFFERFISH - 16.0..|t PUFFERFISH:1 - 1.0..|v PUFFERFISH - 16.0..
+          - v PUFFERFISH - 16.0..|v PUFFERFISH - 16.0..|v PUFFERFISH - 16.0..
+    scollect-tier: PUFFERFISH - 1   
+
+  PUFFERFISH_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion fisher PUFFERFISH 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v PUFFERFISH - 32.0..|v PUFFERFISH - 32.0..|v PUFFERFISH - 32.0..
+          - v PUFFERFISH - 32.0..|t PUFFERFISH:2 - 1.0..|v PUFFERFISH - 32.0..
+          - v PUFFERFISH - 32.0..|v PUFFERFISH - 32.0..|v PUFFERFISH - 32.0..
+    scollect-tier: PUFFERFISH - 1
+
+  PUFFERFISH_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion fisher PUFFERFISH 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v PUFFERFISH - 64.0..|v PUFFERFISH - 64.0..|v PUFFERFISH - 64.0..
+          - v PUFFERFISH - 64.0..|t PUFFERFISH:3 - 1.0..|v PUFFERFISH - 64.0..
+          - v PUFFERFISH - 64.0..|v PUFFERFISH - 64.0..|v PUFFERFISH - 64.0..
+    scollect-tier: PUFFERFISH - 1
+
+  PUFFERFISH_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion fisher PUFFERFISH 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 1.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 1.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 1.0..
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 1.0..|t PUFFERFISH:4 - 1.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 1.0..
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 1.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 1.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 1.0..
+    scollect-tier: PUFFERFISH - 1
+
+  PUFFERFISH_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion fisher PUFFERFISH 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 2.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 2.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 2.0..
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 2.0..|t PUFFERFISH:5 - 1.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 2.0..
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 2.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 2.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 2.0..
+    scollect-tier: PUFFERFISH - 1
+
+  PUFFERFISH_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion fisher PUFFERFISH 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 4.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 4.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 4.0..
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 4.0..|t PUFFERFISH:6 - 1.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 4.0..
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 4.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 4.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 4.0..
+    scollect-tier: PUFFERFISH - 1 
+
+  PUFFERFISH_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion fisher PUFFERFISH 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 8.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 8.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 8.0..
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 8.0..|t PUFFERFISH:7 - 1.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 8.0..
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 8.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 8.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 8.0..
+    scollect-tier: PUFFERFISH - 1
+
+  PUFFERFISH_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion fisher PUFFERFISH 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 16.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 16.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 16.0..
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 16.0..|t PUFFERFISH:8 - 1.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 16.0..
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 16.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 16.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 16.0..
+    scollect-tier: PUFFERFISH - 1
+
+  PUFFERFISH_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion fisher PUFFERFISH 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 32.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 32.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 32.0..
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 32.0..|t PUFFERFISH:9 - 1.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 32.0..
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 32.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 32.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 32.0..
+    scollect-tier: PUFFERFISH - 1
+
+  PUFFERFISH_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion fisher PUFFERFISH 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 64.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 64.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 64.0..
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 64.0..|t PUFFERFISH:10 - 1.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 64.0..
+          - m MISCELLANEOUS ENCHANTED_PUFFERFISH - 64.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 64.0..|m MISCELLANEOUS ENCHANTED_PUFFERFISH - 64.0..
+    scollect-tier: PUFFERFISH - 1
+
+# =================[INK_SAC]================ #
+
+  INK_SAC_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion fisher INK_SAC 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v INK_SAC - 8.0..|v INK_SAC - 8.0..|v INK_SAC - 8.0..
+          - v INK_SAC - 8.0..|v FISHING_ROD - 1.0..|v INK_SAC - 8.0..
+          - v INK_SAC - 8.0..|v INK_SAC - 8.0..|v INK_SAC - 8.0..
+    scollect-tier: INK_SAC - 1  
+
+  INK_SAC_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion fisher INK_SAC 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v INK_SAC - 16.0..|v INK_SAC - 16.0..|v INK_SAC - 16.0..
+          - v INK_SAC - 16.0..|t INK_SAC:1 - 1.0..|v INK_SAC - 16.0..
+          - v INK_SAC - 16.0..|v INK_SAC - 16.0..|v INK_SAC - 16.0..
+    scollect-tier: INK_SAC - 1   
+
+  INK_SAC_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion fisher INK_SAC 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v INK_SAC - 32.0..|v INK_SAC - 32.0..|v INK_SAC - 32.0..
+          - v INK_SAC - 32.0..|t INK_SAC:2 - 1.0..|v INK_SAC - 32.0..
+          - v INK_SAC - 32.0..|v INK_SAC - 32.0..|v INK_SAC - 32.0..
+    scollect-tier: INK_SAC - 1
+
+  INK_SAC_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion fisher INK_SAC 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v INK_SAC - 64.0..|v INK_SAC - 64.0..|v INK_SAC - 64.0..
+          - v INK_SAC - 64.0..|t INK_SAC:3 - 1.0..|v INK_SAC - 64.0..
+          - v INK_SAC - 64.0..|v INK_SAC - 64.0..|v INK_SAC - 64.0..
+    scollect-tier: INK_SAC - 1
+
+  INK_SAC_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion fisher INK_SAC 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 1.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 1.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 1.0..
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 1.0..|t INK_SAC:4 - 1.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 1.0..
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 1.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 1.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 1.0..
+    scollect-tier: INK_SAC - 1
+
+  INK_SAC_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion fisher INK_SAC 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 2.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 2.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 2.0..
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 2.0..|t INK_SAC:5 - 1.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 2.0..
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 2.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 2.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 2.0..
+    scollect-tier: INK_SAC - 1
+
+  INK_SAC_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion fisher INK_SAC 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 4.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 4.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 4.0..
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 4.0..|t INK_SAC:6 - 1.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 4.0..
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 4.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 4.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 4.0..
+    scollect-tier: INK_SAC - 1 
+
+  INK_SAC_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion fisher INK_SAC 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 8.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 8.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 8.0..
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 8.0..|t INK_SAC:7 - 1.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 8.0..
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 8.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 8.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 8.0..
+    scollect-tier: INK_SAC - 1
+
+  INK_SAC_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion fisher INK_SAC 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 16.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 16.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 16.0..
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 16.0..|t INK_SAC:8 - 1.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 16.0..
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 16.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 16.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 16.0..
+    scollect-tier: INK_SAC - 1
+
+  INK_SAC_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion fisher INK_SAC 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 32.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 32.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 32.0..
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 32.0..|t INK_SAC:9 - 1.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 32.0..
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 32.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 32.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 32.0..
+    scollect-tier: INK_SAC - 1
+
+  INK_SAC_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion fisher INK_SAC 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 64.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 64.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 64.0..
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 64.0..|t INK_SAC:10 - 1.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 64.0..
+          - m MISCELLANEOUS ENCHANTED_INK_SAC - 64.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 64.0..|m MISCELLANEOUS ENCHANTED_INK_SAC - 64.0..
+    scollect-tier: INK_SAC - 1
+
+# =================[NAUTILUS]================ #
+
+  NAUTILUS_SHELL_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion fisher NAUTILUS_SHELL 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v NAUTILUS_SHELL - 8.0..|v NAUTILUS_SHELL - 8.0..|v NAUTILUS_SHELL - 8.0..
+          - v NAUTILUS_SHELL - 8.0..|v FISHING_ROD - 1.0..|v NAUTILUS_SHELL - 8.0..
+          - v NAUTILUS_SHELL - 8.0..|v NAUTILUS_SHELL - 8.0..|v NAUTILUS_SHELL - 8.0..
+    scollect-tier: NAUTILUS_SHELL - 1  
+
+  NAUTILUS_SHELL_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion fisher NAUTILUS_SHELL 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v NAUTILUS_SHELL - 16.0..|v NAUTILUS_SHELL - 16.0..|v NAUTILUS_SHELL - 16.0..
+          - v NAUTILUS_SHELL - 16.0..|t NAUTILUS_SHELL:1 - 1.0..|v NAUTILUS_SHELL - 16.0..
+          - v NAUTILUS_SHELL - 16.0..|v NAUTILUS_SHELL - 16.0..|v NAUTILUS_SHELL - 16.0..
+    scollect-tier: NAUTILUS_SHELL - 1   
+
+  NAUTILUS_SHELL_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion fisher NAUTILUS_SHELL 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v NAUTILUS_SHELL - 32.0..|v NAUTILUS_SHELL - 32.0..|v NAUTILUS_SHELL - 32.0..
+          - v NAUTILUS_SHELL - 32.0..|t NAUTILUS_SHELL:2 - 1.0..|v NAUTILUS_SHELL - 32.0..
+          - v NAUTILUS_SHELL - 32.0..|v NAUTILUS_SHELL - 32.0..|v NAUTILUS_SHELL - 32.0..
+    scollect-tier: NAUTILUS_SHELL - 1
+
+  NAUTILUS_SHELL_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion fisher NAUTILUS_SHELL 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v NAUTILUS_SHELL - 64.0..|v NAUTILUS_SHELL - 64.0..|v NAUTILUS_SHELL - 64.0..
+          - v NAUTILUS_SHELL - 64.0..|t NAUTILUS_SHELL:3 - 1.0..|v NAUTILUS_SHELL - 64.0..
+          - v NAUTILUS_SHELL - 64.0..|v NAUTILUS_SHELL - 64.0..|v NAUTILUS_SHELL - 64.0..
+    scollect-tier: NAUTILUS_SHELL - 1
+
+  NAUTILUS_SHELL_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion fisher NAUTILUS_SHELL 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 1.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 1.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 1.0..
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 1.0..|t NAUTILUS_SHELL:4 - 1.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 1.0..
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 1.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 1.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 1.0..
+    scollect-tier: NAUTILUS_SHELL - 1
+
+  NAUTILUS_SHELL_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion fisher NAUTILUS_SHELL 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 2.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 2.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 2.0..
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 2.0..|t NAUTILUS_SHELL:5 - 1.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 2.0..
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 2.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 2.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 2.0..
+    scollect-tier: NAUTILUS_SHELL - 1
+
+  NAUTILUS_SHELL_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion fisher NAUTILUS_SHELL 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 4.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 4.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 4.0..
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 4.0..|t NAUTILUS_SHELL:6 - 1.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 4.0..
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 4.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 4.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 4.0..
+    scollect-tier: NAUTILUS_SHELL - 1 
+
+  NAUTILUS_SHELL_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion fisher NAUTILUS_SHELL 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 8.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 8.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 8.0..
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 8.0..|t NAUTILUS_SHELL:7 - 1.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 8.0..
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 8.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 8.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 8.0..
+    scollect-tier: NAUTILUS_SHELL - 1
+
+  NAUTILUS_SHELL_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion fisher NAUTILUS_SHELL 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 16.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 16.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 16.0..
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 16.0..|t NAUTILUS_SHELL:8 - 1.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 16.0..
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 16.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 16.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 16.0..
+    scollect-tier: NAUTILUS_SHELL - 1
+
+  NAUTILUS_SHELL_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion fisher NAUTILUS_SHELL 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 32.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 32.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 32.0..
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 32.0..|t NAUTILUS_SHELL:9 - 1.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 32.0..
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 32.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 32.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 32.0..
+    scollect-tier: NAUTILUS_SHELL - 1
+
+  NAUTILUS_SHELL_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion fisher NAUTILUS_SHELL 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 64.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 64.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 64.0..
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 64.0..|t NAUTILUS_SHELL:10 - 1.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 64.0..
+          - m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 64.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 64.0..|m MISCELLANEOUS ENCHANTED_NAUTILUS_SHELL - 64.0..
+    scollect-tier: NAUTILUS_SHELL - 1
+
+# =================[TROPICAL FISH]================ #
+
+  TROPICAL_FISH_MINION_LEVEL_1:
+    craft-commands:
+      - "topminion giveminion fisher TROPICAL_FISH 1 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v TROPICAL_FISH - 8.0..|v TROPICAL_FISH - 8.0..|v TROPICAL_FISH - 8.0..
+          - v TROPICAL_FISH - 8.0..|v FISHING_ROD - 1.0..|v TROPICAL_FISH - 8.0..
+          - v TROPICAL_FISH - 8.0..|v TROPICAL_FISH - 8.0..|v TROPICAL_FISH - 8.0..
+    scollect-tier: TROPICAL_FISH - 1  
+
+  TROPICAL_FISH_MINION_LEVEL_2:
+    craft-commands:
+      - "topminion giveminion fisher TROPICAL_FISH 2 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v TROPICAL_FISH - 16.0..|v TROPICAL_FISH - 16.0..|v TROPICAL_FISH - 16.0..
+          - v TROPICAL_FISH - 16.0..|t TROPICAL_FISH:1 - 1.0..|v TROPICAL_FISH - 16.0..
+          - v TROPICAL_FISH - 16.0..|v TROPICAL_FISH - 16.0..|v TROPICAL_FISH - 16.0..
+    scollect-tier: TROPICAL_FISH - 1   
+
+  TROPICAL_FISH_MINION_LEVEL_3:
+    craft-commands:
+      - "topminion giveminion fisher TROPICAL_FISH 3 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v TROPICAL_FISH - 32.0..|v TROPICAL_FISH - 32.0..|v TROPICAL_FISH - 32.0..
+          - v TROPICAL_FISH - 32.0..|t TROPICAL_FISH:2 - 1.0..|v TROPICAL_FISH - 32.0..
+          - v TROPICAL_FISH - 32.0..|v TROPICAL_FISH - 32.0..|v TROPICAL_FISH - 32.0..
+    scollect-tier: TROPICAL_FISH - 1
+
+  TROPICAL_FISH_MINION_LEVEL_4:
+    craft-commands:
+      - "topminion giveminion fisher TROPICAL_FISH 4 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v TROPICAL_FISH - 64.0..|v TROPICAL_FISH - 64.0..|v TROPICAL_FISH - 64.0..
+          - v TROPICAL_FISH - 64.0..|t TROPICAL_FISH:3 - 1.0..|v TROPICAL_FISH - 64.0..
+          - v TROPICAL_FISH - 64.0..|v TROPICAL_FISH - 64.0..|v TROPICAL_FISH - 64.0..
+    scollect-tier: TROPICAL_FISH - 1
+
+  TROPICAL_FISH_MINION_LEVEL_5:
+    craft-commands:
+      - "topminion giveminion fisher TROPICAL_FISH 5 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 1.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 1.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 1.0..
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 1.0..|t TROPICAL_FISH:4 - 1.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 1.0..
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 1.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 1.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 1.0..
+    scollect-tier: TROPICAL_FISH - 1
+
+  TROPICAL_FISH_MINION_LEVEL_6:
+    craft-commands:
+      - "topminion giveminion fisher TROPICAL_FISH 6 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 2.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 2.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 2.0..
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 2.0..|t TROPICAL_FISH:5 - 1.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 2.0..
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 2.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 2.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 2.0..
+    scollect-tier: TROPICAL_FISH - 1
+
+  TROPICAL_FISH_MINION_LEVEL_7:
+    craft-commands:
+      - "topminion giveminion fisher TROPICAL_FISH 7 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 4.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 4.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 4.0..
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 4.0..|t TROPICAL_FISH:6 - 1.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 4.0..
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 4.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 4.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 4.0..
+    scollect-tier: TROPICAL_FISH - 1 
+
+  TROPICAL_FISH_MINION_LEVEL_8:
+    craft-commands:
+      - "topminion giveminion fisher TROPICAL_FISH 8 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 8.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 8.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 8.0..
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 8.0..|t TROPICAL_FISH:7 - 1.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 8.0..
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 8.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 8.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 8.0..
+    scollect-tier: TROPICAL_FISH - 1
+
+  TROPICAL_FISH_MINION_LEVEL_9:
+    craft-commands:
+      - "topminion giveminion fisher TROPICAL_FISH 9 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 16.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 16.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 16.0..
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 16.0..|t TROPICAL_FISH:8 - 1.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 16.0..
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 16.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 16.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 16.0..
+    scollect-tier: TROPICAL_FISH - 1
+
+  TROPICAL_FISH_MINION_LEVEL_10:
+    craft-commands:
+      - "topminion giveminion fisher TROPICAL_FISH 10 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 32.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 32.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 32.0..
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 32.0..|t TROPICAL_FISH:9 - 1.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 32.0..
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 32.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 32.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 32.0..
+    scollect-tier: TROPICAL_FISH - 1
+
+  TROPICAL_FISH_MINION_LEVEL_11:
+    craft-commands:
+      - "topminion giveminion fisher TROPICAL_FISH 11 %player%"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 64.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 64.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 64.0..
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 64.0..|t TROPICAL_FISH:10 - 1.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 64.0..
+          - m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 64.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 64.0..|m MISCELLANEOUS ENCHANTED_TROPICAL_FISH - 64.0..
+    scollect-tier: TROPICAL_FISH - 1

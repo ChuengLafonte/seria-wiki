@@ -1,0 +1,108 @@
+SHOVEL:
+# ==================== [SAND] ======================= #
+  BEGINNER_SHOVEL:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v SAND - 64.0..|v AIR 0 1..
+          - v AIR 0 1..|v STICK - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v STICK - 1.0..|v AIR 0 1..         
+    scollect-tier: SAND - 2
+
+  HARDENED_SPADE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SAND - 64.0..|v SAND - 64.0..|v SAND - 64.0..
+          - v SAND - 64.0..|m SHOVEL BEGINNER_SHOVEL - 1.0..|v SAND - 64.0..
+          - v SAND - 64.0..|v SAND - 64.0..|v SAND - 64.0..
+    scollect-tier: SAND - 4
+
+  CACTUS_CARVER:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SAND - 2.0..|m MISCELLANEOUS ENCHANTED_SAND - 2.0..|m MISCELLANEOUS ENCHANTED_SAND - 2.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 2.0..|m SHOVEL HARDENED_SPADE - 1.0..|m MISCELLANEOUS ENCHANTED_SAND - 2.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 2.0..|m MISCELLANEOUS ENCHANTED_SAND - 2.0..|m MISCELLANEOUS ENCHANTED_SAND - 2.0..        
+    scollect-tier: SAND - 8
+
+  DESERT_ROSE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SANDSTONE - 4.0..|m MISCELLANEOUS ENCHANTED_SANDSTONE - 4.0..|m MISCELLANEOUS ENCHANTED_SANDSTONE - 4.0..
+          - m MISCELLANEOUS ENCHANTED_SANDSTONE - 4.0..|m SHOVEL CACTUS_CARVER - 1.0..|m MISCELLANEOUS ENCHANTED_SANDSTONE - 4.0..
+          - m MISCELLANEOUS ENCHANTED_SANDSTONE - 4.0..|m MISCELLANEOUS ENCHANTED_SANDSTONE - 4.0..|m MISCELLANEOUS ENCHANTED_SANDSTONE - 4.0..      
+    scollect-tier: SAND - 1
+
+  BONE_CRUSHER:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v RED_SAND - 64.0..|v RED_SAND - 64.0..|v RED_SAND - 64.0..
+          - v RED_SAND - 64.0..|m SHOVEL DESERT_ROSE - 1.0..|v RED_SAND - 64.0..
+          - v RED_SAND - 64.0..|v RED_SAND - 64.0..|v RED_SAND - 64.0..    
+    scollect-tier: RED_SAND - 2
+
+  PRICKLY_DIGGER:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 8.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 8.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 8.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 8.0..|m SHOVEL BONE_CRUSHER - 1.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 8.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 8.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 8.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 8.0..      
+    scollect-tier: RED_SAND - 4
+
+  RUBY_SIFTER:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 16.0..|m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 16.0..|m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 16.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 16.0..|m SHOVEL PRICKLY_DIGGER - 1.0..|m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 16.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 16.0..|m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 16.0..|m MISCELLANEOUS ENCHANTED_RED_SANDSTONE - 16.0..      
+    scollect-tier: RED_SAND - 8
+
+  ANCIENT_CLAW:
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v GRAVEL - 64.0..|v GRAVEL - 64.0..|v GRAVEL - 64.0..
+          - v GRAVEL - 64.0..|m SHOVEL RUBY_SIFTER - 1.0..|v GRAVEL - 64.0..
+          - v GRAVEL - 64.0..|v GRAVEL - 64.0..|v GRAVEL - 64.0..    
+    scollect-tier: GRAVEL - 2
+
+  SANDSTORM_KING:
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|m SHOVEL ANCIENT_CLAW - 1.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..    
+    scollect-tier: GRAVEL - 4
+
+  GOD_OF_DESERT:
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 64.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 64.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 64.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 64.0..|m SHOVEL SANDSTORM_KING - 1.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 64.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 64.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 64.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 64.0..    
+    scollect-tier: GRAVEL - 8

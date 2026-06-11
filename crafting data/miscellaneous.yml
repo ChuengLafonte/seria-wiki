@@ -1,0 +1,880 @@
+MISCELLANEOUS:
+  ENCHANTED_WHEAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v WHEAT - 32.0..|v AIR 0 1..
+          - v WHEAT - 32.0..|v WHEAT - 32.0..|v WHEAT - 32.0..
+          - v AIR 0 1..|v WHEAT - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v WHEAT - 32.0..|v WHEAT - 32.0..|v WHEAT - 32.0..
+          - v WHEAT - 32.0..|v WHEAT - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..          
+    scollect-tier: WHEAT - 4
+
+  ENCHANTED_BREAD:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+          - v WHEAT - 10.0..|v WHEAT - 10.0..|v WHEAT - 10.0..
+          - v WHEAT - 10.0..|v WHEAT - 10.0..|v WHEAT - 10.0..    
+    scollect-tier: WHEAT - 8
+
+  ENCHANTED_HAY_BALE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..|m MISCELLANEOUS ENCHANTED_WHEAT - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..     
+    scollect-tier: WHEAT - 10
+
+  ENCHANTED_POTATO:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v POTATO - 32.0..|v AIR 0 1..
+          - v POTATO - 32.0..|v POTATO - 32.0..|v POTATO - 32.0..
+          - v AIR 0 1..|v POTATO - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v POTATO - 32.0..|v POTATO - 32.0..|v POTATO - 32.0..
+          - v POTATO - 32.0..|v POTATO - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..          
+    scollect-tier: POTATO - 2
+
+  ENCHANTED_BAKED_POTATO:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_POTATO - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 32.0..|m MISCELLANEOUS ENCHANTED_POTATO - 1.0..|m MISCELLANEOUS ENCHANTED_POTATO - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_POTATO - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_POTATO - 32.0..|m MISCELLANEOUS ENCHANTED_POTATO - 32.0..|m MISCELLANEOUS ENCHANTED_POTATO - 32.0..
+          - m MISCELLANEOUS ENCHANTED_POTATO - 32.0..|m MISCELLANEOUS ENCHANTED_POTATO - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..    
+    scollect-tier: POTATO - 8
+
+  ENCHANTED_CARROT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v CARROT - 32.0..|v AIR 0 1..
+          - v CARROT - 32.0..|v CARROT - 32.0..|v CARROT - 32.0..
+          - v AIR 0 1..|v CARROT - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v CARROT - 32.0..|v CARROT - 32.0..|v CARROT - 32.0..
+          - v CARROT - 32.0..|v CARROT - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..          
+    scollect-tier: CARROT - 2
+
+  ENCHANTED_GOLDEN_CARROT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_CARROT - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_CARROT - 32.0..|m MISCELLANEOUS ENCHANTED_CARROT - 32.0..|m MISCELLANEOUS ENCHANTED_CARROT - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_CARROT - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_CARROT - 32.0..|m MISCELLANEOUS ENCHANTED_CARROT - 32.0..|m MISCELLANEOUS ENCHANTED_CARROT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_CARROT - 32.0..|m MISCELLANEOUS ENCHANTED_CARROT - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..    
+    scollect-tier: CARROT - 6
+
+  ENCHANTED_BEETROOT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v BEETROOT - 32.0..|v AIR 0 1..
+          - v BEETROOT - 32.0..|v BEETROOT - 32.0..|v BEETROOT - 32.0..
+          - v AIR 0 1..|v BEETROOT - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v BEETROOT - 32.0..|v BEETROOT - 32.0..|v BEETROOT - 32.0..
+          - v BEETROOT - 32.0..|v BEETROOT - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..          
+    scollect-tier: BEETROOT - 2
+
+  ENCHANTED_BEETROOT_SOUP:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|m MISCELLANEOUS ENCHANTED_BEETROOT_SOUP - 1.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|m MISCELLANEOUS ENCHANTED_BEETROOT - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..    
+    scollect-tier: BEETROOT - 6
+
+# ============= [SLAYER] ============= #
+
+  ENCHANTED_BONE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v BONE - 32.0..|v AIR 0 1..
+          - v BONE - 32.0..|v BONE - 32.0..|v BONE - 32.0..
+          - v AIR 0 1..|v BONE - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v BONE - 32.0..|v BONE - 32.0..|v BONE - 32.0..
+          - v BONE - 32.0..|v BONE - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: BONE - 4
+
+  ENCHANTED_BONE_BLOCK:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_BONE - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_BONE - 32.0..|v BONE_BLOCK - 1.0..|m MISCELLANEOUS ENCHANTED_BONE - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_BONE - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BONE - 32.0..|m MISCELLANEOUS ENCHANTED_BONE - 32.0..|m MISCELLANEOUS ENCHANTED_BONE - 32.0..
+          - m MISCELLANEOUS ENCHANTED_BONE - 32.0..|m MISCELLANEOUS ENCHANTED_BONE - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: BONE - 10
+
+  ENCHANTED_ROTTEN_FLESH:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v ROTTEN_FLESH - 32.0..|v AIR 0 1..
+          - v ROTTEN_FLESH - 32.0..|v ROTTEN_FLESH - 32.0..|v ROTTEN_FLESH - 32.0..
+          - v AIR 0 1..|v ROTTEN_FLESH - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v ROTTEN_FLESH - 32.0..|v ROTTEN_FLESH - 32.0..|v ROTTEN_FLESH - 32.0..
+          - v ROTTEN_FLESH - 32.0..|v ROTTEN_FLESH - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: ROTTEN_FLESH - 4
+
+  COBWEB:
+    craft-amount: 1
+    craft-commands:
+      - "give %player% cobweb 1"
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v STRING - 1..|v STRING - 1.0..|v STRING - 1.0..
+          - v STRING - 1..|v STRING - 1.0..|v STRING - 1.0..
+          - v STRING - 1..|v STRING - 1.0..|v STRING - 1.0..
+    scollect-tier: STRING - 2
+
+  ENCHANTED_STRING:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v STRING - 32.0..|v AIR 0 1..
+          - v STRING - 32.0..|v STRING - 32.0..|v STRING - 32.0..
+          - v AIR 0 1..|v STRING - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v STRING - 32.0..|v STRING - 32.0..|v STRING - 32.0..
+          - v STRING - 32.0..|v STRING - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: STRING - 4
+
+  ENCHANTED_GUNPOWDER:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v GUNPOWDER - 32.0..|v AIR 0 1..
+          - v GUNPOWDER - 32.0..|v GUNPOWDER - 32.0..|v GUNPOWDER - 32.0..
+          - v AIR 0 1..|v GUNPOWDER - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v GUNPOWDER - 32.0..|v GUNPOWDER - 32.0..|v GUNPOWDER - 32.0..
+          - v GUNPOWDER - 32.0..|v GUNPOWDER - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: GUNPOWDER - 3 
+
+  ENCHANTED_FIREWORK_ROCKET:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 16.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_GUNPOWDER - 16.0..|v PAPER - 16.0..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 16.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_GUNPOWDER - 16.0..|v AIR 0 1..
+
+    scollect-tier: GUNPOWDER - 6
+
+  ENCHANTED_BLAZE_POWDER:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v BLAZE_ROD - 32.0..|v AIR 0 1..
+          - v BLAZE_ROD - 32.0..|v BLAZE_ROD - 32.0..|v BLAZE_ROD - 32.0..
+          - v AIR 0 1..|v BLAZE_ROD - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v BLAZE_ROD - 32.0..|v BLAZE_ROD - 32.0..|v BLAZE_ROD - 32.0..
+          - v BLAZE_ROD - 32.0..|v BLAZE_ROD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: BLAZE_ROD - 2
+
+  ENCHANTED_BLAZE_ROD:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 32.0..|v BLAZE_ROD - 32.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 32.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 32.0..|m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 32.0..
+          - m MISCELLANEOUS ENCHANTED_BLAZE_POWDER - 32.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: BLAZE_ROD - 5
+
+  ENCHANTED_ENDER_PEARL:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v ENDER_PEARL - 4.0..|v AIR 0 1..
+          - v ENDER_PEARL - 4.0..|v ENDER_PEARL - 4.0..|v ENDER_PEARL - 4.0..
+          - v AIR 0 1..|v ENDER_PEARL - 4.0..|v AIR 0 1..
+        '2':
+          input:
+          - v ENDER_PEARL - 4.0..|v ENDER_PEARL - 4.0..|v ENDER_PEARL - 4.0..
+          - v ENDER_PEARL - 4.0..|v ENDER_PEARL - 4.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: ENDER_PEARL - 2
+
+  ENCHANTED_EYE_OF_ENDER:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v BLAZE_POWDER - 16.0..|v AIR 0 1..
+          - v BLAZE_POWDER - 16.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 16.0..|v BLAZE_POWDER - 16.0..
+          - v AIR 0 1..|v BLAZE_POWDER - 16.0..|v AIR 0 1..
+        '2':
+          input:
+          - v BLAZE_POWDER - 16.0..|v BLAZE_POWDER - 16.0..|v BLAZE_POWDER - 16.0..
+          - v BLAZE_POWDER - 16.0..|m MISCELLANEOUS ENCHANTED_ENDER_PEARL - 16.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: ENDER_PEARL - 6
+
+# ============= [SLAYER] ============= #
+
+  ENCHANTED_RAW_COD:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v COD - 32.0..|v AIR 0 1..
+          - v COD - 32.0..|v COD - 32.0..|v COD - 32.0..
+          - v AIR 0 1..|v COD - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v COD - 32.0..|v COD - 32.0..|v COD - 32.0..
+          - v COD - 32.0..|v COD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: COD - 4
+
+  ENCHANTED_COOKED_COD:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..|v COOKED_COD - 32.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..|m MISCELLANEOUS ENCHANTED_RAW_COD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: COD - 6
+
+  ENCHANTED_RAW_SALMON:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v SALMON - 32.0..|v AIR 0 1..
+          - v SALMON - 32.0..|v SALMON - 32.0..|v SALMON - 32.0..
+          - v AIR 0 1..|v SALMON - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v SALMON - 32.0..|v SALMON - 32.0..|v SALMON - 32.0..
+          - v SALMON - 32.0..|v SALMON - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: SALMON - 4
+
+  ENCHANTED_COOKED_SALMON:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..|v COOKED_SALMON - 32.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..
+          - m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..|m MISCELLANEOUS ENCHANTED_RAW_SALMON - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: SALMON - 6
+
+  ENCHANTED_PUFFERFISH:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v PUFFERFISH - 32.0..|v AIR 0 1..
+          - v PUFFERFISH - 32.0..|v PUFFERFISH - 32.0..|v PUFFERFISH - 32.0..
+          - v AIR 0 1..|v PUFFERFISH - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v PUFFERFISH - 32.0..|v PUFFERFISH - 32.0..|v PUFFERFISH - 32.0..
+          - v PUFFERFISH - 32.0..|v PUFFERFISH - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: PUFFERFISH - 4
+
+  ENCHANTED_INK_SAC:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v INK_SAC - 32.0..|v AIR 0 1..
+          - v INK_SAC - 32.0..|v INK_SAC - 32.0..|v INK_SAC - 32.0..
+          - v AIR 0 1..|v INK_SAC - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v INK_SAC - 32.0..|v INK_SAC - 32.0..|v INK_SAC - 32.0..
+          - v INK_SAC - 32.0..|v INK_SAC - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: INK_SAC - 4
+
+  ENCHANTED_NAUTILUS_SHELL:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v NAUTILUS_SHELL - 32.0..|v AIR 0 1..
+          - v NAUTILUS_SHELL - 32.0..|v NAUTILUS_SHELL - 32.0..|v NAUTILUS_SHELL - 32.0..
+          - v AIR 0 1..|v NAUTILUS_SHELL - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v NAUTILUS_SHELL - 32.0..|v NAUTILUS_SHELL - 32.0..|v NAUTILUS_SHELL - 32.0..
+          - v NAUTILUS_SHELL - 32.0..|v NAUTILUS_SHELL - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: NAUTILUS_SHELL - 4
+
+  ENCHANTED_TROPICAL_FISH:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v TROPICAL_FISH - 32.0..|v AIR 0 1..
+          - v TROPICAL_FISH - 32.0..|v TROPICAL_FISH - 32.0..|v TROPICAL_FISH - 32.0..
+          - v AIR 0 1..|v TROPICAL_FISH - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v TROPICAL_FISH - 32.0..|v TROPICAL_FISH - 32.0..|v TROPICAL_FISH - 32.0..
+          - v TROPICAL_FISH - 32.0..|v TROPICAL_FISH - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: TROPICAL_FISH - 4
+
+# ============= [EXCAVATOR] ============= #
+
+  ENCHANTED_SAND:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v SAND - 32.0..|v AIR 0 1..
+          - v SAND - 32.0..|v SAND - 32.0..|v SAND - 32.0..
+          - v AIR 0 1..|v SAND - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v SAND - 32.0..|v SAND - 32.0..|v SAND - 32.0..
+          - v SAND - 32.0..|v SAND - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: SAND - 3
+
+  ENCHANTED_SANDSTONE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_SAND - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_SAND - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_SAND - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_SAND - 32.0..
+          - m MISCELLANEOUS ENCHANTED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_SAND - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: SAND - 6
+
+  ENCHANTED_RED_SAND:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v RED_SAND - 32.0..|v AIR 0 1..
+          - v RED_SAND - 32.0..|v RED_SAND - 32.0..|v RED_SAND - 32.0..
+          - v AIR 0 1..|v RED_SAND - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v RED_SAND - 32.0..|v RED_SAND - 32.0..|v RED_SAND - 32.0..
+          - v RED_SAND - 32.0..|v RED_SAND - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: RED_SAND - 3
+
+  ENCHANTED_RED_SANDSTONE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..
+          - m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..|m MISCELLANEOUS ENCHANTED_RED_SAND - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: RED_SAND - 6
+
+  ENCHANTED_GRAVEL:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v GRAVEL - 32.0..|v AIR 0 1..
+          - v GRAVEL - 32.0..|v GRAVEL - 32.0..|v GRAVEL - 32.0..
+          - v AIR 0 1..|v GRAVEL - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v GRAVEL - 32.0..|v GRAVEL - 32.0..|v GRAVEL - 32.0..
+          - v GRAVEL - 32.0..|v GRAVEL - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: GRAVEL - 3
+
+  ENCHANTED_FLINT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..
+          - m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|m MISCELLANEOUS ENCHANTED_GRAVEL - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: GRAVEL - 6
+
+# ============= [MINING] ============= #
+
+  ENCHANTED_COBBLESTONE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v COBBLESTONE - 32.0..|v AIR 0 1..
+          - v COBBLESTONE - 32.0..|v COBBLESTONE - 32.0..|v COBBLESTONE - 32.0..
+          - v AIR 0 1..|v COBBLESTONE - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v COBBLESTONE - 32.0..|v COBBLESTONE - 32.0..|v COBBLESTONE - 32.0..
+          - v COBBLESTONE - 32.0..|v COBBLESTONE - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: COBBLESTONE - 4
+
+  ENCHANTED_COAL:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v COAL - 32.0..|v AIR 0 1..
+          - v COAL - 32.0..|v COAL - 32.0..|v COAL - 32.0..
+          - v AIR 0 1..|v COAL - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v COAL - 32.0..|v COAL - 32.0..|v COAL - 32.0..
+          - v COAL - 32.0..|v COAL - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: COAL - 3
+
+  ENCHANTED_CHARCOAL:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v COAL - 32.0..|v AIR 0 1..
+          - v COAL - 32.0..|v OAK_WOOD - 32.0..|v COAL - 32.0..
+          - v AIR 0 1..|v COAL - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v COAL - 32.0..|v COAL - 32.0..|v COAL - 32.0..
+          - v COAL - 32.0..|v OAK_WOOD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+        '3':
+          input:
+          - v AIR 0 1..|v COAL - 32.0..|v AIR 0 1..
+          - v COAL - 32.0..|v BIRCH_WOOD - 32.0..|v COAL - 32.0..
+          - v AIR 0 1..|v COAL - 32.0..|v AIR 0 1..
+        '4':
+          input:
+          - v COAL - 32.0..|v COAL - 32.0..|v COAL - 32.0..
+          - v COAL - 32.0..|v BIRCH_WOOD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+        '5':
+          input:
+          - v AIR 0 1..|v COAL - 32.0..|v AIR 0 1..
+          - v COAL - 32.0..|v ACACIA_WOOD - 32.0..|v COAL - 32.0..
+          - v AIR 0 1..|v COAL - 32.0..|v AIR 0 1..
+        '6':
+          input:
+          - v COAL - 32.0..|v COAL - 32.0..|v COAL - 32.0..
+          - v COAL - 32.0..|v ACACIA_WOOD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+        '7':
+          input:
+          - v AIR 0 1..|v COAL - 32.0..|v AIR 0 1..
+          - v COAL - 32.0..|v SPRUCE_WOOD - 32.0..|v COAL - 32.0..
+          - v AIR 0 1..|v COAL - 32.0..|v AIR 0 1..
+        '8':
+          input:
+          - v COAL - 32.0..|v COAL - 32.0..|v COAL - 32.0..
+          - v COAL - 32.0..|v SPRUCE_WOOD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+        '9':
+          input:
+          - v AIR 0 1..|v COAL - 32.0..|v AIR 0 1..
+          - v COAL - 32.0..|v DARK_OAK_WOOD - 32.0..|v COAL - 32.0..
+          - v AIR 0 1..|v COAL - 32.0..|v AIR 0 1..
+        '10':
+          input:
+          - v COAL - 32.0..|v COAL - 32.0..|v COAL - 32.0..
+          - v COAL - 32.0..|v DARK_OAK_WOOD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+        '11':
+          input:
+          - v AIR 0 1..|v COAL - 32.0..|v AIR 0 1..
+          - v COAL - 32.0..|v JUNGLE_WOOD - 32.0..|v COAL - 32.0..
+          - v AIR 0 1..|v COAL - 32.0..|v AIR 0 1..
+        '12':
+          input:
+          - v COAL - 32.0..|v COAL - 32.0..|v COAL - 32.0..
+          - v COAL - 32.0..|v JUNGLE_WOOD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..     
+    scollect-tier: COAL - 4
+
+  ENCHANTED_COAL_BLOCK:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_COAL - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_COAL - 32.0..|m MISCELLANEOUS ENCHANTED_COAL - 32.0..|m MISCELLANEOUS ENCHANTED_COAL - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_COAL - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COAL - 32.0..|m MISCELLANEOUS ENCHANTED_COAL - 32.0..|m MISCELLANEOUS ENCHANTED_COAL - 32.0..
+          - m MISCELLANEOUS ENCHANTED_COAL - 32.0..|m MISCELLANEOUS ENCHANTED_COAL - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1.. 
+    scollect-tier: COAL - 6
+
+  ENCHANTED_COPPER_INGOT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v COPPER_INGOT - 32.0..|v AIR 0 1..
+          - v COPPER_INGOT - 32.0..|v COPPER_INGOT - 32.0..|v COPPER_INGOT - 32.0..
+          - v AIR 0 1..|v COPPER_INGOT - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v COPPER_INGOT - 32.0..|v COPPER_INGOT - 32.0..|v COPPER_INGOT - 32.0..
+          - v COPPER_INGOT - 32.0..|v COPPER_INGOT - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+    scollect-tier: COPPER - 2
+
+  ENCHANTED_COPPER_BLOCK:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_COPPER_INGOT - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+    scollect-tier: COPPER - 6
+
+  ENCHANTED_IRON_INGOT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v IRON_INGOT - 32.0..|v AIR 0 1..
+          - v IRON_INGOT - 32.0..|v IRON_INGOT - 32.0..|v IRON_INGOT - 32.0..
+          - v AIR 0 1..|v IRON_INGOT - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v IRON_INGOT - 32.0..|v IRON_INGOT - 32.0..|v IRON_INGOT - 32.0..
+          - v IRON_INGOT - 32.0..|v IRON_INGOT - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+    scollect-tier: IRON - 2
+
+  ENCHANTED_IRON_BLOCK:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_IRON_INGOT - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+    scollect-tier: IRON - 6
+
+  ENCHANTED_GOLD_INGOT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v GOLD_INGOT - 32.0..|v AIR 0 1..
+          - v GOLD_INGOT - 32.0..|v GOLD_INGOT - 32.0..|v GOLD_INGOT - 32.0..
+          - v AIR 0 1..|v GOLD_INGOT - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v GOLD_INGOT - 32.0..|v GOLD_INGOT - 32.0..|v GOLD_INGOT - 32.0..
+          - v GOLD_INGOT - 32.0..|v GOLD_INGOT - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+    scollect-tier: GOLD - 2
+
+  ENCHANTED_GOLD_BLOCK:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..
+          - m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..|m MISCELLANEOUS ENCHANTED_GOLD_INGOT - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+    scollect-tier: GOLD - 6
+
+  ENCHANTED_LAPIS_LAZULI:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v LAPIS_LAZULI - 32.0..|v AIR 0 1..
+          - v LAPIS_LAZULI - 32.0..|v LAPIS_LAZULI - 32.0..|v LAPIS_LAZULI - 32.0..
+          - v AIR 0 1..|v LAPIS_LAZULI - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v LAPIS_LAZULI - 32.0..|v LAPIS_LAZULI - 32.0..|v LAPIS_LAZULI - 32.0..
+          - v LAPIS_LAZULI - 32.0..|v LAPIS_LAZULI - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+    scollect-tier: LAPIS - 2
+
+  ENCHANTED_LAPIS_LAZULI_BLOCK:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..
+          - m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..|m MISCELLANEOUS ENCHANTED_LAPIS_LAZULI - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+    scollect-tier: LAPIS - 6
+
+  ENCHANTED_REDSTONE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v REDSTONE - 32.0..|v AIR 0 1..
+          - v REDSTONE - 32.0..|v REDSTONE - 32.0..|v REDSTONE - 32.0..
+          - v AIR 0 1..|v REDSTONE - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v REDSTONE - 32.0..|v REDSTONE - 32.0..|v REDSTONE - 32.0..
+          - v REDSTONE - 32.0..|v REDSTONE - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+    scollect-tier: REDSTONE - 2
+
+  ENCHANTED_REDSTONE_BLOCK:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..
+          - m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..|m MISCELLANEOUS ENCHANTED_REDSTONE - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+    scollect-tier: REDSTONE - 6
+
+  ENCHANTED_EMERALD:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v EMERALD - 32.0..|v AIR 0 1..
+          - v EMERALD - 32.0..|v EMERALD - 32.0..|v EMERALD - 32.0..
+          - v AIR 0 1..|v EMERALD - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v EMERALD - 32.0..|v EMERALD - 32.0..|v EMERALD - 32.0..
+          - v EMERALD - 32.0..|v EMERALD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+    scollect-tier: EMERALD - 2
+
+  ENCHANTED_EMERALD_BLOCK:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..
+          - m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..|m MISCELLANEOUS ENCHANTED_EMERALD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+    scollect-tier: EMERALD - 6
+
+  ENCHANTED_DIAMOND:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v DIAMOND - 32.0..|v AIR 0 1..
+          - v DIAMOND - 32.0..|v DIAMOND - 32.0..|v DIAMOND - 32.0..
+          - v AIR 0 1..|v DIAMOND - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v DIAMOND - 32.0..|v DIAMOND - 32.0..|v DIAMOND - 32.0..
+          - v DIAMOND - 32.0..|v DIAMOND - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+    scollect-tier: DIAMOND - 1
+
+
+  ENCHANTED_DIAMOND_BLOCK:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..|v AIR 0 1..
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..
+          - v AIR 0 1..|m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..
+          - m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..|m MISCELLANEOUS ENCHANTED_DIAMOND - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+    scollect-tier: DIAMOND - 6
+

@@ -1,0 +1,142 @@
+PICKAXE:
+# ///////////////////////////////////// #
+#                 MINING              #
+# ///////////////////////////////////// #
+# ==================== [WOODEN] ======================= #
+  WOODEN_PICKAXE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v OAK_PLANKS - 1..|v OAK_PLANKS - 1..|v OAK_PLANKS - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+        '2':
+          input:
+          - v SPRUCE_PLANKS - 1..|v SPRUCE_PLANKS - 1..|v SPRUCE_PLANKS - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+        '3':
+          input:
+          - v BIRCH_PLANKS - 1..|v BIRCH_PLANKS - 1..|v BIRCH_PLANKS - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+        '4':
+          input:
+          - v JUNGLE_PLANKS - 1..|v JUNGLE_PLANKS - 1..|v JUNGLE_PLANKS - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+        '5':
+          input:
+          - v ACACIA_PLANKS - 1..|v ACACIA_PLANKS - 1..|v ACACIA_PLANKS - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+        '6':
+          input:
+          - v DARK_OAK_PLANKS - 1..|v DARK_OAK_PLANKS - 1..|v DARK_OAK_PLANKS - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+        '7':
+          input:
+          - v MANGROVE_PLANKS - 1..|v MANGROVE_PLANKS - 1..|v MANGROVE_PLANKS - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+        '8':
+          input:
+          - v CHERRY_PLANKS - 1..|v CHERRY_PLANKS - 1..|v CHERRY_PLANKS - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+        '9':
+          input:
+          - v BAMBOO_PLANKS - 1..|v BAMBOO_PLANKS - 1..|v BAMBOO_PLANKS - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+        '10':
+          input:
+          - v CRIMSON_PLANKS - 1..|v CRIMSON_PLANKS - 1..|v CRIMSON_PLANKS - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+        '11':
+          input:
+          - v WARPED_PLANKS - 1..|v WARPED_PLANKS - 1..|v WARPED_PLANKS - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..    
+    scollect-tier: []
+
+  STONE_PICKAXE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COBBLESTONE - 1..|v COBBLESTONE - 1..|v COBBLESTONE - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..    
+    scollect-tier: []
+
+  COPPER_PICKAXE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COPPER_INGOT - 1..|v COPPER_INGOT - 1..|v COPPER_INGOT - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..    
+    scollect-tier: []
+
+  IRON_PICKAXE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v IRON_INGOT - 1..|v IRON_INGOT - 1..|v IRON_INGOT - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..    
+    scollect-tier: []
+
+  GOLDEN_PICKAXE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v GOLD_INGOT - 1..|v GOLD_INGOT - 1..|v GOLD_INGOT - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..    
+    scollect-tier: []
+
+  DIAMOND_PICKAXE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v DIAMOND - 1..|v DIAMOND - 1..|v DIAMOND - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..    
+    scollect-tier: []
+
+  ZOMBIE_PICKAXE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ROTTEN_FLESH - 1..|v ROTTEN_FLESH - 1..|v ROTTEN_FLESH - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..
+          - v AIR - 1..|v STICK - 1..|v AIR - 1..    
+    scollect-tier: ROTTEN_FLESH - 2
+
+  LAPIS_PICKAXE:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v LAPIS_LAZULI - 64..|v LAPIS_LAZULI - 64..|v LAPIS_LAZULI - 64..
+          - v LAPIS_LAZULI - 64..|m PICKAXE IRON_PICKAXE - 1..|v LAPIS_LAZULI - 64..
+          - v LAPIS_LAZULI - 64..|v LAPIS_LAZULI - 64..|v LAPIS_LAZULI - 64..
+    scollect-tier: LAPIS - 3

@@ -1,0 +1,121 @@
+HELMET:
+  ZOMBIE_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ROTTEN_FLESH - 1.0..|v ROTTEN_FLESH - 1.0..|v ROTTEN_FLESH - 1.0..
+          - v ROTTEN_FLESH - 1.0..|v AIR 0 1..|v ROTTEN_FLESH - 1.0..
+          - v ROTTEN_FLESH - 1.0..|v ROTTEN_FLESH - 1.0..|v ROTTEN_FLESH - 1.0..     
+    scollect-tier: ROTTEN_FLESH - 3
+
+  ZOMBIE_HEART:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 32..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 32..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 32..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 32..|v AIR 0 1..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 32..
+          - m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 32..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 32..|m MISCELLANEOUS ENCHANTED_ROTTEN_FLESH - 32..     
+    scollect-tier: ROTTEN_FLESH - 6
+
+  SKELETON_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BONE - 1.0..|v BONE - 1.0..|v BONE - 1.0..
+          - v BONE - 1.0..|v AIR 0 1..|v BONE - 1.0..
+          - v BONE - 1.0..|v BONE - 1.0..|v BONE - 1.0..       
+    scollect-tier: BONE - 3
+
+  SKELETON_HELMET:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BONE - 64..|m MISCELLANEOUS ENCHANTED_BONE - 64..|m MISCELLANEOUS ENCHANTED_BONE - 64..
+          - m MISCELLANEOUS ENCHANTED_BONE - 64..|v AIR 0 1..|m MISCELLANEOUS ENCHANTED_BONE - 64..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..       
+    scollect-tier: BONE - 5
+
+  CREEPER_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v GUNPOWDER - 1..|v GUNPOWDER - 1..|v GUNPOWDER - 1..
+          - v GUNPOWDER - 1..|v AIR 0 1..|v GUNPOWDER - 1..
+          - v GUNPOWDER - 1..|v GUNPOWDER - 1..|v GUNPOWDER - 1..       
+    scollect-tier: GUNPOWDER - 2
+
+  FISHTANK:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v COD - 1..|v COD - 1..|v COD - 1..
+          - v COD - 1..|v GLASS - 1..|v COD - 1..
+          - v COD - 1..|v COD - 1..|v COD - 1..       
+    scollect-tier: COD - 2
+
+  SALMON_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SALMON - 1..|v SALMON - 1..|v SALMON - 1..
+          - v SALMON - 1..|v AIR 0 1..|v SALMON - 1..
+          - v SALMON - 1..|v SALMON - 1..|v SALMON - 1..       
+    scollect-tier: SALMON - 2
+
+  PUFFERFISH_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v PUFFERFISH - 1..|v PUFFERFISH - 1..|v PUFFERFISH - 1..
+          - v PUFFERFISH - 1..|v AIR 0 1..|v PUFFERFISH - 1..
+          - v PUFFERFISH - 1..|v PUFFERFISH - 1..|v PUFFERFISH - 1..       
+    scollect-tier: PUFFERFISH - 2
+
+  SQUID_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v INK_SAC - 1..|v INK_SAC - 1..|v INK_SAC - 1..
+          - v INK_SAC - 1..|v AIR 0 1..|v INK_SAC - 1..
+          - v INK_SAC - 1..|v INK_SAC - 1..|v INK_SAC - 1..       
+    scollect-tier: INK_SAC - 2
+
+  NAUTILUS_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v NAUTILUS_SHELL - 1..|v NAUTILUS_SHELL - 1..|v NAUTILUS_SHELL - 1..
+          - v NAUTILUS_SHELL - 1..|v AIR 0 1..|v NAUTILUS_SHELL - 1..
+          - v NAUTILUS_SHELL - 1..|v NAUTILUS_SHELL - 1..|v NAUTILUS_SHELL - 1..       
+    scollect-tier: NAUTILUS_SHELL - 2
+
+  TROPICAL_FISH_MASK:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v TROPICAL_FISH - 1..|v TROPICAL_FISH - 1..|v TROPICAL_FISH - 1..
+          - v TROPICAL_FISH - 1..|v AIR 0 1..|v TROPICAL_FISH - 1..
+          - v TROPICAL_FISH - 1..|v TROPICAL_FISH - 1..|v TROPICAL_FISH - 1..       
+    scollect-tier: TROPICAL_FISH - 2

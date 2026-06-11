@@ -1,0 +1,661 @@
+MISCELLANEOUS:
+  ENCHANTED_OAK_LOG:
+#  MY_CRAFT_MINION: # Ini MMOItem tumbal untuk display
+#    craft-commands:
+      # Jalankan command berantai dari yang paling atas
+#      - "give %player% diamond 1"
+#      - "sound %player% entity.experience_orb.pickup 1 1"
+#      - "broadcast %player% baru saja menyelesaikan resep kustom!"
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v OAK_WOOD - 32.0..|v AIR 0 1..
+          - v OAK_WOOD - 32.0..|v OAK_WOOD - 32.0..|v OAK_WOOD - 32.0..
+          - v AIR 0 1..|v OAK_WOOD - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v OAK_WOOD - 32.0..|v OAK_WOOD - 32.0..|v OAK_WOOD - 32.0..
+          - v OAK_WOOD - 32.0..|v OAK_WOOD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..          
+    scollect-tier: OAK_LOG - 4
+
+  ENCHANTED_BIRCH_LOG:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v BIRCH_WOOD - 32.0..|v AIR 0 1..
+          - v BIRCH_WOOD - 32.0..|v BIRCH_WOOD - 32.0..|v BIRCH_WOOD - 32.0..
+          - v AIR 0 1..|v BIRCH_WOOD - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v BIRCH_WOOD - 32.0..|v BIRCH_WOOD - 32.0..|v BIRCH_WOOD - 32.0..
+          - v BIRCH_WOOD - 32.0..|v BIRCH_WOOD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..          
+    scollect-tier: BIRCH_LOG - 4
+  
+  ENCHANTED_ACACIA_LOG:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v ACACIA_WOOD - 32.0..|v AIR 0 1..
+          - v ACACIA_WOOD - 32.0..|v ACACIA_WOOD - 32.0..|v ACACIA_WOOD - 32.0..
+          - v AIR 0 1..|v ACACIA_WOOD - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v ACACIA_WOOD - 32.0..|v ACACIA_WOOD - 32.0..|v ACACIA_WOOD - 32.0..
+          - v ACACIA_WOOD - 32.0..|v ACACIA_WOOD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..          
+    scollect-tier: ACACIA_LOG - 4
+
+  ENCHANTED_SPRUCE_LOG:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v SPRUCE_WOOD - 32.0..|v AIR 0 1..
+          - v SPRUCE_WOOD - 32.0..|v SPRUCE_WOOD - 32.0..|v SPRUCE_WOOD - 32.0..
+          - v AIR 0 1..|v SPRUCE_WOOD - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v SPRUCE_WOOD - 32.0..|v SPRUCE_WOOD - 32.0..|v SPRUCE_WOOD - 32.0..
+          - v SPRUCE_WOOD - 32.0..|v SPRUCE_WOOD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..          
+    scollect-tier: SPRUCE_LOG - 4
+
+  ENCHANTED_DARK_OAK_LOG:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v DARK_OAK_WOOD - 32.0..|v AIR 0 1..
+          - v DARK_OAK_WOOD - 32.0..|v DARK_OAK_WOOD - 32.0..|v DARK_OAK_WOOD - 32.0..
+          - v AIR 0 1..|v DARK_OAK_WOOD - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v DARK_OAK_WOOD - 32.0..|v DARK_OAK_WOOD - 32.0..|v DARK_OAK_WOOD - 32.0..
+          - v DARK_OAK_WOOD - 32.0..|v DARK_OAK_WOOD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..          
+    scollect-tier: DARK_OAK_LOG - 3
+
+  ENCHANTED_JUNGLE_LOG:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v JUNGLE_WOOD - 32.0..|v AIR 0 1..
+          - v JUNGLE_WOOD - 32.0..|v JUNGLE_WOOD - 32.0..|v JUNGLE_WOOD - 32.0..
+          - v AIR 0 1..|v JUNGLE_WOOD - 32.0..|v AIR 0 1..
+        '2':
+          input:
+          - v JUNGLE_WOOD - 32.0..|v JUNGLE_WOOD - 32.0..|v JUNGLE_WOOD - 32.0..
+          - v JUNGLE_WOOD - 32.0..|v JUNGLE_WOOD - 32.0..|v AIR 0 1..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..          
+    scollect-tier: JUNGLE_LOG - 3
+
+# ///////////////////////////////////// #
+#                 ARMOR                 #
+# ///////////////////////////////////// #
+ARMOR:
+# ==================== [OAK] ======================= #
+#                     TIER 3                         #
+  OAK_LEAFLET_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v OAK_WOOD - 8.0..|v OAK_WOOD - 8.0..|v OAK_WOOD - 8.0..
+          - v OAK_WOOD - 8.0..|v AIR 0 1..|v OAK_WOOD - 8.0..
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..         
+    scollect-tier: OAK_LOG - 3
+
+  OAK_LEAFLET_TUNIC:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v OAK_WOOD - 8.0..|v AIR 0 1..|v OAK_WOOD - 8.0..
+          - v OAK_WOOD - 8.0..|v OAK_WOOD - 8.0..|v OAK_WOOD - 8.0..
+          - v OAK_WOOD - 8.0..|v OAK_WOOD - 8.0..|v OAK_WOOD - 8.0..   
+    scollect-tier: OAK_LOG - 3
+
+  OAK_LEAFLET_PANTS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v OAK_WOOD - 8.0..|v OAK_WOOD - 8.0..|v OAK_WOOD - 8.0..
+          - v OAK_WOOD - 8.0..|v AIR 0 1..|v OAK_WOOD - 8.0..
+          - v OAK_WOOD - 8.0..|v AIR 0 1..|v OAK_WOOD - 8.0..   
+    scollect-tier: OAK_LOG - 3
+
+  OAK_LEAFLET_SANDALS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v AIR 0 1..|v AIR 0 1..
+          - v OAK_WOOD - 8.0..|v AIR 0 1..|v OAK_WOOD - 8.0..
+          - v OAK_WOOD - 8.0..|v AIR 0 1..|v OAK_WOOD - 8.0..   
+    scollect-tier: OAK_LOG - 3
+
+#                     TIER 8                         #
+  OAK_GUARDIAN_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m ARMOR OAK_LEAFLET_HAT - 1.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..
+    scollect-tier: OAK_LOG - 8
+
+  OAK_GUARDIAN_TUNIC:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m ARMOR OAK_LEAFLET_TUNIC - 1.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..
+    scollect-tier: OAK_LOG - 8
+
+  OAK_GUARDIAN_PANTS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m ARMOR OAK_LEAFLET_PANTS - 1.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..
+    scollect-tier: OAK_LOG - 8
+
+  OAK_GUARDIAN_SANDALS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m ARMOR OAK_LEAFLET_SANDALS - 1.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_OAK_LOG - 8.0..
+    scollect-tier: OAK_LOG - 8
+
+# =================== [BIRCH] ====================== #
+#                     TIER 3                         #
+
+  BIRCH_LEAFLET_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BIRCH_WOOD - 8.0..|v BIRCH_WOOD - 8.0..|v BIRCH_WOOD - 8.0..
+          - v BIRCH_WOOD - 8.0..|m ARMOR OAK_GUARDIAN_HAT - 1.0..|v BIRCH_WOOD - 8.0..
+          - v BIRCH_WOOD - 8.0..|v BIRCH_WOOD - 8.0..|v BIRCH_WOOD - 8.0..
+    scollect-tier: BIRCH_LOG - 3
+
+  BIRCH_LEAFLET_TUNIC:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BIRCH_WOOD - 8.0..|v BIRCH_WOOD - 8.0..|v BIRCH_WOOD - 8.0..
+          - v BIRCH_WOOD - 8.0..|m ARMOR OAK_GUARDIAN_TUNIC - 1.0..|v BIRCH_WOOD - 8.0..
+          - v BIRCH_WOOD - 8.0..|v BIRCH_WOOD - 8.0..|v BIRCH_WOOD - 8.0..
+    scollect-tier: BIRCH_LOG - 3
+
+  BIRCH_LEAFLET_PANTS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BIRCH_WOOD - 8.0..|v BIRCH_WOOD - 8.0..|v BIRCH_WOOD - 8.0..
+          - v BIRCH_WOOD - 8.0..|m ARMOR OAK_GUARDIAN_PANTS - 1.0..|v BIRCH_WOOD - 8.0..
+          - v BIRCH_WOOD - 8.0..|v BIRCH_WOOD - 8.0..|v BIRCH_WOOD - 8.0..
+    scollect-tier: BIRCH_LOG - 3
+
+  BIRCH_LEAFLET_SANDALS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v BIRCH_WOOD - 8.0..|v BIRCH_WOOD - 8.0..|v BIRCH_WOOD - 8.0..
+          - v BIRCH_WOOD - 8.0..|m ARMOR OAK_GUARDIAN_SANDALS - 1.0..|v BIRCH_WOOD - 8.0..
+          - v BIRCH_WOOD - 8.0..|v BIRCH_WOOD - 8.0..|v BIRCH_WOOD - 8.0..
+    scollect-tier: BIRCH_LOG - 3
+
+#                     TIER 8                         #
+  BIRCH_GUARDIAN_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m ARMOR BIRCH_LEAFLET_HAT - 1.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..
+    scollect-tier: BIRCH_LOG - 8
+
+  BIRCH_GUARDIAN_TUNIC:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m ARMOR BIRCH_LEAFLET_TUNIC - 1.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..
+    scollect-tier: BIRCH_LOG - 8
+
+  BIRCH_GUARDIAN_PANTS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m ARMOR BIRCH_LEAFLET_PANTS - 1.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..
+    scollect-tier: BIRCH_LOG - 8
+
+  BIRCH_GUARDIAN_SANDALS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m ARMOR BIRCH_LEAFLET_SANDALS - 1.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_BIRCH_LOG - 8.0..
+    scollect-tier: BIRCH_LOG - 8
+
+# =================== [ACACIA] ===================== #
+#                     TIER 3                         #
+
+  ACACIA_LEAFLET_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ACACIA_WOOD - 8.0..|v ACACIA_WOOD - 8.0..|v ACACIA_WOOD - 8.0..
+          - v ACACIA_WOOD - 8.0..|m ARMOR BIRCH_GUARDIAN_HAT - 1.0..|v ACACIA_WOOD - 8.0..
+          - v ACACIA_WOOD - 8.0..|v ACACIA_WOOD - 8.0..|v ACACIA_WOOD - 8.0..
+    scollect-tier: ACACIA_LOG - 3
+
+  ACACIA_LEAFLET_TUNIC:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ACACIA_WOOD - 8.0..|v ACACIA_WOOD - 8.0..|v ACACIA_WOOD - 8.0..
+          - v ACACIA_WOOD - 8.0..|m ARMOR BIRCH_GUARDIAN_TUNIC - 1.0..|v ACACIA_WOOD - 8.0..
+          - v ACACIA_WOOD - 8.0..|v ACACIA_WOOD - 8.0..|v ACACIA_WOOD - 8.0..
+    scollect-tier: ACACIA_LOG - 3
+
+  ACACIA_LEAFLET_PANTS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ACACIA_WOOD - 8.0..|v ACACIA_WOOD - 8.0..|v ACACIA_WOOD - 8.0..
+          - v ACACIA_WOOD - 8.0..|m ARMOR BIRCH_GUARDIAN_PANTS - 1.0..|v ACACIA_WOOD - 8.0..
+          - v ACACIA_WOOD - 8.0..|v ACACIA_WOOD - 8.0..|v ACACIA_WOOD - 8.0..
+    scollect-tier: ACACIA_LOG - 3
+
+  ACACIA_LEAFLET_SANDALS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v ACACIA_WOOD - 8.0..|v ACACIA_WOOD - 8.0..|v ACACIA_WOOD - 8.0..
+          - v ACACIA_WOOD - 8.0..|m ARMOR BIRCH_GUARDIAN_SANDALS - 1.0..|v ACACIA_WOOD - 8.0..
+          - v ACACIA_WOOD - 8.0..|v ACACIA_WOOD - 8.0..|v ACACIA_WOOD - 8.0..
+    scollect-tier: ACACIA_LOG - 3
+
+#                     TIER 8                         #
+  SAVANNAH_SCOUT_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m ARMOR ACACIA_LEAFLET_HAT - 1.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..
+    scollect-tier: ACACIA_LOG - 8
+
+  SAVANNAH_SCOUT_TUNIC:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m ARMOR ACACIA_LEAFLET_TUNIC - 1.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..
+    scollect-tier: ACACIA_LOG - 8
+
+  SAVANNAH_SCOUT_PANTS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m ARMOR ACACIA_LEAFLET_PANTS - 1.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..
+    scollect-tier: ACACIA_LOG - 8
+
+  SAVANNAH_SCOUT_SANDALS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m ARMOR ACACIA_LEAFLET_SANDALS - 1.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_ACACIA_LOG - 8.0..
+    scollect-tier: ACACIA_LOG - 8
+
+# =================== [SPRUCE] ====================== #
+#                     TIER 3                         #
+
+  SPRUCE_LEAFLET_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SPRUCE_WOOD - 8.0..|v SPRUCE_WOOD - 8.0..|v SPRUCE_WOOD - 8.0..
+          - v SPRUCE_WOOD - 8.0..|m ARMOR SAVANNAH_SCOUT_HAT - 1.0..|v SPRUCE_WOOD - 8.0..
+          - v SPRUCE_WOOD - 8.0..|v SPRUCE_WOOD - 8.0..|v SPRUCE_WOOD - 8.0..
+    scollect-tier: SPRUCE_LOG - 3
+
+  SPRUCE_LEAFLET_TUNIC:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SPRUCE_WOOD - 8.0..|v SPRUCE_WOOD - 8.0..|v SPRUCE_WOOD - 8.0..
+          - v SPRUCE_WOOD - 8.0..|m ARMOR SAVANNAH_SCOUT_TUNIC - 1.0..|v SPRUCE_WOOD - 8.0..
+          - v SPRUCE_WOOD - 8.0..|v SPRUCE_WOOD - 8.0..|v SPRUCE_WOOD - 8.0..
+    scollect-tier: SPRUCE_LOG - 3
+
+  SPRUCE_LEAFLET_PANTS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SPRUCE_WOOD - 8.0..|v SPRUCE_WOOD - 8.0..|v SPRUCE_WOOD - 8.0..
+          - v SPRUCE_WOOD - 8.0..|m ARMOR SAVANNAH_SCOUT_PANTS - 1.0..|v SPRUCE_WOOD - 8.0..
+          - v SPRUCE_WOOD - 8.0..|v SPRUCE_WOOD - 8.0..|v SPRUCE_WOOD - 8.0..
+    scollect-tier: SPRUCE_LOG - 3
+
+  SPRUCE_LEAFLET_SANDALS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v SPRUCE_WOOD - 8.0..|v SPRUCE_WOOD - 8.0..|v SPRUCE_WOOD - 8.0..
+          - v SPRUCE_WOOD - 8.0..|m ARMOR SAVANNAH_SCOUT_SANDALS - 1.0..|v SPRUCE_WOOD - 8.0..
+          - v SPRUCE_WOOD - 8.0..|v SPRUCE_WOOD - 8.0..|v SPRUCE_WOOD - 8.0..
+    scollect-tier: SPRUCE_LOG - 3
+
+#                     TIER 8                         #
+  SPRUCE_SENTINEL_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m ARMOR SPRUCE_LEAFLET_HAT - 1.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+    scollect-tier: SPRUCE_LOG - 8
+
+  SPRUCE_SENTINEL_TUNIC:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m ARMOR SPRUCE_LEAFLET_TUNIC - 1.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+    scollect-tier: SPRUCE_LOG - 8
+
+  SPRUCE_SENTINEL_PANTS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m ARMOR SPRUCE_LEAFLET_PANTS - 1.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+    scollect-tier: SPRUCE_LOG - 8
+
+  SPRUCE_SENTINEL_SANDALS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m ARMOR SPRUCE_LEAFLET_SANDALS - 1.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_SPRUCE_LOG - 8.0..
+    scollect-tier: SPRUCE_LOG - 8
+
+# ================== [DARK OAK] ==================== #
+#                     TIER 3                         #
+
+  DARK_OAK_LEAFLET_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v DARK_OAK_WOOD - 8.0..|v DARK_OAK_WOOD - 8.0..|v DARK_OAK_WOOD - 8.0..
+          - v DARK_OAK_WOOD - 8.0..|m ARMOR SPRUCE_SENTINEL_HAT - 1.0..|v DARK_OAK_WOOD - 8.0..
+          - v DARK_OAK_WOOD - 8.0..|v DARK_OAK_WOOD - 8.0..|v DARK_OAK_WOOD - 8.0..
+    scollect-tier: DARK_OAK_LOG - 3
+
+  DARK_OAK_LEAFLET_TUNIC:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v DARK_OAK_WOOD - 8.0..|v DARK_OAK_WOOD - 8.0..|v DARK_OAK_WOOD - 8.0..
+          - v DARK_OAK_WOOD - 8.0..|m ARMOR SPRUCE_SENTINEL_TUNIC - 1.0..|v DARK_OAK_WOOD - 8.0..
+          - v DARK_OAK_WOOD - 8.0..|v DARK_OAK_WOOD - 8.0..|v DARK_OAK_WOOD - 8.0..
+    scollect-tier: DARK_OAK_LOG - 3
+
+  DARK_OAK_LEAFLET_PANTS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v DARK_OAK_WOOD - 8.0..|v DARK_OAK_WOOD - 8.0..|v DARK_OAK_WOOD - 8.0..
+          - v DARK_OAK_WOOD - 8.0..|m ARMOR SPRUCE_SENTINEL_PANTS - 1.0..|v DARK_OAK_WOOD - 8.0..
+          - v DARK_OAK_WOOD - 8.0..|v DARK_OAK_WOOD - 8.0..|v DARK_OAK_WOOD - 8.0..
+    scollect-tier: DARK_OAK_LOG - 3
+
+  DARK_OAK_LEAFLET_SANDALS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v DARK_OAK_WOOD - 8.0..|v DARK_OAK_WOOD - 8.0..|v DARK_OAK_WOOD - 8.0..
+          - v DARK_OAK_WOOD - 8.0..|m ARMOR SPRUCE_SENTINEL_SANDALS - 1.0..|v DARK_OAK_WOOD - 8.0..
+          - v DARK_OAK_WOOD - 8.0..|v DARK_OAK_WOOD - 8.0..|v DARK_OAK_WOOD - 8.0..
+    scollect-tier: DARK_OAK_LOG - 3
+
+#                     TIER 8                         #
+  SHADOW_STALKER_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m ARMOR DARK_OAK_LEAFLET_HAT - 1.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..
+    scollect-tier: DARK_OAK_LOG - 8
+
+  SHADOW_STALKER_TUNIC:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m ARMOR DARK_OAK_LEAFLET_TUNIC - 1.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..
+    scollect-tier: DARK_OAK_LOG - 8
+
+  SHADOW_STALKER_PANTS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m ARMOR DARK_OAK_LEAFLET_PANTS - 1.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..
+    scollect-tier: DARK_OAK_LOG - 8
+
+  SHADOW_STALKER_SANDALS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m ARMOR DARK_OAK_LEAFLET_SANDALS - 1.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_DARK_OAK_LOG - 8.0..
+    scollect-tier: DARK_OAK_LOG - 8
+
+# =================== [JUNGLE] ===================== #
+#                     TIER 3                         #
+
+  JUNGLE_LEAFLET_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v JUNGLE_WOOD - 8.0..|v JUNGLE_WOOD - 8.0..|v JUNGLE_WOOD - 8.0..
+          - v JUNGLE_WOOD - 8.0..|m ARMOR SHADOW_STALKER_HAT - 1.0..|v JUNGLE_WOOD - 8.0..
+          - v JUNGLE_WOOD - 8.0..|v JUNGLE_WOOD - 8.0..|v JUNGLE_WOOD - 8.0..
+    scollect-tier: JUNGLE_LOG - 3
+
+  JUNGLE_LEAFLET_TUNIC:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v JUNGLE_WOOD - 8.0..|v JUNGLE_WOOD - 8.0..|v JUNGLE_WOOD - 8.0..
+          - v JUNGLE_WOOD - 8.0..|m ARMOR SHADOW_STALKER_TUNIC - 1.0..|v JUNGLE_WOOD - 8.0..
+          - v JUNGLE_WOOD - 8.0..|v JUNGLE_WOOD - 8.0..|v JUNGLE_WOOD - 8.0..
+    scollect-tier: JUNGLE_LOG - 3
+
+  JUNGLE_LEAFLET_PANTS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v JUNGLE_WOOD - 8.0..|v JUNGLE_WOOD - 8.0..|v JUNGLE_WOOD - 8.0..
+          - v JUNGLE_WOOD - 8.0..|m ARMOR SHADOW_STALKER_PANTS - 1.0..|v JUNGLE_WOOD - 8.0..
+          - v JUNGLE_WOOD - 8.0..|v JUNGLE_WOOD - 8.0..|v JUNGLE_WOOD - 8.0..
+    scollect-tier: JUNGLE_LOG - 3
+
+  JUNGLE_LEAFLET_SANDALS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v JUNGLE_WOOD - 8.0..|v JUNGLE_WOOD - 8.0..|v JUNGLE_WOOD - 8.0..
+          - v JUNGLE_WOOD - 8.0..|m ARMOR SHADOW_STALKER_SANDALS - 1.0..|v JUNGLE_WOOD - 8.0..
+          - v JUNGLE_WOOD - 8.0..|v JUNGLE_WOOD - 8.0..|v JUNGLE_WOOD - 8.0..
+    scollect-tier: JUNGLE_LOG - 3
+
+#                     TIER 8                         #
+  JUNGLE_PREDATOR_HAT:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m ARMOR JUNGLE_LEAFLET_HAT - 1.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..
+    scollect-tier: JUNGLE_LOG - 8
+
+  JUNGLE_PREDATOR_TUNIC:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m ARMOR JUNGLE_LEAFLET_TUNIC - 1.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..
+    scollect-tier: JUNGLE_LOG - 8
+
+  JUNGLE_PREDATOR_PANTS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m ARMOR JUNGLE_LEAFLET_PANTS - 1.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..
+    scollect-tier: JUNGLE_LOG - 8
+
+  JUNGLE_PREDATOR_SANDALS:
+    craft-amount: 1
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m ARMOR JUNGLE_LEAFLET_SANDALS - 1.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..
+          - m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..|m MISCELLANEOUS ENCHANTED_JUNGLE_LOG - 8.0..
+    scollect-tier: JUNGLE_LOG - 8
+
+
+    
+   
