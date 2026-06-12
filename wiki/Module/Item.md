@@ -105,12 +105,13 @@ function p._item(str, img, nolink, noErr, ignoreAmount, ignoreOdds, noImagePaddi
 		return num, title
 	end
 	local function escape(str)
+		if not str then return '' end
 		str = str:gsub(',', ''):gsub('&percnt;', '%%'):gsub('&amp;', '&')
-		str = str:gsub('\\\\', '__BACKSLASH__'):gsub('\\!', '__EXCLAMATIONPOINT__'):gsub('\\%', '__PERCENTMARK__'):gsub('\\&', '__AMPERSAND__'):gsub('\\$', '__DOLLARSIGN__')
+		str = str:gsub('\\\\', '__BACKSLASH__'):gsub('\\!', '__EXCLAMATIONPOINT__'):gsub('\\%%', '__PERCENTMARK__'):gsub('\\&', '__AMPERSAND__'):gsub('\\%$', '__DOLLARSIGN__')
 		return str
 	end
 	local function unescape(str)
-		str = str:gsub('__BACKSLASH__', '\\'):gsub('__EXCLAMATIONPOINT__', '!'):gsub('__PERCENTMARK__', '%'):gsub('__AMPERSAND__', '&'):gsub('__DOLLARSIGN__', '$')
+		str = str:gsub('__BACKSLASH__', '\\'):gsub('__EXCLAMATIONPOINT__', '!'):gsub('__PERCENTMARK__', '%%'):gsub('__AMPERSAND__', '&'):gsub('__DOLLARSIGN__', '$')
 		return str
 	end
 	
