@@ -1,9 +1,10 @@
 local loader = require('Module:Loader')
 local getArgs = require('Module:Arguments').getArgs
 
-local string, table, yesno, raritytier, currency, linkmodule, color, cache =
-	loader.require('String', 'Table', 'Yesno', 'RarityTier', 'Currency', 'Link', 'Color', 'Cache')
+local string, table, yesno, raritytier, currency, linkmodule, color, cache, libU =
+	loader.require('String', 'Table', 'Yesno', 'RarityTier', 'Currency', 'Link', 'Color', 'Cache', 'LibU')
 local itemData, itemAliases, armorSets = loader.loadData('Item/Data', 'Item/Aliases', 'Armor/Sets')
+local pageExists = libU.pageExists
 
 local apiDataCache = cache.itemApiDataCache
 local apiAliasesCache = cache.itemApiAliasesCache
