@@ -137,6 +137,15 @@
         </data>
     </group>
 
+    <!-- Block Details -->
+    <group collapse="open">
+        <header>Block Details</header>
+        <data source="skill_xp_given"><label>Skill XP Given</label></data>
+        <data source="breaking_power"><label>Breaking Power</label></data>
+        <data source="tool"><label>Preferred Tool</label></data>
+        <data source="breaking_power_required"><label>Breaking Power Required</label></data>
+    </group>
+
     <!-- Other Details -->
     <group collapse="closed">
         <header>Details</header>

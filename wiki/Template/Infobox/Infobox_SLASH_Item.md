@@ -55,6 +55,10 @@
 | upgrades_to = {{{upgrades_to|}}}
 | raw_materials = {{{raw_materials|}}}
 | material_cost = {{{material_cost|}}}
+| skill_xp_given = {{{skill_xp_given|}}}
+| breaking_power = {{{breaking_power|}}}
+| tool = {{{tool|}}}
+| breaking_power_required = {{{breaking_power_required|}}}
 }}</includeonly><noinclude>
 [[Category:Templates]]
 Template pembungkus (Wrapper Template) untuk [[Template:Infobox/Item/Core]].
