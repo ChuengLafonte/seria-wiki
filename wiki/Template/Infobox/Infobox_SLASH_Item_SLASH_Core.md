@@ -31,6 +31,15 @@
         <data source="rarity">
             <label>Rarity</label>
         </data>
+        <data source="source">
+            <label>Source</label>
+        </data>
+    </group>
+
+    <!-- Garden -->
+    <group collapse="open">
+        <header>Garden</header>
+        <data source="organic_matter"><label>Organic Matter</label></data>
     </group>
 
     <!-- Stats -->
@@ -150,7 +159,6 @@
     <group collapse="closed">
         <header>Details</header>
         <data source="id"><label>Item ID</label></data>
-        <data source="source"><label>Source</label></data>
         <data source="upgrades_from"><label>Upgrades From</label></data>
         <data source="upgrades_to"><label>Upgrades To</label></data>
         <data source="raw_materials"><label>Raw Materials</label></data>

@@ -59,6 +59,7 @@
 | breaking_power = {{{breaking_power|}}}
 | tool = {{{tool|}}}
 | breaking_power_required = {{{breaking_power_required|}}}
+| organic_matter = {{{organic_matter|}}}
 }}</includeonly><noinclude>
 [[Category:Templates]]
 Template pembungkus (Wrapper Template) untuk [[Template:Infobox/Item/Core]].
