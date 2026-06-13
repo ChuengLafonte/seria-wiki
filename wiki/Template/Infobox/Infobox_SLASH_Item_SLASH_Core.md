@@ -1,4 +1,4 @@
-<infobox theme="seria" layout="stacked">
+<infobox theme="seria">
     <title source="title">
         <default>{{PAGENAME}}</default>
     </title>
