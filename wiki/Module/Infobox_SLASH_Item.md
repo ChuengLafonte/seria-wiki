@@ -60,7 +60,7 @@ function p.render(frame)
     local html = {}
     
     -- Main Container
-    table.insert(html, '<div class="skyblock-tooltip" style="float: right; clear: right; width: 320px; background-color: #110111; border: 2px solid #280528; border-radius: 4px; padding: 10px; margin: 0 0 1em 1em; font-family: Minecraft, sans-serif; font-size: 14px; line-height: 1.4; color: #AAAAAA;">')
+    table.insert(html, '<div class="skyblock-tooltip" style="float: right; clear: right; width: 320px; background-color: #110111; border: 2px solid #FFAA00; border-radius: 4px; padding: 10px; margin: 0 0 1em 1em; font-family: Minecraft, sans-serif; font-size: 14px; line-height: 1.4; color: #AAAAAA;">')
     
     -- Title
     table.insert(html, string.format('<div style="text-align: center; font-size: 1.2em; font-weight: bold; color: %s; margin-bottom: 8px;">%s</div>', titleColor, title))
