@@ -5,7 +5,7 @@
 | gallery = {{{gallery|}}}
 | aka = {{{aka|}}}
 | type = {{{type|}}}
-| rarity = {{{rarity|}}}
+| rarity = {{#if:{{{rarity|}}}|'''<span style="color:{{#switch:{{lc:{{{rarity}}}}}|common=#AAAAAA|uncommon=#55FF55|rare=#5555FF|epic=#AA00AA|legendary=#FFAA00|mythic=#FF55FF|divine=#55FFFF|special=#FF5555|very special=#FF5555|#AAAAAA}}; text-transform:uppercase;">{{{rarity}}}</span>'''}}
 | damage = {{{damage|}}}
 | strength = {{{strength|}}}
 | crit_chance = {{{crit_chance|}}}

@@ -2,7 +2,7 @@
 |id = WHEAT
 |type = Collection item
 |rarity = common
-|source = Farm Merchant stock<br>Farm<br>The Barn
+|source = [[Farm Merchant]] stock<br>[[Farm]]<br>[[The Barn]]
 |organic_matter = 1
 |skill_xp_given = +4 {{Green|Farming XP}}
 |prev_material = None
