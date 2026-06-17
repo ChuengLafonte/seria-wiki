@@ -124,7 +124,12 @@
 | merchant = {{{merchant|}}}
 | daily_limit = {{{daily_limit|}}}
 | buy = {{{buy|}}}
-| sell = {{{sell|}}}
+| sell = {{#if:{{{sell|}}} | {{{sell}}} [[Gins]] | {{#if:{{#invoke:Item|sellPrice|{{{id|}}}}} | {{#invoke:Item|sellPrice|{{{id|}}}}} [[Gins]] }} }}
+| sell_shard = {{#if:{{{sell_shard|}}} | {{{sell_shard}}} [[Shards]] }}
+| sell_serium = {{#if:{{{sell_serium|}}} | {{{sell_serium}}} [[Serium]] }}
+| buy = {{#if:{{{buy|}}} | {{{buy}}} [[Gins]] }}
+| buy_shard = {{#if:{{{buy_shard|}}} | {{{buy_shard}}} [[Shards]] }}
+| buy_serium = {{#if:{{{buy_serium|}}} | {{{buy_serium}}} [[Serium]] }}
 | motes_sell = {{{motes_sell|}}}
 | raw_materials = {{{raw_materials|}}}
 | material_cost = {{{material_cost|}}}
@@ -136,6 +141,10 @@
 | skydate_start = {{{skydate_start|}}}
 | skydate_end = {{{skydate_end|}}}
 | id = {{{id|}}}
+| source = {{{source|}}}
+| upgrades_from = {{{upgrades_from|}}}
+| upgrades_to = {{{upgrades_to|}}}
+| skill_xp_given = {{#if:{{{skill_xp_given|}}}|{{#invoke:Item|formatSkillXp|{{{skill_xp_given}}}}}}}
 | pet_id = {{{pet_id|}}}
 | helmet_id = {{{helmet_id|}}}
 | chestplate_id = {{{chestplate_id|}}}

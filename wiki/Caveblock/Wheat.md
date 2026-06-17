@@ -4,7 +4,7 @@
 |rarity = common
 |source = [[Farm Merchant]] stock<br>[[Farm]]<br>[[The Barn]]
 |organic_matter = 1
-|skill_xp_given = +4 {{Green|Farming XP}}
+|skill_xp_given = 4 Farming
 |prev_material = None
 |next_material = [[Enchanted Wheat]]
 }}

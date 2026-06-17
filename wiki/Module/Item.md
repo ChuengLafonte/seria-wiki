@@ -312,5 +312,24 @@ function p.sellPrice( frame )
 	return p._sellPrice(id) or ''
 end
 
+function p.formatSkillXp(frame)
+	local args = getArgs(frame)
+	local xp = args[1]
+	if not xp or xp == '' then return '' end
+	
+	-- Match a number (can include decimal) followed by anything
+	local num, skill = xp:match('([%d%.]+)%s*(.*)')
+	if not num then return xp end
+	if not skill or skill == '' then return xp end
+	
+	-- Title case the skill
+	skill = skill:sub(1, 1):upper() .. skill:sub(2):lower()
+	local icon = '[[File:' .. skill .. '_Skill_Icon.png|15px]]'
+	local numStr = color.ct('Green', '+' .. num)
+	local skillStr = '[[' .. skill .. '|' .. color.ct('Gold', skill .. ' XP') .. ']]'
+	
+	return numStr .. ' ' .. icon .. ' ' .. skillStr
+end
+
 --Finish Module
 return p
