@@ -331,5 +331,20 @@ function p.formatSkillXp(frame)
 	return numStr .. ' ' .. icon .. ' ' .. skillStr
 end
 
+function p.formatProperty(frame)
+	local args = getArgs(frame)
+	local val = args[1]
+	if not val or val == '' then return '' end
+	
+	local isTrue = yesno(val, val)
+	if isTrue == true then
+		return "'''<span style=\"color:#55FF55\">✔ Yes</span>'''"
+	elseif isTrue == false then
+		return "'''<span style=\"color:#FF5555\">❌ No</span>'''"
+	else
+		return val
+	end
+end
+
 --Finish Module
 return p
